@@ -23,7 +23,8 @@ $$G_L=\frac{g_0}{U_{d}^{2}+U_{h}^{2}}$$
 # 2.开题答辩
   撰写开题报告5000字，完成开题答辩。
 # 3.学习调研
-   学习b站视频《跟李沐学ai》,看完1/3，复习线性回归、神经网络等基础知识。学习DQN算法，跑通并读懂DQN最常见的应用车杆游戏的代码。
+   学习b站视频《跟李沐学ai》,看完1/3，复习线性回归、神经网络等基础知识。学习DQN算法，跑通并读懂DQN最常见的应用车杆游戏的代码。  
+![cartpole](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/cartpole.png)
 # 4.下一周计划
    完成优化功率分配的代码，完成DQN的大部分内容。
    
