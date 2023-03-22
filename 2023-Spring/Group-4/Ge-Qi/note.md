@@ -9,7 +9,7 @@
     
     - 绘制因子图
     - 信念传播算法求解步骤
-        - ![image](./picture/picture.png)
+        - ![image](./picture/微信图片_20230322202815.png)
         - ![image](./picture/picture.png)
     
 + 求解算法学习
