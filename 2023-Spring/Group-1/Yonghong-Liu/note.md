@@ -1,4 +1,5 @@
-# Weekly Report
+### 2023.3.22
+# 本周进展
 ## 1.窃听场景建模
 在原有的OTFS调制代码基础上，增加窃听信道，窃听信道参数暂时设置和主信道参数获取方式一致
 ```
@@ -24,6 +25,16 @@ rge = (eve_chan'*eve_chan)/(noise'*noise);   %窃听信道SNR
 end
 ```
 由于窃听信道参数和主信道没有太大区别，并且信道增益都是随机生成，因此最后保密速率大于0合格的比例占50%。
-接下来考虑将主信道和窃听信道都改用莱斯信道模型.莱斯信道模型参考了尹老师的论文：
+接下来考虑将主信道和窃听信道都改用莱斯信道模型.莱斯信道模型参考了尹老师的论文：DT-Assisted Multi-point Symbiotic Security in Space-air-ground Integrated Networks
+
 ![image](./github/23.3.22.jpg)
-## 2.完成毕设文献翻译工作
+其中的莱斯因子定义为直达信号与散射信号功率的比值。
+## 2.毕设文献翻译工作
+翻译的文献是Interference Cancellation and Iterative Detection for Orthogonal Time Frequency Space Modulation。
+目前完成了该论文中综述和对OTFS调制原理解释部分的翻译。
+接下来要学习该论文中接收机部分中的消息传递算法的原理，同时完成剩下部分的文献翻译工作。
+
+# 下周安排
+## 1.将信道模型改为莱斯信道模型，查阅安全编码方式
+## 2.完成对消息传递算法的学习
+## 3.总结OTFS调制过程，完成毕设参考文献翻译。
