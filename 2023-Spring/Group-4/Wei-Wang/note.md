@@ -15,10 +15,13 @@
 
 ### 根据论文[1]中的思路，尝试使用LSTM-DRL的框架估计长期VoI
 
-[![sample-image](./assets/IMG_7998.png)]
+![FF2023322](./assets/FF2023322.png)
 
->[[1] M. Li, J. Gao, L. Zhao and X. Shen, "Adaptive Computing Scheduling for Edge-Assisted Autonomous Driving," in IEEE Transactions on Vehicular Technology, vol. 70, no. 6, pp. 5318-5331, June 2021, doi: 10.1109/TVT.2021.3062653.](https://ieeexplore.ieee.org/abstract/document/9366426)
+- 代码目前正在调试，预计随后会有复现结果。 
 
+>[*[1] M. Li, J. Gao, L. Zhao and X. Shen, "Adaptive Computing Scheduling for Edge-Assisted Autonomous Driving," in IEEE Transactions on Vehicular Technology, vol. 70, no. 6, pp. 5318-5331, June 2021, doi: 10.1109/TVT.2021.3062653.*](https://ieeexplore.ieee.org/abstract/document/9366426)
+
+>[*[2] Code*](https://github.com/WANGWW775/LSTM-DRL/tree/main)
 
 
 
