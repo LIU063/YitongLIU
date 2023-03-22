@@ -4,7 +4,9 @@
 
 1. Actor-Critic 算法与 HER 经验回放寄存类编写，具体算法流程如下：
 
-    <img src="./assets/img/week1_hindsight_experience_replay_algorithm.png" style="width: 40em; margin: 1vh auto;" alt="hindsight_experience_replay_algorithm" />
+    <div align="center">
+        <img src="./assets/img/week1_hindsight_experience_replay_algorithm.png" style="width:40em; margin:1vh auto;" alt="hindsight_experience_replay_algorithm" />
+    </div>
 
     在以上算法流程中将 off-policy RL 算法用 actor-critic 进行了 HER 寄存器的替代实现。
 
@@ -15,4 +17,3 @@
 1. 实现基于多经验回放寄存器的 DQN/A2C 算法实现，并先对纯模拟环境进行训练代码运行，并观察训练结果
 
 2. 实现基于 MPI 的并行梯度下降方法与 HER 寄存器接口实现
-
