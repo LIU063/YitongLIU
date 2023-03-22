@@ -28,7 +28,8 @@ end
 接下来考虑将主信道和窃听信道都改用莱斯信道模型.莱斯信道模型参考了尹老师的论文：DT-Assisted Multi-point Symbiotic Security in Space-air-ground Integrated Networks
 
 ![image](./github/23.3.22.jpg)
-其中的莱斯因子定义为直达信号与散射信号功率的比值。
+
+其中的莱斯因子定义为直达信号与散射信号功率的比值，想法是能否通过差异化主信道和窃听信道的莱斯因子来凸显其信道的差异性进而用安全编码实现安全传输。
 ## 2.毕设文献翻译工作
 翻译的文献是Interference Cancellation and Iterative Detection for Orthogonal Time Frequency Space Modulation。
 目前完成了该论文中综述和对OTFS调制原理解释部分的翻译。
