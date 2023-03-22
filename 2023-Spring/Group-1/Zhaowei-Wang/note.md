@@ -18,5 +18,5 @@ $a=\sqrt{G_L}\left( \sqrt{\frac{K}{K+1}}a_{LoS}+\sqrt{\frac{1}{K+1}}a_{Ray} \rig
 $$G_L=\frac{g_0}{U_{d}^{2}+U_{h}^{2}}$$
           a_los服从莱斯分布  a_ray服从瑞利分布
 在这个基础上，通过matlab仿真，得到信道状态信息
-<img src='..\phiture\channel.jpg'>
+<img src='.\picture\channel.jpg'>
 
