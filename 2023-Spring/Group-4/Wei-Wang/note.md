@@ -9,7 +9,7 @@
 
 ### 重写了 Introducation, 缩减了篇幅，重新梳理了段落之间的逻辑关系 ， 更正了格式上的错误和语法错误。
 
-> [论文链接](https://unic.xidian.edu.cn/ "Communication Resource Scheduling for CAVs: A Value of Information Based Approach")
+> [论文链接](https://www.overleaf.com/project/64053faeaf027e3f68bd00eb "Communication Resource Scheduling for CAVs: A Value of Information Based Approach")
 
 ## 2.LSTM-DRL 评估长期 VoI 尝试
 
