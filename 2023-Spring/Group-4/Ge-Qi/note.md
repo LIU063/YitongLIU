@@ -3,7 +3,7 @@
 ### 本周任务汇报
 + 模型求解推导
     - 将原优化问题转化为Belief Propagation算法标准形式
-    ![image][.\]
+    ![image][.\picture.png]
     - 绘制因子图
     - 信念传播算法求解步骤
     
