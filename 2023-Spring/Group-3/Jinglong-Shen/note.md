@@ -1,40 +1,15 @@
-# Week 4
+# 语义通信中用户侧定制化decoder设计
 
-## Monday
+在基于深度学习的语义通信系统中，常用到基于transformer的en-decoder架构。用encoder实现源数据的语义信息提取，用decoder对语义信息进行恢复。
+然而这样一套系统能够work-well，常常需要decoder具有充足的先验知识，能够对网络中传输的各种各样的数据进行理解。
+但是网络中的数据复杂多样，想要设计训练一个“全知型”的decoder，必然会很困难。而即使是做出来了，也必然会有庞大的模型参数体量及推理时延，不适合部署于移动设备，也不适合像通信这类时延敏感性应用。
+因此根据每一个用户的历史通信数据、(CSI)等，为每一个用户训练一个定制化的decoder是必然趋势。
 
-### Text
-
-some words some words some words.
-
-### Image
-
-![sample-image](./assets/IMG_7998.png)
-
-### Link
-
-[西安电子科技大学泛在网络与智能计算研究组](https://unic.xidian.edu.cn/)
-
-### Formula
-
-$$
-C=B\log_2(1+\cfrac{S}{N})
-$$
+考虑到训练需要用到用户的历史通信数据、(CSI)等敏感信息，因此我们采用联邦学习范式，将模型的训练任务放在用户侧。
+训练时，用户将decoder根据自己最新的数据进行微调或迁移（或其他个性化的手段），而encoder始终保持不变。
+local training结束后，被调度到的用户做一次aggregation。
 
 
-### Table
 
-|姓名|年龄|性别|
-|:---:|:---:|:---:|
-|`张三`|18|男|
-|`李四`|20|女|
 
-### Ordered List
-
-1. item1
-2. item2
-
-### Unordered List
-
-- itme1
-- item2
 
