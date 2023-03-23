@@ -12,7 +12,7 @@
 ![1209117444e2ba50e4bf5a664213c82](https://user-images.githubusercontent.com/127767983/227089432-f7599381-142b-42b5-8329-de37232f0762.png)
 ### 3、R-TMSC描述
 &emsp;&emsp;在TMSC中，每个参与者都有一个只包含一种类型的其他实体的偏好列表，即内容源只对用户排序，用户只对SAGINE排序，SAGINE只对内容源排序，TMSC的核心是寻找稳定的三方匹配结果。H=C×U×e表示所有可能的三元组的集合，w是稳定的匹配结果，是H的子集。定义阻塞三元组（非稳定的三元组，且相对于每个agent本来的匹配结果，每个agent都更喜欢现在的匹配结果），如果没有阻塞三元组，则说明该匹配是稳定的，将P1优化问题描述为最大化稳定匹配三元组的个数P2，这是一个NP-complete问题。  
-![94852c88d83e8bd8a88972c7578bb84](https://user-images.githubusercontent.com/127767983/227089615-cf0a1f82-61a8-49ff-9743-64dc764171bf.png)
+![94852c88d83e8bd8a88972c7578bb84](https://user-images.githubusercontent.com/127767983/227089615-cf0a1f82-61a8-49ff-9743-64dc764171bf.png)  
 &emsp;&emsp;每个内容源的用户首选项列表由一个主列表组成，该主列表按降序对用户进行排序，报价高的用户优先级高；每个用户根据产生的数据传输速率所衡量的服务质量对可接受的SAGINE进行排序，创建用户偏好列表；内容来源与SAGINE无关，所以偏好列表均为1。加入限制后变成了R-TMSC问题。![0ec89be6ba1425ceb11d424b094b8d3](https://user-images.githubusercontent.com/127767983/227089696-ade9a1c8-b887-4df0-b01b-869ba4c5148f.png)
 ### 4、算法
 #### 1、COR<sup>2</sup>A算法
