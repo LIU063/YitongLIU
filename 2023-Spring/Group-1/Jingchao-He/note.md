@@ -1,11 +1,13 @@
-# Week 4
+# Week 1
 
-## Monday
+## Thursday
 
 ### Text
+完成了SFC在动态卫星网络中的问题建模、算法设计、仿真，并撰写会议论文一篇。目前待尹老师修正。
 
-some words some words some words.
 
+
+# Week 2
 ### Image
 
 ![sample-image](./assets/IMG_7998.png)
