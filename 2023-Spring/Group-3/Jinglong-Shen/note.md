@@ -13,3 +13,10 @@ local training结束后，被调度到的用户做一次aggregation。
 
 
 
+# 去中心化蒸馏
+
+![去中心化蒸馏](./assets/蒸馏.png)
+
+# 网络参数恢复
+
+![网络参数恢复](./assets/网络参数补全.png)
