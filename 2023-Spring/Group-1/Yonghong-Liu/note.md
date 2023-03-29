@@ -22,7 +22,7 @@ end
 
 接下来考虑将主信道和窃听信道都改用莱斯信道模型.莱斯信道模型参考了尹老师的论文：DT-Assisted Multi-point Symbiotic Security in Space-air-ground Integrated Networks
 
-![image](./github/23.3.22.jpg)
+![image](./github/23.3.22-1.jpg)
 
 其中的莱斯因子定义为直达信号与散射信号功率的比值，目前的想法是能否通过差异化主信道和窃听信道的莱斯因子来凸显其信道的差异性进而用安全编码实现安全传输。
 ## 2.毕设文献翻译工作
@@ -39,5 +39,7 @@ end
 ## 对OTFS技术原理进行整理：
 OTFS调制过程可以分为发射机，信道传输，接收机三大部分。
 接收机部分是辛有限傅里叶变换（finite symplectic Fourier transform，SFFT）和海森堡变换（Heisenberg transform）的组合。
+
+首先介绍基础的框架，其将时频域的时间轴和频率轴分别以单位T和单位Δf进行采样划分为网格；将延迟多普勒域的延迟轴和多普勒域轴分别以单位
 -SFFT公式：
 
