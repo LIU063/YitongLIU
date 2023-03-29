@@ -17,10 +17,11 @@
 
 
 本文参考了第一个允许现场模型大小切换的异构宽度解决方案(HeteroFL)的工作（**发表在ICLR2021**）。然而，由于本地设备预算限制，导致大型模型训练不足，因为在这个里面训练的是大模型。
-![](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Xinyang-Zhou/pic/1（a）.png)
+![](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Xinyang-Zhou/Week01/pic/1（a）.png)
+
 
 提出的Split-Mix框架提供了宽度的现场定制和对抗性鲁棒性，以解决异质性和动态问题，从而实现有效的训练和推理。如图，可以使用每层1/4通道(或宽度)的子网作为模型宽度定制的基本模型。为简单起见，我们将其表示为×0.25 net，而一个×1 net可以分为4个×0.25基本模型。
-![](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Xinyang-Zhou/pic/1（b）.png)
+![](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Xinyang-Zhou/Week01/pic/1（b）.png)
 
 **讨论**：和龙博讨论之后感觉在这个基础上改可能比较不太好实现，后续再讨论看看有没有能创新的点。
 
@@ -34,7 +35,7 @@
 **（1）单层无线分布式学习系统**
 分布式训练机制主要有以下方案，以及其解决的问题和举例如下：
 其中包括了一个**空中计算**的一些问题。（之前龙博给过这个idea）
-![](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Xinyang-Zhou/pic/3.png)
+![](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Xinyang-Zhou/Week01/pic/3.png)
 
 
 **（2）去中心化无线分布式系统** 
