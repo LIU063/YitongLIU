@@ -18,7 +18,7 @@ XLINK与之前所有多路径技术最大的不同是，它直接利用应用的
 •	多路队头阻塞问题带来的传输失速和聚合效率降低的问题
 •	冗余数据包发送引入的高昂额外带宽成本与流量开销问题  
 XLINK的整体架构如下图所示，
-![XLINK的整体架构](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-4/Lei-Huang/XLINK%E7%9A%84%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84.png)
+![XLINK的整体架构](https://github.com/loafluls/report_images/blob/main/images/XLINK%E7%9A%84%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84.png)
 具有以下几个特点：
 - 用户态部署
 - 高性能
@@ -30,7 +30,7 @@ XLINK的整体架构如下图所示，
 
 ### 场景建模
 #### SAGIN 车载业务分包传输
-![场景建模](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-4/Lei-Huang/%E5%BB%BA%E6%A8%A1%E5%9C%BA%E6%99%AF.png)
+![场景建模](https://github.com/loafluls/report_images/blob/main/images/%E5%BB%BA%E6%A8%A1%E5%9C%BA%E6%99%AF.png)
 由基站网络、无人机网络、近地低轨卫星网络共同组成空天地一体化网络，以提供偏远山区的网络无缝覆盖，并保障不同类型车辆业务的传输。  
 车辆按照轨迹行驶，在行驶过程中，有三种类型的业务以泊松分布的形式到达车辆等待上行传输和卸载，车辆进行接入网络的选择。考虑到SAGIN中无人机、BS和LEO卫星的传输计算功能，车辆业务可以选择在一个网络上单独进行传输或者由多个不同的网络协作传输，以最小化业务延迟。  
 业务到达车辆后进行业务分包，然后每个包可选择不同的传输方式，即通过UAV，BS或者LEO网络单独传输，包会被传输到核心网进行任务卸载。  
