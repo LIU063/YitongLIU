@@ -5,7 +5,7 @@
 # Week 2
 
 # Server-Free Edge Computing
-![图片](./asset/serverless.svg)
+![图片](./assets/serverless.svg)
 
 传统的Edge Computing (EC)多为server-user架构，user处有一个或多个task要处理，server提供算力为多个用户提供服务。
 
