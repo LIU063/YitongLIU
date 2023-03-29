@@ -2,30 +2,28 @@
 ## 论文扩展
 ### 调研
 多路径技术
-1) MPTCP
-MPTCP本质缺陷：
-	内核实现、无法为应用场景提供定制优化
-	异构网络：MPTCP的多路聚合效果并不理想，由于在公网上传输多路径是异构的，5G/LTE和Wi-Fi的时延差异较大，此时就会发生多路径的队头阻塞问题（MP-HOL）。
-	流量成本：为了克服异构网络问题，有一些多路径传输方案选择发送冗余包去避免多路队头阻塞问题，但是又引入了两个新问题：
-1.重复发送数据包会极大的增加额外的数据流量成本。
-2.冗余数据包也会占用带宽资源，这又降低了整体的带宽利用效率。
-2) MPUDP
-UDP不保证数据包传递的可靠性，因此多路的时延不同会给上层应用带来大量的乱序包，并且UDP也不对丢包进行恢复，所以目前几乎很少被使用。
-3) MPRTP
-MPRTP在将数据包分配到各个路径时，依赖于各路径的带宽和时延精确估计，可是除非拥有大量物理层信息，LTE信号的预测本身就是一个非常难以解决的问题
-4) XLINK
-Zhilong Zheng, Yunfei Ma, Yanmei Liu, Furong Yang, Zhenyu Li, Yuanbo Zhang, Jiuhai Zhang, Wei Shi, Wentao Chen, Ding Li, Qing An, Hai Hong, Hongqiang Harry Liu, and Ming Zhang. 2021. XLINK: QoE-driven multi-path QUIC transport in large-scale video services. In Proceedings of the 2021 ACM SIGCOMM 2021 Conference (SIGCOMM '21). Association for Computing Machinery, New York, NY, USA, 418–432. https://doi.org/10.1145/3452296.3472893
-XLINK技术基于QUIC协议在用户态实现了WiFi/LTE/5G的多路径并行传输，有效提升传输带宽，大幅度降低传输时延与卡顿率，在高移动性场景展现出优秀的传输稳定性。
-XLINK与之前所有多路径技术最大的不同是，它直接利用应用的QoE信息实现路径的选择、切换与调度策略。从技术角度来说，XLINK突破了传统多路径协议的设计框架，在QUIC用户态特性的基础之上，提出了Client-Server QoE反馈驱动多传输调度方案，克服了的两大难题：
+1) MPTCP  
+MPTCP本质缺陷：  
+- 内核实现、无法为应用场景提供定制优化
+- 异构网络：MPTCP的多路聚合效果并不理想，由于在公网上传输多路径是异构的，5G/LTE和Wi-Fi的时延差异较大，此时就会发生多路径的队头阻塞问题（MP-HOL）。
+- 流量成本：为了克服异构网络问题，有一些多路径传输方案选择发送冗余包去避免多路队头阻塞问题，但是又引入了两个新问题：重复发送数据包会极大的增加额外的数据流量成本;冗余数据包也会占用带宽资源，这又降低了整体的带宽利用效率。  
+2) MPUDP  
+UDP不保证数据包传递的可靠性，因此多路的时延不同会给上层应用带来大量的乱序包，并且UDP也不对丢包进行恢复，所以目前几乎很少被使用。  
+3) MPRTP  
+MPRTP在将数据包分配到各个路径时，依赖于各路径的带宽和时延精确估计，可是除非拥有大量物理层信息，LTE信号的预测本身就是一个非常难以解决的问题  
+4) XLINK  
+Zhilong Zheng, Yunfei Ma, Yanmei Liu, Furong Yang, Zhenyu Li, Yuanbo Zhang, Jiuhai Zhang, Wei Shi, Wentao Chen, Ding Li, Qing An, Hai Hong, Hongqiang Harry Liu, and Ming Zhang. 2021. XLINK: QoE-driven multi-path QUIC transport in large-scale video services. In Proceedings of the 2021 ACM SIGCOMM 2021 Conference (SIGCOMM '21). Association for Computing Machinery, New York, NY, USA, 418–432. https://doi.org/10.1145/3452296.3472893  
+XLINK技术基于QUIC协议在用户态实现了WiFi/LTE/5G的多路径并行传输，有效提升传输带宽，大幅度降低传输时延与卡顿率，在高移动性场景展现出优秀的传输稳定性。  
+XLINK与之前所有多路径技术最大的不同是，它直接利用应用的QoE信息实现路径的选择、切换与调度策略。从技术角度来说，XLINK突破了传统多路径协议的设计框架，在QUIC用户态特性的基础之上，提出了Client-Server QoE反馈驱动多传输调度方案，克服了的两大难题：  
 •	多路队头阻塞问题带来的传输失速和聚合效率降低的问题
 •	冗余数据包发送引入的高昂额外带宽成本与流量开销问题
 XLINK的整体架构如下图所示，
 
 具有以下几个特点：
-	用户态部署
-	高性能
-	低成本
-	轻量化
+- 用户态部署
+- 高性能
+- 低成本
+- 轻量化
 
 结果: XLINK已经集在在手淘完成了大规模灰度验证，测试结果表明，XLINK在弱网下使用可以实现短视频分片平均下载耗时减少15.03%，视频分片下载弱网耗时降低25.28%。此外，在旅途中，XLINK的用户可以同时利用WiFi热点与手机LTE，在高移动性场景下仍然保持流畅的视频观看体验。
 
@@ -58,4 +56,15 @@ XLINK的整体架构如下图所示，
 - 频谱相关性知识 ->信道选择
 - 通信相关的数学知识->奖励重塑
 
-
+### 场景改进
+1. 协作传输决策  
+目标: 最小化时延  
+初步想法: 一个业务分成三个包(按照一定比例 不均等分)每个包占用接入网络的一个子信道
+2. 资源分配  
+主要考虑信道资源与功率资源的分配  
+考虑过程的完整性与合理性: 原来的工作只考虑了业务进行上行传输，在扩展的工作中考虑业务传输并卸载到BS/UAV/LEO上。 
+3. 注意考虑极端场景的合理性，当车辆比较密集。例如有多车辆接入同一个基站，出现竞争，导致有些车载业务的某些包无法被服务，导致整体业务延迟到达(时延按照最后一个包到达的时间来计算)，该情况下分包传输可能会导致系统的整体性能下降。  
+3. 说明multi-agent多智能体的工作量  
+### 讨论确定未来future work
+- 调研一辆车做接入选择、资源分配的工作: 主要关注他们做的什么场景，传输的什么业务，分配的资源类型
+- 协作传输的工作进展：是否有做过的，如果有，关注同类工作研究的场景
