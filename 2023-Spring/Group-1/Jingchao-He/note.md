@@ -8,6 +8,10 @@
 
 
 # Week 2
+
+### Text
+修改了上周的会议
+
 ### Image
 
 ![sample-image](./assets/IMG_7998.png)
