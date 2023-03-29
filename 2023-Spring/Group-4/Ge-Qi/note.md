@@ -2,6 +2,11 @@
 ## 2023.3.29周报
 ### 本周工作进展
 + 观看6G大会
+   - 绿色通信主题
+      - 5G能耗相比4G网络提高了14%，而6G相比5G按照目前的技术水平来看，总能耗又会增加不少。但是我国提出双碳的目标，要求未来部署6G的时候总能耗不能再增加了。基于此，专家们展开了激烈的讨论。有以下几个思路供我们借鉴：一是认为对于现在的普通用户来说，现有的网络提供的服务已经满足了他们的需求，所以6G只需要在特定场景下提供更多的服务，以此来减少网络整体能耗；二是利用卫星通信来降低总体能耗。卫星通信覆盖范围很大，利用这一特性，思考如何提高6G网络覆盖率，同时不提高能耗；三是信源信道联合考虑来降低能耗。
+   - 论坛B天地融合智能组网
+      - 
+
 + 学习Belief propagation算法的细节处理
 + 编写毕设仿真代码
    - 已经完成环境的仿真
@@ -224,6 +229,73 @@ def delay(rate_0f_M2V,option_location,link_location):
                         t_foreground = t_render_f + t_fusion
                         delay[i][j][m][n] = max(t_background,t_foreground) + t_fusion
     return delay
+```
+```python
+import numpy as np 
+import igraph as ig 
+import matplotlib.pyplot as plt 
+from factor import * 
+from factor_graph import *
+
+
+class belief_propagation:  # 直接调用BP的作用是？
+	def __init__(self, pgm):
+		if type(pgm) is not factor_graph:  #输入的pgm满足我们定义的因子图结构，有变量，有分布，同时满足是个树图
+			raise Exception('PGM is not a factor graph')
+		if not (pgm.is_connected() and not pgm.is_loop()):
+			raise Exception('PGM is not a tree')
+
+		self.__msg = {}   #定义传递信息，字典：内置映射类型，通过键名查找键值，元素集合无序，键名是任何不可修改类型的数据，如数值、字符串、和元组等，而键值可以是任何类型的数据
+		self.__pgm = pgm 
+
+
+	def belief(self, v_name):  #得到变量节点的概率分布，一次只能得到一个节点的belief
+		incoming_messages = []  #列表
+		for f_name_neighbor in self.__pgm.get_graph().vs[self.__pgm.get_graph().neighbors(v_name)]['name']:  #
+			incoming_messages.append(self.get_factor2variable_msg(f_name_neighbor, v_name))  #传给变量节点的信息总和
+		return self.__normalize_msg(joint_distribution(incoming_messages))    # 相乘得到联合概率分布并且归一化
+
+
+	def get_variable2factor_msg(self, v_name, f_name):  #得到变量节点到因子节点的消息传递;一次只能得到一对节点的message
+		key = (v_name, f_name)  #变量节点到因子节点，这一对对应一个变量到因子节点的信息的传递
+		if key not in self.__msg:   # 如果message里已经有了，就不用了
+			self.__msg[key] = self.__compute_variable2factor_msg(v_name, f_name)
+		return self.__msg[key]
+
+
+	def __compute_variable2factor_msg(self, v_name, f_name):
+		incoming_messages = []
+		for f_name_neighbor in self.__pgm.get_graph().vs[self.__pgm.get_graph().neighbors(v_name)]['name']:
+			if f_name_neighbor != f_name:
+				incoming_messages.append(self.get_factor2variable_msg(f_name_neighbor, v_name))
+
+		if not incoming_messages:
+			return factor([v_name], np.array([1.]*self.__pgm.get_graph().vs.find(name=v_name)['rank']))
+		else:
+			return self.__normalize_msg(joint_distribution(incoming_messages))  # 
+
+
+	def get_factor2variable_msg(self, f_name, v_name):  # 得到传递的信息
+		key = (f_name, v_name)  #与变量节点到因子节点的模式一样
+		if key not in self.__msg:
+			self.__msg[key] = self.__compute_factor2variable_msg(f_name, v_name)
+		return self.__msg[key]
+
+
+	def __compute_factor2variable_msg(self, f_name, v_name):  #因子节点名称，变量节点名称
+		incoming_messages = [self.__pgm.get_graph().vs.find(f_name)['factor_']]  # 
+		marginalization_variables = []
+		for v_name_neighbor in self.__pgm.get_graph().vs[self.__pgm.get_graph().neighbors(f_name)]['name']:  #因子节点的邻居节点序列名称
+			if v_name_neighbor != v_name:    # 去除掉
+				incoming_messages.append(self.get_variable2factor_msg(v_name_neighbor, f_name))
+				marginalization_variables.append(v_name_neighbor)
+
+		return self.__normalize_msg(factor_marginalization(joint_distribution(incoming_messages), marginalization_variables))  # 先联合概率分布，再求和。
+
+
+	def __normalize_msg(self, message):
+		return factor(message.get_variables(), message.get_distribution()/np.sum(message.get_distribution()))
+
 ```
 ### 下周工作计划
    + 完成毕设仿真
