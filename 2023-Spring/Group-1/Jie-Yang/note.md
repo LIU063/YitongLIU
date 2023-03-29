@@ -37,4 +37,4 @@ e.仿真是在Starlink的第一阶段星座上进行的，本文详细说明了�
 2.基于多层网络的卫星路由   
 3.基于SDN的卫星路由   
 [[1]W. Liu, Y. Tao and L. Liu, "Load-Balancing Routing Algorithm Based on Segment Routing for Traffic Return in LEO Satellite Networks," in IEEE Access, vol. 7, pp. 112044-112053, 2019](DOI:10.1109/ACCESS.2019.2934932)        
-[[2]X. Qi, B. Zhang and Z. Qiu, "A Distributed Survivable Routing Algorithm for Mega-Constellations With Inclined Orbits," in IEEE Access, vol. 8, pp. 219199-219213, 2020](DOI:10.1109/ACCESS.2020.3041346)    
+[[2]X. Qi, B. Zhang and Z. Qiu, "A Distributed Survivable Routing Algorithm for Mega-Constellations With Inclined Orbits," in IEEE Access, vol. 8, pp. 219199-219213, 2020](https://sci-hub.wf/10.1109/ACCESS.2020.3041346)    
