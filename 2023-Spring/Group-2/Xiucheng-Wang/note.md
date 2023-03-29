@@ -1,4 +1,4 @@
-[toc]
+[xxx](#Week 1)
 # Week 1
 
 ## 修改pimrc论文
