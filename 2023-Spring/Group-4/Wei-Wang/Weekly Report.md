@@ -1,6 +1,34 @@
+
+### Date: 2023/3/29
+
+[![sample-image](./assets/IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
+
+------------------------------------------------
+# 周工作汇报
+
+## 1.论文进展
+
+### 重写了 Introducation, 缩减了篇幅，重新梳理了段落之间的逻辑关系 ， 更正了格式上的错误和语法错误。
+
+> [论文链接](https://www.overleaf.com/project/64053faeaf027e3f68bd00eb "Communication Resource Scheduling for CAVs: A Value of Information Based Approach")
+
+## 2.LSTM-DRL 评估长期 VoI 尝试
+
+### 根据论文[1]中的思路，尝试使用LSTM-DRL的框架估计长期VoI
+
+![FF2023322](./assets/FF2023322.png)
+
+- 代码目前正在调试，预计随后会有复现结果。 
+
+>[*[1] M. Li, J. Gao, L. Zhao and X. Shen, "Adaptive Computing Scheduling for Edge-Assisted Autonomous Driving," in IEEE Transactions on Vehicular Technology, vol. 70, no. 6, pp. 5318-5331, June 2021, doi: 10.1109/TVT.2021.3062653.*](https://ieeexplore.ieee.org/abstract/document/9366426)
+
+>[*[2] Code*](https://github.com/WANGWW775/LSTM-DRL/tree/main)
+
+
 ### Date: 2023/3/23
 
 [![sample-image](./assets/IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
+
 
 ------------------------------------------------
 # 周工作汇报
