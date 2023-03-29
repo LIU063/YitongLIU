@@ -16,9 +16,9 @@ Zhilong Zheng, Yunfei Ma, Yanmei Liu, Furong Yang, Zhenyu Li, Yuanbo Zhang, Jiuh
 XLINK技术基于QUIC协议在用户态实现了WiFi/LTE/5G的多路径并行传输，有效提升传输带宽，大幅度降低传输时延与卡顿率，在高移动性场景展现出优秀的传输稳定性。  
 XLINK与之前所有多路径技术最大的不同是，它直接利用应用的QoE信息实现路径的选择、切换与调度策略。从技术角度来说，XLINK突破了传统多路径协议的设计框架，在QUIC用户态特性的基础之上，提出了Client-Server QoE反馈驱动多传输调度方案，克服了的两大难题：  
 •	多路队头阻塞问题带来的传输失速和聚合效率降低的问题
-•	冗余数据包发送引入的高昂额外带宽成本与流量开销问题
+•	冗余数据包发送引入的高昂额外带宽成本与流量开销问题  
 XLINK的整体架构如下图所示，
-
+![XLINK的整体架构](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-4/Lei-Huang/XLINK%E7%9A%84%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84.png)
 具有以下几个特点：
 - 用户态部署
 - 高性能
