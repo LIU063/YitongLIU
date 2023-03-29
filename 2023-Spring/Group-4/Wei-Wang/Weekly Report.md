@@ -8,7 +8,7 @@
 
 ## 1.论文进展
 
-### 重写了 Introducation, 缩减了篇幅，重新梳理了段落之间的逻辑关系 ， 更正了格式上的错误和语法错误。
+### 更正了部分公式中的错误，重新绘制了系统图，补充了系统模型中的疏漏。
 
 > [论文链接](https://www.overleaf.com/project/64053faeaf027e3f68bd00eb "Communication Resource Scheduling for CAVs: A Value of Information Based Approach")
 
@@ -18,7 +18,11 @@
 
 ![FF2023322](./assets/FF2023322.png)
 
-- 代码目前正在调试，预计随后会有复现结果。 
+- 代码目前正在调试
+
+下图为初步的验证结果，其中蓝色线为随机生成的的队列，橙色为LSTM输出的预测结果。
+
+![Figure_3_29](./assets/Figure_3_29.png)
 
 >[*[1] M. Li, J. Gao, L. Zhao and X. Shen, "Adaptive Computing Scheduling for Edge-Assisted Autonomous Driving," in IEEE Transactions on Vehicular Technology, vol. 70, no. 6, pp. 5318-5331, June 2021, doi: 10.1109/TVT.2021.3062653.*](https://ieeexplore.ieee.org/abstract/document/9366426)
 
