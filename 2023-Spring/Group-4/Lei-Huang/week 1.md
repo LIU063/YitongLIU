@@ -19,7 +19,7 @@
              
              - 考虑时间成本            
    - 注意子队列的更新: 对于那些需要立即卸载的数据，优先通过基站卸载。如果不在基站覆盖范围内则应该使用LEO进行卸载。对于不需要立即卸载的数据，可以等到车辆移动到基站覆盖范围内可以接收到基站信号时再进行卸载，这样可以节省许多的数据传输费用。
-   - ![子队列更新公式](桌面)
+   - ![子队列更新公式](https://github.com/loafluls/report_images/blob/main/images/%E5%AD%90%E9%98%9F%E5%88%97%E6%9B%B4%E6%96%B0%E5%85%AC%E5%BC%8F.png)
 - - - 
 ### Yangchen Yang团队工作调研
 - Yangchen Yang 团队工作调研
@@ -27,29 +27,23 @@
     >> 概要: 利用深度强化学习优化移动网络视频流预测功率分配的策略。目标是在服务质量约束下，尽量减少视频传输的平均能耗，避免视频失速。  
     >> 场景: 在视频流中，用户在由一个中央单元(CU)覆盖的多个单元之间移动。  
     >> 目标函数  
-          - ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5085aaa-e784-4816-b8af-8eb96a560aea/Untitled.png)  
+          - ![目标函数](https://github.com/loafluls/report_images/blob/main/images/yangchen%20yang%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0.png)  
           - 目标函数: 通过功率分配最小化平均能耗  
           - 约束: QoS约束&最大的功率约束           
     >> 方法: DDPG  
-          >>> action: 分配给第i个时隙的功率 —> 每帧的目标平均速率                        
-              ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f789a211-411e-4c2b-aab5-ca8972e81673/Untitled.png)                     
-              注水算法                            
-              [注水算法进行功率分配](https://zhuanlan.zhihu.com/p/502453127)                          
-              ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc9ef1b7-60f2-4243-820f-f7b1c0b43360/Untitled.png)                 
-              一种功率分配算法，为信道条件更好的用户分配更多的功率     
+          >>> action: 分配给第i个时隙的功率 —> 每帧的目标平均速率                                       
+              注水算法: 一种功率分配算法，为信道条件更好的用户分配更多的功率     
           >>> state: 当前和过去的大规模信道增益与其关联的BS和相邻的BS 
-             ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64b741a9-d65a-4f82-a6e3-e27504cf4cf2/Untitled.png)  
               - 大尺度信道增益  
               - the large-scale channel gains in the past time steps  
               - the large-scale channel gains between the user and the other Nb-1 BSs with the largest large-scale channel gains  
               - the buffer status  
            >>> reward:     
-             ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b86b8e7f-03b7-4b04-92d4-7e3cee52261a/Untitled.png)  
               - 传输能量消耗  
               - 下一个时隙开始时用户缓冲区中的数据量  
-     >> Transmission Policy Based on DDPG
-           - Architecture of the actor and critic networks  
-             ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ed7e1e7-8c86-4fc2-bc44-4af65b766eed/Untitled.png)          
+     >> Transmission Policy Based on DDPG  
+           - Architecture of the actor and critic networks   
+             ![PDS-DDPG架构](https://github.com/loafluls/report_images/blob/main/images/Architecture%20of%20the%20actor%20and%20critic%20networks.png)          
      >> 性能提升: 与最优predictive resource allocation (PRA)策略进行比较
      >> DRL使用方式: 利用注水模型，设计神经网络架构，增加了节点，求最佳水位和基站的信道增益节点
 - - - 
