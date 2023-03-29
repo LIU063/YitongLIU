@@ -1,5 +1,3 @@
-### Image
-
 ![sample-image](./assets/IMG_7998.png)
 
 ### Link
