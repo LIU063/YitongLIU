@@ -31,6 +31,10 @@ local training结束后，被调度到的用户做一次aggregation。
 7. 将两个loss加权求和，并进行反向传播。
 
 
-# 网络参数恢复
+# Decentralized Federated Learning under Unreliable Communication Environment
 
 ![网络参数恢复](./assets/网络参数补全.png)
+
+# On-demand VR Video Streaming
+
+![On-demand VR Video Streaming](./assets/路由.png)
