@@ -77,14 +77,11 @@ $$ USR=\dfrac{N_s}{N_T} $$
 [1] X. Chen, Y. Deng, G. Zhu, D. Wang, and Y. Fang, “From Resource Auction to Service Auction: An Auction Paradigm Shift in Wireless Networks,” IEEE Wireless Communications, early access, May 2022.   
 [2] Y. Xiao, G. Shi, Y. Li, W. Saad, and H. V. Poor, “Toward Selflearning Edge Intelligence in 6G,” IEEE Communications 
 Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.  
-[3] Y. Xiao, G. Shi, Y. Li, W. Saad, and H. V. Poor, “Toward Selflearning Edge Intelligence in 6G,” IEEE Communications 
-Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.  
-[4] Y. Xiao, G. Shi, Y. Li, W. Saad, and H. V. Poor, “Toward Selflearning Edge Intelligence in 6G,” IEEE Communications 
-Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.  
-[5]Y. Xiao, G. Shi, Y. Li, W. Saad, and H. V. Poor, “Toward Selflearning Edge Intelligence in 6G,” IEEE Communications 
-Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.   
+[3] Z. Feng, Z. Wei, X. Chen, H. Yang, Q. Zhang, and P. Zhang, “Joint Communication, Sensing, and Computation Enabled 6G Intelligent Machine System,” IEEE Network, pp. 34-42, Nov./Dec. 2021.  
+[4] X. Shen, J. Gao, W. Wu, M. Li, C. Zhou, and W. Zhuang, “Holistic Network Virtualization and Pervasive Network Intelligence for 6G,” IEEE Communications Surveys & Tutorials, Vol. 24, No. 1, pp. 1-30, First Quarter, 2022.  
+[5] 6G Alliance of Network AI (6GANA), “From Cloud AI to Network AI, a View from 6GANA,” May 2021. Available at http://www.6gana.com/upload/file/20210619/6375969458505193666851527.pdf.   
 [6] N. Chen, Y. Yang, T. Zhang, M. T. Zhou, X. L. Luo, and J. Zao, “Fog as a Service Technology,” IEEE Communications Magazine, Vol. 56, No. 11, pp. 95-101, Nov. 2018.  
 [7] Y. Mao, J. Zhang, S. H. Song, and K. B. Letaief, “Stochastic Joint Radio and Computational Resource Management for Multi-User Mobile-Edge Computing Systems,” IEEE Transactions on Wireless Communications, Vol. 16, No. 9, pp. 5994-6009, Sept. 2017.  
-***    
+***      
 由于对于文章中所说的网络AI架构以及其中的边缘AI和云AI等架构等不够详细看不明白，决定细读该文章引用的上述一些相关文献，弄清楚如何实现的网络AI架构，如何进行工作的。
 
