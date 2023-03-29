@@ -10,7 +10,47 @@
 # Week 2
 
 ### Text
-修改了上周的会议
+修改了上周撰写的会议论文，主要修改了abstract、introduction和system model，目前正在修改abstract和introduction部分。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Image
 
