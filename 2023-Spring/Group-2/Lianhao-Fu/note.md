@@ -12,8 +12,9 @@
 ### 7.R. Lin et al., "Energy-Efficient Computation Offloading in Collaborative Edge Computing," in IEEE Internet of Things Journal, vol. 9, no. 21, pp. 21305-21322, 1 Nov.1, 2022, doi: 10.1109/JIOT.2022.3179000.
 ### 8.W. Fan et al., "Collaborative Service Placement, Task Scheduling, and Resource Allocation for Task Offloading with Edge-Cloud Cooperation," in IEEE Transactions on Mobile Computing, 2022, doi: 10.1109/TMC.2022.3219261.
 ## Graph 与 transformer相关性的论文调研
-### 1.Ying C, Cai T, Luo S, et al. Do transformers really perform badly for graph representation?[J]. Advances in Neural Information Processing Systems, 2021, 34: 28877-28888.
-### 2.Zhang B, Luo S, Wang L, et al. Rethinking the expressive power of gnns via graph biconnectivity[J]. arXiv preprint arXiv:2301.09505, 2023.
-### 3.Liu Y, Wang W, Hu Y, et al. Multi-agent game abstraction via graph attention neural network[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2020, 34(05): 7211-7218.
+### 1.https://graphdeeplearning.github.io/post/transformers-are-gnns/
+### 2.Ying C, Cai T, Luo S, et al. Do transformers really perform badly for graph representation?[J]. Advances in Neural Information Processing Systems, 2021, 34: 28877-28888.
+### 3.Zhang B, Luo S, Wang L, et al. Rethinking the expressive power of gnns via graph biconnectivity[J]. arXiv preprint arXiv:2301.09505, 2023.
+### 4.Liu Y, Wang W, Hu Y, et al. Multi-agent game abstraction via graph attention neural network[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2020, 34(05): 7211-7218.
 ### 相关源码阅读
 ### 审稿
