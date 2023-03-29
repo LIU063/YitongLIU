@@ -90,7 +90,7 @@ OTFS调制过程可以分为发射机，信道传输，接收机三大部分。
 
 -SFFT transform
 
-![image](./github/23.3.29-7.jpg)
+![image](./github/23.3.29-7.png)
 
 SFFT将时频域的调制符号Xp[n,m]转换至延迟多普勒域中的xp[k,l],完成了时频域到延迟多普勒域的转换。
 
