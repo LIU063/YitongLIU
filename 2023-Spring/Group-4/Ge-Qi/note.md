@@ -15,7 +15,7 @@
 + 求解算法学习
     - 学习了BP算法中因子相关运算的代码
 
-```
+```python
 class factor:
     def __init__(self, variables = None, distribution = None):
         if (distribution is None) and (variables is not None):
