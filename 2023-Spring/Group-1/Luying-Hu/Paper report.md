@@ -1,7 +1,7 @@
 # Game Theory-based Scalable Offloading in Vehicular Edge Computing: A Neural Network Based Transfer Learning Approach 
 - 车辆边缘计算中基于博弈论的可扩展卸载：一种基于神经网络的迁移学习方法 
 # 背景
-- 随着自动驾驶汽车(autonomous vehicles, AVs)、车辆网络和移动边缘计算(mobile edge computing, MEC)的快速发展，车辆边缘计算(vehicle edge computing, VEC)以其在驾驶安全、便捷、高效等方面的服务而备受关注。VEC的卸载对AVs的能耗、VEC应用的性能、网络运营商的收入、AVs的成本等都有重要影响。VEC中的许多卸载问题已经被研究，但由于AVs数量的大量增加和VEC环境的时变变化，在可扩展性方面仍然存在挑战。迫切需要满足卸载的可扩展性要求，以便根据各种技术参数灵活部署AV服务等VEC应用程序。因此，可扩展的卸载优化在VEC中有着深远的意义。
+- 随着自动驾驶汽车(autonomous vehicles, AVs)、车辆网络和移动边缘计算(mobile edge computing, MEC)的快速发展，车辆边缘计算(vehicle edge computing, VEC)以其在驾驶安全、便捷、高效等方面的服务而备受关注。VEC的卸载对AVs的能耗、VEC应用的性能、网络运营商的收入、AVs的成本等都有重要影响。VEC中的许多卸载问题已经被研究，**但由于AVs数量的大量增加和VEC环境的时变变化**，在可扩展性方面仍然存在挑战。迫切需要满足卸载的可扩展性要求，以便根据各种技术参数灵活部署AV服务等VEC应用程序。因此，可扩展的卸载优化在VEC中有着深远的意义。
 - 存在问题：
   1. 目前的可扩展卸载优化方法是基于规划、架构设计、部署控制等方面。**缺乏一种同时考虑VEC中能量消耗、延迟、网络运营商收益等要素**的有效方法来提高卸载策略的可扩展性性能。
   2. 博弈论已被广泛应用于解决VEC中卸载的优化问题。但求解博弈论模型通常需要大量的迭代，**导致计算复杂度和能量消耗较高。如果场景发生变化，博弈论模型将需要重新求解**。
