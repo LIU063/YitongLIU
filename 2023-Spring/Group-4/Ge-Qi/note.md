@@ -16,18 +16,17 @@
 	   	 	- 同步性能影响，多普勒频移，调制解调性能影响，移动性管理问题
 		- 网络架构影响
 		- 高低轨卫星间的干扰规避问题
-     - 需考虑的关键技术问题：
-            - 基础
+     - 6G六大支柱技术 ：
+            - 原生智能、星地融合、原生可信、网络感知、极致连接、碳中和
+
+    - 论坛F：通感算
 
 + 学习Belief propagation算法的细节处理
 + 编写毕设仿真代码
    - 已经完成环境的仿真
    - 已经学习完成belif propagation算法的主体部分
+   - 生成基站与用户的分布，以及基站与用户之间距离，基站之间的距离
 ```python
-import numpy as np 
-import matplotlib.pyplot as plt
-import math
-
 M=10  # 用户数目
 S=5  # MEC数目
 V = 20 # vr视频fov的数目
@@ -77,21 +76,24 @@ def environment():
         for j in range(M):
             d = np.sqrt(np.sum(np.square(location_MEC[i]-location_User[j])))
             distance_of_M2V[i][j] = d   #第i个MEC与第j个用户之间的距离
-            
-    # print (distance_of_MEC)
-    # print(distance_of_M2V)
     return distance_of_MEC,distance_of_M2V  #print(environment()[1])  输出M2V
-
-# print(environment()[1])
 distance_of_MEC = environment()[0]
 distance_of_M2V = environment()[1]
-
+```
++
+    - 仿真用户请求的fov索引
+      
+```python
+   
 def user2fov():
     user_ask_fov = []
     user_ask_fov.append(np.random.randint(1,20,(M,1)))  # 随机生成用户请求的fov索引
     return user_ask_fov
 user_ask_fov = user2fov()
-
+```
++
+	- 仿真MEC与用户之间的连接关系
+```python
 def link():  #定义MEC与VR用户之间的连接关系,与卸载策略无关
     link = np.zeros((S,M))
     distance_of_M2V = environment()[1]
@@ -101,8 +103,6 @@ def link():  #定义MEC与VR用户之间的连接关系,与卸载策略无关
         link[location] = 1
     return link
 link = link()
-# print(link)
-# print(link())
 
 def link_location():
     link_location = np.zeros((M,2))
@@ -113,7 +113,10 @@ def link_location():
     return link_location
 link_location = link_location()
 # print(link_location)
-
+```
++
+	- 仿真毫米微波通信时用户与基站之间的通信速率
+```python
 def mmWave():
     rate_of_M2V = np.zeros((S,M))  
     SINR = np.zeros((S,M))
@@ -138,7 +141,10 @@ def mmWave():
                 rate_of_M2V[i][j] = r              
     return rate_of_M2V
 rate_of_M2V = mmWave()  # 逻辑上是对的，具体代入的值还需要查资料
-
+```
++
+	- 仿真fov不同版本的内存大小
+```python
 def video_version():   #计算不同版本fov的内存大小,以及背景内容和前景内容  假设所有fov具有相同的大小
     video_size = np.zeros(5)
     video_size_b = np.zeros(5)
@@ -155,10 +161,9 @@ video_size = video_version()[0]
 video_size_b = video_version()[1]
 video_size_f = video_version()[2]
 ```
++
+	-仿真不同渲染任务卸载策略时用户的时延
 ```python
-import numpy as np
-from env import *
-from main import *
 
 CPU_cycel_l = 1000000 # vr设备的计算能力
 CPU_cycel_mec = 
@@ -178,7 +183,6 @@ def option_location(option):  #用户选择的MEC的编号
                         option_location[j] = [j,i]
     return option_location
 option_location = option_location(option=option)
-# print(option_location)
 
 def delay(rate_0f_M2V,option_location,link_location):
     delay = np.zeros((M,S+1,2,5))  #每个用户选择不同卸载策略对应的时延  M:用户‘S+1：第S+1 是本地卸载方式，
@@ -242,73 +246,7 @@ def delay(rate_0f_M2V,option_location,link_location):
                         delay[i][j][m][n] = max(t_background,t_foreground) + t_fusion
     return delay
 ```
-```python
-import numpy as np 
-import igraph as ig 
-import matplotlib.pyplot as plt 
-from factor import * 
-from factor_graph import *
 
-
-class belief_propagation:  # 直接调用BP的作用是？
-	def __init__(self, pgm):
-		if type(pgm) is not factor_graph:  #输入的pgm满足我们定义的因子图结构，有变量，有分布，同时满足是个树图
-			raise Exception('PGM is not a factor graph')
-		if not (pgm.is_connected() and not pgm.is_loop()):
-			raise Exception('PGM is not a tree')
-
-		self.__msg = {}   #定义传递信息，字典：内置映射类型，通过键名查找键值，元素集合无序，键名是任何不可修改类型的数据，如数值、字符串、和元组等，而键值可以是任何类型的数据
-		self.__pgm = pgm 
-
-
-	def belief(self, v_name):  #得到变量节点的概率分布，一次只能得到一个节点的belief
-		incoming_messages = []  #列表
-		for f_name_neighbor in self.__pgm.get_graph().vs[self.__pgm.get_graph().neighbors(v_name)]['name']:  #
-			incoming_messages.append(self.get_factor2variable_msg(f_name_neighbor, v_name))  #传给变量节点的信息总和
-		return self.__normalize_msg(joint_distribution(incoming_messages))    # 相乘得到联合概率分布并且归一化
-
-
-	def get_variable2factor_msg(self, v_name, f_name):  #得到变量节点到因子节点的消息传递;一次只能得到一对节点的message
-		key = (v_name, f_name)  #变量节点到因子节点，这一对对应一个变量到因子节点的信息的传递
-		if key not in self.__msg:   # 如果message里已经有了，就不用了
-			self.__msg[key] = self.__compute_variable2factor_msg(v_name, f_name)
-		return self.__msg[key]
-
-
-	def __compute_variable2factor_msg(self, v_name, f_name):
-		incoming_messages = []
-		for f_name_neighbor in self.__pgm.get_graph().vs[self.__pgm.get_graph().neighbors(v_name)]['name']:
-			if f_name_neighbor != f_name:
-				incoming_messages.append(self.get_factor2variable_msg(f_name_neighbor, v_name))
-
-		if not incoming_messages:
-			return factor([v_name], np.array([1.]*self.__pgm.get_graph().vs.find(name=v_name)['rank']))
-		else:
-			return self.__normalize_msg(joint_distribution(incoming_messages))  # 
-
-
-	def get_factor2variable_msg(self, f_name, v_name):  # 得到传递的信息
-		key = (f_name, v_name)  #与变量节点到因子节点的模式一样
-		if key not in self.__msg:
-			self.__msg[key] = self.__compute_factor2variable_msg(f_name, v_name)
-		return self.__msg[key]
-
-
-	def __compute_factor2variable_msg(self, f_name, v_name):  #因子节点名称，变量节点名称
-		incoming_messages = [self.__pgm.get_graph().vs.find(f_name)['factor_']]  # 
-		marginalization_variables = []
-		for v_name_neighbor in self.__pgm.get_graph().vs[self.__pgm.get_graph().neighbors(f_name)]['name']:  #因子节点的邻居节点序列名称
-			if v_name_neighbor != v_name:    # 去除掉
-				incoming_messages.append(self.get_variable2factor_msg(v_name_neighbor, f_name))
-				marginalization_variables.append(v_name_neighbor)
-
-		return self.__normalize_msg(factor_marginalization(joint_distribution(incoming_messages), marginalization_variables))  # 先联合概率分布，再求和。
-
-
-	def __normalize_msg(self, message):
-		return factor(message.get_variables(), message.get_distribution()/np.sum(message.get_distribution()))
-
-```
 ### 下周工作计划
    + 完成毕设仿真
 ## 2023.3.22周报
