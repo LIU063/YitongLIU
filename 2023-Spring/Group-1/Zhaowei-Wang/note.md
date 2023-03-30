@@ -64,7 +64,51 @@ def plot_confuse(model, x_val, y_val):
     f.savefig('confusion.png')
  ~~~
 #### 下图为训练结果，正确率在70%左右。
-![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/confusion.png)   
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/confusion.png)     
+（4）MLP网络  
+~~~
+  def __init__(self, input_num, output_num):
+        super(MLP, self).__init__()
+        hidden1 = 214   # 第二层节点数
+        hidden2 = 214   # 第三层节点数
+        self.fc1 = nn.Linear(input_num, hidden1)
+        self.fc2 = nn.Linear(hidden1, hidden2)
+        self.fc3 = nn.Linear(hidden2, output_num)
+        # 使用dropout防止过拟合
+        self.dropout = nn.Dropout(0.2)
+
+    def forward(self, x):
+        out = torch.relu(self.fc1(x))
+        out = self.dropout(out)
+        out = torch.relu(self.fc2(out))
+        out = self.dropout(out)
+        out = self.fc3(out)
+        return out
+~~~  
+~~~
+for step, (x, y) in enumerate(tqdm(train_loader)):
+          #  enumerate() 是python内置的迭代方法
+          #tqdm 是以进度条的方式可视化运行过程的模块
+            logits = model(x)
+            loss = criterion(logits, y)
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+        viz.line([loss.item()], [epoch], win='loss', update='append')
+        if epoch % 5 == 0:
+            val_acc = evaluate(model, val_loader)
+            # train_acc = evaluate(model,train_loader)
+            print("epoch:[{}/{}]. val_acc:{}.".format(epoch, epoches, val_acc))
+            # print("train_acc", train_acc)
+            viz.line([val_acc], [epoch], win='val_acc', update='append')
+            if val_acc > best_acc:
+                best_epoch = epoch
+                best_acc = val_acc
+                torch.save(model.state_dict(), 'best.mdl')
+~~~   
+### 训练结果：准确度达到97%以上  
+
+
 ## 2. 6G大会思考  
 ### 论坛B：天地融合智能组网技术
 &ensp;&ensp;&ensp;&ensp; **星地融合路径发展趋势**：5G体制兼容走向6G系统融合。以5G技术为基础，根据卫星链路等差异化，有针对性的修改和优化低轨卫星系统；最大程度复用5G技术，并利用5G规模经济，降低成本，实现差异化竞争优势。6G融合要支持终端在星地间无缝切换    
