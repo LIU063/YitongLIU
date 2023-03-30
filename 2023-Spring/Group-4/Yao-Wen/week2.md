@@ -17,7 +17,7 @@
 <br>
 ![picture_delay](https://user-images.githubusercontent.com/93457144/228769065-7b334f09-6502-4e9c-ba1f-cc14ed5ba620.png)
 <br>
-###  3）完成论文第一轮修改
+### 3）完成论文第一轮修改
 ## 4、此外，我正在进行论文的第二轮修改，目前正在修改Introduction部分，使其更加准确和清晰。
 # 下周工作计划
 ## 1、继续进行论文的修改，完成第二轮整体修改
