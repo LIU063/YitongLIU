@@ -5,6 +5,8 @@
 ## Graph 与 transformer相关性的论文调研
 ### 1.https://graphdeeplearning.github.io/post/transformers-are-gnns/
 ### 2.Ying C, Cai T, Luo S, et al. Do transformers really perform badly for graph representation?[J]. Advances in Neural Information Processing Systems, 2021, 34: 28877-28888.
+![image](https://user-images.githubusercontent.com/90789521/228771067-5e7a526b-33e7-425b-a2be-e73bcf97a833.png)
+
 ### 3.Zhang B, Luo S, Wang L, et al. Rethinking the expressive power of gnns via graph biconnectivity[J]. arXiv preprint arXiv:2301.09505, 2023.
 ### 4.Liu Y, Wang W, Hu Y, et al. Multi-agent game abstraction via graph attention neural network[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2020, 34(05): 7211-7218.
 ## Severless based computing 相关论文调研
