@@ -10,9 +10,11 @@
 ![image](https://user-images.githubusercontent.com/93457144/228767374-f3a65c63-0bbe-4f43-9cab-3601f1711392.png)
 
 <br>
-###  2）对传统算法的代码进行了修改，并且调整了仿真设置，整体提高了仿真结果的可靠性，仿真结果如下；
+###  2）对传统算法的代码进行了修改，并且调整了仿真设置，整体提高了仿真结果的可靠性，仿真结果如下；<br>
 ![picture_3](https://user-images.githubusercontent.com/93457144/228768906-18905f81-31ba-443f-98c4-413f037a8144.png)
+<br>
 ![picture_cost](https://user-images.githubusercontent.com/93457144/228768975-efb3a0e2-4703-43b1-8d52-1dfaf6bf6771.png)
+<br>
 ![picture_delay](https://user-images.githubusercontent.com/93457144/228769065-7b334f09-6502-4e9c-ba1f-cc14ed5ba620.png)
 <br>
 ###  3）完成论文第一轮修改
