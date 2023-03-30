@@ -106,9 +106,10 @@ for step, (x, y) in enumerate(tqdm(train_loader)):
                 best_acc = val_acc
                 torch.save(model.state_dict(), 'best.mdl')
 ~~~   
-### 训练结果：准确度达到97%以上  
-![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/confusionmlp1.png）
-
+#### 训练结果：准确度达到97%以上  
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/confusionmlp1.png)
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/loss.png)
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/valacc.png)
 
 ## 2. 6G大会思考  
 ### 论坛B：天地融合智能组网技术
