@@ -15,7 +15,7 @@
 # Week 2
 
 ### Text
-修改了上周撰写的会议论文，主要修改了abstract、introduction和system model，目前正在修改abstract和introduction部分。
+修改了上周撰写的会议论文中的abstract、introduction和system model部分。目前正在对abstract和introduction部分进行进一步改进。
 
 
 
