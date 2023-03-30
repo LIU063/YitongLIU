@@ -107,6 +107,7 @@ for step, (x, y) in enumerate(tqdm(train_loader)):
                 torch.save(model.state_dict(), 'best.mdl')
 ~~~   
 ### 训练结果：准确度达到97%以上  
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/confusionmlp1.png）
 
 
 ## 2. 6G大会思考  
