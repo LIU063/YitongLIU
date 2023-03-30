@@ -2,6 +2,11 @@
 ## Picmrc: 写代码、调参、画图
 # Week2
 ## Pimrc代码整理
+## Graph 与 transformer相关性的论文调研
+### 1.https://graphdeeplearning.github.io/post/transformers-are-gnns/
+### 2.Ying C, Cai T, Luo S, et al. Do transformers really perform badly for graph representation?[J]. Advances in Neural Information Processing Systems, 2021, 34: 28877-28888.
+### 3.Zhang B, Luo S, Wang L, et al. Rethinking the expressive power of gnns via graph biconnectivity[J]. arXiv preprint arXiv:2301.09505, 2023.
+### 4.Liu Y, Wang W, Hu Y, et al. Multi-agent game abstraction via graph attention neural network[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2020, 34(05): 7211-7218.
 ## Severless based computing 相关论文调研
 ### 1.Mohammad S. Aslanpour, Adel N. Toosi, Claudio Cicconetti, Bahman Javadi, Peter Sbarski, Davide Taibi, Marcos Assuncao, Sukhpal Singh Gill, Raj Gaire, and Schahram Dustdar. 2021. Serverless Edge Computing: Vision and Challenges. In Proceedings of the 2021 Australasian Computer Science Week Multiconference (ACSW '21). Association for Computing Machinery, New York, NY, USA, Article 10, 1–10. https://doi.org/10.1145/3437378.3444367
 ### 2.Q. Tang et al., "Distributed Task Scheduling in Serverless Edge Computing Networks for the Internet of Things: A Learning Approach," in IEEE Internet of Things Journal, vol. 9, no. 20, pp. 19634-19648, 15 Oct.15, 2022, doi: 10.1109/JIOT.2022.3167417.
@@ -11,10 +16,5 @@
 ### 6.Y. Xu, L. Chen, Z. Lu, X. Du, J. Wu and P. C. K. Hung, "An Adaptive Mechanism for Dynamically Collaborative Computing Power and Task Scheduling in Edge Environment," in IEEE Internet of Things Journal, vol. 10, no. 4, pp. 3118-3129, 15 Feb.15, 2023, doi: 10.1109/JIOT.2021.3119181.
 ### 7.R. Lin et al., "Energy-Efficient Computation Offloading in Collaborative Edge Computing," in IEEE Internet of Things Journal, vol. 9, no. 21, pp. 21305-21322, 1 Nov.1, 2022, doi: 10.1109/JIOT.2022.3179000.
 ### 8.W. Fan et al., "Collaborative Service Placement, Task Scheduling, and Resource Allocation for Task Offloading with Edge-Cloud Cooperation," in IEEE Transactions on Mobile Computing, 2022, doi: 10.1109/TMC.2022.3219261.
-## Graph 与 transformer相关性的论文调研
-### 1.https://graphdeeplearning.github.io/post/transformers-are-gnns/
-### 2.Ying C, Cai T, Luo S, et al. Do transformers really perform badly for graph representation?[J]. Advances in Neural Information Processing Systems, 2021, 34: 28877-28888.
-### 3.Zhang B, Luo S, Wang L, et al. Rethinking the expressive power of gnns via graph biconnectivity[J]. arXiv preprint arXiv:2301.09505, 2023.
-### 4.Liu Y, Wang W, Hu Y, et al. Multi-agent game abstraction via graph attention neural network[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2020, 34(05): 7211-7218.
 ### 相关源码阅读
 ### 审稿
