@@ -11,9 +11,9 @@
 
 <br>
 ###  2）对传统算法的代码进行了修改，并且调整了仿真设置，整体提高了仿真结果的可靠性，仿真结果如下；
-![picture_3](https://user-images.githubusercontent.com/93457144/228541224-7746f020-710a-4f43-b57e-1d07e4047d0d.png)
-![picture_cost](https://user-images.githubusercontent.com/93457144/228541291-80491187-cde3-433f-835e-75d47f7ffd57.png)
-![picture_delay](https://user-images.githubusercontent.com/93457144/228541329-38057288-d023-4a11-8a78-7ee777703762.png)
+![picture_3](https://user-images.githubusercontent.com/93457144/228768906-18905f81-31ba-443f-98c4-413f037a8144.png)
+![picture_cost](https://user-images.githubusercontent.com/93457144/228768975-efb3a0e2-4703-43b1-8d52-1dfaf6bf6771.png)
+![picture_delay](https://user-images.githubusercontent.com/93457144/228769065-7b334f09-6502-4e9c-ba1f-cc14ed5ba620.png)
 <br>
 ###  3）完成论文第一轮修改
 ## 4、此外，我正在进行论文的第二轮修改，目前正在修改Introduction部分，使其更加准确和清晰。
