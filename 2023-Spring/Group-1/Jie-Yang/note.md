@@ -21,6 +21,11 @@
 [[1]刘子鸾. 卫星网络路由与流量控制关键技术研究[D].北京邮电大学,2018.](https://doi.org/10.1177/1550147717692586)  
 [[2]朱晓攀.大规模低轨宽带卫星网络路由关键技术研究[D].中国科学院大学,2020.](DOI:10.27562/d.cnki.gkyyz.2020.000061)
 
+## 6G大会：
+### 动态拓扑和路由算法：
+1.预测性路由   
+2.卫星跨层之间连接   
+
 ## Date: 2023/3/30
 ## 周工作汇报
 ### 1.卫星网络路由算法的文章： 
@@ -35,6 +40,8 @@ e.仿真是在Starlink的第一阶段星座上进行的，本文详细说明了�
 ### 2.卫星网络技术研究方向：
 1.基于人工智能的卫星路由   
 2.基于多层网络的卫星路由   
-3.基于SDN的卫星路由   
+3.基于SDN的卫星路由    
+4.预测性路由：与传统的路由和转发机制不同，预测性路由的网络节点不是通过洪泛来指示拓扑变化，而是定期切换路由表来反映不同时间点下网络拓扑的变化。   
+5.每个卫星只能有两条轨内和两条轨间星间链路。这极大地限制了整个网络的通信能力，无法实现最佳带宽和最低时延。因此，新一代路由算法可以允许卫星之间的星座连接更加灵活和自由（如跨层连接）    
 [[1]W. Liu, Y. Tao and L. Liu, "Load-Balancing Routing Algorithm Based on Segment Routing for Traffic Return in LEO Satellite Networks," in IEEE Access, vol. 7, pp. 112044-112053, 2019](https://sci-hub.wf/10.1109/ACCESS.2019.2934932)        
 [[2]X. Qi, B. Zhang and Z. Qiu, "A Distributed Survivable Routing Algorithm for Mega-Constellations With Inclined Orbits," in IEEE Access, vol. 8, pp. 219199-219213, 2020](https://sci-hub.wf/10.1109/ACCESS.2020.3041346)    
