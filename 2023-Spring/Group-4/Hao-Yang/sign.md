@@ -4,7 +4,7 @@
 
 1.准备工具：(1)科学上网 (2)带邮箱的微软账号
 
-2.打开chatgpt注册网站: [https://chat.openai.com/auth/login](https://chat.openai.com/auth/login) 点击 Sign up，进行账号注册
+2.开启全局科学上网，建议选韩国或者美国点，香港已经打不开了。打开chatgpt注册网站: [https://chat.openai.com/auth/login](https://chat.openai.com/auth/login) 点击 Sign up，进行账号注册
 ![image](./gpt_picture/sign0.jpg)
 
 填选邮箱注册会因为相同ip注册过多报错，
