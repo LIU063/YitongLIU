@@ -72,7 +72,10 @@
 
 代理设置：找到自己代理的端口，填入config.py文件，如下：
 
+代理端口：
 ![image](./gpt_picture/sign10.jpg)
+
+config.py文件：
 ![image](./gpt_picture/sign11.jpg)
 
 保存config.py
