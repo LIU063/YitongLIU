@@ -16,6 +16,7 @@
 ![image](./gpt_picture/sign2.jpg)
 
 3.绑定手机号
+
 ![image](./gpt_picture/sign3.jpg)
 
 （1）在[sms-activate.org](https://sms-activate.org/)注册一个账号，
