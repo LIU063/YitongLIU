@@ -5,7 +5,12 @@ Note: 主要关注
 1. 现在协作传输做到什么程度
 2. 研究的场景
 3. 传输的业务
-4. 调度的资源类型
+4. 调度的资源类型  
+### 参考文献  
+[1].X. Zhu, C. Jiang, L. Kuang, N. Ge and J. Lu, "Non-Orthogonal Multiple Access Based Integrated Terrestrial-Satellite Networks," in IEEE Journal on Selected Areas in Communications, vol. 35, no. 10, pp. 2253-2267, Oct. 2017, doi: 10.1109/JSAC.2017.2724478.  
+[2].X. Zhu, C. Jiang, L. Kuang, N. Ge, S. Guo and J. Lu, "Cooperative Transmission in Integrated Terrestrial-Satellite Networks," in IEEE Network, vol. 33, no. 3, pp. 204-210, May/June 2019, doi: 10.1109/MNET.2018.1800164.  
+[3].X. Zhu and C. Jiang, "Delay Optimization for Cooperative Multi-Tier Computing in Integrated Satellite-Terrestrial Networks," in IEEE Journal on Selected Areas in Communications, vol. 41, no. 2, pp. 366-380, Feb. 2023, doi: 10.1109/JSAC.2022.3227083.  
+[4].Z. Liu, Y. Yang, K. Wang, Z. Shao and J. Zhang, "POST: Parallel Offloading of Splittable Tasks in Heterogeneous Fog Networks," in IEEE Internet of Things Journal, vol. 7, no. 4, pp. 3170-3183, April 2020, doi: 10.1109/JIOT.2020.2965566.  
 #### 1. Non-Orthogonal Multiple Access Based Integrated Terrestrial-Satellite Networks - 2017  
 - 概要: 研究了基于非正交多址(NOMA)的地面-卫星综合网络的下行传输，其中基于NOMA的地面网络和卫星合作为地面用户提供覆盖，同时重用整个带宽
 - 场景
@@ -68,4 +73,4 @@ Note: 主要关注
             - 协同边缘云计算策略: 通过比较系统总时延的性能，更新各粒子的局部最优位置和全局最优位置  
      
 #### 下周计划  
-学习任务拆分问题解决策略  
+学习任务拆分问题解决策略[4]  
