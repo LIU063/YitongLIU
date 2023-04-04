@@ -32,7 +32,7 @@ Note: 主要关注
 - NOMA与OFDM的区别  
     - NOMA：非正交多址技术NOMA在发送端，不同发送功率的信号在频率完全复用，仅通过功率来区分  
     - OFDM：提供高传输数据速率, 需要克服 “信号带宽大于信道带宽”的情况  
-- 场景
+- 场景  
 <img src="https://github.com/loafluls/report_images/blob/main/images/%E5%9C%BA%E6%99%AF_2023_0440_2.jpg" width = "600" height = "500" alt="场景" align=center />
 
 - 考虑问题: 频谱共享、资源分配、最优功率分配、网络干扰(?)  
@@ -48,19 +48,24 @@ Note: 主要关注
     - 资源调度: 主要调度频谱资源、功率资源   
 #### 3.Delay Optimization for Cooperative Multi-Tier Computing in Integrated Satellite-Terrestrial Networks - 2023
 - 概要： 本文研究了星地一体化网络中的协同多层计算，即利用设备、边缘节点和云服务器的协同来处理用户的计算任务。基于所提出的三层计算框架，我们提出了最小化网络总时延的协同边缘云卸载问题。考虑到计算任务是可分割的，提出了基于部分卸载模型的最优任务分割策略，对每个计算任务推导出封闭解。在得到最优任务分割策略后，将原优化问题重新化为时隙分配策略和计算量分配策略问题。然后，我们进一步提出了边缘云计算协同策略来优化网络的延迟性能
-- 场景  
-    <img src="https://github.com/loafluls/report_images/blob/main/images/%E6%98%9F%E5%9C%B0%E9%9B%86%E6%88%90%E7%BD%91%E7%BB%9C.png" width = "600" height = "500" alt="场景" align=center />
+- 场景    
+    <img src="https://github.com/loafluls/report_images/blob/main/images/%E6%98%9F%E5%9C%B0%E9%9B%86%E6%88%90%E7%BD%91%E7%BB%9C.png" width = "600" height = "500" alt="场景" align=center />  
+    
     考虑星地一体化网络，其中卫星为没有连接光纤的地区的地面基站提供回程传输。然后，地面用户可以基于传统的4G/5G技术接入基站进行通信和计算服务。  
 - 建模  
     - 通信模型    
      1. User to BS: TDMA；每个用户和BS配备一根天线；基站之间相互独立无干扰  
      2. BS to Satellite: TDMA  
      3. Satellite to Cloud: 忽略从卫星到网关的传输延迟  
-    - 方案
-     1. 任务分割策略: 任务拆分，为所有任务找到最优的任务拆分策略  
-            - 局部边缘计算的最优任务分割策略  
-              
-            - 局部边缘云计算的最优任务分割策略  
-     2. 协作边缘计算策略
+    - 方案 (公式推导)
+     1. 任务分割策略: 任务拆分，为所有任务找到最优的任务拆分策略    
+            - 局部边缘计算的最优任务分割策略    
+            - 局部边缘云计算的最优任务分割策略    
+            上述两种策略用于讨论κ n,k的不同值来解决任务分割问题  
+            - 最优任务分割策略  
+     2. 协作边缘计算策略  
+            - 粒子群算法： 粒子群优化(PSO)算法，传统优化算法  
+            - 协同边缘云计算策略: 通过比较系统总时延的性能，更新各粒子的局部最优位置和全局最优位置  
      
-#### 子任务分割
+#### 下周计划  
+学习任务拆分问题解决策略  
