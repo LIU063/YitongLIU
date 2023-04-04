@@ -95,18 +95,18 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 (文中只考虑时延和能耗为某用户的KPI来进行仿真)在需求端，不同的用户每秒持续产生λ任务。假设不可拆分任务T具有𝑍字节大小和𝑈万亿次浮点运算的计算需求。为了在有限的空间内展示关键结果，只选择延迟和能耗作为服务KPI，用于构建每个任务的二维SRZ。当输入某用户的某个任务需求的SRZ时该网络AI架构资源分配的优化目标是能耗和时延：  
 <div align=center>  
 
-![D](D.jpg)
-![E](E.jpg)   
-![t1](t1.jpg)   
-![t2](t2.jpg)   
+![D.jpg](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/D.jpg)
+![E.jpg](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/E.jpg)
+![t1](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/t1.jpg)   
+![t2](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/t2.jpg)   
 <div align=left>  
 
 ### **表1列出了有关任务、三种人工智能体系结构和两种任务调度算法的所有参数及其假设值，用于广泛的计算机模拟。**
-![参数表](参数设计.jpg)   
+![参数表](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/%E5%8F%82%E6%95%B0%E8%AE%BE%E8%AE%A1.jpg)   
 之后以USR大小为判别标准，体现提出的网络AI架构的性能。 其中公平平等调度(FES)算法以随机方式分配所有任务，一半分配到边缘，另一半分配到云中提供服务。-Closerthe-Better(TCTB)算法遵循帕累托原则或80/20规则，因此所有任务的80%和20%分别流向边缘和云。FES和TCTB算法的使用将展示三种人工智能体系结构之间的根本差异，并为开发适用于复杂应用场景和动态网络条件的更复杂算法提供标准基准。
-![f1](f1.jpg)   
-![f2](f2.jpg)   
+![f1](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/f1.jpg)   
+![f2](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/f2.jpg)   
 ## **二、启发**
-## 做基于聚类结果的6G按需服务，可参考文中的方法，文章仿真举例是只考虑了时延和能耗两个KPI做为服务的KPI，构建的是二维的SRZ。而我可以扩展一下，将考虑我所做的8个KPI的八维SRZ,并且利用聚类结果的11类场景知识，作为场景权重系数分配的条件，为每个不同场景设计一套不同KPI权重系数以及优先级的进一步的USR评判标准，去做一个资源分配来实现基于场景聚类的6G按需服务。
+### 做基于聚类结果的6G按需服务，可参考文中的方法，文章仿真举例是只考虑了时延和能耗两个KPI做为服务的KPI，构建的是二维的SRZ。而我可以扩展一下，将考虑我所做的8个KPI的八维SRZ,并且利用聚类结果的11类场景知识，作为场景权重系数分配的条件，为每个不同场景设计一套不同KPI权重系数以及优先级的进一步的USR评判标准，去做一个资源分配来实现基于场景聚类的6G按需服务。
 ## **三、下一步工作计划**
-## 构思该问题下我的聚类按需服务的问题建模
+### 构思该问题下我的聚类按需服务的问题建模
