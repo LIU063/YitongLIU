@@ -16,9 +16,9 @@ Kim, Woo-Joong, and Chan-Hyun Youn. **"Lightweight online profiling-based config
 
 **思路**：依据目标在视频流中的位置和大小的变化（velocity of objects on location and size）设计配置控制器（configuration controller），而不是凭借经验值（empirically measured value）
 
-![image](./images/202300405-01.png)
+![image](./images/20230405-01.png)
 
-![image](./images/202300405-02.png)
+![image](./images/20230405-02.png)
 
 Wu, Kun, et al. **"Soudain: Online adaptive profile configuration for real-time video analytics."** 2021 IEEE/ACM 29th International Symposium on Quality of Service (IWQOS). IEEE, 2021.
 
