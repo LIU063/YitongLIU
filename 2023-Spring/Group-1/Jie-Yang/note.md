@@ -45,27 +45,28 @@ e.仿真是在Starlink的第一阶段星座上进行的，本文详细说明了�
 5.每个卫星只能有两条轨内和两条轨间星间链路。这极大地限制了整个网络的通信能力，无法实现最佳带宽和最低时延。因此，新一代路由算法可以允许卫星之间的星座连接更加灵活和自由（如跨层连接）    
 [[1]W. Liu, Y. Tao and L. Liu, "Load-Balancing Routing Algorithm Based on Segment Routing for Traffic Return in LEO Satellite Networks," in IEEE Access, vol. 7, pp. 112044-112053, 2019](https://sci-hub.wf/10.1109/ACCESS.2019.2934932)        
 [[2]X. Qi, B. Zhang and Z. Qiu, "A Distributed Survivable Routing Algorithm for Mega-Constellations With Inclined Orbits," in IEEE Access, vol. 8, pp. 219199-219213, 2020](https://sci-hub.wf/10.1109/ACCESS.2020.3041346)    
-
-## Date: 2023/3/30
+ 
+ 
+## Date: 2023/4/5
 ## 周工作汇报
 ### 基于人工智能的路由算法：
-1.基于树突神经网络的低轨卫星（Low-Earth orbit，LEO）智能感知路由算法[1]。本文所设置的低轨卫星网络基本星座构型为Walker（64/8/1），本文算法主要分为三个阶段：星间链路态势感知阶段、星间链路质量感知阶段、路由决策阶段该算法。   
+1.基于树突神经网络的低轨卫星（Low-Earth orbit，LEO）智能感知路由算法[1]。本文所设置的低轨卫星网络基本星座构型为Walker（64/8/1)，本文算法主要分为三个阶段：星间链路态势感知阶段、星间链路质量感知阶段、路由决策阶段该算法。   
 a.首先利用蚁群算法做出路由选择，收集输出结果，进而构造训练集，训练树突神经网络（Dendrite net，DD）。
 b.在星间链路态势感知阶段，对卫星之间的可视性约束（几何可视和天线可视）进行分析，以此为前提得出当前时刻各个卫星之间的建链状态；设置链路监测周期，周期性获取星间链路的建链情况；   
-c.在神经网络链路质量感知阶段，将卫星节点之间的距离、时延、时延抖动、丢包率等链路状态信息作为树突网络的输入参数，训练好的树突神经网络通过对链路状态信息进行处理，输出满足多种QoS因素的下一跳路由选择的评估值矩阵；   
-![image](https://user-images.githubusercontent.com/83910735/230129371-0c5e9f5a-b7b8-4695-a9db-f2c55a2b8416.png)   
+c.在神经网络链路质量感知阶段，将卫星节点之间的距离、时延、时延抖动、丢包率等链路状态信息作为树突网络的输入参数，训练好的树突神经网络通过对链路状态信息进行处理，输出满足多种QoS因素的下一跳路由选择的评估值矩阵；      
+![image](https://user-images.githubusercontent.com/83910735/230129371-0c5e9f5a-b7b8-4695-a9db-f2c55a2b8416.png)    
 d.在路由决策阶段将评估值矩阵的倒数作为邻接矩阵通过迪杰斯特拉（Dijkstra）算法，得出源节点和目的节点之间的初始路径；最后周期性监测卫星网络拓扑，实时修正初始路径。    
-![image](https://user-images.githubusercontent.com/83910735/230129485-67455bd9-fe46-48ad-998d-851458c0e31a.png)
-路由算法与智能感知技术融合，可以提升路由的分析和决策能力，但当卫星网络规模较大时，很难直接输出满足复杂约束的路径，会导致算法收敛时间较长.    
+![image](https://user-images.githubusercontent.com/83910735/230129485-67455bd9-fe46-48ad-998d-851458c0e31a.png)    
+路由算法与智能感知技术融合，可以提升路由的分析和决策能力，但当卫星网络规模较大时，很难直接输出满足复杂约束的路径，会导致算法收敛时间较长.     
 
 2.针对卫星互联网的智能路由问题利用基于双延迟深度确定性策略梯度的深度强化学习算法，解决网络的实时路由优化问题[2]。提出一种卫星互联网的智能化架构:    
-![image](https://user-images.githubusercontent.com/83910735/230129726-7257ae8b-09a7-4ca3-8c9c-47fc542498a7.png)
+![image](https://user-images.githubusercontent.com/83910735/230129726-7257ae8b-09a7-4ca3-8c9c-47fc542498a7.png)    
 a.数据平面。数据平面中的无线感知模块包含多种无线网络接入方法，用于感知卫星互联网中各个终 端设备生成的数据。该模块收集大量环境数据，并使用它们预测网络流量。    
 b.控制平面。控制平面包含部署在地面网络中心和卫星的控制器，实现网络的集中管理和控制。   
 d.智能平面。智能平面是整个智能化架构的大脑，负责根据当前的网络状态需求，实时捕获网络信息，并有效地调整网络资源的分配。   
 e.应用平面。应用平面主要为各种应用程序提供 定制的程序接口，以确保功能的高效运行。    
 提出了TD3算法作为DRL路由优化算法的一种，可以处理高维的输入和连续状态空间，TD3算法在采用传统Actor-Critic（演员-评论家） 强化学习架构的基础上，增加了一个Critic网络，组成包含一个Actor和两个Critic的强化学习架构，Actor使用策略梯度方法根据状态拟合策 略函数来选择动作，两个Critic则根据当前的状态对Actor 做出的动作进行评估，并选取两个Critic网络表示的Q值 中较小的那一个作为Q函数更新的目标。    
-![image](https://user-images.githubusercontent.com/83910735/230130330-e9ddab5e-a0ea-4c46-ad8c-108f47de731f.png)
-[[1]刘洋,王丽娜.基于树突神经网络的低轨卫星智能感知路由算法[J].工程科学学报,2023,45(03):465-474.](DOI:10.13374/j.issn2095-9389.2021.11.08.007.)    
-[[2]魏琳慧,刘国文,刘雨等.基于深度强化学习的卫星互联网路由优化研究[J].天地一体化信息网络,2022,3(03):65-71.](https://kns.cnki.net/kcms2/article/abstract?v=BBImVa1ypluYanXXTHQJguCA5_YZvQ7qY9CRXiGgX9FIdy3qMu3Z9vd8CaW2gbXIRDEQWscWY5za7TScPjzZVkIlydusfKS8nISRwX20CZgkmzWSs0GcE3gkydAOvJvN&uniplatform=NZKPT&language=CHS)    
-[[3]NI Shaojie, YUE Yang, ZUO Yong, LIU Wenxiang, XIAO Wei, YE Xiaozhou. The Status Quo and Prospect of Satellite Network Routing Technology[J]. Journal of Electronics & Information Technology, 2023, 45(2): 383-395.](doi: 10.11999/JEIT211393)
+![image](https://user-images.githubusercontent.com/83910735/230130330-e9ddab5e-a0ea-4c46-ad8c-108f47de731f.png)    
+[[1]刘洋,王丽娜.基于树突神经网络的低轨卫星智能感知路由算法[J].工程科学学报,2023,45(03):465-474.](DOI:10.13374/j.issn2095-9389.2021.11.08.007.)     
+[[2]魏琳慧,刘国文,刘雨等.基于深度强化学习的卫星互联网路由优化研究[J].天地一体化信息网络,2022,3(03):65-71.](https://kns.cnki.net/kcms2/article/abstract?v=BBImVa1ypluYanXXTHQJguCA5_YZvQ7qY9CRXiGgX9FIdy3qMu3Z9vd8CaW2gbXIRDEQWscWY5za7TScPjzZVkIlydusfKS8nISRwX20CZgkmzWSs0GcE3gkydAOvJvN&uniplatform=NZKPT&language=CHS)       
+[[3]NI Shaojie, YUE Yang, ZUO Yong, LIU Wenxiang, XIAO Wei, YE Xiaozhou. The Status Quo and Prospect of Satellite Network Routing Technology[J]. Journal of Electronics & Information Technology, 2023, 45(2): 383-395.](doi: 10.11999/JEIT211393)     
