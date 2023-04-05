@@ -38,3 +38,49 @@ local training结束后，被调度到的用户做一次aggregation。
 # On-demand VR Video Streaming
 
 ![On-demand VR Video Streaming](./assets/路由.png)
+
+---
+
+# Knowledge Fusion 代码
+
+完成了 Attention-based Knowledge Fusion for Decentralized Federated Distillation 的验证[代码](https://gitee.com/sjinglong/dfd)，实现的 Knowledge Fusion 的方式包括：
+
+- 只进行本地训练，不蒸馏
+- 直接对Soft Label进行平均
+- 根据数据集分布对Soft Label进行加权平均
+- 在蒸馏的过程中，将各个邻居节点的权重作为模型参数的一部分进行训练，对Soft Label进行动态加权平均
+- 采用基于attention的权重对Soft Label进行加权平均
+
+## 部分初步结果
+
+### 只进行本地训练
+
+|Node0|Node1|Node2|Node3|Node4|Average|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0.3795|0.3825|0.3875|0.4005|0.4055|0.3911|
+
+### 各个节点先将Local Model利用本地数据集训练至收敛，随后进行蒸馏
+
+#### 直接对Soft Label进行平均
+
+|Node0|Node1|Node2|Node3|Node4|Average|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0.4705|0.4435|0.4405|0.443|0.449|0.4493|
+
+#### 根据数据集分布对Soft Label进行加权平均
+
+|Node0|Node1|Node2|Node3|Node4|Average|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0.4695|0.4245|0.4535|0.443|0.449|0.4479|
+
+#### 将权重作为模型参数进行训练
+
+|Node0|Node1|Node2|Node3|Node4|Average|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0.468|0.4415|0.4735|0.453|0.4655|0.4603|
+
+#### 基于attention的权重
+
+|Node0|Node1|Node2|Node3|Node4|Average|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0.407|0.3775|0.3895|0.405|0.4145|0.3987|
