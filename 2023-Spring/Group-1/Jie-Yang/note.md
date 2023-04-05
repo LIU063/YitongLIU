@@ -67,6 +67,6 @@ d.智能平面。智能平面是整个智能化架构的大脑，负责根据当
 e.应用平面。应用平面主要为各种应用程序提供 定制的程序接口，以确保功能的高效运行。    
 提出了TD3算法作为DRL路由优化算法的一种，可以处理高维的输入和连续状态空间，TD3算法在采用传统Actor-Critic（演员-评论家） 强化学习架构的基础上，增加了一个Critic网络，组成包含一个Actor和两个Critic的强化学习架构，Actor使用策略梯度方法根据状态拟合策 略函数来选择动作，两个Critic则根据当前的状态对Actor 做出的动作进行评估，并选取两个Critic网络表示的Q值 中较小的那一个作为Q函数更新的目标。    
 ![image](https://user-images.githubusercontent.com/83910735/230130330-e9ddab5e-a0ea-4c46-ad8c-108f47de731f.png)    
-[[1]刘洋,王丽娜.基于树突神经网络的低轨卫星智能感知路由算法[J].工程科学学报,2023,45(03):465-474.](DOI:10.13374/j.issn2095-9389.2021.11.08.007.)     
-[[2]魏琳慧,刘国文,刘雨等.基于深度强化学习的卫星互联网路由优化研究[J].天地一体化信息网络,2022,3(03):65-71.](https://kns.cnki.net/kcms2/article/abstract?v=BBImVa1ypluYanXXTHQJguCA5_YZvQ7qY9CRXiGgX9FIdy3qMu3Z9vd8CaW2gbXIRDEQWscWY5za7TScPjzZVkIlydusfKS8nISRwX20CZgkmzWSs0GcE3gkydAOvJvN&uniplatform=NZKPT&language=CHS)       
-[[3]NI Shaojie, YUE Yang, ZUO Yong, LIU Wenxiang, XIAO Wei, YE Xiaozhou. The Status Quo and Prospect of Satellite Network Routing Technology[J]. Journal of Electronics & Information Technology, 2023, 45(2): 383-395.](doi: 10.11999/JEIT211393)     
+[[1]刘洋,王丽娜.基于树突神经网络的低轨卫星智能感知路由算法[J].工程科学学报,2023,45(03):465-474.](https://doi.org/10.13374/j.issn2095-9389.2021.11.08.007)      
+[[2]魏琳慧,刘国文,刘雨等.基于深度强化学习的卫星互联网路由优化研究[J].天地一体化信息网络,2022,3(03):65-71.](https://kns.cnki.net/kcms2/article/abstract?v=BBImVa1ypluYanXXTHQJguCA5_YZvQ7qY9CRXiGgX9FIdy3qMu3Z9vd8CaW2gbXIRDEQWscWY5za7TScPjzZVkIlydusfKS8nISRwX20CZgkmzWSs0GcE3gkydAOvJvN&uniplatform=NZKPT&language=CHS)        
+[[3]NI Shaojie, YUE Yang, ZUO Yong, LIU Wenxiang, XIAO Wei, YE Xiaozhou. The Status Quo and Prospect of Satellite Network Routing Technology[J]. Journal of Electronics & Information Technology, 2023, 45(2): 383-395.](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT211393)       
