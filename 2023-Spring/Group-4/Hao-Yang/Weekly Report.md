@@ -76,11 +76,19 @@
 1. 修改论文全文逻辑
 
   （1）intro部分修改
+  ![image](./picture/2023-04-05_1.jpg) 
+  ![image](./picture/2023-04-05_2.jpg) 
   （2）修改实验部分：描述+结论
   
 2. 整理知识驱动综述文献，按照孙老师要求，细化文献分类，补充部分章节文献
 
 3. 修改gpt插件代码，新增功能模块
 
+![image](./picture/2023-04-05_3.jpg)
+
+原文摘要： The use of terahertz (THz) frequencies has been recommended to achieve high-speed and ultra-low latency transmissions. Although there exist very large bandwidths in the THz frequency bands, THz channels are significantly dynamic and complicated, which is challenging for channel estimation. To improve the energy efficiency of wireless networks, THz channel power gains need to be precisely evaluated for determining optimal THz transmission frequencies and power control. Therefore, this work presents a novel conditional generative adversarial networks (GAN) based channel power gain estimation solution in the THz vehicle-to-infrastructure (V2I) networks with leakywave antennas, where the THz frequency has a big effect on the antenna gain, path loss and atmospheric attenuation. Simulation results confirm that our solution can accurately estimate the channel power gains versus the THz frequencies at a fast speed.
+
+生成摘要： This article discusses the potential of using terahertz (THz) transmission for wireless communication and the challenges faced in implementing traditional antenna arrays in THz systems. The use of leaky-wave antennas is proposed for efficient channel estimation and power control. The article proposes a new GAN-based channel power gain estimation framework for THz vehicle-to-infrastructure (V2I) networks, which leverages received signal strengths (RSSs) as the conditional information. The proposed solution overcomes the drawbacks of Doppler shift and conventional methods that depend on state information in the prior time. The results confirm the accuracy and fast convergence speed of the proposed solution. The proposed solution has the potential to revolutionize the wireless communication industry and pave the way for the next-generation radio technology.
 ## 下周工作安排：
-1. 撰写知识驱动综述文献第七章：物理层部分
+1. 撰写知识驱动综述文献第七章：物理层部分。
+2. 根据不动点网络特性，寻找通信模型。
