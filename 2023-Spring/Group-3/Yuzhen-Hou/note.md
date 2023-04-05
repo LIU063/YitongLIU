@@ -190,8 +190,8 @@
 
         针对一个真实环境，地图大小 50×50，20 个用户，2 架无人机场景进行调试，结果图如下所示
 
-        <div style="width: 35em; height: 22em; margin: auto auto; padding-top: -20em; overflow: hidden; ">
-            <img src="./assets/img/week3_task_UAVRL_DQN_rate_result_plot_1stEdition.png" style="width: 100%; margin-top: -3em; " alt="task_UAVRL_DQN_rate_result_plot_1stEdition" />
+        <div align="center">
+            <img src="./assets/img/week3_task_UAVRL_DQN_rate_result_plot_1stEdition.png" style="width: 35em; margin-top: -20em;" alt="task_UAVRL_DQN_rate_result_plot_1stEdition" />
         </div>
 
     - DQN 模型性能问题分析
