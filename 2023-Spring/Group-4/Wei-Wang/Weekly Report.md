@@ -14,14 +14,7 @@
 ## 2.DRL-VoI 理论探究
 
 ### 考虑基本的点对点通信系统如下
-![FF2023322](./assets/FF2023322.png)
-
-- 代码目前正在调试
-
-下图为初步的验证结果，其中蓝色线为随机生成的的队列，橙色为LSTM输出的预测结果。
-
-![Figure_3_29](./assets/Figure_3_29.png)
-
+![2023345](./assets/2023345.png)
 >[*[1] M. Li, J. Gao, L. Zhao and X. Shen, "Adaptive Computing Scheduling for Edge-Assisted Autonomous Driving," in IEEE Transactions on Vehicular Technology, vol. 70, no. 6, pp. 5318-5331, June 2021, doi: 10.1109/TVT.2021.3062653.*](https://ieeexplore.ieee.org/abstract/document/9366426)
 
 >[*[2] Code*](https://github.com/WANGWW775/LSTM-DRL/tree/main)
