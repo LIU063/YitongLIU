@@ -1,3 +1,9 @@
+# 2023.4.5  
+## 场景重建：    
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/scene.jpg)   
+## 下一步工作计划  
+完成代码编写
+
 # 2023.3.29
 ## 1.代码编写  
 代码部分分为三步：  
