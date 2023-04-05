@@ -1,0 +1,21 @@
+---Review paper, needs at least 5 comments.---
+
+This paper proposes a new cache placement algorithm for heterogeneous vehicular networks in order to minimize the content delivery delay. The cache placement optimization problem is formulated as a matching problem and a sub-optimal matching algorithm is proposed to solve the optimization problem. The topic of paper is timely and easy to follow. My comments are provided in below:
+1.	How the file popularity is perfectly available at the scheduler? 
+2.	How long the file popularity remains unchanged in the delivery phase?
+3.	How the network scheduler respond to the unpredicted changes of the file popularity during the delivery phase?
+4.	Are all the wireless channel capacities (or transmission delays) fixed during the delivery phase? And how the channel capacities are available at the scheduler? The authors should provide some explanations about the reasonability of fixing these delays during the delivery phase.
+5.	How long the cache placement algorithm is valid and when it can be readopted?
+6.	Some related references have been missed like 
+
+-	Sociality and Mobility-based Caching Strategy for Device-to-Device Communications Underlying Heterogeneous Networks, IEEE ACCESS , 2019
+
+-	Content Caching and Delivery in Wireless Radio Access Networks, IEEE Transactions on communications, 2019
+
+-	Fairness and Transmission-Aware Caching and Delivery Policies in OFDMA-Based HetNets, IEEE Transactions on mobile computing, 2019
+
+7.	In the proposed scheme, the effect of radio parameters like transmit power and spectrum have been ignored. In order to enhance the performance, the authors should propose a joint radio resource allocation and caching 
+8.	Since the proposed optimization problem is integer linear programming, there are lots of low complex methods to solve these types of optimization problems like belief propagation, Submodularity, etc. Hence, the authors should justify the considered method and compare with other exiting methods.
+9.	It is better to add a sentence about the efficiency of wireless edge caching in vehicular networks at the beginning of abstract from performance and complexity perspective 
+10.	The paper is not well structured. It is suggested to merge Sections I and II and also the related works can be moved before presenting the main contributions of the paper.
+
