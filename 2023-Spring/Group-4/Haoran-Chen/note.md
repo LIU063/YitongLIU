@@ -1,3 +1,76 @@
+# 周报 - 20230405
+## 本周工作小结
+1、文献阅读
+
+Jiang, Xiantao, et al. **"A survey on multi-access edge computing applied to video streaming: Some research issues and challenges."** IEEE Communications Surveys & Tutorials 23.2 (2021): 871-903.
+
+**优化目标**：Energy Consumption，Throughput，QoE，Service Latency，Cost，Fairness，Cache Hit Ratio，Revenue
+
+**MEC场景下视频分析系统（video analytics system）**：object detection, object tracking, and semantic segmentation
+
+Kim, Woo-Joong, and Chan-Hyun Youn. **"Lightweight online profiling-based configuration adaptation for video analytics system in edge computing."** IEEE Access 8 (2020): 116881-116899.
+
+**决定因素**：图像帧分辨率和速率（frame resolution and sampling rate）
+
+**矛盾**：计算资源（如GPU）的有限性，需要在保证精度的前提下，对视频流进行合理配置
+
+**思路**：依据目标在视频流中的位置和大小的变化（velocity of objects on location and size）设计配置控制器（configuration controller），而不是凭借经验值（empirically measured value）
+
+![image](./images/202300405-01.png)
+
+![image](./images/202300405-02.png)
+
+Wu, Kun, et al. **"Soudain: Online adaptive profile configuration for real-time video analytics."** 2021 IEEE/ACM 29th International Symposium on Quality of Service (IWQOS). IEEE, 2021.
+
+Zhou, Tian, Fubao Wu, and Lixin Gao. **"Profiling-free Configuration Adaptation and Latency-Aware Resource Scheduling for Video Analytics."** 2022 IEEE International Conference on Big Data (Big Data). IEEE, 2022.
+
+2、系统设计和实现
+
+场景：以无人机基站为主体的任务卸载，考虑通信资源分配的过程，其影响体现在时延等方面
+
+模型：yolo系列
+
+3、审稿：Energy-Efficient Cellular-Connected UAV Swarm Control Optimization
+
+## 下一步工作安排
+
+继续完善和落实实现方案和模型选择
+
+
+<br>
+
+---
+
+<br>
+
+
+# 周报 - 20230329
+## 本周工作小结
+1、无人机基站资源分配
+
+存在问题：PSO算法性能仍不如贪心算法，差距大概在8％-10％，且每次执行时不够稳定，导致算法无法顺利迭代；<br>
+在使用搜索能力更强的冯诺依曼局部拓扑之后，并没有明显的改善。
+
+2、视频流数据的信息价值评估
+
+Zhao, Lindong, Dan Wu, and Liang Zhou. **"Quality-of-Decision-Driven Machine-Type Communication."** IEEE Internet of Things Journal 9.17 (2022): 16631-16642.<br>
+保留视频流中关键帧的图片信息，舍弃无用帧中的内容，实现减少传输数据量、缓解通信信道负担的目的，同时对决策效果（QoE）的影响微乎其微
+
+Yeung, Serena, et al. **"End-to-end learning of action detection from frame glimpses in videos."** Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.<br>
+该任务为动作识别，需要判断动作的开始和结束时间。该工作在观测网络（observation network）的基础上，训练循环网络（recurrent Network）：判断候选帧、预测决策以及时序位置。极大地减少了动作识别任务所需的帧数量。
+
+联系：该机制类似于信息价值评估器的功能，对视频帧进行筛选。
+
+## 下一步工作安排
+1、继续调整PSO算法的参数，可能需要重新选择合适算法；<br>
+2、确定视频流数据的信息价值评估部分的具体实现方案。
+
+<br>
+
+---
+
+<br>
+
 # 周报 - 20230322
 ## 本周工作小结
 1、算法流程图
@@ -37,23 +110,3 @@ PSO算法收敛曲线图：<br>
 ![image](./images/20230322-03.png)
 
 
-# 周报 - 20230329
-## 本周工作小结
-1、无人机基站资源分配
-
-存在问题：PSO算法性能仍不如贪心算法，差距大概在8％-10％，且每次执行时不够稳定，导致算法无法顺利迭代；<br>
-在使用搜索能力更强的冯诺依曼局部拓扑之后，并没有明显的改善。
-
-2、视频流数据的信息价值评估
-
-Zhao, Lindong, Dan Wu, and Liang Zhou. **"Quality-of-Decision-Driven Machine-Type Communication."** IEEE Internet of Things Journal 9.17 (2022): 16631-16642.<br>
-保留视频流中关键帧的图片信息，舍弃无用帧中的内容，实现减少传输数据量、缓解通信信道负担的目的，同时对决策效果（QoE）的影响微乎其微
-
-Yeung, Serena, et al. **"End-to-end learning of action detection from frame glimpses in videos."** Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.<br>
-该任务为动作识别，需要判断动作的开始和结束时间。该工作在观测网络（observation network）的基础上，训练循环网络（recurrent Network）：判断候选帧、预测决策以及时序位置。极大地减少了动作识别任务所需的帧数量。
-
-联系：该机制类似于信息价值评估器的功能，对视频帧进行筛选。
-
-## 下一步工作安排
-1、继续调整PSO算法的参数，可能需要重新选择合适算法；<br>
-2、确定视频流数据的信息价值评估部分的具体实现方案。
