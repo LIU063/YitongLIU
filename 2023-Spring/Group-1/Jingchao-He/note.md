@@ -7,7 +7,9 @@
   学习了GNN的基础知识和运行流程；
   正在学习GCN和GAN的算法和代码部分；
   浏览了GNN的一些综述。
+  
 文献目录：
+
 [1] Y. Han, G. Huang, S. Song, L. Yang, H. Wang, and Y. Wang, “Depth-Adaptive Dynamic Neural Networks: A Survey,” IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 44, no. 11, 2022 
 [2] J. Yao et al., “Edge-Cloud Polarization and Collaboration: A Comprehensive Survey for AI,” IEEE Transactions on Knowledge and Data Engineering, vol. 14, no. 8, 2022 
 [3] Z. Wu, S. Pan, F. Chen, G. Long, C. Zhang, and P. S. Yu, “A Comprehensive Survey on Graph Neural Networks,” IEEE Transactions on Neural Networks and Learning Systems, vol. 32, no. 1, 2021 
