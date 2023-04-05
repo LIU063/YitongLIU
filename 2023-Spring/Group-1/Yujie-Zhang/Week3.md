@@ -12,4 +12,4 @@
 * 目前还没有找到特别符合的论文阅读
 * 创新点似乎在求解复杂的多目标图映射问题上，做到真正的多目标求解，做法上的创新点想不到（可能引入多目标图映射的场景后，模型应该是差不多的？）
 ### 4、下周计划
-M. Rost and S. Schmid, "On the Hardness and Inapproximability of Virtual Network Embeddings," in IEEE/ACM Transactions on Networking, vol. 28, no. 2, pp. 791-803, April 2020
+[1]M. Rost and S. Schmid, "On the Hardness and Inapproximability of Virtual Network Embeddings," in IEEE/ACM Transactions on Networking, vol. 28, no. 2, pp. 791-803, April 2020
