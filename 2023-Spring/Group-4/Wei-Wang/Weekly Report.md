@@ -13,12 +13,11 @@
 
 ## 2.DRL-VoI 理论探究
 
-### 考虑基本的点对点通信系统如下
-![2023345](./assets/2023345.png)
->[*[1] M. Li, J. Gao, L. Zhao and X. Shen, "Adaptive Computing Scheduling for Edge-Assisted Autonomous Driving," in IEEE Transactions on Vehicular Technology, vol. 70, no. 6, pp. 5318-5331, June 2021, doi: 10.1109/TVT.2021.3062653.*](https://ieeexplore.ieee.org/abstract/document/9366426)
-
->[*[2] Code*](https://github.com/WANGWW775/LSTM-DRL/tree/main)
-
+### 考虑点对点通信系统如下：
+![2023345](./assets/202345.png)
+### 基本思路如下：
+- 系统仍然可以视作为一个状态更新-决策系统。
+- 通过训练两个网络MLP1, MLP2 减少通信数据量。其中MLP1使用强化学习在线训练，动作设置为源端数据传输决策，MLP2作为状态更新系统的求解器，需要离线训练。
 
 ### Date: 2023/3/29
 
