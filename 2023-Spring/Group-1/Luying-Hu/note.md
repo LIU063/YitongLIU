@@ -56,18 +56,19 @@
 ## 本周进度
 1. 继续上周计划的调研，决定还是使用MATLAB完成后续的毕设。总结调研过程中发现的问题，通过和贺博讨论后对一些细节进行了确认；
 2. 在已完成模块的基础上，引导chatgpt协助我完成后续的模块，大部分模块代码现在已完成。
-# 使用chatgpt的小心得
+### 使用chatgpt的小心得
 - 网络中断后如何让它从中断的内容继续回答。
   - 回复1：它重新生成了一个新的回答
-    <img width="465" alt="Q不对" src="https://user-images.githubusercontent.com/121794362/230109596-7cf82227-0d7e-49fa-93f2-ec56c3ecbe18.png">
+    <div align=left><img width="465" alt="Q不对" src="https://user-images.githubusercontent.com/121794362/230109596-7cf82227-0d7e-49fa-93f2-ec56c3ecbe18.png"></div>
   
   - 回复2：它理解成了在上一个任务中加入中断
-    <img width="537" alt="Q对" src="https://user-images.githubusercontent.com/121794362/230110372-0220073b-1870-485f-b5f4-be64da47e6fc.png">
+    <div align=left><img width="537" alt="Q对" src="https://user-images.githubusercontent.com/121794362/230110372-0220073b-1870-485f-b5f4-be64da47e6fc.png"></div>
 
   - 回复3：成功！
-    <img width="510" alt="Q正确" src="https://user-images.githubusercontent.com/121794362/230110813-2cb17274-c7b1-4bfd-bbb7-97490b0f0add.png">
+    <div align=left><img width="510" alt="Q正确" src="https://user-images.githubusercontent.com/121794362/230110813-2cb17274-c7b1-4bfd-bbb7-97490b0f0add.png"></div>
 
-- <img width="512" alt="Q3" src="https://user-images.githubusercontent.com/121794362/230110949-332ea573-c82b-43cd-a51c-773c7c24012f.png">
+- 如何更好地引导
+  <div align=center><img width="512" alt="Q3" src="https://user-images.githubusercontent.com/121794362/230110949-332ea573-c82b-43cd-a51c-773c7c24012f.png"></div>
 
 ## 下周计划
 1. 继续完善代码；
