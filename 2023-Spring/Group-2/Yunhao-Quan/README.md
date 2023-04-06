@@ -14,7 +14,7 @@
 ## 工作进度
 画架构图以及论文所需的结果图。
 ![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/figure1.jpg)
-
-
+![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/figure2.png)
+![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/figure3.png)
 ## 下周工作安排
 尽快撰写完论文，投稿。
