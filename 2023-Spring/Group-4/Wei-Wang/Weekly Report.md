@@ -14,10 +14,26 @@
 ## 2.DRL-VoI 理论探究
 
 ### 考虑点对点通信系统如下：
-![2023345](./assets/202345.png)
+![2023346](./assets/202346.png)
 ### 基本思路如下：
-- 系统仍然可以视作为一个状态更新-决策系统。
+- 系统可以视作为一个状态更新-决策系统（MDP）。
 - 通过训练两个网络MLP1, MLP2 减少通信数据量。其中MLP1使用强化学习在线训练，动作设置为源端数据传输决策，MLP2作为状态更新系统的求解器，需要离线训练。
+### 上述通信系统的一个简单的例子是信号抽样与还原：
+- 如图所示，假设被抽样的信号连续且二阶可微，则采样频率可以通过估计信号的二阶微分调整。
+
+![2023346_2](./assets/202346_2.png)
+
+- 然而对于通信系统而言，信息的状态转移是随机的（如下图），可以考虑建模为马尔科夫链。此时，采样频率的选择还与转移概率相关。
+
+![2023346_3](./assets/202346_3.png)
+
+### 
+- 相关的论文：
+>[*[1] Kaul S, Yates R, Gruteser M. Real-time status: How often should one update?[C]//2012 Proceedings IEEE INFOCOM. IEEE, 2012: 2731-2735.*](https://ieeexplore.ieee.org/abstract/document/6195689)
+>
+>[*[2] Konda V, Tsitsiklis J. Actor-critic algorithms[J]. Advances in neural information processing systems, 1999, 12.*](https://proceedings.neurips.cc/paper/1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html)
+>
+>[*[3] P. Marbach and J. N. Tsitsiklis, "Simulation-based optimization of Markov reward processes," in IEEE Transactions on Automatic Control, vol. 46, no. 2, pp. 191-209, Feb. 2001, doi: 10.1109/9.905687.*](https://ieeexplore.ieee.org/abstract/document/905687)
 
 ### Date: 2023/3/29
 
