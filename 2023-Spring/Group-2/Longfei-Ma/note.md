@@ -10,6 +10,7 @@
 # Week3 撰写DTforRL magazine
 ## 进行case study仿真实验：urllc场景下的AP选择
 <img width="370" alt="1680746292010" src="https://user-images.githubusercontent.com/63155472/230253246-88d08eb0-2db8-4cf6-8693-21d8fe05508f.png">
+
 ## Fig1
 <img width="927" alt="1680761788328" src="https://user-images.githubusercontent.com/63155472/230287697-45a10737-9581-4547-8252-3e5eb1b4a645.png">
 
