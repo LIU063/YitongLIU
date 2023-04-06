@@ -18,6 +18,13 @@
 [6] J. Skarding, B. Gabrys, and K. Musial, “Foundations and Modeling of Dynamic Networks Using Dynamic Graph Neural Networks: A Survey,” IEEE Access, vol. 9, 2021 
 
 ## 4. 准备组会PPT。
+## 5. 思考下一步的扩展
+考虑基于SP-GAT-RL的算法框架，进一步实现在动态LEO卫星网络中SFC的编排。  
+目标：  
+1. 算法可迁移，能够在动态卫星网络场景下，快速推理SFC的编排策略；  
+2. 能够在现有算法基础上，再次提升fairness和service acceptance；  
+3. 在部署SFC的同时，考虑其在网络的停留时间，利用时空图的优势，适应规律性的卫星网络轨道周期。（？）
+
 
 
 
