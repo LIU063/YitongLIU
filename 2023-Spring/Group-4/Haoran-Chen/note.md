@@ -2,33 +2,35 @@
 ## 本周工作小结
 1、文献阅读
 
-Jiang, Xiantao, et al. **"A survey on multi-access edge computing applied to video streaming: Some research issues and challenges."** IEEE Communications Surveys & Tutorials 23.2 (2021): 871-903.
+1️⃣Jiang, Xiantao, et al. **"A survey on multi-access edge computing applied to video streaming: Some research issues and challenges."** IEEE Communications Surveys & Tutorials 23.2 (2021): 871-903.
 
-**优化目标**：Energy Consumption，Throughput，QoE，Service Latency，Cost，Fairness，Cache Hit Ratio，Revenue
+**优化指标**：Energy Consumption，Throughput，QoE，Service Latency，Cost，Fairness，Cache Hit Ratio，Revenue
 
 **MEC场景下视频分析系统（video analytics system）**：object detection, object tracking, and semantic segmentation
 
-Kim, Woo-Joong, and Chan-Hyun Youn. **"Lightweight online profiling-based configuration adaptation for video analytics system in edge computing."** IEEE Access 8 (2020): 116881-116899.
+2️⃣Kim, Woo-Joong, and Chan-Hyun Youn. **"Lightweight online profiling-based configuration adaptation for video analytics system in edge computing."** IEEE Access 8 (2020): 116881-116899.
 
 **决定因素**：图像帧分辨率和速率（frame resolution and sampling rate）
 
-**矛盾**：计算资源（如GPU）的有限性，需要在保证精度的前提下，对视频流进行合理配置
+**矛盾**：计算资源（如GPU）的有限性，需要在保证精度的前提下，对视频流进行合理配置，即resource-accuracy tradeoff。
 
-**思路**：依据目标在视频流中的位置和大小的变化（velocity of objects on location and size）设计配置控制器（configuration controller），而不是凭借经验值（empirically measured value）
+**思路**：依据目标在视频流中的位置和大小的变化（velocity of objects on location and size）设计配置控制器（configuration controller），而不是凭借经验值（empirically measured value）。
 
 ![image](./images/20230405-01.png)
 
 ![image](./images/20230405-02.png)
 
-Wu, Kun, et al. **"Soudain: Online adaptive profile configuration for real-time video analytics."** 2021 IEEE/ACM 29th International Symposium on Quality of Service (IWQOS). IEEE, 2021.
+3️⃣Wu, Kun, et al. **"Soudain: Online adaptive profile configuration for real-time video analytics."** 2021 IEEE/ACM 29th International Symposium on Quality of Service (IWQOS). IEEE, 2021.
 
-Zhou, Tian, Fubao Wu, and Lixin Gao. **"Profiling-free Configuration Adaptation and Latency-Aware Resource Scheduling for Video Analytics."** 2022 IEEE International Conference on Big Data (Big Data). IEEE, 2022.
+4️⃣Zhou, Tian, Fubao Wu, and Lixin Gao. **"Profiling-free Configuration Adaptation and Latency-Aware Resource Scheduling for Video Analytics."** 2022 IEEE International Conference on Big Data (Big Data). IEEE, 2022.
 
 2、系统设计和实现
 
-场景：以无人机基站为主体的任务卸载，考虑通信资源分配的过程，其影响体现在时延等方面
+场景：用户端（传感器设备）的计算资源有限，无法运行目标任务，或无法满足时延指标，需要卸载到远程云（计算中心）。但是通信资源不能满足任务整体的传输，因此，需要对其进行配置，或者部分取舍。
 
-模型：yolo系列
+业务：任务卸载
+
+模型：YOLO系列
 
 3、审稿：Energy-Efficient Cellular-Connected UAV Swarm Control Optimization
 
