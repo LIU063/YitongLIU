@@ -11,6 +11,9 @@ https://ieeexplore.ieee.org/abstract/document/8959172
 
 
 ![](./pic/3.jpg)
+![](./pic/4.jpg)
+
+
 
 2、做6G ppt
 
