@@ -1,3 +1,45 @@
+ # 20230405周报
+## 本周工作：
+
+1. 修改论文全文逻辑
+
+  （1）intro部分修改
+  
+  ![image](./picture/2023-04-05_1.jpg) 
+  
+  ![image](./picture/2023-04-05_2.jpg)  
+  （2）修改实验部分：描述+结论
+  
+2. 整理知识驱动综述文献，按照孙老师要求，细化文献分类，补充部分章节文献
+
+   ![image](./picture/2023-04-05_232716.jpg)  
+ 
+3. 修改gpt插件代码，新增功能模块
+
+![image](./picture/2023-04-05_232616.jpg)
+
+原文摘要： The use of terahertz (THz) frequencies has been recommended to achieve high-speed and ultra-low latency transmissions. Although there exist very large bandwidths in the THz frequency bands, THz channels are significantly dynamic and complicated, which is challenging for channel estimation. To improve the energy efficiency of wireless networks, THz channel power gains need to be precisely evaluated for determining optimal THz transmission frequencies and power control. Therefore, this work presents a novel conditional generative adversarial networks (GAN) based channel power gain estimation solution in the THz vehicle-to-infrastructure (V2I) networks with leakywave antennas, where the THz frequency has a big effect on the antenna gain, path loss and atmospheric attenuation. Simulation results confirm that our solution can accurately estimate the channel power gains versus the THz frequencies at a fast speed.
+
+生成摘要： This article discusses the potential of using terahertz (THz) transmission for wireless communication and the challenges faced in implementing traditional antenna arrays in THz systems. The use of leaky-wave antennas is proposed for efficient channel estimation and power control. The article proposes a new GAN-based channel power gain estimation framework for THz vehicle-to-infrastructure (V2I) networks, which leverages received signal strengths (RSSs) as the conditional information. The proposed solution overcomes the drawbacks of Doppler shift and conventional methods that depend on state information in the prior time. The results confirm the accuracy and fast convergence speed of the proposed solution. The proposed solution has the potential to revolutionize the wireless communication industry and pave the way for the next-generation radio technology.
+## 下周工作安排：
+
+1. 撰写知识驱动综述文献第七章：物理层部分。
+
+2. 根据不动点网络特性，寻找通信模型。
+
+ 
+ # 20230329周报
+## 本周工作：
+1. 整理知识驱动综述文献，按照知识驱动方式对通信物理层的80篇文献进行了分类。
+2. 修改论文第二、三章
+3. 对智能wifi系统建模
+
+  ![image](./picture/智能wifi.jpg) 
+  
+5. 与本科生讨论，无人机网络计算卸载模型，思考不动点网络具体应用方式
+## 下周工作安排：
+1. 修改论文第五章实验部分，修改图片描述，扩充实验结论
+
 # 20230322周报
 ## 本周工作：
 1.修改论文
@@ -31,7 +73,7 @@
   1. 进一步完善论文
   2. 思考不动点网络的通信应用场景，构建数学模型。 
   
-   ## 6G大会-论坛F:6G通感算架构及关键技术20230324
+  ## 6G大会-论坛F:6G通感算架构及关键技术20230324
  
   1.未来通感算典型特征：
 
@@ -58,43 +100,5 @@
   五是通感算硬件结构的设计：
   当前通感算融合网络在采用单节点感知时仍面临自干扰的挑战，能否突破该技术对通感算融合网络下的基站形态将产生重要的影响。
   
-  # 20230329周报
-## 本周工作：
-1. 整理知识驱动综述文献，按照知识驱动方式对通信物理层的80篇文献进行了分类。
-2. 修改论文第二、三章
-3. 对智能wifi系统建模
-
-  ![image](./picture/智能wifi.jpg) 
-  
-5. 与本科生讨论，无人机网络计算卸载模型，思考不动点网络具体应用方式
-## 下周工作安排：
-1. 修改论文第五章实验部分，修改图片描述，扩充实验结论
-
-  # 20230405周报
-## 本周工作：
-
-1. 修改论文全文逻辑
-
-  （1）intro部分修改
-  
-  ![image](./picture/2023-04-05_1.jpg) 
-  
-  ![image](./picture/2023-04-05_2.jpg)  
-  （2）修改实验部分：描述+结论
-  
-2. 整理知识驱动综述文献，按照孙老师要求，细化文献分类，补充部分章节文献
-
-   ![image](./picture/2023-04-05_232716.jpg)  
  
-3. 修改gpt插件代码，新增功能模块
-
-![image](./picture/2023-04-05_232616.jpg)
-
-原文摘要： The use of terahertz (THz) frequencies has been recommended to achieve high-speed and ultra-low latency transmissions. Although there exist very large bandwidths in the THz frequency bands, THz channels are significantly dynamic and complicated, which is challenging for channel estimation. To improve the energy efficiency of wireless networks, THz channel power gains need to be precisely evaluated for determining optimal THz transmission frequencies and power control. Therefore, this work presents a novel conditional generative adversarial networks (GAN) based channel power gain estimation solution in the THz vehicle-to-infrastructure (V2I) networks with leakywave antennas, where the THz frequency has a big effect on the antenna gain, path loss and atmospheric attenuation. Simulation results confirm that our solution can accurately estimate the channel power gains versus the THz frequencies at a fast speed.
-
-生成摘要： This article discusses the potential of using terahertz (THz) transmission for wireless communication and the challenges faced in implementing traditional antenna arrays in THz systems. The use of leaky-wave antennas is proposed for efficient channel estimation and power control. The article proposes a new GAN-based channel power gain estimation framework for THz vehicle-to-infrastructure (V2I) networks, which leverages received signal strengths (RSSs) as the conditional information. The proposed solution overcomes the drawbacks of Doppler shift and conventional methods that depend on state information in the prior time. The results confirm the accuracy and fast convergence speed of the proposed solution. The proposed solution has the potential to revolutionize the wireless communication industry and pave the way for the next-generation radio technology.
-## 下周工作安排：
-
-1. 撰写知识驱动综述文献第七章：物理层部分。
-
-2. 根据不动点网络特性，寻找通信模型。
+  
