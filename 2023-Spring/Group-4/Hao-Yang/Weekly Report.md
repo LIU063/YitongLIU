@@ -1,4 +1,27 @@
- # 20230405周报
+# 20230405周报
+## 本周工作：
+
+1. 修改论文全文细节
+
+   (1)重写了WMMSE介绍，减少了中间问题公司，压缩文章篇幅。
+   
+   (2)撰写论文摘要
+
+   版本1：The allocation of network resources in the future requires high timeliness, which the traditional iterative optimization algorithms do not satisfy due to latency constraints. The advent of neural networks presents a viable solution for the timely resolution of NP-hard wireless resource allocation problems. Nonetheless, current neural networks suffer from inadequate generalization and poor interpretability. Consequently, knowledge-driven neural networks represent a promising solution. By integrating domain expert knowledge, the inference ambiguity in neural networks and random exploration space are minimized, resulting in improved model generalization and interpretability. This paper proposes a novel architecture for graph neural networks (GNNs), referred to as the unrolling WMMSE algorithm graph neural networks (UWGNN), to address the power control problem in N-user interference channels. The UWGNN architecture is knowledge-driven by algorithmic unrolling of the iterative weighted minimum mean squared error (WMMSE) method. Specifically, each GNN module corresponds to a segment of the WMMSE algorithm formulation, enabling a single layer of the neural network to align with one iteration of the algorithm. The unrolling method is demonstrated to be effective, and a neural network model parameter migration method is proposed for the iterative optimization problem. Experimental results indicate that UWGNN effectively captures the WMMSE iterative structure, facilitating faster convergence, better scalability, and lower sample complexity. Furthermore, UWGNN exhibits excellent generalization performance when dealing with diverse data distributions and communication topologies without requiring retraining. Moreover, The proposed parameter migration method enables on-demand reduction of communication network resource allocation delay.
+   
+   版本2：This study investigates a novel approach for managing radio resources in Device-to-Device (D2D) networks using a Graph Neural Network (GNN) model architecture, inspired by the unrolling of the Weighted Minimum Mean Square Error (WMMSE) algorithm. Addressing the limitations of existing algorithms in meeting the millisecond-level timeliness and scalability required for emerging intelligent services, our proposed method incorporates the WMMSE algorithm’s structure and domain knowledge, thereby reducing computational delay and sample complexity while adapting to various data distributions. We present the UWMMSE-GGNN, a GNN architecture that employs the summation and power calculation components of the WMMSE algorithm to design the aggregation and update functions of the GNN, enhancing model generalization and interpretability. Theoretical analysis and simulation results demonstrate the robustness, scalability, and strong performance of the proposed architecture across diverse communication topologies without retraining. Our findings contribute to the development of efficient and scalable wireless resource management solutions for intelligent industries.
+   
+   版本3：In this paper, a novel graph neural network based on unrolling WMMSE algorithm (UWGNN) is proposed to address the problem of power control in wireless communication systems. Traditional iterative optimization algorithms cannot satisfy the millisecond-level execution time and scalability requirements. By incorporating the structure of the WMMSE algorithm and related domain knowledge into the neural network, model generalization and interpretability are improved. Each GNN module in the proposed network structure corresponds to a fragment of the WMMSE algorithm formula, thus enabling each layer of the network to correspond to one iteration of the algorithm. Experimental results demonstrate that the proposed algorithm effectively captures the WMMSE iteration structure, accelerates the convergence rate, improves scalability and reduces sample complexity, and can handle different data distributions and communication topologies. Moreover, the proposed algorithm exhibits excellent generalization and scalability, and enables instant reduction in communication network resource allocation latency.
+   
+2. 调研不动点网络论文
+ 
+ ![image](./picture/2023-04-12_185443.jpg) 
+   
+## 下周工作 
+
+  撰写知识驱动综述文献物理层部分。
+  
+# 20230405周报
 ## 本周工作：
 
 1. 修改论文全文逻辑
