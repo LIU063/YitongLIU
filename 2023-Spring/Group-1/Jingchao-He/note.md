@@ -459,7 +459,10 @@ class GPN(torch.nn.Module):
         return F.softmax(u, dim=1), h, c, latent_u
 
 '''
+## 3. 完成了pytorch中LEO网络拓扑数据的导入模块；
 
+下周计划：
+    掌握二维edge特征导入方法，写出初步仿真
 
 ### Week 3
 
