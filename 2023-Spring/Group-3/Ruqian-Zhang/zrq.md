@@ -109,4 +109,51 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 ## **二、启发**
 ### 做基于聚类结果的6G按需服务，可参考文中的方法，文章仿真举例是只考虑了时延和能耗两个KPI做为服务的KPI，构建的是二维的SRZ。而我可以扩展一下，将考虑我所做的8个KPI的八维SRZ,并且利用聚类结果的11类场景知识，作为场景权重系数分配的条件，为每个不同场景设计一套不同KPI权重系数以及优先级的进一步的USR评判标准，去做一个资源分配来实现基于场景聚类的6G按需服务。
 ## **三、下一步工作计划**
-### 构思该问题下我的聚类按需服务的问题建模
+### 构思该问题下我的聚类按需服务的问题建模  
+***  
+
+# **周报-Week 4**
+## 2023.4.13 
+## **一、AI for network 调研**  
+### **五类典型任务及其对应解决的AI模型：**
+1.	计算机视觉任务：计算机视觉任务是指让计算机通过识别和理解图像或视频中的信息，如物体、人、场景等。对于这个任务，典型的AI模型包括卷积神经网络（CNN）、循环神经网络（RNN）、图像分割网络（U-Net）等。
+
+2.	自然语言处理任务：自然语言处理任务是指让计算机能够理解和生成自然语言文本。对于这个任务，典型的AI模型包括循环神经网络（RNN）、长短时记忆网络（LSTM）、Transformer等。
+
+3.	声音识别任务：声音识别任务是指让 计算机能够识别和理解语音信号，如语音识别和语音合成等。对于这个任务，典型的AI模型包括卷积神经网络（CNN）、长短时记忆网络（LSTM）、门控循环单元网络（GRU）等。
+
+4.	强化学习任务：强化学习任务是指让计算机通过试错的方式来学习如何做出最优的决策。对于这个任务，典型的AI模型包括深度强化学习网络（DRL）等。
+
+5.	推荐系统任务：推荐系统任务是指让计算机能够根据用户的历史行为和偏好，为用户推荐相似的产品或服务。对于这个任务，典型的AI模型包括协同过滤算法、基于内容的推荐算法、深度学习推荐算法等  
+这五个任务和对应的AI模型在不同领域和应用场景中有广泛的应用。其中，计算机视觉任务和自然语言处理任务在人机交互、智能家居、自动驾驶等领域中有广泛应用；声音识别任务在语音识别、语音合成、音频处理等领域中有广泛应用；强化学习任务在机器人控制、游戏设计、金融预测等领域中有广泛应用；推荐系统任务在电商、社交网络、新闻推荐等领域中有广泛应用。
+***
+[1] Wu C, Peng Q, Xia Y, et al. Towards cost-effective and robust AI microservice deployment in edge computing environments[J]. Future Generation Computer Systems, 2023, 141: 129-142.      
+二区期刊  
+目的：在受限资源和高动态网络拓扑的移动边缘计算场景下实现经济高效、稳健的AI微服务的部署。  
+解决的问题：  
+1）多DNN模型编排问题：不同网络节点运行不同性能特征的DNN模型，一个边缘智能微服务由多个DNN模型组合完成，通过服务的QoS指标寻找合适的DNN模型选择编排方案。  
+2）：保证已部署微服务的稳健性（服务的持续性）：微服务实例的放置问题，即选择哪个些具体的DNN节点完成服务。
+解决方法：其中各个节点上的DNN模型均为离线训练，无具体的训练过程和数据来源，各模型的计算推理性能作为已知条件固定，围绕QoS设计一个优化问题。
+
+[2] Bhandari G, Lyth A, Shalaginov A, et al. Distributed Deep Neural-Network-Based Middleware for Cyber-Attacks Detection in Smart IoT Ecosystem: A Novel Framework and Performance Evaluation Approach[J]. Electronics, 2023, 12(2): 298.  
+三区期刊  
+目的：检测分布式物联网场景下的多类恶意攻击。  
+解决方法：提出了一种基于AI的物联网网络安全框架，并在多个实际场景下进行了仿真实验，包括数据的收集，AI模型的训练和AI模型的部署方法等。
+
+[3] Yu H, Yu D, Wang C, et al. Edge intelligence-driven digital twin of CNC system: Architecture and deployment[J]. Robotics and Computer-Integrated Manufacturing, 2023, 79: 102418.    
+一区期刊  
+目的：解决数控系统DT模型的部署问题（包括任务的划分方法和模型的选择方法），并以机器加工过程中的工具磨损诊断及预测问题距离。  
+解决方法：在云中选择和训练智能算法以及任务的划分方法，并将划分后的模型分别下载到边缘节点和边缘服务器进行数据的处理。具体根据DNN模型的准确率、时延要求、系统吞吐率、管道数量、准确度阈值建立AI模型的评估函数，在不同的场景任务下根据评估函数实时的选择不同的模型。但模型均为离线训练，其中并无模型的训练方法，有数据的收集方法。
+
+[4] Lu B, Lai S, Tang Y, et al. Deep Model Training and Deployment in Heterogeneous IoT Networks[J]. EAI Endorsed Transactions on Mobile Communications and Applications, 2023, 7(3).   
+仅从理论上给出了物联网设备中AI模型的训练和模型的部署的可行的解决方案。
+  
+
+
+## **二、想法**  
+利用网络功能虚拟化（Network Function Virtualization, NFV）技术实现AI服务的弹性部署。将AI服务进行虚拟化，使其能够快速在网络中部署和迁移，根据实际的资源需求来调整部署位置和资源分配。  
+将AI as a service与6G网络结合的第一步是要将AI服务部署到6G网络中，这可以通过在6G网络中设置AI服务节点来实现。AI服务节点通常需要高性能的计算和存储资源，以及专用的AI处理器和相关的软件框架。这些资源可以直接部署在6G基站、边缘服务器或云数据中心中，以实现对不同的AI服务的支持。在这些节点上，AI服务可以根据应用的不同，包括语音识别、图像处理、自然语言处理等，提供不同的AI算法和模型。
+
+## **三、专利框图**  
+![f2](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/ai-network-%E6%A1%86%E6%9E%B6.png) 
+    
