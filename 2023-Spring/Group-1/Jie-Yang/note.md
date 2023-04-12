@@ -85,3 +85,13 @@ c.reward:
 [[3]NI Shaojie, YUE Yang, ZUO Yong, LIU Wenxiang, XIAO Wei, YE Xiaozhou. The Status Quo and Prospect of Satellite Network Routing Technology[J]. Journal of Electronics & Information Technology, 2023, 45(2): 383-395.](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT211393)        
 [[4]P. Zuo, C. Wang, Z. Yao, S. Hou and H. Jiang, "An Intelligent Routing Algorithm for LEO Satellites Based on Deep Reinforcement Learning," 2021 IEEE 94th Vehicular Technology Conference (VTC2021-Fall), Norman, OK, USA, 2021, pp. 1-5,](https://ieeexplore.ieee.org/document/9625325)       
  
+## Date: 2023/4/13
+## 周工作汇报
+### 阅读文献：
+[1]M. Hu et al., "QoS-Aware Software-Defined Multicast in LEO Satellite Networks," in IEEE Transactions on Aerospace and Electronic Systems, vol. 58, no. 6, pp. 5307-5317, Dec. 2022, doi: 10.1109/TAES.2022.3169732.     
+[2]M. Hu, M. Xiao, Y. Hu, C. Cai, T. Deng and K. Peng, "Software Defined Multicast Using Segment Routing in LEO Satellite Networks," in IEEE Transactions on Mobile Computing, 2022, doi: 10.1109/TMC.2022.3215976.    
+[3]E. Ekici, I. F. Akyildiz and M. D. Bender, "A multicast routing algorithm for LEO satellite IP networks," in IEEE/ACM Transactions on Networking, vol. 10, no. 2, pp. 183-192, April 2002, doi: 10.1109/90.993300.    
+[4]Chen Q, Giambene G, Yang L, et al. Analysis of Inter-Satellite Link Paths for LEO Mega-Constellation Networks[J]. IEEE Transactions on Vehicular Technology, 2021, 70(3): 2743-2755    
+[5]C. Ren, X. Chen, H. Xiang, Y. Wang, Y. Li and H. Li, "On Efficient Delay-Aware Multisource Multicasting in NFV-Enabled Softwarized Networks," in IEEE Transactions on Network and Service Management, vol. 19, no. 3, pp. 3371-3386, Sept. 2022, doi: 10.1109/TNSM.2022.3188777.     
+### 多播路由在倾斜轨道星座上的应用：
+1.倾斜轨道星座网络中的网络拓扑结构比较特殊，需要考虑卫星之间的通信延迟、如何构造网络拓扑。   
