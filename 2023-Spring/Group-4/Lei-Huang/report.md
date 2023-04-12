@@ -9,7 +9,7 @@
 [5]M. Qin et al., "Service-Oriented Energy-Latency Tradeoff for IoT Task Partial Offloading in MEC-Enhanced Multi-RAT Networks," in IEEE Internet of Things Journal, vol. 8, no. 3, pp. 1896-1907, 1 Feb.1, 2021.doi: 10.1109/JIOT.2020.3015970.    
 [6]X. Jiang, F. R. Yu, T. Song and V. C. M. Leung, "A Survey on Multi-Access Edge Computing Applied to Video Streaming: Some Research Issues and Challenges," in IEEE Communications Surveys & Tutorials, vol. 23, no. 2, pp. 871-903, Secondquarter 2021, doi: 10.1109/COMST.2021.3065237.    
 [7]X. Jiang, F. R. Yu, T. Song and V. C. M. Leung, "A Survey on Multi-Access Edge Computing Applied to Video Streaming: Some Research Issues and Challenges," in IEEE Communications Surveys & Tutorials, vol. 23, no. 2, pp. 871-903, Secondquarter 2021, doi: 10.1109/COMST.2021.3065237.    
-### 问题建模
+### 场景建模
 Long-Term Max-Min Fairness Guarantee Mechanism for Integrated Multi-RAT and MEC Networks  
 ![系统模型](https://github.com/loafluls/report_images/blob/main/images/%E7%B3%BB%E7%BB%9F%E6%A8%A1%E5%9E%8B.png)  
 #### 场景
@@ -33,7 +33,7 @@ MECSs接收到卸载的任务后，将CPU计算频率分配给SDs进行任务计
 ![排队](https://github.com/loafluls/report_images/blob/main/images/%E6%8E%92%E9%98%9F%E6%A8%A1%E5%9E%8B.png)  
 任务积压量；任务处理量；任务到达量  
 
-
+---
 # Week 3(3.30-4.5)
 ## 场景建模
 ### 协作传输调研
