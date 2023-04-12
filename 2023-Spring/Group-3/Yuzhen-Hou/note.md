@@ -5,6 +5,7 @@
 - <a href="#1">Week 1 (2023.3.16 – 2023.3.22)</a>
 - <a href="#2">Week 2 (2023.3.23 – 2023.3.29)</a>
 - <a href="#3">Week 3 (2023.3.30 – 2023.4.5)</a>
+- <a href="#4">Week 4 (2023.4.6 – 2023.4.12)</a>
 
 <br/>
 
@@ -220,3 +221,51 @@
 ### Plan
 
 1. 对以上提到的解决思路进行逐步实现，并观察模型效果提升
+
+<br/>
+
+<p id="4"></p>
+
+## <a href="#table">Week 4 (2023.4.6 – 2023.4.12)</a>
+
+### Work
+
+1. 毕设论文的模型超参数调整工作与性能分析
+
+    - 简单任务上的 DQN 模型性能修正
+
+        在上周模型基础上做了修正，对地图大小 50×50，20 个用户，2 架无人机场景进行调试，分别做了 1 次真实环境、3 次 DT 噪声方差为 0.3、3 次 DT 方差为 0.6 的曲线性能对比（加入噪声时环境配置为一个真实环境 + 一个虚拟环境），效果如下图所示
+
+        <div align="center">
+            <img src="./assets/img/week4_task_UAVRL_DQN_rate_result_plot_1stEdition_with_DT_noise_comparison.png" style="width: 35em;"  alt="task_UAVRL_DQN_rate_result_plot_1stEdition_with_DT_noise_comparison" />
+        </div>
+
+        问题如下：
+
+        - DT 噪声为 0.6 的曲线性能在中途收敛到次优解，关注是否为模型参数导致的训练异常，能否进行修正
+        - 对以上曲线进行至少五次平均，并且对曲线进行解释（结果预测：绿色 (0.3) > 红色 (0.6) > 蓝色 (0.0)）
+
+    - 复杂任务上的 DQN 调参分析
+
+        基于简单任务的模型参数做比例放缩，对一个真实环境，地图大小 100×100，40 个用户，4 架无人机场景进行调试，结果性能不稳定。不同情况的训练曲线对比如下
+
+        <div align="center" style="width: 65em; height: 22em; overflow: hidden; display: flex; ">
+            <img src="./assets/img/week4_task_UAVRL_DQN_rate_result_plot_2stEdition_good_condition.png" style="height: 22em;" alt="task_UAVRL_DQN_rate_result_plot_2stEdition_good_condition" />
+            <img src="./assets/img/week4_task_UAVRL_DQN_rate_result_plot_2stEdition_bad_condition.png" style="height: 22em;" alt="task_UAVRL_DQN_rate_result_plot_2stEdition_bad_condition" />
+        </div>
+
+        问题如下：
+
+        - reward 在上升过程中和实际速率的 gap 太大。reward 曲线本身的收敛问题较小，反映到速率上有较大偏差，且 reward 曲线开始上升的起始点一直提前于速率曲线，猜测为 reward 设置不合理导致的学习 task 设置偏差。考虑在复杂环境下 UCB 方法是否能够继续使用，并改为只对无法进行的 action 转换为无人机停止动作的 mask 操作，不将出界问题反应在 reward 上。
+        - 前期探索时间较长，一度考虑是 RL 本身的训练轮数不能太少的原因，后续还需要考虑在 2000 轮学习后适当调低学习率与探索率使模型尽可能先转移到较好的状态。
+        - 昨天在更改过程中将学习率调为阶梯式下降而非指数型下降，观察到学习率过大导致的性能曲线震荡情况，需要在之后的改进中加以避免
+
+2. 对论文所使用的系统模型和数字孪生模型描述做了初步整理
+
+### Plan
+
+1. 继续改进算法
+
+    - 下周改进效果较差：不考虑全局最优方案、人造环境尝试优化曲线、尝试采用简易环境的曲线（性能提升不明显的概率较大）
+    - 下周改进效果达到预期：开始对性能曲线做最终处理（平滑、平均）
+2. 开始撰写毕设论文初稿，准备五月初盲审
