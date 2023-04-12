@@ -8,9 +8,10 @@
    visdom动态画图    
    [运行结果](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/pdf/square.pdf)
 ## 3.场景重建：    
-![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/scene3_1.jpg) 
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/scene3_1.jpg)    
+## 4.下一步工作计划：    
+  完成选择算法
   
-
 
 
 # 2023.4.5  
