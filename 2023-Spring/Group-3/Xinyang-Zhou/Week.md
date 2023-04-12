@@ -3,20 +3,32 @@
 
 ### **一、主要工作内容和进展**
 
+
 ##### 1、调研Stackelberg博弈在FL激励机制（INCENTIVE MECHANISM）设计中的应用
 文章来源：
+[Khan L U, Pandey S R, Tran N H, et al. Federated learning for edge networks: Resource optimization and incentive mechanism[J]. IEEE Communications Magazine, 2020, 58(10): 88-93.](https://ieeexplore.ieee.org/abstract/document/9247530)
+
 [Tu X, Zhu K, Luong N C, et al. Incentive mechanisms for federated learning: From economic and game theoretic perspective[J]. IEEE Transactions on Cognitive Communications and Networking, 2022.](https://ieeexplore.ieee.org/document/9780573)
 
+目前，通过Stackelberg博弈在全局服务器和参与联邦学习的设备之间建立基于激励的交互模型，以激励设备参与联邦学习过程，Stackelberg博弈被用于最大化模型拥有者和数据拥有者的效用函数。
+
+如：基于Stackelberg博弈的激励机制在FL系统中，模型拥有者雇佣数据拥有者进行模型训练，模型拥有者可以先设定奖励，然后数据拥有者决定其参与程度。采用Stackelberg博弈来刺激模型拥有者和数据拥有者共同参与FL系统。
+
+
 ![](./pic/week04.jpg)
-Stackelberg博弈被用于最大化模型拥有者和数据拥有者的效用函数
-
-目标：提高沟通效率，提高leader的global model准确性，提高followers的收入
-
+表格是stackelberg博弈在fl激励机制设计中的应用，目标主要是提高通信效率，提高leader的global model准确性，提高followers的收入
 
 ### **二、下周工作计划**
 
 继续看论文，调研方向
 
+
+
+<br>
+
+---
+
+<br>
 
 
 
@@ -47,7 +59,11 @@ https://ieeexplore.ieee.org/abstract/document/8959172
 
 继续看博弈论的内容，解优化问题
 
+<br>
 
+---
+
+<br>
 
 
 # **周报-Week02**
@@ -63,9 +79,6 @@ Wang Z, Xu H, Xu Y, et al. CoopFL: Accelerating federated learning with DNN part
 **本文可参考的点：**
 
 ![](./pic/workflow.png)
-
-
-
 
 
 
@@ -110,7 +123,11 @@ Wang Z, Xu H, Xu Y, et al. CoopFL: Accelerating federated learning with DNN part
 
 找一下FL和MEC联合参考文献，继续讨论idea
 
+<br>
 
+---
+
+<br>
 
 
 # **周报-Week01**
