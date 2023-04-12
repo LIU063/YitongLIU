@@ -1,3 +1,27 @@
+# 周报 - 20230412
+## 本周工作小结
+1、文献阅读
+
+Wang, Can, et al. **"Joint configuration adaptation and bandwidth allocation for edge-based real-time video analytics."** IEEE INFOCOM 2020-IEEE Conference on Computer Communications. IEEE, 2020.
+
+![image](./images/20230412-01.png)
+
+![image](./images/20230412-02.png)
+
+2、
+
+$(1+x)^2$
+
+3、yolov5源码学习
+
+[官方源码测试](https://www.bilibili.com/video/BV1Gv4y1H7aY)
+
+<br>
+
+---
+
+<br>
+
 # 周报 - 20230405
 ## 本周工作小结
 1、文献阅读
