@@ -4,8 +4,10 @@
 [1] B. Li and Z. Zhu, “GNN-Based Hierarchical Deep Reinforcement Learning for NFV-Oriented Online Resource Orchestration in Elastic Optical DCIs,” Journal of Lightwave Technology, vol. 40, no. 4, 2022  
 [2] Q. Ma, S. Ge, D. He, D. Thaker, and I. Drori, “Combinatorial Optimization by Graph Pointer Networks and Hierarchical Reinforcement Learning,” arXiv, 2019
 
-## 2. 学习GPN-RL，目前掌握了torch的基本操作。目前读懂了train.py，正在学习GPN的构建方法
+## 2. 学习GPN-RL，目前掌握了torch的基本操作。目前读懂了train.py，正在学习GPN的构建方法  
+存在问题：例程中不考虑边的features  
 
+附GPN解决TSP问题例程：
 '''
 # train.py
 import math
