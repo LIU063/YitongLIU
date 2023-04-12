@@ -2,13 +2,13 @@
 ## 论文扩展
 ### 调研
 ### 阅读论文
-[1] Y. Choi, H. Kim, S. -w. Han and Y. Han, "Joint Resource Allocation for Parallel Multi-Radio Access in Heterogeneous Wireless Networks," in IEEE Transactions on Wireless Communications, vol. 9, no. 11, pp. 3324-3329, November 2010, doi: 10.1109/TWC.2010.11.100045. 
-[2]Z. Jing, Q. Yang, M. Qin and K. S. Kwak, "Long Term Max-min Fairness Guarantee Mechanism: Adaptive Task Splitting and Resource Allocation in MEC-enabled Networks," 2019 IEEE 30th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC Workshops), Istanbul, Turkey, 2019, pp. 1-6.doi: 10.1109/PIMRCW.2019.8880847
-[3]Z. Jing, Q. Yang, M. Qin, J. Li and K. S. Kwak, "Long-Term Max-Min Fairness Guarantee Mechanism for Integrated Multi-RAT and MEC Networks," in IEEE Transactions on Vehicular Technology, vol. 70, no. 3, pp. 2478-2492, March 2021.doi: 10.1109/TVT.2021.3059944
-[4]M. Qin et al., "Green-Oriented Dynamic Resource-on-Demand Strategy for Multi-RAT Wireless Networks Powered by Heterogeneous Energy Sources," in IEEE Transactions on Wireless Communications, vol. 19, no. 8, pp. 5547-5560, Aug. 2020.doi: 10.1109/TWC.2020.2994367
-[5]M. Qin et al., "Service-Oriented Energy-Latency Tradeoff for IoT Task Partial Offloading in MEC-Enhanced Multi-RAT Networks," in IEEE Internet of Things Journal, vol. 8, no. 3, pp. 1896-1907, 1 Feb.1, 2021.doi: 10.1109/JIOT.2020.3015970
-[6]X. Jiang, F. R. Yu, T. Song and V. C. M. Leung, "A Survey on Multi-Access Edge Computing Applied to Video Streaming: Some Research Issues and Challenges," in IEEE Communications Surveys & Tutorials, vol. 23, no. 2, pp. 871-903, Secondquarter 2021, doi: 10.1109/COMST.2021.3065237.
-[7]X. Jiang, F. R. Yu, T. Song and V. C. M. Leung, "A Survey on Multi-Access Edge Computing Applied to Video Streaming: Some Research Issues and Challenges," in IEEE Communications Surveys & Tutorials, vol. 23, no. 2, pp. 871-903, Secondquarter 2021, doi: 10.1109/COMST.2021.3065237.
+[1] Y. Choi, H. Kim, S. -w. Han and Y. Han, "Joint Resource Allocation for Parallel Multi-Radio Access in Heterogeneous Wireless Networks," in IEEE Transactions on Wireless Communications, vol. 9, no. 11, pp. 3324-3329, November 2010, doi: 10.1109/TWC.2010.11.100045.   
+[2]Z. Jing, Q. Yang, M. Qin and K. S. Kwak, "Long Term Max-min Fairness Guarantee Mechanism: Adaptive Task Splitting and Resource Allocation in MEC-enabled Networks," 2019 IEEE 30th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC Workshops), Istanbul, Turkey, 2019, pp. 1-6.doi: 10.1109/PIMRCW.2019.8880847.  
+[3]Z. Jing, Q. Yang, M. Qin, J. Li and K. S. Kwak, "Long-Term Max-Min Fairness Guarantee Mechanism for Integrated Multi-RAT and MEC Networks," in IEEE Transactions on Vehicular Technology, vol. 70, no. 3, pp. 2478-2492, March 2021.doi: 10.1109/TVT.2021.3059944  
+[4]M. Qin et al., "Green-Oriented Dynamic Resource-on-Demand Strategy for Multi-RAT Wireless Networks Powered by Heterogeneous Energy Sources," in IEEE Transactions on Wireless Communications, vol. 19, no. 8, pp. 5547-5560, Aug. 2020.doi: 10.1109/TWC.2020.2994367  
+[5]M. Qin et al., "Service-Oriented Energy-Latency Tradeoff for IoT Task Partial Offloading in MEC-Enhanced Multi-RAT Networks," in IEEE Internet of Things Journal, vol. 8, no. 3, pp. 1896-1907, 1 Feb.1, 2021.doi: 10.1109/JIOT.2020.3015970.  
+[6]X. Jiang, F. R. Yu, T. Song and V. C. M. Leung, "A Survey on Multi-Access Edge Computing Applied to Video Streaming: Some Research Issues and Challenges," in IEEE Communications Surveys & Tutorials, vol. 23, no. 2, pp. 871-903, Secondquarter 2021, doi: 10.1109/COMST.2021.3065237.  
+[7]X. Jiang, F. R. Yu, T. Song and V. C. M. Leung, "A Survey on Multi-Access Edge Computing Applied to Video Streaming: Some Research Issues and Challenges," in IEEE Communications Surveys & Tutorials, vol. 23, no. 2, pp. 871-903, Secondquarter 2021, doi: 10.1109/COMST.2021.3065237.  
 ### 问题建模
 Long-Term Max-Min Fairness Guarantee Mechanism for Integrated Multi-RAT and MEC Networks  
 ![系统模型](https://github.com/loafluls/report_images/blob/main/images/%E7%B3%BB%E7%BB%9F%E6%A8%A1%E5%9E%8B.png)  
