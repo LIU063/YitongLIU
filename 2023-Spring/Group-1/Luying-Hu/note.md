@@ -1,24 +1,39 @@
-# 20230322 周报
-## 研究进展
-1. 查阅了很多有关卫星通信网络的文献，对目前的研究现状和一些基础概念有了大致的了解。
-2. 学习了STK软件的使用，搭建了Iridium星座模型。
-3. 学习了STK和MATLAB交互的基本方法和原理，实现了获取卫星间的可见性数据和卫星间距离的功能，具体模块如下:
-- initConn.m ：初始化连接
-- getVisibility.m ：获取所有可见性数据
-- getRange.m ：获取所有距离数据
-- analysisVisibility.m ：解析可见性数据，得到可见性矩阵
-- analysisRange.m ：解析距离数据，得到距离矩阵
-- close.m ：关闭连接
-4. 对卫星网络仿真平台和后续要使用的路由算法进行了调研。
-- 中文参考资料较少，需要研读英文手册。
+# 20230412 周报
+## 本周进度
+1. 完成中期答辩以及相关文档和文献翻译；
+2. 调试了之前用ChatGPT写的代码，还是存在很多问题，打算自己重写；
+3. 重新梳理了一遍接下来要完成的模块，画了大致的框图。
+<img width="500" alt="框图" src="https://user-images.githubusercontent.com/121794362/231473392-b344b8b1-a124-4c3d-a04d-1e93b8843b61.png">
+
 ## 下周计划
-1. 参考<https://github.com/snkas/hypatia>,学习使用NS3软件，判断使用python编程通过该软件完成所需功能的可行性。
-2. 通过调研明确后续工作的细节，例如采用何种协议和算法，如何描述计算开销等网络性能指标。
+学习贺博的代码和启发式算法，理解算法的思路和实现流程，编写后续的代码。
+
+# 20230405 周报
+## 本周进度
+1. 继续上周计划的调研，决定还是使用MATLAB完成后续的毕设。总结调研过程中发现的问题，通过和贺博讨论后对一些细节进行了确认；
+2. 在已完成模块的基础上，引导ChatGPT协助我完成后续的模块，大部分模块代码现在已完成。
+### 使用ChatGPT的心得
+- 网络中断后如何让它从中断的内容继续回答。
+  - 回复1：它重新生成了一个新的回答
+    <div align=left><img width="465" alt="Q不对" src="https://user-images.githubusercontent.com/121794362/230109596-7cf82227-0d7e-49fa-93f2-ec56c3ecbe18.png"></div>
+  
+  - 回复2：它理解成了在上一个任务中加入中断
+    <div align=left><img width="537" alt="Q对" src="https://user-images.githubusercontent.com/121794362/230110372-0220073b-1870-485f-b5f4-be64da47e6fc.png"></div>
+
+  - 回复3：成功！
+    <div align=left><img width="510" alt="Q正确" src="https://user-images.githubusercontent.com/121794362/230110813-2cb17274-c7b1-4bfd-bbb7-97490b0f0add.png"></div>
+
+- 如何更好地引导
+  <div align=center><img width="512" alt="Q3" src="https://user-images.githubusercontent.com/121794362/230110949-332ea573-c82b-43cd-a51c-773c7c24012f.png"></div>
+
+## 下周计划
+1. 继续完善代码；
+2. 准备中期答辩。
 
 # 20230329 周报
-## 进展
-- 读了一篇英文文献，汇报见<https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Luying-Hu/Paper%20report.md>
-## 6G大会
+## 本周进展
+- 读了一篇英文文献，详细汇报见<https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Luying-Hu/Paper%20report.md>
+## 6G大会思考
 ### 天地融合智能组网技术
 - 卫星通信与地面移动通信融合构建全球无缝覆盖的星地融合网络，这一趋势是未来6G网络技术发展的重要方向。低轨卫星网络具有覆盖范围广、建设成本低、部署灵活等优点，作为地面蜂窝网络的补充有着巨大优势。未来的研究可以集中在如何进一步扩大低轨卫星网络在偏远地区的覆盖范围，以实现全覆盖；如何提高网络的通信质量和可靠性，应对突发紧急应用需求；如何优化网络资源的分配和利用，以避免大规模资源浪费。此外，还可以探索如何应用新的技术手段，如强化学习和图神经网络等，从而进一步提高网络的智能化和自适应性。
 ### 双碳下的6G网络覆盖
@@ -52,27 +67,24 @@
 ## 下周计划
 - 继续上周计划
 
-# 20230405 周报
-## 本周进度
-1. 继续上周计划的调研，决定还是使用MATLAB完成后续的毕设。总结调研过程中发现的问题，通过和贺博讨论后对一些细节进行了确认；
-2. 在已完成模块的基础上，引导chatgpt协助我完成后续的模块，大部分模块代码现在已完成。
-### 使用chatgpt的小心得
-- 网络中断后如何让它从中断的内容继续回答。
-  - 回复1：它重新生成了一个新的回答
-    <div align=left><img width="465" alt="Q不对" src="https://user-images.githubusercontent.com/121794362/230109596-7cf82227-0d7e-49fa-93f2-ec56c3ecbe18.png"></div>
-  
-  - 回复2：它理解成了在上一个任务中加入中断
-    <div align=left><img width="537" alt="Q对" src="https://user-images.githubusercontent.com/121794362/230110372-0220073b-1870-485f-b5f4-be64da47e6fc.png"></div>
-
-  - 回复3：成功！
-    <div align=left><img width="510" alt="Q正确" src="https://user-images.githubusercontent.com/121794362/230110813-2cb17274-c7b1-4bfd-bbb7-97490b0f0add.png"></div>
-
-- 如何更好地引导
-  <div align=center><img width="512" alt="Q3" src="https://user-images.githubusercontent.com/121794362/230110949-332ea573-c82b-43cd-a51c-773c7c24012f.png"></div>
-
+# 20230322 周报
+## 本周进展
+1. 查阅了很多有关卫星通信网络的文献，对目前的研究现状和一些基础概念有了大致的了解。
+2. 学习了STK软件的使用，搭建了Iridium星座模型。
+3. 学习了STK和MATLAB交互的基本方法和原理，实现了获取卫星间的可见性数据和卫星间距离的功能，具体模块如下:
+- initConn.m ：初始化连接
+- getVisibility.m ：获取所有可见性数据
+- getRange.m ：获取所有距离数据
+- analysisVisibility.m ：解析可见性数据，得到可见性矩阵
+- analysisRange.m ：解析距离数据，得到距离矩阵
+- close.m ：关闭连接
+4. 对卫星网络仿真平台和后续要使用的路由算法进行了调研。
+- 中文参考资料较少，需要研读英文手册。
 ## 下周计划
-1. 继续完善代码；
-2. 准备中期答辩。
+1. 参考<https://github.com/snkas/hypatia>,学习使用NS3软件，判断使用python编程通过该软件完成所需功能的可行性。
+2. 通过调研明确后续工作的细节，例如采用何种协议和算法，如何描述计算开销等网络性能指标。
+
+
 
 
 
