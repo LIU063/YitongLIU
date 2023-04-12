@@ -7,10 +7,10 @@
    三层的mlp来训练    
    visdom动态画图    
    [运行结果](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/pdf/square.pdf)
-## 3.场景重建：    
-![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/scene3_1.jpg)    
+## 3.场景重建：         
+多用户多接入问题，共有27种接入方案。针对每种方案，优化p1,p2,p3，得到各种情况下的最优的Rsum。再用mlp，在这种情况下，做智能接入选择。
 ## 4.下一步工作计划：    
-  完成选择算法
+  完成代码
   
 
 
