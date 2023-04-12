@@ -26,7 +26,6 @@
 offline RL——agent不和环境进行交互，利用固定的数据集进行训练。
 <img width="1190" alt="1681307165449" src="https://user-images.githubusercontent.com/63155472/231477979-6816ffe9-d93c-4452-9468-3fc719aa6f3b.png">
 
-
 存在挑战：
 
 1.无法进行随机探索 
