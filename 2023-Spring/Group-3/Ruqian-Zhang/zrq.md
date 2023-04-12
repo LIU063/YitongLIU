@@ -1,3 +1,16 @@
+<p id="table"></p>
+
+# Table of Contents
+
+- <a href="#1">Week 1 (2023.3.23)</a>
+- <a href="#2">Week 2 (2023.3.30)</a>
+- <a href="#3">Week 3 (2023.4.6)</a>  
+- <a href="#4">Week 4 (2023.4.13)</a>
+
+<br/>  
+
+<p id="1"></p>  
+
 # **周报-Week 1**
 ## 2023.3.23
 ## **一、基于场景的策略优化方法的按需服务可行性调研**
@@ -39,10 +52,13 @@ $$
 通过边缘AI的方法实现6G按需服务，主要是基于资源调度和优化的一个6G按需服务（用户定制化服务），其中提到了基于KPI雷达图为输入，通过AI架构实现资源分配的一个按需服务方法，该方法十分适用于我的工作，本周只是略读，下周讲仔细研究该文章，并得到自己如何去按需服务的一个确定想法。
 
 ## **三、下周工作计划**
-仔细研究文献[3]的内容，并调研文章中的边缘AI以及相关AI架构的知识，基于该文献的方法提出我的基于场景聚类的按需服务方法的实现架构。
+仔细研究文献[3]的内容，并调研文章中的边缘AI以及相关AI架构的知识，基于该文献的方法提出我的基于场景聚类的按需服务方法的实现架构。 
+
+<br/>
 
 ***
   
+<p id="2"></p>  
 
 # **周报-Week 2**
 ## 2023.3.30   
@@ -82,8 +98,14 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 [5] 6G Alliance of Network AI (6GANA), “From Cloud AI to Network AI, a View from 6GANA,” May 2021. Available at http://www.6gana.com/upload/file/20210619/6375969458505193666851527.pdf.   
 [6] N. Chen, Y. Yang, T. Zhang, M. T. Zhou, X. L. Luo, and J. Zao, “Fog as a Service Technology,” IEEE Communications Magazine, Vol. 56, No. 11, pp. 95-101, Nov. 2018.  
 [7] Y. Mao, J. Zhang, S. H. Song, and K. B. Letaief, “Stochastic Joint Radio and Computational Resource Management for Multi-User Mobile-Edge Computing Systems,” IEEE Transactions on Wireless Communications, Vol. 16, No. 9, pp. 5994-6009, Sept. 2017.  
-***      
-由于对于文章中所说的网络AI架构以及其中的边缘AI和云AI等架构等不够详细看不明白，决定细读该文章引用的上述一些相关文献，弄清楚如何实现的网络AI架构，如何进行工作的。
+      
+由于对于文章中所说的网络AI架构以及其中的边缘AI和云AI等架构等不够详细看不明白，决定细读该文章引用的上述一些相关文献，弄清楚如何实现的网络AI架构，如何进行工作的。   
+***  
+
+<br/>  
+
+<p id="3"></p>  
+
 # **周报-Week 3**
 ## 2023.4.6 
 ## **一、6G network AI architecture for everyone-centric customized services 整体框架**
@@ -110,8 +132,13 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 ### 做基于聚类结果的6G按需服务，可参考文中的方法，文章仿真举例是只考虑了时延和能耗两个KPI做为服务的KPI，构建的是二维的SRZ。而我可以扩展一下，将考虑我所做的8个KPI的八维SRZ,并且利用聚类结果的11类场景知识，作为场景权重系数分配的条件，为每个不同场景设计一套不同KPI权重系数以及优先级的进一步的USR评判标准，去做一个资源分配来实现基于场景聚类的6G按需服务。
 ## **三、下一步工作计划**
 ### 构思该问题下我的聚类按需服务的问题建模  
+  
+    
+<br/>  
+    
 ***  
-
+<p id="4"></p>  
+    
 # **周报-Week 4**
 ## 2023.4.13 
 ## **一、AI for network 调研**  
@@ -155,5 +182,8 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 将AI as a service与6G网络结合的第一步是要将AI服务部署到6G网络中，这可以通过在6G网络中设置AI服务节点来实现。AI服务节点通常需要高性能的计算和存储资源，以及专用的AI处理器和相关的软件框架。这些资源可以直接部署在6G基站、边缘服务器或云数据中心中，以实现对不同的AI服务的支持。在这些节点上，AI服务可以根据应用的不同，包括语音识别、图像处理、自然语言处理等，提供不同的AI算法和模型。
 
 ## **三、专利框图**  
-![zhuanli](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/ai-network-%E6%A1%86%E6%9E%B6.png) 
+![zhuanli](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/ai-network-%E6%A1%86%E6%9E%B6.png)   
+ 
+<br/>  
+    
     
