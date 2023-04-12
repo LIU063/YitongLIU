@@ -1,3 +1,25 @@
+# **周报-Week04**
+##### 时间：2023.04.06——2023.04.12
+
+### **一、主要工作内容和进展**
+
+##### 1、调研Stackelberg博弈在FL激励机制（INCENTIVE MECHANISM）设计中的应用
+文章来源：
+[Tu X, Zhu K, Luong N C, et al. Incentive mechanisms for federated learning: From economic and game theoretic perspective[J]. IEEE Transactions on Cognitive Communications and Networking, 2022.](https://ieeexplore.ieee.org/document/9780573)
+
+![](./pic/week04.jpg)
+Stackelberg博弈被用于最大化模型拥有者和数据拥有者的效用函数
+
+目标：提高沟通效率，提高leader的global model准确性，提高followers的收入
+
+
+### **二、下周工作计划**
+
+继续看论文，调研方向
+
+
+
+
 # **周报-Week03**
 ##### 时间：2023.03.30——2023.04.05
 
