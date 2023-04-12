@@ -155,5 +155,5 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 将AI as a service与6G网络结合的第一步是要将AI服务部署到6G网络中，这可以通过在6G网络中设置AI服务节点来实现。AI服务节点通常需要高性能的计算和存储资源，以及专用的AI处理器和相关的软件框架。这些资源可以直接部署在6G基站、边缘服务器或云数据中心中，以实现对不同的AI服务的支持。在这些节点上，AI服务可以根据应用的不同，包括语音识别、图像处理、自然语言处理等，提供不同的AI算法和模型。
 
 ## **三、专利框图**  
-![f2](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/ai-network-%E6%A1%86%E6%9E%B6.png) 
+![zhuanli](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/ai-network-%E6%A1%86%E6%9E%B6.png) 
     
