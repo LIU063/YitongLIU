@@ -3,10 +3,12 @@
 ![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/scene2_1.jpg) 
 ## 2.代码仿真：    
    用了pytorch-ligntning的框架   
-   pytorch-lightning是pytorch的抽象和包装。它的好处是可复用性强，易维护，逻辑清晰等。
+   pytorch-lightning是pytorch的抽象和包装。它的好处是可复用性强，易维护，逻辑清晰等。      
    三层的mlp来训练    
    visdom动态画图    
-   ![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/scene2_vis1.jpg) 
+   [square]:https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/pdf/square.pdf
+## 3.场景重建：    
+
   
 
 
