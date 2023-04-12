@@ -66,6 +66,8 @@ CPU资源利用率高27.8%，链路资源利用率高22.7%。业务接受率提�
 ## 基于深度强化学习的工业物联网云边缘协同SFC映射
 ### 1、主要内容
 ### 2、系统模型
+* 支持支持NFV的CECIIoT架构（NFV-enabled CECIIoT architecture）：
+![f6110d15074610a582e805c1b5a42d0](https://user-images.githubusercontent.com/127767983/231478365-e4c759e7-7bf2-4bd8-a1c0-f628cbaa207b.png)
 
 ## 多目标优化问题
 ## 虚拟网络嵌入问题
