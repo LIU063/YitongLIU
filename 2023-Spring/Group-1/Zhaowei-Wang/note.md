@@ -6,9 +6,9 @@
    pytorch-lightning是pytorch的抽象和包装。它的好处是可复用性强，易维护，逻辑清晰等。      
    三层的mlp来训练    
    visdom动态画图    
-   [square](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/pdf/square.pdf)
+   [运行结果](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/pdf/square.pdf)
 ## 3.场景重建：    
-
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/scene3_1.jpg) 
   
 
 
