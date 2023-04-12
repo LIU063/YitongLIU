@@ -1,6 +1,37 @@
 # Week 4(4.6-4.12)
 ## 论文扩展
 ### 调研
+### 阅读论文
+[1] Y. Choi, H. Kim, S. -w. Han and Y. Han, "Joint Resource Allocation for Parallel Multi-Radio Access in Heterogeneous Wireless Networks," in IEEE Transactions on Wireless Communications, vol. 9, no. 11, pp. 3324-3329, November 2010, doi: 10.1109/TWC.2010.11.100045. 
+[2]Z. Jing, Q. Yang, M. Qin and K. S. Kwak, "Long Term Max-min Fairness Guarantee Mechanism: Adaptive Task Splitting and Resource Allocation in MEC-enabled Networks," 2019 IEEE 30th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC Workshops), Istanbul, Turkey, 2019, pp. 1-6.doi: 10.1109/PIMRCW.2019.8880847
+[3]Z. Jing, Q. Yang, M. Qin, J. Li and K. S. Kwak, "Long-Term Max-Min Fairness Guarantee Mechanism for Integrated Multi-RAT and MEC Networks," in IEEE Transactions on Vehicular Technology, vol. 70, no. 3, pp. 2478-2492, March 2021.doi: 10.1109/TVT.2021.3059944
+[4]M. Qin et al., "Green-Oriented Dynamic Resource-on-Demand Strategy for Multi-RAT Wireless Networks Powered by Heterogeneous Energy Sources," in IEEE Transactions on Wireless Communications, vol. 19, no. 8, pp. 5547-5560, Aug. 2020.doi: 10.1109/TWC.2020.2994367
+[5]M. Qin et al., "Service-Oriented Energy-Latency Tradeoff for IoT Task Partial Offloading in MEC-Enhanced Multi-RAT Networks," in IEEE Internet of Things Journal, vol. 8, no. 3, pp. 1896-1907, 1 Feb.1, 2021.doi: 10.1109/JIOT.2020.3015970
+[6]X. Jiang, F. R. Yu, T. Song and V. C. M. Leung, "A Survey on Multi-Access Edge Computing Applied to Video Streaming: Some Research Issues and Challenges," in IEEE Communications Surveys & Tutorials, vol. 23, no. 2, pp. 871-903, Secondquarter 2021, doi: 10.1109/COMST.2021.3065237.
+[7]X. Jiang, F. R. Yu, T. Song and V. C. M. Leung, "A Survey on Multi-Access Edge Computing Applied to Video Streaming: Some Research Issues and Challenges," in IEEE Communications Surveys & Tutorials, vol. 23, no. 2, pp. 871-903, Secondquarter 2021, doi: 10.1109/COMST.2021.3065237.
+### 问题建模
+Long-Term Max-Min Fairness Guarantee Mechanism for Integrated Multi-RAT and MEC Networks
+![系统模型](https://github.com/loafluls/report_images/blob/main/images/%E7%B3%BB%E7%BB%9F%E6%A8%A1%E5%9E%8B.png)
+#### 场景
+  在这个集成网络中，每个SD的用户面协议栈由一个公共的数据包数据收敛协议(PDCP)组成，该协议由多个下层RAT协议组共享。每组RAT协议由RLC (radio link control)、MAC (medium access control)和PHY (physical)协议组成。这样的协议设计可以使SDs在PDCP层执行任务拆分操作，并将子任务流映射到每个RAT对应的较低协议层。这样，SD任务可以被卸载到多个RAT基站上，并由连接的MEC服务器(MECSs)并行计算，从而提高任务的卸载和计算效率。  
+  由于大尺度和小尺度信道衰落的影响，无线RAT链路通常会发生时空变化。SD任务也是随机到达的。因此，多rat和MEC集成网络的任务分割应适应随机网络动力学。此外，为了保证动态网络环境下有限资源下SD的公平性，需要认真研究公平性保障机制。  
+  考虑一个集成的多rat和MEC网络，其中一组N个sd和一组M个配备不同rat的基站分布在一个服务区域内。每个RAT基站都是附带一个MECS，用于从sd中卸载的计算任务。sd被赋予了多rat能力，因此它们可以同时与多个at基站保持连接，并将任务并发地卸载到附加的MECSs上。此外，我们考虑了一个同步和时隙系统协议模型，其中时间范围被划分为具有等效持续时间τ的背靠背时隙。  
+#### 任务分割模型
+从每个SD n的应用层生成A n (t)∈[0,A max n]个任务，A n (t)是一个独立同分布(i.i.d)随机过程。
+假设任务是细粒度的和数据分区的，因此它们可以被任意分割成几个比例/段，并独立并行地计算。
+![分割](https://github.com/loafluls/report_images/blob/main/images/%E5%88%B0%E8%BE%BE%E7%9A%84%E4%BB%BB%E5%8A%A1.png)
+拉格朗日乘子，用于放松约束；任务积压量；虚拟队列积压
+#### 上行传输模型
+![传输](https://github.com/loafluls/report_images/blob/main/images/%E9%80%9F%E7%8E%87.png)
+采用OFDMA，不同RAT上的数据信号一般调制在不同的频谱上，子载波之间不存在重叠
+由于在OFDMA系统中，任何子载波只能专门分配给一个SD
+#### 任务计算模型
+MECSs接收到卸载的任务后，将CPU计算频率分配给SDs进行任务计算。
+能被MEC服务器计算的任务量: 
+![计算](https://github.com/loafluls/report_images/blob/main/images/%E4%BB%BB%E5%8A%A1%E8%AE%A1%E7%AE%97.png)
+#### 任务排队模型
+![排队](https://github.com/loafluls/report_images/blob/main/images/%E6%8E%92%E9%98%9F%E6%A8%A1%E5%9E%8B.png)
+任务积压量；任务处理量；任务到达量
 
 
 # Week 3(3.30-4.5)
