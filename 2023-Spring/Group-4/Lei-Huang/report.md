@@ -23,7 +23,7 @@ Long-Term Max-Min Fairness Guarantee Mechanism for Integrated Multi-RAT and MEC 
 #### 上行传输模型
 ![传输](https://github.com/loafluls/report_images/blob/main/images/%E9%80%9F%E7%8E%87.png)  
 - 采用OFDMA，不同RAT上的数据信号一般调制在不同的频谱上，子载波之间不存在重叠  
-- 由于在OFDMA系统中，任何子载波只能专门分配给一个SD  
+- 在OFDMA系统中，任何子载波只能专门分配给一个SD  
 #### 任务计算模型
 - MECSs接收到卸载的任务后，将CPU计算频率分配给SDs进行任务计算  
 - 能被MEC服务器计算的任务量:   
