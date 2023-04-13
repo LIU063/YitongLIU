@@ -23,7 +23,7 @@
 
 <p id="2"></p>
 
-## <a href="#table">Week 2 (2023.03.31 – 2023.04.06)</a>
+# <a href="#table">Week 2 (2023.03.31 – 2023.04.06)</a>
 
 ## Server-Free Edge Computing 
 ### 1.0——全局时延最优
@@ -91,7 +91,7 @@ $f_{i,j}\geq 0$
 
 <p id="3"></p>
 
-## <a href="#table">Week 3 (2023.04.07 – 2023.04.13)</a>
+# <a href="#table">Week 3 (2023.04.07 – 2023.04.13)</a>
 
 ## 撰写DTRL Magazine
 ## 视频传输问题
