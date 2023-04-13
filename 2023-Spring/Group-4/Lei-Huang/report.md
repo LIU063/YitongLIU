@@ -31,6 +31,9 @@ Long-Term Max-Min Fairness Guarantee Mechanism for Integrated Multi-RAT and MEC 
 #### 任务排队模型
 ![排队](https://github.com/loafluls/report_images/blob/main/images/%E6%8E%92%E9%98%9F%E6%A8%A1%E5%9E%8B.png)  
 任务积压量；任务处理量；任务到达量  
+### 下周工作
+1. 考虑如何把现有建模方法与本场景相结合，给出可行思路
+2. 考虑如何在建模过程实现知识的引入
 
 ---
 # Week 3(3.30-4.5)
