@@ -2,8 +2,6 @@
 ## 本周工作小结
 1、视频分析系统中的一些动机与结论
 
-Wang, Can, et al. **"Joint configuration adaptation and bandwidth allocation for edge-based real-time video analytics."** IEEE INFOCOM 2020-IEEE Conference on Computer Communications. IEEE, 2020.
-
 ![image](./images/20230412-01.png)
 
 ![image](./images/20230412-02.png)
@@ -13,6 +11,8 @@ Fig4(a)：识别精度关于分辨率的曲线，x1为小目标，x2为行人靠
 Fig4(b)：识别精度关于帧率的曲线，y1为车辆快速移动，y2为交通拥堵场景
 
 凹函数形式：![image](./images/20230412-03.png)
+
+Wang, Can, et al. **"Joint configuration adaptation and bandwidth allocation for edge-based real-time video analytics."** IEEE INFOCOM 2020-IEEE Conference on Computer Communications. IEEE, 2020.
 
 2、问题转化与建模
 
@@ -26,7 +26,7 @@ Fig4(b)：识别精度关于帧率的曲线，y1为车辆快速移动，y2为交
 
 ## 下一步工作安排
 
-继续完善模型细节以及识别模型的识别
+继续完善模型细节以及识别模型的实现
 
 <br>
 
