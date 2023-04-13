@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-- <a href="#1">Week 1 (2023.3.16 – 2023.3.22)</a>
-- <a href="#2">Week 2 (2023.3.23 – 2023.3.29)</a>
-- <a href="#3">Week 3 (2023.3.30 – 2023.4.5)</a>
-- <a href="#4">Week 4 (2023.4.6 – 2023.4.12)</a>
+- <a href="#1">Week 1 (2023.03.24 – 2023.03.30)</a>
+- <a href="#2">Week 2 (2023.03.31 – 2023.04.06)</a>
+- <a href="#3">Week 3 (2023.04.07 – 2023.04.13)</a>
+- <a href="#4">Week 4 (2023.04.14 – 2023.4.20)</a>
 
 <br/>
 
@@ -15,11 +15,18 @@
 
 <p id="1"></p>
 
-# <a href="#table">Week 1 (2023.3.16 – 2023.3.22)</a>
+# <a href="#table">Week 1 (2023.03.24 – 2023.03.30)</a>
 ## 修改pimrc论文
 
 
-# <a href="#table">Week 2 (2023.3.16 – 2023.3.22)</a>
+<br/>
+
+------
+
+<br/>
+
+<p id="1"></p>
+# <a href="#table">Week 2 (2023.03.31 – 2023.04.06)</a>
 # Week 2
 
 ## Server-Free Edge Computing 
@@ -84,7 +91,15 @@ $f_{i,j}\geq 0$
 3. sender如果传全部的数据，需要等N个step后才能再传，controller也同样要等N个step后才能得知消息。但是如果sender只传人物周围半径为r的数据，那么只需要等$\alpha$N个step后就能再传，controller也同样只要等$\alpha$N个step后就能得知消息。
 4. 这样sender相当于做一个pomdp
 
-# Week 3
+<br/>
+
+------
+
+<br/>
+
+<p id="1"></p>
+# <a href="#table">Week 3 (2023.04.07 – 2023.04.13)</a>
+
 ## 撰写DTRL Magazine
 ## 视频传输问题
 ### 问题定义
@@ -1042,5 +1057,11 @@ explanation:
 1 is the sender, 8 is a receiver with weight 480, 9 is a receiver with weight 1080, 10 is a receiver with weight 4000.
 */
 ```
+<br/>
 
+------
+
+<br/>
+
+<p id="1"></p>
 # <a href="#table">Week 4 (2023.3.16 – 2023.3.22)</a>
