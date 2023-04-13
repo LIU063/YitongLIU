@@ -1,4 +1,4 @@
-### Week 3
+### Week 4
 
 ## 1. 阅读了两篇GNN的文献：  
 [1] B. Li and Z. Zhu, “GNN-Based Hierarchical Deep Reinforcement Learning for NFV-Oriented Online Resource Orchestration in Elastic Optical DCIs,” Journal of Lightwave Technology, vol. 40, no. 4, 2022  
