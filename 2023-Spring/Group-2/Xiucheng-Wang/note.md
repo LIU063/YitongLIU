@@ -21,12 +21,9 @@
 
 <br/>
 
-------
+<p id="2"></p>
 
-<br/>
-
-<p id="1"></p>
-# <a href="#table">Week 2 (2023.03.31 – 2023.04.06)</a>
+## <a href="#table">Week 2 (2023.03.31 – 2023.04.06)</a>
 
 ## Server-Free Edge Computing 
 ### 1.0——全局时延最优
