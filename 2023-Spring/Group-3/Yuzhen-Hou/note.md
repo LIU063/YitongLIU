@@ -259,6 +259,18 @@
         - reward 在上升过程中和实际速率的 gap 太大。reward 曲线本身的收敛问题较小，反映到速率上有较大偏差，且 reward 曲线开始上升的起始点一直提前于速率曲线，猜测为 reward 设置不合理导致的学习 task 设置偏差。考虑在复杂环境下 UCB 方法是否能够继续使用，并改为只对无法进行的 action 转换为无人机停止动作的 mask 操作，不将出界问题反应在 reward 上。
         - 前期探索时间较长，一度考虑是 RL 本身的训练轮数不能太少的原因，后续还需要考虑在 2000 轮学习后适当调低学习率与探索率使模型尽可能先转移到较好的状态。
         - 昨天在更改过程中将学习率调为阶梯式下降而非指数型下降，观察到学习率过大导致的性能曲线震荡情况，需要在之后的改进中加以避免
+    
+    - 临时的改进
+        <div align="center">
+            <img src="./assets/img/week4_task_UAVRL_DQN_rate_result_plot_2stEdition_real_average.png" style="width: 35em;"  alt="task_UAVRL_DQN_rate_result_plot_2stEdition_real_average" />
+        </div>
+        
+        - 该图将之前的纵坐标延伸到了 11000 轮，曲线能够见到收敛的趋势，但是不确定这个改动在加入 DT 噪声后是否依旧可行。
+        - 一些参数：
+            - batch_size=512, memory_capacity=10000
+            - learning_rate = pow(episode \* 0.1 + 1, -0.5) \* 0.0016 + 0.0001
+            - EPSILON = min(1 - 0.997 \* exp((-0.0004)\*episode), 0.99)
+        
 
 2. 对论文所使用的系统模型和数字孪生模型描述做了初步整理
 
