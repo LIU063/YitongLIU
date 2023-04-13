@@ -12,9 +12,9 @@
 ### 场景建模参考
 Long-Term Max-Min Fairness Guarantee Mechanism for Integrated Multi-RAT and MEC Networks  
 ![系统模型](https://github.com/loafluls/report_images/blob/main/images/%E7%B3%BB%E7%BB%9F%E6%A8%A1%E5%9E%8B.png)  
-#### 场景
-- 在这个集成网络中，每个SD的用户面协议栈由一个公共的数据包数据收敛协议(PDCP)组成，该协议由多个下层RAT协议组共享。每组RAT协议由RLC (radio link control)、MAC (medium access control)和PHY (physical)协议组成。这样的协议设计可以使SDs在PDCP层执行任务拆分操作，并将子任务流映射到每个RAT对应的较低协议层。这样，SD任务可以被卸载到多个RAT基站上，并由连接的MEC服务器(MECSs)并行计算，从而提高任务的卸载和计算效率。   
-- 考虑一个集成的多RAT和MEC网络，其中一组N个SD和一组M个配备不同RAT的基站分布在一个服务区域内。每个RAT基站都是附带一个MECS，用于从SD中卸载的计算任务。SD被赋予了多RAT能力，因此它们可以同时与多个RAT基站保持连接，并将任务并发地卸载到附加的MECSs上。    
+#### 场景   
+- 考虑一个集成的多RAT和MEC网络，其中一组N个SD和一组M个配备不同RAT的基站分布在一个服务区域内。每个RAT基站都是附带一个MECS，用于从SD中卸载的计算任务。SD被赋予了多RAT能力，因此它们可以同时与多个RAT基站保持连接，并将任务并发地卸载到附加的MECSs上。  
+- 在这个集成网络中，每个SD的用户面协议栈由一个公共的数据包数据收敛协议(PDCP)组成，该协议由多个下层RAT协议组共享。每组RAT协议由RLC (radio link control)、MAC (medium access control)和PHY (physical)协议组成。这样的协议设计可以使SDs在PDCP层执行任务拆分操作，并将子任务流映射到每个RAT对应的较低协议层。这样，SD任务可以被卸载到多个RAT基站上，并由连接的MEC服务器(MECSs)并行计算，从而提高任务的卸载和计算效率。       
 #### 任务分割模型
 - 从每个SD n的应用层生成A_n(t)∈[0,A_max_n]个任务，A_n(t)是一个独立同分布(i.i.d)随机过程。  
 - 假设任务是细粒度的和数据分区的，因此它们可以被任意分割成几个比例/段，并独立并行地计算。  
