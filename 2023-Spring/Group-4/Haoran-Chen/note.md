@@ -1,6 +1,6 @@
 # 周报 - 20230412
 ## 本周工作小结
-1、文献阅读
+1、视频分析系统中的一些动机与结论
 
 Wang, Can, et al. **"Joint configuration adaptation and bandwidth allocation for edge-based real-time video analytics."** IEEE INFOCOM 2020-IEEE Conference on Computer Communications. IEEE, 2020.
 
@@ -8,13 +8,25 @@ Wang, Can, et al. **"Joint configuration adaptation and bandwidth allocation for
 
 ![image](./images/20230412-02.png)
 
-2、
+Fig4(a)：识别精度关于分辨率的曲线，x1为小目标，x2为行人靠近的过程
 
-$(1+x)^2$
+Fig4(b)：识别精度关于帧率的曲线，y1为车辆快速移动，y2为交通拥堵场景
+
+凹函数形式：![image](./images/20230412-03.png)
+
+2、问题转化与建模
+
+![image](./images/20230412-04.png)
+
 
 3、yolov5源码学习
 
 [官方源码测试](https://www.bilibili.com/video/BV1Gv4y1H7aY)
+
+
+## 下一步工作安排
+
+继续完善模型细节以及识别模型的识别
 
 <br>
 
