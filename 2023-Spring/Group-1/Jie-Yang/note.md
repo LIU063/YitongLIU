@@ -88,7 +88,7 @@ c.reward:
 ## Date: 2023/4/13
 ## 周工作汇报
 ### 阅读文献：
-[[1]M. Hu et al., "QoS-Aware Software-Defined Multicast in LEO Satellite Networks," in IEEE Transactions on Aerospace and Electronic Systems, vol. 58, no. 6, pp. 5307-5317, Dec. 2022,] (https://ieeexplore.ieee.org/document/9763445)     
+[[1]M. Hu et al., "QoS-Aware Software-Defined Multicast in LEO Satellite Networks," in IEEE Transactions on Aerospace and Electronic Systems, vol. 58, no. 6, pp. 5307-5317, Dec. 2022,](https://ieeexplore.ieee.org/document/9763445)     
 [[2]M. Hu, M. Xiao, Y. Hu, C. Cai, T. Deng and K. Peng, "Software Defined Multicast Using Segment Routing in LEO Satellite Networks," in IEEE Transactions on Mobile Computing, 2022,](https://ieeexplore.ieee.org/document/9927319)         
 [[3]E. Ekici, I. F. Akyildiz and M. D. Bender, "A multicast routing algorithm for LEO satellite IP networks," in IEEE/ACM Transactions on Networking, vol. 10, no. 2, pp. 183-192, April 2002,](https://ieeexplore.ieee.org/document/993300)         
 [[4]Chen Q, Giambene G, Yang L, et al. Analysis of Inter-Satellite Link Paths for LEO Mega-Constellation Networks[J]. IEEE Transactions on Vehicular Technology, 2021, 70(3): 2743-2755](https://ieeexplore.ieee.org/abstract/document/9351765)         
