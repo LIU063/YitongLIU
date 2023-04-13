@@ -7,7 +7,7 @@
 
 ## 1.论文进展
 
-### 更正了部分错误，变更了仿真图的表现形式。
+### 重写了逻辑有问题的部分，主要是第一节的第3，4，5段的、第二节的2，3段。3，4，5节整体进行了语言润色。
 
 > [论文链接](https://cn.overleaf.com/read/hcqfjvdbjdck "Communication Resource Scheduling for CAVs: A Value of Information Based Approach")
 
