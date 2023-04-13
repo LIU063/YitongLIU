@@ -94,4 +94,6 @@ c.reward:
 [4]Chen Q, Giambene G, Yang L, et al. Analysis of Inter-Satellite Link Paths for LEO Mega-Constellation Networks[J]. IEEE Transactions on Vehicular Technology, 2021, 70(3): 2743-2755    
 [5]C. Ren, X. Chen, H. Xiang, Y. Wang, Y. Li and H. Li, "On Efficient Delay-Aware Multisource Multicasting in NFV-Enabled Softwarized Networks," in IEEE Transactions on Network and Service Management, vol. 19, no. 3, pp. 3371-3386, Sept. 2022, doi: 10.1109/TNSM.2022.3188777.     
 ### 多播路由在倾斜轨道星座上的应用：
-1.倾斜轨道星座网络中的网络拓扑结构比较特殊，需要考虑卫星之间的通信延迟、如何构造网络拓扑。   
+1.倾斜轨道星座网络中的网络拓扑结构比较特殊，需要考虑卫星之间的通信延迟、如何构造网络拓扑。    
+a.在计算倾斜星座中的路由路径时，需要考虑卫星数量的偏移量。   
+b.地面用户的接入卫星的选择也是一个重要的问题，特别是在多重覆盖的典型的倾斜巨星座网络中。在路由协议的设计中应考虑跳点的差异。在极轨星座网络中用户-卫星接入不同引起的路径变化。路径更改最多需要一跳。而路径的变化在倾斜的LEO星座中更重要。
