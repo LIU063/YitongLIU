@@ -1,4 +1,17 @@
 
+# Response Letter
+
+1. 撰写TMC response letter
+
+# AdvSL: Adversarial Knowledge Fusion for Split Learning with Non-IID Features
+
+1. 添加FedGKT [1] 作为新的对比算法
+2. 添加了新的数据集：domain-net
+
+[1]. He, C., Annavaram, M., & Avestimehr, S. (2020). Group knowledge transfer: Federated learning of large cnns at the edge. Advances in Neural Information Processing Systems, 33, 14068-14080.
+
+---
+
 # TMC review comments
 
 ## 隐私
