@@ -1,3 +1,12 @@
+# Week 5(4.13-4.18)
+## 论文扩展
+### 场景建模
+![SYSTEM MODEL](https://github.com/loafluls/report_images/blob/main/images/%E5%BB%BA%E6%A8%A1%E5%9C%BA%E6%99%AF_%E6%89%A9.png)
+- 完成分包传输可行性分析调研
+- 学习如何通过统计平均的方式对子任务平均速率划分进行设计
+### 下周工作
+- 完成建模工作
+
 # Week 4(4.6-4.12)
 ## 论文扩展
 ### 调研
