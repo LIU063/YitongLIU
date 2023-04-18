@@ -86,7 +86,7 @@ M. Hu, M. Xiao, W. Xu, T. Deng, Y. Dong and K. Peng, "Traffic Engineering for So
 M. Zhao, N. Ye, Q. Ouyang, Y. Jin, Y. Jin and L. Zhao, "Multi-Satellite Cooperative Communication: Exploiting Time Asynchrony in Non-Orthogonal Transmissions," in IEEE Transactions on Vehicular Technology, 2023  
 摘要：近地轨道星座的日益密集化使得通过多星协同传输提高数据速率成为可能。然而，卫星网络的大空间尺度使得时间不同步性不容忽视。在本文中，我们利用异步非正交传输进行多星协作通信以提高公平感知率。将异步容量扩展到多星协作场景，进而制定优化问题，联合考虑星端关联、功率分配和解码顺序。为了剖析这些耦合变量，我们提出了一种基于偏好列表的算法，该算法在以下两个阶段之间迭代。首先，给定预先指定的偏好列表，通过基于Gale-Shapley算法的策略解决多对多双边匹配。然后，发射功率和解码顺序由Dinkelbach-like算法联合优化。基于以上结果，偏好列表被更新以反映用于迭代细化的卫星间干扰。仿真结果表明，引入协作传输将公平率提高了12%，利用时间异步又提供了7%的增益。
 链接：https://ieeexplore.ieee.org/abstract/document/10006363/
-### 5、为了支持多种业务的传输，终端极其简单地接入最适合天地网的节点。统一空口体制，在空中接口分层结构上，采用相同的设计方案，采用相同的传输和交换技术。因此，统一的空中接口设计方案是未来的重要研究方向。
+### 5、为了支持多种业务的传输，终端极其简单地接入最适合天地网的节点。统一空口体制，在空中接口分层结构上，采用相同的设计方案，采用相同的传输和交换技术。因此，统一的空中接口设计方案是未来的重要研究方向
 
 # 20230323周报
 ## 面向内容服务的空地集成6G网络资源分配  
