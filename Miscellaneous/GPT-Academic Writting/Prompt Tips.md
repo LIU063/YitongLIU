@@ -293,14 +293,14 @@ GPT4.0 会给出对应的优化方法，并给出latex代码，如下：
 ### 4)算法收敛性分析
 
 ```
-Please prove whether the above algorithm converges?
+Prompt: Please prove whether the above algorithm converges?
 ```
 ![image](https://user-images.githubusercontent.com/90384476/232765756-f755bf9c-b5f2-4cb9-9791-003a089223e9.png)
 
 ### 5)算法复杂度分析
 
 ```
-Please analyze the complexity of the above algorithm.
+Prompt: Please analyze the complexity of the above algorithm.
 ```
 
 ![image](https://user-images.githubusercontent.com/90384476/232766077-aa30242c-11be-4424-ba7b-1de7c371db74.png)
