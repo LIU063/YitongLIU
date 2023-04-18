@@ -220,36 +220,35 @@ Prompt: Now, in order to help me better polish my thesis, I need you to remember
 
 这样就相当于为一段内容，封装了一个函数名称，之后你再次提到XXX原理的时候，ChatGPT就能快速知道你说的是哪些基本事实了。
 
+
 ## 2.摘要生成 (gpt-3.5)
 
+输入原始intro, 生成abstract。
+
 Step1: 引导1:
+
 ```
 I'm going to give you some information before asking you to write an English academic article about wireless communication and artificial intelligence. Do you understand?
 ```
+
 Step2: 引导2:
+
 ```
 When it comes to writing content, two factors are crucial, "perplexity" and "burstiness." Perplexity measures the complexity of text. Separately, burstiness compares the variations of sentences. Humans tend to write with greater burstiness, for example, with some longer or complex sentences alongside shorter ones. Al sentences tend to be more uniform. Therefore, when writing the following content I am going to ask you to create, I need it to have a good amount of perplexity and burstiness. Do you understand?
 ```
+
 Step3: 重写指令：
+
 ```
-using the concepts written previously, summarize the content of this article as an abstract no more than 200 words with a high degree of perplexity and burstiness: ${内容}
+using the concepts written previously, write the article with a high degree of perplexity and burstiness: ${内容}
 ```
+### 如果intro过长，可以如下分段输入：
+
+![image](https://user-images.githubusercontent.com/90384476/232757512-ee1aed52-cd05-4829-99e0-0398a8d41d61.png)
+
 ### 也可以根据自己的需求，添加关键词。
 
-Step1: 引导1:
-
-I'm going to give you some information before asking you to write an English academic article about wireless communication and artificial intelligence. Do you understand?
-Step2: 引导2:
-When it comes to writing content, two factors are crucial, "perplexity" and "burstiness." Perplexity measures the complexity of text. Separately, burstiness compares the variations of sentences. Humans tend to write with greater burstiness, for example, with some longer or complex sentences alongside shorter ones. Al sentences tend to be more uniform. Therefore, when writing the following content I am going to ask you to create, I need it to have a good amount of perplexity and burstiness. Do you understand?
-Step3: 重写指令：
-using the concepts written previously, summarize the content of this article as an abstract no more than 200 words with a high degree of perplexity and burstiness: ${内容}
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/90384476/232754943-9d84204c-1d19-4de9-86b3-b8d322609dd7.png)
 
 
 ## 3.优化问题求解目标推理 (gpt-4.0)
@@ -260,77 +259,48 @@ GPT4.0的使用体验，相比于GPT3.5有了完全不一样的提升… 尤其�
 
 为了让ChatGPT更加准确的回答和解决有关问题，你需要一步一步引导它思考。
 
-首先，需要将优化问题描述清楚，包括变量物理意义，约束公式等等。公式可以使用letex格式，最好使用表格样式一一对应变量与描述，并且针对优化变量一定要写在优化目标下，如下：
-
-
-
-此外，GPT 4.0能够阅读更长的文本，拥有更长的记忆窗口，这使得它能够在通篇润色方面发挥更大作用。  4.0-API申请 https://openai.com/waitlist/gpt-4
-
-逻辑论证辅助
-GPT 4.0在逻辑推理方面有显著的提升，可以用于辅助构建更有说服力的论证。
-```
-Prompt: Please help me analyze and optimize the logical structure of this argument to make it more convincing.
-
-提示：请帮我分析和优化这段论证的逻辑结构，以使其更具说服力。
-```
-长篇文本处理能力
-由于GPT 4.0具有更长的记忆窗口，它可以更有效地进行长篇幅文本的润色。
-```
-Prompt: Please read and polish the entire paper to ensure consistency and coherence.
-
-提示：请阅读并润色整篇论文，确保一致性和连贯性。（就是这么简单粗暴！）
-```
-当然，如果论文特别长，可以分为多次喂给它，像下面这样：
-
-给完第一部分之后：
+### 1)扮演优化问题专家
 
 ```
-Prompt: I have written the XXX section, but I am not satisfied with its structure and coherence. Please help me reorganize the content and improve its coherence.
-
-提示：我写了XXX部分，但我对其结构和连贯性不满意。请帮我重新组织内容，提高其连贯性。
+Prompt: 
+You are now acting as an expert in the field of non-convex optimization.
+From a professional point of view, solve the following optimization problem.
+The problem will be given in latex form, as follows，
 ```
-```
-Prompt: Please review and revise the entire literature review section of my paperensuring that it meets the standards of academic writing and the content iscoherent and well-structured.
+### 2)问题建模
 
-提示：请审查并修改我论文的整个文献综述部分，确保符合学术写作标准，内容连贯且结构合理。
-```
-
-提供独特见解
+问题建模：以最大和速率问题为例，需要将优化问题描述清楚，包括变量物理意义，约束公式等等。公式可以使用letex格式，最好使用表格样式一一对应变量与描述，并且针对优化变量一定要写在优化目标下，如下：
 
 ```
-Prompt: Please provide me with some unique insights that I can discuss in my paper, based on the latest research that you are aware of.
+\begin{align}
+\max_{\mathbf{p}} ⁡&\sum_{i=1}^{N} \lambda_i\mathrm{log_2}\left (1+\frac{|h_{ii}|^2 p_i}{\sum_{j\neq i}^{N}|h_{ij}|^2 p_j+\sigma ^2}\right),\label{equ.2-3} \\
+\mathrm{s. t.} &\; 0\leq p_i\leq p_\mathrm{max},\; \forall i,\notag
+\end{align}
+where $N$ is single-antenna transceiver pairs, 
+$p_i$ represents the power allocation of transmitter $i$, 
+$h_{ii} represents direct channel between transmitter $i$ and receivers $i$, 
+$h_{ij}$ with $i \neq j$ interference channel from transmitter $j$ to receiver $i$, 
+$\sigma^2$ is the Gaussian noise.
+And the optimization variable is a power vector $\mathbf{p}$ and the power vector is expressed as $\mathbf{p}=[p_1,\dots,p_N]$.
+The optimization goal is to maximize the above sum rate.
+```
+### 3)问题求解
 
-提示：请根据你所了解的最新研究，为我提供一些独特的见解以便我在论文中进行讨论。
+GPT4.0 会给出对应的优化方法，并给出latex代码，如下：
+
+![image](https://user-images.githubusercontent.com/90384476/232765344-8405d60e-93bd-4bcc-be0c-5032cdb73828.png)
+
+### 4)算法收敛性分析
+
+```
+Please prove whether the above algorithm converges?
+```
+![image](https://user-images.githubusercontent.com/90384476/232765756-f755bf9c-b5f2-4cb9-9791-003a089223e9.png)
+
+### 5)算法复杂度分析
+
+```
+Please analyze the complexity of the above algorithm.
 ```
 
-深度分析与评估
-
-```
-Prompt: Please help me to conduct an in-depth analysis of these research methods and data, and provide me with an assessment of their advantages and disadvantages.
-
-提示：请帮助我对这些研究方法和数据进行深度分析，并为我提供关于其优缺点的评估。
-```
-
-
-
-
-
-有研究表明，仅仅是在提示语中加一句「以下是一段论文引言中的话」或者「请依次考虑我给出的中的各个条件」，都能明显提高ChatGPT的准确率。它是个心直口快的AI，有时候就是需要你提醒它刻意进行慢思考。
-
-
-不妨试试，在提示词后面，紧跟一句“请一步步思考”，“请一步步考虑”，“请务必认真回答”，“如果你认为无法根据已知信息安全修改论文，请回答否”之类的词，可以使得其回答的准确率大大提高。有时候在提示语后面给个提醒，它会变得完全不一样。
-
-也许仅仅是这一条启示，就能给我们莫大的启发。
-
-节省空间
-
-最近自己一直在用的一个提示，可以说终于摆脱了之前一次输出不完整或者中间断网的情况。
-
-这种方式改文章，改代码都可以。
-```
-Prompt: [Put your requirements here…] , since your output length is limited, in order to save space. Please use ellipses for the parts you don’t think need to be modified.
-```
-提示：[这里放你的要求…]，由于你的输出长度有限，为了节省空间。请你觉得没必要修改的部分，用省略号即可。
-
-4.0-API申请
-https://openai.com/waitlist/gpt-4
+![image](https://user-images.githubusercontent.com/90384476/232766077-aa30242c-11be-4424-ba7b-1de7c371db74.png)
