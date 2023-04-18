@@ -22,3 +22,9 @@
 # 第三周周报
 上周提到的对比算法实现及其性能比较
 ![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/figure3.svg)
+# 第四周周报
+## 修改论文
+## 调研XAI在MARL中的应用
+   (1)能否采用shapely的方法评估合作MARL过程中的参与者贡献程度
+   (2)MARL shapely值计算复杂度可能会很高
+   (3) MARL场景的选取
