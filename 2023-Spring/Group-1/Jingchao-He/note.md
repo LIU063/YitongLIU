@@ -1,3 +1,8 @@
+### Week 5
+1. 在上周基础上学习pytorch_geometric、dgl等图神经网络需要调用的库；
+2. 重新设计gpn中message passing方法和其中的数据结构。
+
+
 ### Week 4
 
 ## 1. 阅读了两篇GNN的文献：  
