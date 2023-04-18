@@ -4,6 +4,7 @@
 ![image](https://user-images.githubusercontent.com/93457144/232707985-4c64d4cd-fac5-45ad-a533-b2eb064dc532.png)<br>
 3、扩展长文讨论，与会议论文相比，将V2I卸载转换成可进行本地处理或者V2I卸载，并且考虑任务比例分割或者加入干扰；<br>
 首先考虑任务比例分割卸载但不加入干扰的情况：<br>
+对于任务$\Phi_{i,j}$
 
 
 
