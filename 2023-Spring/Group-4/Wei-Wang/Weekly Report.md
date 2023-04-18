@@ -8,8 +8,9 @@
 
 ## 1.基于MDP过程的 VoI 理论探究
 
-RA@K%J`4RUJ9CD2~VFWKS{C.png
+[![sample-image](./assets/RA@K%J`4RUJ9CD2~VFWKS{C.png)]
 
+[![sample-image](./assets/WX8TG%05Q_P6RMYMG6[WSJB.png)]
 
 
 ### Date: 2023/4/12
