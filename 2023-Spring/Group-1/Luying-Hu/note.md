@@ -2,7 +2,8 @@
 ## 本周进度
 1. 学习算法并编写毕设代码；
 1. 进行了有关空天地一体化网络的白皮书调研，并进行总结。
-<img width="296" alt="白皮书调研" src="https://user-images.githubusercontent.com/121794362/232802506-2a10172d-60ff-4621-a58e-c6685c7bbb19.png">
+<img width="291" alt="白皮书调研" src="https://user-images.githubusercontent.com/121794362/232803232-dd85cc78-596a-439a-9218-a1f55c3223ec.png">
+
 
 ## 下周计划
 继续完成毕设代码。
