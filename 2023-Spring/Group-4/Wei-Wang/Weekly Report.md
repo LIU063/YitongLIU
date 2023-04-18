@@ -8,10 +8,15 @@
 
 ## 1.基于MDP过程的 VoI 理论探究
 
-[![sample-image](./assets/RA@K%J`4RUJ9CD2~VFWKS{C.png)]
+> ![sample-image](./assets/191.png)
 
-[![sample-image](./assets/WX8TG%05Q_P6RMYMG6[WSJB.png)]
+> ![sample-image](./assets/192.png)
 
+## 2.论文进展
+
+### 根据反馈正在修改。
+
+> [论文链接](https://cn.overleaf.com/read/hcqfjvdbjdck "Communication Resource Scheduling for CAVs: A Value of Information Based Approach")
 
 ### Date: 2023/4/12
 
