@@ -49,6 +49,8 @@
 &ensp;&ensp;&ensp;&ensp; 在做接入选择的训练时，也存在一些问题还没有解决。比如输出是27个值，但是有些值始终为0，目前认为与损失函数的定义有关，后续打算自定义损失函数，给每个输出设置一个惩罚因子和阈值。             
 &ensp;&ensp;&ensp;&ensp;   做测试时，接入选择基本都是同一种。    
 
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/Rsum.png)
+![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/pdis.png)
 ## 下周计划：
 &ensp;&ensp;&ensp;&ensp; 将代码修改好，开始写论文。   
 
