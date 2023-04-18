@@ -49,3 +49,4 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 
 对比算法为监督学习（利用优化算法解出标签），无监督学习（沈逸飞论文训练方式）
 知识蒸馏方法所用损失函数为上述两种方法的损失函数加权求和
+<img width="473" alt="1681831186893" src="https://user-images.githubusercontent.com/63155472/232824062-fba328de-5e09-48d1-8260-5c9c011ae2c6.png">
