@@ -1,8 +1,16 @@
 
-#Prompt Tips
+ # Prompt Tips
 
-为了让ChatGPT更加准确的回答和解决有关论文方面的问题，通常需要一些prompt tips。
+为了让ChatGPT更加准确的回答和解决有关论文方面的问题，通常需要一些prompt tips，以下从3个方面展示：
 
+ 1. 论文润色 (gpt-3.5)
+
+ 2. 摘要生成 (gpt-3.5)
+
+ 3. 优化问题求解目标推理 (gpt-4.0)
+
+
+# 1. 论文润色
 
 慢思考提醒
 
@@ -24,7 +32,12 @@ ChatGPT是无数语料喂出来的，可以把它想象成许多作家聚在一�
 
 请他扮演一个专业的论文评审专家，对论文草稿给出评审意见，然后根据意见，去重新审视论文。
 在修改具体论文内容时，让他扮演我所研究的领域的专家，这样可以让它的表达更加准确。
-Prompt: You are now acting as an expert in the field of [Put professional fields here…]. From a professional point of view, do you think there is any need to modify the above content? Be careful not to modify the whole text, you need to point out the places that need to be modified one by one, and give revision opinions and recommended revision content.
+
+```
+Prompt: You are now acting as an expert in the field of [Put professional fields here…]. 
+From a professional point of view, do you think there is any need to modify the above content? 
+Be careful not to modify the whole text, you need to point out the places that need to be modified one by one, and give revision opinions and recommended revision content.
+```
 
 提示：你现在扮演一个[这里放你所研究的领域] 领域的专家，从专业的角度，您认为上面这些内容是否有需要修改的地方？ 注意，不要全文修改，您需要一一指出需要修改的地方，并且给出修改意见以及推荐的修改内容。
 
@@ -32,21 +45,22 @@ Prompt: You are now acting as an expert in the field of [Put professional fields
 最近自己一直在用的一个提示，可以说终于摆脱了之前一次输出不完整或者中间断网的情况。
 
 这种方式改文章，改代码都可以。
-
+```
 Prompt: [Put your requirements here…] , since your output length is limited, in order to save space. Please use ellipses for the parts you don’t think need to be modified.
-
+```
 提示：[这里放你的要求…]，由于你的输出长度有限，为了节省空间。请你觉得没必要修改的部分，用省略号即可。
 
 多版本参考
 在润色过程中，ChatGPT可以提供多个版本的修改建议，以便对比和选择。
-
+```
 Prompt: Please provide multiple versions for reference.
 
 提示：请提供多个版本用于参考。
+```
 
 及时反馈
 如果ChatGPT理解错了你的问题，可以给它一个错误的反馈，让它重新回答
-
+```
 Prompt: Note that it is not …, but …
 
 Re-answer the previous question based on what I have added.
@@ -54,20 +68,20 @@ Re-answer the previous question based on what I have added.
 提示：注意，不是…而是…
 
 请根据我的补充，重新回答上个问题
-
+```
 如果认为回答的不够好，或者方向不对。可以要求重新回答，并且指明侧重方向。比如你只希望去除当前段落的冗余，并不想改动原意思。
-
+```
 Prompt：Still the above question, I think your answer is not good enough. Please answer again, this time focusing on removing redundancy from this passage.
 
 提示：还是上面的问题，我认为你回答的不够好。请重新回答一次，这次你应该侧重于去除这段话中的冗余。
-
+```
 前后对比
 如果文本还是过长不利于观察，让它回答具体修改了哪些地方。
-
+```
 Prompt：Note that in addition to giving the modified content, please also indicate which paragraphs and sentences have been modified in the revised version.
 
 提示：注意，除了给出润色修改之后的内容，还请指明修订的版本中具体修改了哪些段落的哪几句话。
-
+```
 补充：这里最好是用一些在线的文本对比工具来观察，例如下面这种，更加一目了然。
 
 
@@ -100,58 +114,63 @@ Prompt：Note that in addition to giving the modified content, please also indic
 段落润色
 
 直接润色
-
+```
 Prompt: Polish the paragraph above to make it more logical, and academic.
 
-
 提示：润色上面的内容，使其更加更合逻辑，更符合学术风格
+```
 
 有时，如果英文不够好或者对修改之后的句子感觉不合适，可以接着让它输出一句理由。然后自己再做最终的判断。
-
+```
 Prompt：For the sentence “[Before polished sentence]”, why did you polish it to be “[Polished sentence]”.
 
 提示：对于“[润色前的句子]”这句话，为什么你润色为成“[润色后的句子]”。
-
+```
 同理，本文接下来的所有用法都可以配合着上面的方式进行追问。
 
 特定要求
 1）结合背景知识
 
 相比于上面直接的润色，这种方式可能会让它输出一些更丰富的信息。
-
+```
 Prompt: According to your knowledge about XXX and XXX, is there a better way to write the above paragraph, please help to revise it so that it can be used in academic papers.
 
 提示：上面这段话，根据你所掌握的关于XXX和XXX的知识，有没有更好的写法，请帮助润色修改，以便能够用于论文。
-
+```
 2）长句拆分
-
+```
 Prompt: This sentence is too long and complex. Consider breaking it up into multiple shorter sentences.
 
 提示：这句话太长而复杂。考虑将其分解为多个较短的句子。
-
+```
 3）去除冗余
-
+```
 Prompt: This section seems repetitive. Please rephrase to avoid redundancy.
 
 提示：本节似乎是重复的。请重塑以避免冗余。
-
+```
 语法句法
+```
 Prompt: This sentence is grammatically incorrect. Please revise.
 
 提示：这句话在语法上是不正确的。请修改。
-
+```
+```
 Prompt: The subject and verb do not agree in this sentence. Please correct.
 
 提示：主语和动词在这句话中不一致。请改正。
-
+```
+```
 Prompt: This phrase seems out of place. Please rephrase to improve clarity.
 
 提示：这句话似乎不合适。请重新措辞以表达更清晰。
 
+```
+```
 Prompt: I have used a passive voice in this sentence. Consider using an active voice instead.
 
 提示：我在这句话中使用了被动语态。考虑改用主动语态。
-
+```
 场景举例
 写论文的时候往往要贬低一下别人方法的局限性。可以让ChatGPT帮你列举一些有局限性的场景。
 
