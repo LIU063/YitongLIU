@@ -1,3 +1,75 @@
+# **周报-Week05**
+##### 时间：2023.04.13——2023.04.18
+
+### **一、主要工作内容和进展**
+
+
+##### 1、调研FL在物理层设计中的应用
+
+下图为基于FL的物理层设计应用，如符号检测、信道估计和波束成形，在边缘设备上计算的学习模型参数通过BS发送到PS进行模型聚合。
+![](./pic/week05(1).jpg)
+**符号检测**：
+符号检测：接收信号  ------>  发射信号
+
+通过ML的方法进行符号检测提供了一种端到端学习方案，这样在无线信道影响下接收的符号通过ANN被映射到清晰的符号。使用ML进行符号检测的主要优点是提供了一个数据驱动的映射来建模信道特征，这可能无法通过基于模型的技术精确处理。此外，端到端学习使模型能够准确地检测符号，而不需要信道估计阶段，因为它直接输入接收到的损坏符号。
+
+基于FL的接收机(FedRec)用于下行衰落信道中的符号检测。具体来说，考虑了基于梯度的联邦体系结构，收集的梯度信息发送到PS。这种方法的主要优点是减少了通信开销。但是，该研究采用了非常浅的MLP结构，只有一个隐藏层，只有48个可学习参数，这使得学习性能强烈依赖于输入输出数据空间，为了泛化，需要更广泛和更深入的模型架构。
+
+
+**信道估计**：
+信道估计：导频信号  ------>  信道矩阵
+
+第一阶段收集训练数据，获得接收到的导频信号(输入)和信道矩阵(输出)，其中使用基于模型的方法，如近似线性最小均方误差(A-LMMSE)估计来获得标签。第二阶段用户通过FL协同训练模型，计算模型参数，并与PS交换。第三阶段是预测阶段，在这个阶段，训练的模型对每个用户都是可用的,用户将接收到的导频输入它，以预测相应的下行信道。
+
+这种方法的一个主要优点是每个用户都可以访问经过训练的模型来执行信道估计。但是，它涉及到一个训练数据生成阶段，在这个阶段中，训练数据集的标签(通道矩阵)应该通过另一种基于模型的技术来获得。
+
+
+**波束成形**：
+波束成形：导频/信道矩阵  ------> 波束成形权重（回归） /波束成形指数（分类）
+
+[5G中波束赋形介绍](https://mp.weixin.qq.com/s/eOb0XqvnIdW9JsOJrGC-3g)
+
+- 波束成形在大规模MIMO中应用
+
+针对下行场景，提出基于FL的混合波束成形，用户计算模型参数并将梯度信息发送给基站。训练分类的CNN模型，使每个类在方位角平面上指定一个可能的用户方向，并将模拟波束形成器构造为与这些用户方向对应的转向向量。因此，CNN的输出是波束形成指数。CNN的输入可以是信道矩阵，也可以是接收到的导频信号，这些导频信号被用作信道估计的输入。这两种输入之间的主要权衡在于信道矩阵提供更多的特征，而导频信号更容易收集。
+
+- IRS辅助大规模MIMO中的波束成形
+
+与传统大规模MIMO相比，IRS的使用提高了远端用户接收信号的能量，扩大了信号的覆盖范围。
+
+IRS辅助大规模MIMO涉及多条通信链路，包括BS-USER(直连)链路和BS- IRS -USER(级联)链路。IRS辅助场景包括主动(BS)和被动(IRS)波束形成，以便从BS接收到的信号可以反射给用户。
+
+此外，波束成形器的优化是基于信道链路的，这使得IRS辅助的情况非常具有挑战性，因此提出了几种方法来克服这些困难。
+
+论文提出用于IRS辅助场景的基于FL的波束形成器设计，其中采用FedAvg方法训练具有模型传输的回归MLP。在FedAvg中，在边缘设备上计算的模型参数对一定次数的迭代求平均。然后将它们发送到PS，在PS中进行全局聚合，从而提高了收敛速度。然而，在现实场景中，毫米波信道由于环境变化而非常动态，具有非常短的信道相干间隔。因此，训练模型的性能不能反映这种irs辅助场景下的真实传播环境。
+
+
+
+
+下表总结了基于FL的技术的优点和缺点:
+
+![](./pic/week05(2).jpg)
+
+
+
+参考文献：
+[1] [Elbir A M, Papazafeiropoulos A K, Chatzinotas S. Federated learning for physical layer design[J]. IEEE Communications Magazine, 2021, 59(11): 81-87.](https://ieeexplore.ieee.org/abstract/document/9665441)
+
+[2] [Cui Y, Guo J, Li X, et al. Federated edge learning for the wireless physical layer: Opportunities and challenges[J]. China Communications, 2022, 19(8): 15-30.](https://ieeexplore.ieee.org/abstract/document/9861221)
+
+[3] [Mashhadi M B, Shlezinger N, Eldar Y C, et al. Fedrec: Federated learning of universal receivers over fading channels[C]//2021 IEEE Statistical Signal Processing Workshop (SSP). IEEE, 2021: 576-580.](https://ieeexplore.ieee.org/abstract/document/9513736)
+
+[4] [Elbir A M, Coleri S. Federated learning for channel estimation in conventional and RIS-assisted massive MIMO[J]. IEEE Transactions on Wireless Communications, 2021, 21(6): 4255-4268.](https://ieeexplore.ieee.org/abstract/document/9625822)
+
+
+
+
+<br>
+
+---
+
+<br>
+
 # **周报-Week04**
 ##### 时间：2023.04.06——2023.04.12
 
