@@ -12,6 +12,10 @@ C. Dong, X. Xu, A. Liu and X. Liang, "Load balancing routing algorithm based on 
 H. Liming, K. Shaoli, S. Shaohui, M. Deshan, H. Bo and Z. Meiting, "A load balancing routing method based on real time traffic in LEO satellite constellation space networks," 2022 IEEE 95th Vehicular Technology Conference: (VTC2022-Spring)  
 摘要：随着卫星间链路的快速发展，路由算法将成为低地球轨道卫星星座的关键问题，特别是对于天基物联网网络。该文提出一种基于卫星链路历史流量的路由技术负载均衡策略。在传统基于快照的卫星路由算法的基础上，将各链路的过往流量参与计算最优路径，并考虑对整个星座网络中的流量负载分布进行优化。该算法显著缓解了卫星网络部分热点区域高流量负载负担造成的网络拥塞和丢包问题。仿真结果表明，该方法能够有效改善高负载条件下网络流量负载不平衡导致的时延性能下降，同时降低了丢包率，优化了业务的时延稳定性。
 链接：https://ieeexplore.ieee.org/document/9860540
+### 4、基于真实卫星、飞行和航运数据的天空地一体化网络的深度学习辅助路由
+D. Liu, J. Zhang, J. Cui, S. -X. Ng, R. G. Maunder and L. Hanzo, "Deep Learning Aided Routing for Space-Air-Ground Integrated Networks Relying on Real Satellite, Flight, and Shipping Data," in IEEE Wireless Communications,2022  
+摘要：目前的海上通信主要依赖传输资源贫乏的卫星，因此性能不如现代地面无线网络。随着跨大陆空中交通的增长，依靠商用客机的航空自组网这一有前途的概念有可能通过空对地和多跳空对空链路加强基于卫星的海上通信。在本文中，我们设想了支持泛在海上通信的空-空-地一体化网络，其中低地球轨道卫星星座、客机、地面基站、船舶分别作为空间、空中、地面和海洋层。为了满足异构业务需求，适应天-空-地一体化网络的时变性和自组织性，我们提出了一种深度学习辅助多目标路由算法，该算法利用准可预测网络拓扑结构并以分布式方式运行。我们的仿真结果基于北大西洋地区的真实卫星、飞行和航运数据，表明集成网络通过减少端到端延迟、提高端到端吞吐量以及提高路径寿命来提高覆盖质量。结果表明，我们的深度学习辅助多目标路由算法能够实现接近帕累托最优的性能。  
+链接：https://ieeexplore.ieee.org/document/9762643
 ## 二、	星地一体化＋边缘计算+物联网（任务卸载/资源分配）
 ### 1、协同计算卸载的卫星边缘计算：一种智能深度确定性策略梯度方法
 H. Zhang, R. Liu, A. Kaushik and X. Gao, "Satellite Edge Computing with Collaborative Computation Offloading: An Intelligent Deep Deterministic Policy Gradient Approach," in IEEE Internet of Things Journal,2022  
