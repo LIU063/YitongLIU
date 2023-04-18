@@ -41,7 +41,7 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 ## 进行知识蒸馏辅助训练初步实验
 
 系统模型为D2D通信模型，优化目标为最大化和速率（参照沈逸飞GNN论文）
-
 神经网络模型采用PCNet
+
 <img width="696" alt="1681830753795" src="https://user-images.githubusercontent.com/63155472/232822016-ced53b4a-45e5-4161-8ec0-be1ad76e676b.png">
 <img width="703" alt="1681830777783" src="https://user-images.githubusercontent.com/63155472/232822126-9f4306dc-5d41-4643-827a-4ae0a01d82aa.png">
