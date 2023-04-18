@@ -1,3 +1,49 @@
+# 2023.4.19   
+## 1.调研：
+### 1.A secure software defined network: for heterogenous network co-exist
+[1]流量预测：流量预测是路由优化领域的重要研究课题。流量预测用于通过分析历史流量数据来预测网络流量的模式。SDN控制器利用流量预测结果提前做出高效的流量路由决策，并将动态路由策略分发到数据平面中的设备。路由优化、流量分类都可以用SDN＋机器学习解决。          
+[2]SDN中的DDoS攻击与防护：基于动态贝叶斯博弈          
+[3]DDoS能耗：提出了一种改进的网络拓扑生成算法，该算法可以综合考虑链路交换能耗和卫星间链路能耗。考虑到卫星网络中异常流量造成的巨大能耗，提出了一种卫星网络中的DDoS缓解机制，旨在减少卫星节点处理异常流量所产生的额外能耗。          
+[4]信息传输效率：探讨如何使用SDN技术来改善空中、地面和卫星通信网络的信息传输效率，特别是在SAGIN中实现动态切换的传输控制方案。该方案通过分离控制平面和数据平面以及使用SDN架构、排队博弈模型等来有效地分配SAGINs资源，从而降低数据转发节点控制功能的负载并提高网络性能。         
+[5]安全、QoS和路由：提出了一种新的基于SDN的SAGINs安全路由和QoS感知的混合体系结构。在SAGIN中使用不同级别的多个SDN控制器，该架构遵循具有不同级别的不同路由供应层的分层结构，以利用SAGIN的异构性来找到满足安全性和QoS要求的多个路由。         
+[6]SDN控制器优化部署管理方案（多控制器）：将SDN引入SAGIN，设计了一种基于分层域的支持SDN的SAGIN架构。提出了一种用于基于分层域的SDN使能的SAGIN的多控制器部署策略。首先，将SDN控制平面分为两层，即主控制器层部署在地面网络上，而次控制器层部署在基于空间的网络上。SDN数据平面由天基、空基和地基网络组成。其次，考虑平均网络延迟和控制器负载，多目标优化模型的构建。为了确定控制器的数量以及交换节点和控制器的相对位置，采用基于k-means的聚类算法对数据平面进行初步划分。最后，为了提高算法的全局搜索能力，采用了基于遗传算法的多目标优化算法。        
+[7]提出区块链赋能的动态频谱管理框架，由上层软件定义网络（SDN）控制器组成联盟区块链网络，实现安全高效的网段间/片间频谱资源共享，由上层SDN控制器管理的下层SDN控制器负责片内频谱接入。         
+
+[1]Ghaffar Z, Alshahrani A, Fayaz M, et al. A topical review on machine learning, software defined networking, internet of things applications: Research limitations and challenges[J]. Electronics, 2021, 10(8): 880.         
+[2]Li Z, Yang B, Zhang X, et al. DDoS Defense Method in Software-Defined Space-Air-Ground Network from Dynamic Bayesian Game Perspective[J]. Security and Communication Networks, 2022, 2022: 1-13.         
+[3]Z. Tu, H. Zhou, K. Li, M. Li and A. Tian, "An Energy-Efficient Topology Design and DDoS Attacks Mitigation for Green Software-Defined Satellite Network," in IEEE Access, vol. 8, pp. 211434-211450, 2020, doi: 10.1109/ACCESS.2020.3039975.         
+[4]C. Guo, C. Gong, H. Xu, L. Zhang and Z. Han, "A Dynamic Handover Software-Defined Transmission Control Scheme in Space-Air-Ground Integrated Networks," in IEEE Transactions on Wireless Communications, vol. 21, no. 8, pp. 6110-6124, Aug. 2022, doi: 10.1109/TWC.2022.3146452.         
+[5]Hashem Eiza, M and Raschella, A A Hybrid SDN-based Architecture for Secure and QoS aware Routing in Space-Air-Ground Integrated Networks (SAGINs). In: IEEE Wireless Communications and Networking Conference, Glasgow, Scotland, UK. (Accepted)         
+[6]C. Chen, Z. Liao, Y. Ju, C. He, K. Yu and S. Wan, "Hierarchical Domain-Based Multicontroller Deployment Strategy in SDN-Enabled Space–Air–Ground Integrated Network," in IEEE Transactions on Aerospace and Electronic Systems, vol. 58, no. 6, pp. 4864-4879, Dec. 2022, doi: 10.1109/TAES.2022.3199191.         
+[7]LI Z, WANG W, GUO J, et al. Blockchain‐Empowered Dynamic Spectrum Management for Space‐Air‐Ground Integrated Network[J]. Chinese Journal of Electronics, 2022, 31(3): 456-466.         
+
+###  2.SEN自适应进化网络（Self-Evolving Network）：
+&ensp;&ensp;&ensp;&ensp; 是一种基于人工智能和自适应技术的新一代网络架构，它可以在网络运行期间对自身进行学习、优化和演化，以适应不断变化的网络环境和需求。SEN网络可以根据网络流量、网络拓扑结构、用户需求等因素进行智能调整和优化，从而提供更高效、更可靠、更安全的网络服务。SEN的概念实现了多级智能网络管理策略，可以跨不同的网络、运营商甚至生态系统（例如蜂窝或卫星生态系统）执行。        
+&ensp;&ensp;&ensp;&ensp; 自组织网络（SONs）：3GPP在4G和5G文档中引入，其主要思路是实现无线网络的一些自主功能，如自配置、自优化、自愈，减少人工参与，降低运营成本。但是SONs无法足够灵活地应对复杂性，异构性和移动性更大的SAGIN。网络需要使其功能适应特定的环境状态，转变为能够在高度动态和复杂的环境中保持其性能的自我演进的网络。          
+&ensp;&ensp;&ensp;&ensp; SEN框架包括三个关键组件：SEN引擎、冲突避免和协调管理实体，以及分布式和协作计算。人工智能将作为SEN引擎的核心，并通过机器学习算法实现，其将利用通信环境收集的数据（例如空间和时间的流量分布、用户偏好和移动模式）以及外部信息来源的改进，如新技术、新兴网络组件和先进的通信服务。         
+&ensp;&ensp;&ensp;&ensp; SEN能做什么：集成的跨网络优化、扩展网络容量/覆盖范围、智能波束成形、分布式数据卸载和计算         
+&ensp;&ensp;&ensp;&ensp; SEN面临的挑战：智能和标准化的冲突解决算法（解决不同运营商、网络或生态系统之间的冲突）、跨网络、运营商和生态系统的信息共享和学习（将联邦学习概念扩展到不同的分布式级别和规模上工作）、学什么及如何学（选择适当的数据范围和持续时间对于避免学习和处理不必要的数据非常重要）、实时和在线学习算法（适应可扩展和高度可变的网络环境）、在未来集成网络中实现Sen概念的成本（数据收集的通信成本、计算资源的部署成本、ML的计算成本）         
+&ensp;&ensp;&ensp;&ensp; 集成的垂直异构网络（VHetNet）架构：在空中、地面和卫星等不同网络层次之间实现了紧密的集成和协作。[8][9]        
+&ensp;&ensp;&ensp;&ensp; 关于self-evolving算法有很多：[10][11][12]    
+
+
+
+[8]Darwish T, Kurt G K, Yanikomeroglu H, et al. A vision of self-evolving network management for future intelligent vertical HetNet[J]. IEEE Wireless Communications, 2021, 28(4): 96-105.    
+[9]A. Farajzadeh, M. G. Khoshkholgh, H. Yanikomeroglu and O. Ercetin, "Self-Evolving Integrated Vertical Heterogeneous Networks," in IEEE Open Journal of the Communications Society, vol. 4, pp. 552-580, 2023, doi: 10.1109/OJCOMS.2023.3243870.        
+[10]Y. -Y. Lin, J. -Y. Chang and C. -T. Lin, "Identification and Prediction of Dynamic Systems Using an Interactively Recurrent Self-Evolving Fuzzy Neural Network," in IEEE Transactions on Neural Networks and Learning Systems, vol. 24, no. 2, pp. 310-321, Feb. 2013, doi: 10.1109/TNNLS.2012.2231436.        
+[11]C. -F. Juang and Y. -W. Tsao, "A Self-Evolving Interval Type-2 Fuzzy Neural Network With Online Structure and Parameter Learning," in IEEE Transactions on Fuzzy Systems, vol. 16, no. 6, pp. 1411-1424, Dec. 2008, doi: 10.1109/TFUZZ.2008.925907.         
+[12]S. Wu and T. W. S. Chow, "Self-Organizing and Self-Evolving Neurons: A New Neural Network for Optimization," in IEEE Transactions on Neural Networks, vol. 18, no. 2, pp. 385-396, March 2007, doi: 10.1109/TNN.2006.887556.    
+   
+       
+         
+### 3.A variable trust protocol：    
+&ensp;&ensp;&ensp;&ensp; 混合太空架构（HSA）概念是由美国太空军太空作战部长杰伊·雷蒙德将军在2020年的《企业卫星通信愿景》中提出，该架构由多个轨道上的军用和商业卫星组成，设计为一个网络集成能力的“太空互联网”，并提供基础性的网络防护以抵御黑客攻击。该架构集成了新兴小卫星功能和传统美国政府太空系统，可在安全环境中利用利用云、分层和低延迟通信，连接不同的民用、军用、商业和盟军太空系统，将显著提高太空的威慑力和韧性。[13]     
+美军动向：AFRL快速架构原型和集成开发（RAPID）实验室专门研究小型卫星和未来混合太空架构；太空军目标在2027年实现混合太空体系架构初始作战能力；国防部设计“防黑客太空互联网”；太空军太空作战分析中心开发“总体太空数据传输力量设计”。     
+已确定了四个研究领域：多路径通信（Multi-Path Communications）、可变信任协议（Variable Trust Protocol）、多源数据融合（Multi-Source Data Fusion）和基于云的分析（Cloud-Based Analytics）。     
+可变信任协议：该研究领域将使最终用户能够根据风险或任务应用调整信任因素，包括考虑数据源和网络路径。武器使用可能需要高可信度，态势感知的开源信息。网络路径的信任因素包括截获概率、检测概率、抗干扰能力、链路和端到端加密以及零信任连续身份验证。     
+美国国防部指出，“我们必须确保通过增加的访问点不引入漏洞。由于参与的网络种类繁多，每个链接和节点将根据其在架构内的观察行为被动态地分配一个信任分数。然后，基于信息的敏感性和时效性，流量可以通过优选的链接进行路由。”这段话强调了通过在网络架构内观察节点行为并为其分配动态信任分数，以保护信息并基于敏感性和时效性来路由流量的可变信任协议的重要性。
+
+<https://mp.weixin.qq.com/s?__biz=MzIzNTE3Mjg1MQ==&mid=2650341314&idx=1&sn=9993c3f48a4a07b9a91b47874c63c527&chksm=f0e7795ec790f048bd1e0863c984b265d631f593439c973798c7119b19375681802f38058dd9&scene=27>
 # 2023.4.12    
 ## 1.场景修改：   
 ![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/scene2_1.jpg) 
