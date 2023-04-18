@@ -1,3 +1,15 @@
+
+### Date: 2023/4/19
+
+[![sample-image](./assets/IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
+
+------------------------------------------------
+# 周工作汇报
+
+## 1.基于MDP过程的 VoI 理论探究
+
+
+
 ### Date: 2023/4/12
 
 [![sample-image](./assets/IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
