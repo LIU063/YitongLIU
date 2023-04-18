@@ -92,6 +92,15 @@ M. Zhao, N. Ye, Q. Ouyang, Y. Jin, Y. Jin and L. Zhao, "Multi-Satellite Cooperat
 链接：https://ieeexplore.ieee.org/abstract/document/10006363/
 ### 5、统一的空中接口设计方案是未来的重要研究方向
 为了支持多种业务的传输，终端极其简单地接入最适合天地网的节点。统一空口体制，在空中接口分层结构上，采用相同的设计方案，采用相同的传输和交换技术。
+### 其他前沿代表性文献
+[1] W. Liu, H. Yang, and J. Li, “Multi-Functional Time Expanded Graph: A Unified Graph Model for Communication, Storage, and Computation for Dynamic Networks Over Time,” IEEE Journal on Selected Areas in Communications, vol. 41, no. 2, 2023  
+[2] Z. Xiao, T. Mao, Z. Han, and X.-G. Xia, “Near Space Communications: A New Regime in Space-Air-Ground Integrated Networks,” IEEE Wireless Communications, vol. 29, no. 6, 2022  
+[3] L. Cai, J. Pan, W. Yang, X. Ren, and X. Shen, “Self-Evolving and Transformative (SET) Protocol Architecture for 6G,” IEEE Wireless Communications, 2022  
+[4] F. Lyu, F. Wu, Y. Zhang, J. Xin, and X. Zhu, “Virtualized and Micro Services Provisioning in Space-Air-Ground Integrated Networks,” IEEE Wireless Communications, vol. 27, no. 6, 2020  
+[5] D. Zhou, M. Sheng, J. Li, and Z. Han, “Aerospace Integrated Networks Innovation for Empowering 6G: A Survey and Future Challenges,” IEEE Communications Surveys and Tutorials, 2023  
+[6] S. Gu, Q. Zhang, and W. Xiang, “Coded Storage-and-Computation: A New Paradigm to Enhancing Intelligent Services in Space-Air-Ground Integrated Networks,” IEEE Wireless Communications, vol. 27, no. 6, 2020  
+[7] D. Liu, J. Zhang, J. Cui, S. X. Ng, R. G. Maunder, and L. Hanzo, “Deep Learning Aided Routing for Space-Air-Ground Integrated Networks Relying on Real Satellite, Flight, and Shipping Data,” IEEE Wireless Communications, vol. 29, no. 2, 2022
+
 
 # 20230323周报
 ## 面向内容服务的空地集成6G网络资源分配  
