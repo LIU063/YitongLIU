@@ -34,8 +34,7 @@
 [11]C. -F. Juang and Y. -W. Tsao, "A Self-Evolving Interval Type-2 Fuzzy Neural Network With Online Structure and Parameter Learning," in IEEE Transactions on Fuzzy Systems, vol. 16, no. 6, pp. 1411-1424, Dec. 2008, doi: 10.1109/TFUZZ.2008.925907.         
 [12]S. Wu and T. W. S. Chow, "Self-Organizing and Self-Evolving Neurons: A New Neural Network for Optimization," in IEEE Transactions on Neural Networks, vol. 18, no. 2, pp. 385-396, March 2007, doi: 10.1109/TNN.2006.887556.    
    
-       
-         
+                
 ### 3.A variable trust protocol：    
 &ensp;&ensp;&ensp;&ensp; 混合太空架构（HSA）概念是由美国太空军太空作战部长杰伊·雷蒙德将军在2020年的《企业卫星通信愿景》中提出，该架构由多个轨道上的军用和商业卫星组成，设计为一个网络集成能力的“太空互联网”，并提供基础性的网络防护以抵御黑客攻击。该架构集成了新兴小卫星功能和传统美国政府太空系统，可在安全环境中利用利用云、分层和低延迟通信，连接不同的民用、军用、商业和盟军太空系统，将显著提高太空的威慑力和韧性。[13]     
 美军动向：AFRL快速架构原型和集成开发（RAPID）实验室专门研究小型卫星和未来混合太空架构；太空军目标在2027年实现混合太空体系架构初始作战能力；国防部设计“防黑客太空互联网”；太空军太空作战分析中心开发“总体太空数据传输力量设计”。     
@@ -43,7 +42,16 @@
 可变信任协议：该研究领域将使最终用户能够根据风险或任务应用调整信任因素，包括考虑数据源和网络路径。武器使用可能需要高可信度，态势感知的开源信息。网络路径的信任因素包括截获概率、检测概率、抗干扰能力、链路和端到端加密以及零信任连续身份验证。     
 美国国防部指出，“我们必须确保通过增加的访问点不引入漏洞。由于参与的网络种类繁多，每个链接和节点将根据其在架构内的观察行为被动态地分配一个信任分数。然后，基于信息的敏感性和时效性，流量可以通过优选的链接进行路由。”这段话强调了通过在网络架构内观察节点行为并为其分配动态信任分数，以保护信息并基于敏感性和时效性来路由流量的可变信任协议的重要性。
 
-<https://mp.weixin.qq.com/s?__biz=MzIzNTE3Mjg1MQ==&mid=2650341314&idx=1&sn=9993c3f48a4a07b9a91b47874c63c527&chksm=f0e7795ec790f048bd1e0863c984b265d631f593439c973798c7119b19375681802f38058dd9&scene=27>
+<https://mp.weixin.qq.com/s?__biz=MzIzNTE3Mjg1MQ==&mid=2650341314&idx=1&sn=9993c3f48a4a07b9a91b47874c63c527&chksm=f0e7795ec790f048bd1e0863c984b265d631f593439c973798c7119b19375681802f38058dd9&scene=27>         
+
+## 2.代码进度     
+&ensp;&ensp;&ensp;&ensp; 现在在做多用户的随机接入。完成了优化p得到系统最优的Rsum=R1+R2+R3的情况，但是存在一些问题。比如有些接入情况下，优化p不能收敛，有些R保密率会出现等于0的情况。初步猜测是跟信道环境有关。    
+&ensp;&ensp;&ensp;&ensp; 在做接入选择的训练时，也存在一些问题还没有解决。比如输出是27个值，但是有些值始终为0，目前认为与损失函数的定义有关，后续打算自定义损失函数，给每个输出设置一个惩罚因子和阈值。             
+&ensp;&ensp;&ensp;&ensp;   做测试时，接入选择基本都是同一种。    
+
+## 下周计划：
+&ensp;&ensp;&ensp;&ensp; 将代码修改好，开始写论文。   
+
 # 2023.4.12    
 ## 1.场景修改：   
 ![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/scene2_1.jpg) 
