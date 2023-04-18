@@ -28,3 +28,12 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
 # Week 4
 - ServerLess Edge Computing Bug解决与模型训练 https://github.com/LionelFu/ServerLess_Edge_Computing
 - 对比试验调研
+
+# Week 5
+- Diffusion相关论文阅读：
+  - Deep Unsupervised Learning using Nonequilibrium Thermodynamics
+  - Denoising Diffusion Probabilistic Models
+  - Understanding Diffusion Models: A Unified Perspective
+- AI_Course更新
+- ServerLess调参
+- 服务器维修
