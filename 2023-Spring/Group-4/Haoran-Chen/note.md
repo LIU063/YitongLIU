@@ -6,7 +6,7 @@
 
 数据集：UA-DETRAC，车辆检测和跟踪的大规模数据集，由Cannon EOS 550D相机在中国北京和天津的24个不同地点拍摄的10小时视频组成，类别包括car, bus, van, others
 
-![image](./images/20230418-01.png)
+![image](./images/20230418-01.jpg)
 
 Fig：使用yolov5s.pt预训练模型（在coco数据集上训练），在UA-DETRAC数据集上的训练效果。
 
