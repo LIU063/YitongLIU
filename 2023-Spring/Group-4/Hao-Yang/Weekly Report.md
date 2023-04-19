@@ -6,6 +6,8 @@
 
 2. 撰写知识驱动综述文献物理层部分
 
+![image](https://user-images.githubusercontent.com/90384476/232952436-784401e0-dc89-49e9-83ed-df73ecc2e9f7.png)
+
 3. 整理[GPT Prompt Tips](https://github.com/UNIC-Lab/Weekly-Report/blob/main/Miscellaneous/GPT-Academic%20Writting/Prompt%20Tips.md) 
 
 ## 下周工作 
