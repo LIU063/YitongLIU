@@ -4,7 +4,7 @@
 
 1. 修改论文，重画场景图，修改摘要 
 
-> [论文链接](https://cn.overleaf.com/read/"Graph Neural Network based D2D Resources Management: An Unrolling-Driven Method")
+> [论文链接](https://cn.overleaf.com/read/hcqfjvdbjdck "Graph Neural Network based D2D Resources Management: An Unrolling-Driven Method")
 
 2. 撰写知识驱动综述文献物理层部分
 
