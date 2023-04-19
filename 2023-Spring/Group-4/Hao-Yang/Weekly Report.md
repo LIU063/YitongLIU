@@ -4,6 +4,8 @@
 
 1. 修改论文，重画场景图，修改摘要 
 
+> [论文链接](https://cn.overleaf.com/read/"Graph Neural Network based D2D Resources Management: An Unrolling-Driven Method")
+
 2. 撰写知识驱动综述文献物理层部分
 
 3. 整理[GPT Prompt Tips](https://github.com/UNIC-Lab/Weekly-Report/blob/main/Miscellaneous/GPT-Academic%20Writting/Prompt%20Tips.md) 
