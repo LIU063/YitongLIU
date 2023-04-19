@@ -1,3 +1,12 @@
+# 20230419周报
+
+## 本周工作：
+
+1. 修改论文，重画场景图，修改摘要 
+
+2. 撰写知识驱动综述文献物理层部分
+
+3. 整理[GPT Prompt Tips](https://github.com/UNIC-Lab/Weekly-Report/blob/main/Miscellaneous/GPT-Academic%20Writting/Prompt%20Tips.md) 
 # 20230412周报
 ## 本周工作：
 
