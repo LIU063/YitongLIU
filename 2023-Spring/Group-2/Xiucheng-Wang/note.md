@@ -174,3 +174,6 @@ $hop(i,j)\leq h_{max},\qquad  \forall i \in \mathcal{V}_s\wedge\forall j \in \ma
 2. GNN在训练过程中需要收集全图所有节点的loss以此计算平均loss来更新聚合函数。FedSGD下每个用户在计算完自己的loss或gradient后，传到服务器上做梯度聚合从而更新globe model
 由此可以得到一个暴论：GNN所面临的大部分问题，其实FL中也有
 根据这个思路看的话，不同的节点类型和节点的度，如果会造成节点需要输出的ground truth label的分布不同。那么用一个共享的AGG Net去做训练，相当于FL中不同用户的数据分布是Non-IID的
+
+## Zero-Shot User for Personalized FL
+在N个Non-IID用户下分别train出来了多个personalized model。假设有第N+1个用户，在不训练的条件下，直接利用前N个personalized model组合出一个可以给第N+1个用户的model
