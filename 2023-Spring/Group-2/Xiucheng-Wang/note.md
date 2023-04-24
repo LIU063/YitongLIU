@@ -177,3 +177,10 @@ $hop(i,j)\leq h_{max},\qquad  \forall i \in \mathcal{V}_s\wedge\forall j \in \ma
 
 ## Zero-Shot User for Personalized FL
 在N个Non-IID用户下分别train出来了多个personalized model。假设有第N+1个用户，在不训练的条件下，直接利用前N个personalized model组合出一个可以给第N+1个用户的model
+
+## VoI的一种定义尝试
+信息价值->传输增益->决策增益 Decision Gain
+当前数据的传输价值$VoI_{\pi}(s) = \sum_{a\in \mathcal{A}} \pi(a;s)|Q(s,a)|$，加绝对值的目的，是因为一些state的传输可能导致系统决策崩塌，或者策略$\pi$做出的所有action中有正有负
+决策增益：$\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s^{-})Q(s,a^{-})$
+只要决策增益大于传输成本就需要传输该数据
+g哎
