@@ -184,7 +184,7 @@ $hop(i,j)\leq h_{max},\qquad  \forall i \in \mathcal{V}_s\wedge\forall j \in \ma
 $VoI_{\pi}(s) = \sum_{a\in \mathcal{A}} \pi(a;s)|Q(s,a)|$
 加绝对值的目的，是因为一些state的传输可能导致系统决策崩塌，或者策略
 $\pi$
-做出的所有action中有正有负
+做出的所有action中收益有正有负
 
 决策增益
 $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s^{-})Q(s,a^{-})$
