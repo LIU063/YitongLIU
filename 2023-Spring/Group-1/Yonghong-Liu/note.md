@@ -296,9 +296,29 @@ SA5在进行融合网络架构下网管方面的研究中提出如下2种网管�
 
 [2] X. Zhu and C. Jiang, "Creating Efficient Integrated Satellite-Terrestrial Networks in the 6G Era," in IEEE Wireless Communications, vol. 29, no. 4, pp. 154-160, August 2022, doi: 10.1109/MWC.011.2100643.
 
+### 2023.4.26
+# 本周进展
+## 1.毕设加密部分完成
+
+主要参考了论文：
+
+J. Chen, X. Lu, W. Li, Y. Huang, Y. Tang and Y. Ma, "A Physical Encryption Scheme for OTFS System," 2022 IEEE 22nd International Conference on Communication Technology (ICCT), Nanjing, China, 2022, pp. 921-926, doi: 10.1109/ICCT56141.2022.10073312.
+
+这篇论文提取了信道响应强度作为密钥来源。将信道响应强度作为混沌发生器的初始值生成密钥从而使星座旋转，达到加密的目的。
+
+在毕设中参考其思路，提取当前时频域中的信道响应强度，将其转换为延迟-多普勒域中，然后将所提取到的信道响应强度的值作为密钥直接去加密生成延迟-多普勒域中的发送信息这一步骤。
+
+在代码中用qammod函数生成了延迟-多普勒域中发射符号。在qammod函数前，将信道响应强度作为密钥相乘，可以起到改变相位的作用。
+
+如果考虑密钥统一的问题，还是会存在泄露的问题。
 
 
+## 2.阅读论文
 
+P. Zhang, N. Chen, S. Shen, S. Yu, N. Kumar and C. -H. Hsu, "AI-Enabled Space-Air-Ground Integrated Networks: Management and Optimization," in IEEE Network, doi: 10.1109/MNET.131.2200477.
+
+# 下周安排
+## 看网课；根据联邦学习实战的书籍学习联邦学习
 
 
 
