@@ -37,3 +37,5 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
 - AI_Course更新
 - ServerLess调参
 - 服务器维修
+# Week 6
+- 毕业设计完成两个章节
