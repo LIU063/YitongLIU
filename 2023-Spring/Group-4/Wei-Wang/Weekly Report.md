@@ -1,3 +1,87 @@
+### Date: 2023/4/27
+
+[![sample-image](./assets/IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
+
+------------------------------------------------
+## 1.Learning Task-Oriented Communication for Edge Inference: An Information Bottleneck Approach
+
+### Edge Inference
+
+边缘推理的描述：
+
+To provide immersive user experience,DNN-based mobile applications need to be performed within the edge of wireless networks, which eliminates the excessive latency incurred by routing data to the Cloud, and is referred to as edge inference [13], [14]. Edge inference can be implemented by deploying DNNs at an edge server located in close proximity to mobile devices, known as edge-only inference. 
+
+> [13] Y . Shi, K. Y ang, T. Jiang, J. Zhang, and K. B. Letaief, “Communication-
+efficient edge AI: Algorithms and systems,” IEEE Commun. Surveys
+Tuts., vol. 22, no. 4, pp. 2167–2191, 4th Quart., 2020.
+
+> [14] E. Li, Z. Zhou, and X. Chen, “Edge intelligence: On-demand deep learn-
+ing model co-inference with device-edge synergy,” in Proc. Workshop
+Mobile Edge Commun., Budapest, Hungary, Aug. 2018, pp. 31–36.
+
+### Information Bottleneck
+
+问题背景：
+
+A typical example is that of speech compression. One can consider lossless compression, but in any compression beyond the entropy of speech some components of the signal cannot be reconstructed. On the other hand, a transcript of the spoken words
+has much lower entropy (by orders of magnitude) than the acoustic waveform,
+which means that it is possible to compress (much) further without losing
+any information about the words and their meaning.
+
+“信息瓶颈”的描述：
+
+Obviously lossy compression cannot convey more information than the orig-
+inal data. As with rate and distortion, there is a tradeoff between compress-
+ing the representation and preserving meaningful information, and there is
+no single right solution for the tradeoff. The assignment we are looking for is
+the one that keeps a fixed amount of meaningful information about the rel-
+evant signal Y while minimizing the number of bits from the original signal
+X (maximizing the compression). 2 In effect we pass the information that X
+provides about Y through a “bottleneck” formed by the compact summaries
+in ˜X.
+
+“信息瓶颈”的原论文：
+
+> [20] N. Tishby, F. C. Pereira, and W. Bialek, “The information bottleneck
+method,” in Proc. Annu. Allerton Conf. Commun. Control Comput.,
+Monticello, IL, USA, Oct. 1999, pp. 368–377.
+
+与“信息瓶颈”相关的近期论文：
+
+> [32] Z. Goldfeld and Y . Polyanskiy, “The information bottleneck problem
+and its applications in machine learning,” IEEE J. Sel. Areas Inf. Theory,
+vol. 1, no. 1, pp. 19–38, May 2020.
+
+> [33] A. Zaidi, I. Estella-Aguerri, and S. S. Shitz, “On the information
+bottleneck problems: Models, connections, applications and information
+theoretic views,” Entropy, vol. 22, no. 2, p. 151, Jan. 2020.
+
+> [34] A. Achille and S. Soatto, “Information dropout: Learning optimal
+representations through noisy computation,” IEEE Trans. Pattern Anal.
+Mach. Intell., vol. 40, no. 12, pp. 2897–2905, Dec. 2018.
+
+> [35] A. A. Alemi, I. Fischer, J. V . Dillon, and K. Murphy, “Deep variational
+information bottleneck,” in Proc. Int. Conf. Learn. Represent., Toulon,
+France, Apr. 2017, pp. 1–19.
+
+### Variational Information Bottleneck
+
+
+### Key point
+
+A mobile device first extracts a compact feature vector
+from the raw input data using an affordable neural network
+and then uploads it for server-based processing.
+
+The line of research on “learning to communicate” stems from the introductory article on deep learning for the physical layer design in [7], where information transmission was viewed as a data reconstruction task, and a communication system can thus be modeled by a DNN-based autoencoder with the wireless channel simulated by a non-trainable layer. 
+
+Nevertheless, the shifted objective of feature transmissions for accurate edge inference with low latency is not aligned with that of data-oriented communication, as it regards a part of the raw input data (e.g., nuisance, task-irrelevant information) as meaningless. Thus, recovering the original data sample with high fidelity at the edge server results in redundant communication overhead, which leaves room for further compression. This insight is also supported by a basic principle from representation learning [22]: A good representation should be insensitive (or invariant) to nuisances such as translations, rotations, occlusions. Thus, we advocate for task-oriented communication for applications such as edge inference, to improve the efficiency by transmitting sufficient but minimal information for the downstream task.
+
+## 2.论文进展
+
+### 根据反馈进行了修改。
+
+> [论文链接](https://cn.overleaf.com/read/hcqfjvdbjdck "Communication Resource Scheduling for CAVs: A Value of Information Based Approach")
 
 ### Date: 2023/4/19
 
