@@ -7,6 +7,8 @@
 - <a href="#3">Week 3 (2023.4.6)</a>  
 - <a href="#4">Week 4 (2023.4.13)</a>
 - <a href="#5">Week 5 (2023.4.19)</a>
+- <a href="#6">Week 6 (2023.4.27)</a>
+- <a href="#7">Week 7 (2023.5.4)</a>
 
 <br/>  
 
@@ -193,6 +195,35 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 # **周报-Week 5**    
 ## 2023.4.19     
 ## **本周工作是写专利，目前已写完专利内容，待系统评估后，和专利公司进行细节商讨修改**    
+    
+<br/> 
+    
+
+***  
+<p id="6"></p>        
+    
+# **周报-Week 6**    
+## 2023.4.27     
+## **参考文献**    
+
+[1] Yang S, Li F, Trajanovski S, et al. Delay-aware virtual network function placement and routing in edge clouds[J]. IEEE Transactions on Mobile Computing, 2019, 20(2): 445-459.    
+[2] Wang G, Zhou S, Zhang S, et al. SFC-based service provisioning for reconfigurable space-air-ground integrated networks[J]. IEEE Journal on Selected Areas in Communications, 2020, 38(7): 1478-1489.   
+调研了关于AI部署的文献，阅读了两篇关于VNF部署的文献，建模将基于这两篇论文建模
+    
+<br/> 
+    
+
+***  
+<p id="7"></p>        
+    
+# **周报-Week 7**    
+## 2023.5.3     
+## **参考文献**  
+[1] Wu C, Peng Q, Xia Y, et al. Towards cost-effective and robust AI microservice deployment in edge computing environments[J]. Future Generation Computer Systems, 2023, 141: 129-142.   
+    阅读了这篇关于基于AI模型的微服务的组合编排和部署的文章，其中这个微服务，让人有启发，下周再调研AI微服务相关的文章。    
+    该文章仿真用的3 种边缘 AI 微服务（即图像分类 𝑆1、对象检测 𝑆2 和动作识别 𝑆3），并为每种微服务考虑了 6 个候选 DNN 模型。具体来说，ResNet 101、MnasNet、DenseNet 121、MobileNet V2、ShuffleNet V2 和 AlexNet 模型可用于图像分类应用； RetinaNet、SpineNet-190、Faster R-CNN、Fast R-CNN、R-CNN 和用于对象检测的 YOLOv3； MGGUNet、BSN、SSN、R-C3D、TURN-TAP 和 MSCNN 用于动作识别。收集了不同边缘 AI 微服务的 QoS（即响应时间和准确性），这些微服务在不同类型的容器上采用不同的 DNN 模型来进行实验。  
+    
+    
     
 <br/> 
     
