@@ -8,6 +8,7 @@
 - <a href="#4">Week 4 (2023.04.07 – 2023.04.13)</a>
 - <a href="#5">Week 5 (2023.04.14 – 2023.04.19)</a>
 - <a href="#6">Week 6 (2023.04.19 – 2023.04.27)</a>
+- <a href="#7">Week 7 (2023.04.28 – 2023.05.04)</a>
 
 <br/>
 
@@ -189,3 +190,12 @@ $\pi$
 决策增益
 $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s^{-})Q(s,a^{-})$
 只要决策增益大于传输成本就需要传输该数据
+
+<p id="7"></p>
+
+# <a href="#table">Week 7 (2023.04.28 – 2023.05.04)</a>
+
+## Joint Optimization of AIGC and Resource Allocation
+*赶紧水，时不我待，那帮人也太能写了
+
+联合优化diffusion model的denoise层数、以及实时更新率(是全denoise全再传，还是边denoise边传，有个进度条一样的东西，甚至允许用户自行添加噪声或设置中断)和边缘计算那一堆玩意，做性能和时延的tradeoff
