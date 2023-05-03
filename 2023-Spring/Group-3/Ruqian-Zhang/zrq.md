@@ -221,7 +221,8 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 ## **参考文献**  
 [1] Wu C, Peng Q, Xia Y, et al. Towards cost-effective and robust AI microservice deployment in edge computing environments[J]. Future Generation Computer Systems, 2023, 141: 129-142.   
     阅读了这篇关于基于AI模型的微服务的组合编排和部署的文章，其中这个微服务，让人有启发，下周再调研AI微服务相关的文章。    
-    该文章仿真用的3 种边缘 AI 微服务（即图像分类 𝑆1、对象检测 𝑆2 和动作识别 𝑆3），并为每种微服务考虑了 6 个候选 DNN 模型。具体来说，ResNet 101、MnasNet、DenseNet 121、MobileNet V2、ShuffleNet V2 和 AlexNet 模型可用于图像分类应用； RetinaNet、SpineNet-190、Faster R-CNN、Fast R-CNN、R-CNN 和用于对象检测的 YOLOv3； MGGUNet、BSN、SSN、R-C3D、TURN-TAP 和 MSCNN 用于动作识别。收集了不同边缘 AI 微服务的 QoS（即响应时间和准确性），这些微服务在不同类型的容器上采用不同的 DNN 模型来进行实验。    
+    该文章仿真用的3 种边缘 AI 微服务（即图像分类 𝑆1、对象检测 𝑆2 和动作识别 𝑆3），并为每种微服务考虑了 6 个候选 DNN 模型。   
+    具体来说，ResNet 101、MnasNet、DenseNet 121、MobileNet V2、ShuffleNet V2 和 AlexNet 模型可用于图像分类应用； RetinaNet、SpineNet-190、Faster R-CNN、Fast R-CNN、R-CNN 和用于对象检测的 YOLOv3； MGGUNet、BSN、SSN、R-C3D、TURN-TAP 和 MSCNN 用于动作识别。收集了不同边缘 AI 微服务的 QoS（即响应时间和准确性），这些微服务在不同类型的容器上采用不同的 DNN 模型来进行实验。    
     <div align=center> 
     ![AI1](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/AI1.jpg)  
     ![AI2](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/AI2.jpg)   
