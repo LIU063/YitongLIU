@@ -296,7 +296,7 @@ SA5在进行融合网络架构下网管方面的研究中提出如下2种网管�
 
 [2] X. Zhu and C. Jiang, "Creating Efficient Integrated Satellite-Terrestrial Networks in the 6G Era," in IEEE Wireless Communications, vol. 29, no. 4, pp. 154-160, August 2022, doi: 10.1109/MWC.011.2100643.
 
-### 2023.4.26
+### 2023.5.3
 # 本周进展
 ## 1.毕设加密部分完成
 
@@ -310,16 +310,36 @@ J. Chen, X. Lu, W. Li, Y. Huang, Y. Tang and Y. Ma, "A Physical Encryption Schem
 
 在代码中用qammod函数生成了延迟-多普勒域中发射符号。在qammod函数前，将信道响应强度作为密钥相乘，可以起到改变相位的作用。
 
-如果考虑密钥统一的问题，还是会存在泄露的问题。
+之后还需要考虑密钥统一的问题。
 
 
 ## 2.阅读论文
 
 P. Zhang, N. Chen, S. Shen, S. Yu, N. Kumar and C. -H. Hsu, "AI-Enabled Space-Air-Ground Integrated Networks: Management and Optimization," in IEEE Network, doi: 10.1109/MNET.131.2200477.
 
-# 下周安排
-## 看网课；根据联邦学习实战的书籍学习联邦学习
+这篇文章提出了基于SDN技术的分层混合深度强化学习（HHDRL）方法。
 
+场景图如下：
+
+![image](./github/23.5.3-1.png)
+
+分层混合深度强化学习架构的设计和原理：
+
+![image](./github/23.5.3-2.png)
+
+如图所示，在空天地海不同域内都分别设置了本地SDN控制器，并在其中部署了本地DRL模型以负责信息汇聚、管理和优化。
+
+然后在SAGIN的整体网络架构上部署了全局SDN控制器和全局DRL模型，主要负责各个物理域本地管理者的统一管理，它可以部署在三层物理域中的任意设备上。（这个地方文章的意思是，全局SDN控制器所配置的设备可以根据具体的场景和任务进行改变）.然后考虑网络的连通性和生存性要部署多个相同的SDN控制器。
+
+本地代理和全局代理交互和协作流程如图所示：
+
+![image](./github/23.5.3-3.png)
+
+本地代理中的action<a1,a2,a3,a4>会产生state<s1,s2,s3,s4>和reward<r1,r2,r3,r4>，由此得到任意时刻的联合状态S和联合奖励R作为全局DRL的输入，产生联合动作控制整体的SAGIN。
+
+# 下周安排
+## 撰写毕业论文初稿
+## 看网课；根据联邦学习实战的书籍学习联邦学习
 
 
 
