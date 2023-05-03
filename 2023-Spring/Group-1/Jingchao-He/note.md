@@ -1,13 +1,31 @@
+### Week 6
+1. 调试了gpn.py (GPN网络）中的bug；
+2. 完成了train.py和环境的设置，功能的实现主要写入train.py, Step.py等文件中；  
+    Step.py: Resource_Allocate, Resource_Release, step, Total_Reward  
+4. 完成了南大成果认定书的一部分，并进行了整体修改；  
+5. 思考并修改了部分返回的审稿意见，有几处意见需要讨论：  
+ 
+ 
+· Reviewer 1: ?
+· Reviewer 2: The paper's quality is good and would need minor writing improvements such as in the introduction section "Traditional, terrestrial mobile networks ..., which have enabled many a large number of applications..."  
+
+· Reviewer 3:   
+(1) However, the major drawback regards some assumptions in the System Model.  Figure 1 describe the SAGIN architecture formed by ground and aerial networks.  However, the authors dismissed the mobility of nodes, as described in the System Model section.  In such a case, quasi-stationary nodes represent a classical node routing, however with Wi-Fi links.  A question that arise is whether the proposed solution does not fit better for Wi-Fi SDN with constraints than to aerial networks.  
+(2) Equation 16 consider the computational capacity of a node n Cn. In real world scenario, you can not know in advance the computational cost of a service, since it may vary due to number of request/response rate.  
+(3) Similar comment to Equation 17.  
+
+
+
 ### Week 5
 1. 在上周基础上学习pytorch_geometric、dgl等图神经网络需要调用的库；
-2. 重新设计了gpn模块，下一步计划设置环境；  
+2. 重新设计了GPN模块，下一步计划设置环境；  
 
 ## 调研框架及分工
-现有卫星星座发展状况-杨杰  
+现有卫星星座发展状况
 目前的研究趋势  
-1. 学术界（主要包含论文、白皮书）-张玉洁、胡陆莹  
-2. 产业界（主要有NASA、3GPP两个方面）-刘永红  
-3. 新型概念及研究方向-王兆薇  
+1. 学术界（主要包含论文、白皮书）
+2. 产业界（主要有NASA、3GPP两个方面） 
+3. 新型概念及研究方向  
 
 ### Week 4
 
