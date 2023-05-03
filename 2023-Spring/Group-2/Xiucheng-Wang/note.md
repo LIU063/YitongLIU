@@ -199,3 +199,4 @@ $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s
 *赶紧水，时不我待，那帮人也太能写了
 
 联合优化diffusion model的denoise层数、以及实时更新率(是全denoise全再传，还是边denoise边传，有个进度条一样的东西，甚至允许用户自行添加噪声或设置中断)和边缘计算那一堆玩意，做性能和时延的tradeoff
+(diffusion+dynn?)
