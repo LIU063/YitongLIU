@@ -1,6 +1,16 @@
+# TMC revision
+
+## Propagation Flow
+
+![RingSFL propagation flow](./assets/propgation_flow.png)
+
+## Overlapping Layer
+
+![RingSFL overlapping layer](./assets/overlapping_layer.png)
+
 # AdvSL: Adversarial Knowledge Fusion for Split Learning with Non-IID Features
 
-完成论文所需实验
+完成论文所有的实验、数据处理、绘图等工作。
 
 ---
 
