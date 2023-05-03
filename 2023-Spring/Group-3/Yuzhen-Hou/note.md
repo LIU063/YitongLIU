@@ -6,6 +6,8 @@
 - <a href="#2">Week 2 (2023.3.23 – 2023.3.29)</a>
 - <a href="#3">Week 3 (2023.3.30 – 2023.4.5)</a>
 - <a href="#4">Week 4 (2023.4.6 – 2023.4.12)</a>
+- <a href="#5">Week 5 (2023.4.13 – 2023.4.19)</a>
+- <a href="#6">Week 6 (2023.4.20 – 2023.4.26)</a>
 
 <br/>
 
@@ -321,3 +323,34 @@
 
 1. 根据拟增加的对比图进行试验，并作为论文仿真结果的最终对比图。
 2. 继续完成论文撰写工作（盲审日期为 5.8）
+
+<p id="6"></p>
+
+## <a href="#table">Week 6 (2023.4.20 – 2023.4.26)</a>
+
+### Work
+
+1. 加噪环境下撤除虚拟环境的性能改进
+
+    - 复杂任务的模型性能对比
+
+        对地图大小 100×100，40 个用户，4 架无人机场景进行调试，给出了不同采样速率比、不同数字孪生噪声条件下，在期望曲线斜率平缓到最大斜率的40%时撤除虚拟环境，结果如下图对比
+
+        <div align="center" style="width: 65em; height: 22em; overflow: hidden; display: flex; ">
+            <img src="./assets/img/week6_task_UAVRL_real_rate_env_removed_plot_1stEdition.png" style="height: 22em;" alt="task_UAVRL_real_rate_env_removed_plot_1stEdition" />
+            <img src="./assets/img/week5_task_UAVRL_DQN_real_rate_plot_1stEdition_comparison.png" style="height: 22em;" alt="task_UAVRL_DQN_rate_plot_1stEdition_comparison" />
+        </div>
+
+        撤除环境后的性能得到了大幅的改善，因此考虑把撤除环境的判断标准同时作为超参数加以考虑。
+
+    - 构想的新改进
+        
+        将虚拟-真实环境采样速率比、撤除环境的具体标准、噪声强度大小作为数字孪生构建成本的构成因素，同时考虑提升强化学习收敛速度、降低数字孪生构建成本两个要素的最优化问题。
+        - 采样速率大、撤出环境晚、噪声强度小都会导致数字孪生构建成本提升
+        - 正在考虑加入物理环境构建成本限制的可能（如考虑无人机部署成本、采样时的飞行轨迹总长度、能耗等因素）
+
+2. 完成了毕业论文第一部分引言的部分内容。
+
+### Plan
+
+1. 尽快完成毕业论文。
