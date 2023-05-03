@@ -46,6 +46,26 @@ in ˜X.
 method,” in Proc. Annu. Allerton Conf. Commun. Control Comput.,
 Monticello, IL, USA, Oct. 1999, pp. 368–377.
 
+### Variational Information Bottleneck
+The variational method is a natural way to approximate
+intractable computations based on some adjustable parameters
+(e.g., weights in DNNs), and it has been widely applied in
+machine learning, e.g., the variational autoencoder [39]. In the
+VIB framework, the central idea is to introduce a set of
+approximating densities to the intractable distribution
+
+### Key point
+
+<!-- A mobile device first extracts a compact feature vector
+from the raw input data using an affordable neural network
+and then uploads it for server-based processing.
+
+The line of research on “learning to communicate” stems from the introductory article on deep learning for the physical layer design in [7], where information transmission was viewed as a data reconstruction task, and a communication system can thus be modeled by a DNN-based autoencoder with the wireless channel simulated by a non-trainable layer. 
+
+Nevertheless, the shifted objective of feature transmissions for accurate edge inference with low latency is not aligned with that of data-oriented communication, as it regards a part of the raw input data (e.g., nuisance, task-irrelevant information) as meaningless. Thus, recovering the original data sample with high fidelity at the edge server results in redundant communication overhead, which leaves room for further compression. This insight is also supported by a basic principle from representation learning [22]: A good representation should be insensitive (or invariant) to nuisances such as translations, rotations, occlusions. Thus, we advocate for task-oriented communication for applications such as edge inference, to improve the efficiency by transmitting sufficient but minimal information for the downstream task. -->
+
+该篇工作的大致思路是，使用一个动态神经网络设计一个动态特征编码器，其中特征编码器可以根据信道状态动态改变编码后特征向量的维度（实际上通过评估所有特征向量的重要性并设置一个阈值实现），其中动态神经网络的 loss function 有信息瓶颈公式通过蒙特卡洛，变分方法和数据抽样近似其上界。特征向量的重要性是输出层特征矩阵的行比例因子。
+
 与“信息瓶颈”相关的近期论文：
 
 > [32] Z. Goldfeld and Y . Polyanskiy, “The information bottleneck problem
@@ -63,19 +83,6 @@ Mach. Intell., vol. 40, no. 12, pp. 2897–2905, Dec. 2018.
 > [35] A. A. Alemi, I. Fischer, J. V . Dillon, and K. Murphy, “Deep variational
 information bottleneck,” in Proc. Int. Conf. Learn. Represent., Toulon,
 France, Apr. 2017, pp. 1–19.
-
-### Variational Information Bottleneck
-
-
-### Key point
-
-A mobile device first extracts a compact feature vector
-from the raw input data using an affordable neural network
-and then uploads it for server-based processing.
-
-The line of research on “learning to communicate” stems from the introductory article on deep learning for the physical layer design in [7], where information transmission was viewed as a data reconstruction task, and a communication system can thus be modeled by a DNN-based autoencoder with the wireless channel simulated by a non-trainable layer. 
-
-Nevertheless, the shifted objective of feature transmissions for accurate edge inference with low latency is not aligned with that of data-oriented communication, as it regards a part of the raw input data (e.g., nuisance, task-irrelevant information) as meaningless. Thus, recovering the original data sample with high fidelity at the edge server results in redundant communication overhead, which leaves room for further compression. This insight is also supported by a basic principle from representation learning [22]: A good representation should be insensitive (or invariant) to nuisances such as translations, rotations, occlusions. Thus, we advocate for task-oriented communication for applications such as edge inference, to improve the efficiency by transmitting sufficient but minimal information for the downstream task.
 
 ## 2.论文进展
 
