@@ -336,9 +336,9 @@
 
         对地图大小 100×100，40 个用户，4 架无人机场景进行调试，给出了不同采样速率比、不同数字孪生噪声条件下，在期望曲线斜率平缓到最大斜率的40%时撤除虚拟环境，结果如下图对比
 
-        <div align="center" style="width: 65em; height: 22em; overflow: hidden; display: flex; ">
-            <img src="./assets/img/week6_task_UAVRL_real_rate_env_removed_plot_1stEdition.png" style="height: 22em;" alt="task_UAVRL_real_rate_env_removed_plot_1stEdition" />
-            <img src="./assets/img/week5_task_UAVRL_DQN_real_rate_plot_1stEdition_comparison.png" style="height: 22em;" alt="task_UAVRL_DQN_rate_plot_1stEdition_comparison" />
+        <div align="center" style="width: 65em; height: 20em; overflow: hidden; display: flex; ">
+            <img src="./assets/img/week6_task_UAVRL_real_rate_env_removed_plot_1stEdition.png" style="height: 20em;" alt="task_UAVRL_real_rate_env_removed_plot_1stEdition" />
+            <img src="./assets/img/week5_task_UAVRL_DQN_real_rate_plot_1stEdition_comparison.png" style="height: 20em;" alt="task_UAVRL_DQN_rate_plot_1stEdition_comparison" />
         </div>
 
         撤除环境后的性能得到了大幅的改善，因此考虑把撤除环境的判断标准同时作为超参数加以考虑。
