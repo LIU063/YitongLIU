@@ -53,3 +53,13 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 
 
 <img width="473" alt="1681831186893" src="https://user-images.githubusercontent.com/63155472/232824062-fba328de-5e09-48d1-8260-5c9c011ae2c6.png">
+
+
+# Week6 
+## 撰写RB分配任务代码
+已完成部分：
+1.随机生成信道状态、动作数据，计算得到速率，通过监督学习的方式对critic网络进行预训练
+2.基于预训练的critic模型，在线训练actor和critic 
+下一步计划：
+1.生成一定量的离线数据对actor和critic进行离线训练，而后进行在线微调
+2.探讨离线过程中标签数据对模型性能的影响
