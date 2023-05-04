@@ -4,7 +4,7 @@
 ### **一、主要工作内容和进展**
 
 ##### 1、调研FL与Wi-Fi相结合   （关于Network4AI的研究）
-文章来源：**"Federated learning over WiFi: Should we use TCP or UDP?"** 
+文章来源：**["Federated learning over WiFi: Should we use TCP or UDP?"](https://osf.io/tuz6c/download)** 
 
 目前，客户端和服务器之间的通信主要基于TCP协议，本文探讨了使用UDP协议进行客户端和服务器之间的通信。开发了基于UDP的算法，用于基于梯度聚合的联邦学习和基于模型聚合的联邦学习。提出了在UDP协议的数据包丢失的情况下构造模型更新的方法。并且在WiFi上进行了实验，并观察到基于UDP的协议可以比基于TCP的协议更快地收敛，特别是在比较差的网络中。
 
@@ -19,23 +19,23 @@ TCP和UDP的比较：
 - TCP和UDP之间的主要区别之一是处理数据包丢失的方式。TCP不断地重新传输丢失的数据包，直到成功，而在UDP中，没有丢失数据包的重新传输。在数据包丢失后，TCP将等待至少200ms后再重新传输。
 
 
+
 算法：
 提出了用于基于梯度聚合的联邦学习的算法FedGradUDP和用于基于模型聚合的联邦教育的算法FedAvgUDP.
 
 
-- FedGradUDP Algorithm：
+- FedGradUDP Algorithm：在数据包丢失的情况下如何估计梯度。
+![](./pic/week06p.jpg)
 
 ![](./pic/week06a1.jpg)
 
 
-
-
-- FedAvgUDP Algorithm
-
+- FedAvgUDP Algorithm：与FedGradUDP中的梯度估计不同，模型权重估计在实践中效果不佳。训练和模型性能对模型权重非常敏感，我们提出在客户端-服务器或服务器-客户端传输期间，只要特定权重丢失，就重用本地模型中的特定权重。
 ![](./pic/week06a2.jpg)
 
 
-通过在MNIST数据集上训练深度卷积神经网络来实证评估FedGradUDP的性能，并通过在CIFAR10数据集上训练VGG16深度卷积神经网络（Krizhevsky 2012）来实证评价FedAvgUDP的性能。
+
+通过在MNIST数据集上训练深度卷积神经网络来实证评估FedGradUDP的性能，并通过在CIFAR10数据集上训练VGG16来实证评价FedAvgUDP的性能。
 
 FedGradUDP算法：随时间变化的性能
 与使用TCP进行训练相比，FedGradUDP进行训练所花费的时间要少得多。使用UDP时性能的波动可以用训练过程中由于数据包丢失而引入的差异来解释
@@ -52,12 +52,8 @@ FedGradUDP的性能优于使用TCP的训练。使用FedAvgUDP，训练收敛并�
 
 
 
+**想法**：在本篇文章的背景下，结合龙博之前的idea做FL在WiFi下的不可靠通信问题，探索具体实现过程，考虑MAC层丢帧问题？在包含模型参数的帧丢失形况下，如何估计出来梯度或者参数？
 
-
-
-
-
-想法：在本篇文章的背景下，结合龙博之前的idea做FL在WiFi下的不可靠通信问题，探索具体实现过程
 结合一篇文章
 Ye H, Liang L, Li G Y. Decentralized federated learning with unreliable communications[J]. IEEE Journal of Selected Topics in Signal Processing, 2022, 16(3): 487-500.
 
@@ -71,9 +67,6 @@ Ye H, Liang L, Li G Y. Decentralized federated learning with unreliable communic
 
 ##### 2、初步调研WiFi6/7
 看白皮书和一些基础知识，下周做具体调研
-
-
-
 
 
 
