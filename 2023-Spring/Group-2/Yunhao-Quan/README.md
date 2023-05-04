@@ -21,7 +21,7 @@
 尽快撰写完论文，投稿。
 # 第三周周报
 上周提到的对比算法实现及其性能比较
-![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/figure3.svg)
+![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/fig3.svg)
 # 第四周周报
 ## 修改论文
 ## 调研XAI在MARL中的应用
@@ -33,4 +33,4 @@
 ## 配置环境，在muliti-gym中尝试实现MARL shapely计算。
 # 第五周周报
 在算法收敛性分析图中，random算法在刚开始会出现小幅度上升，修改环境,debug解决这一问题。
-
+![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/)
