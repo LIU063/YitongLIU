@@ -1,4 +1,4 @@
-# Week 7(4.27-4.28)
+# Week 7(4.28-5.4)
 ## 论文扩展  
 ### 场景建模      
 - 建模过程知识引入可行思路  
@@ -9,13 +9,15 @@
 - 强化学习算法中知识引入可行思路  
     1)	奖励重塑，解决训练前期数据稀疏带来的问题(设计势函数)  
     2)	在行动者网络中引入安全层(对动作空间进行调整使其满足约束)   
-        - 对于每个action(选择的子信道，分配的功率)进行实时约束，思路待定  
-
-# Week 6(4.19-4.26)
+        - 对于每个action(选择的子信道，分配的功率)进行实时约束: 设定不同的业务对速率的要求不同，分别给时延敏感型业务、速率敏感型业务和普通业务设定一个最低的传输速率，然后在传输过程中保证传输速率为 <img src="http://chart.googleapis.com/chart?cht=tx&chl= max\{ R_{min},0 \}" style="border:none;">, 由此设置安全层，同时缩小了动作空间。  
+     
+# Week 6(4.19-4.27)
 ## 论文扩展
 ### 场景建模
-<https://github.com/loafluls/report_images/blob/main/images/%E5%BB%BA%E6%A8%A1%E6%80%9D%E8%B7%AF.docx>
-<https://www.overleaf.com/project/6447be9fd28783520adaa08a>
+Word 文档  
+<https://github.com/loafluls/report_images/blob/main/images/%E5%BB%BA%E6%A8%A1%E6%80%9D%E8%B7%AF.docx>  
+Overleaf 建模公式编辑  
+<https://www.overleaf.com/project/6447be9fd28783520adaa08a>  
 ### 下周工作
 - 考虑如何将知识融入
 
