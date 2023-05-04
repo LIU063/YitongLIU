@@ -2,7 +2,9 @@
 
 ## 本周工作：
 
-1. 修改论文，重画样本数据图![image](https://user-images.githubusercontent.com/90384476/236106548-a368285a-6f2a-4b99-bcf0-3eb2cd261703.png)，删去最后一个实验。
+1. 修改论文摘要，重画样本数据图，删去最后一个实验。
+![image](https://user-images.githubusercontent.com/90384476/236106548-a368285a-6f2a-4b99-bcf0-3eb2cd261703.png)
+
 
 2. 撰写知识驱动综述文献物理层部分
 
