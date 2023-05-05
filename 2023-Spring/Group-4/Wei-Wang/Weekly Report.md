@@ -59,6 +59,8 @@ approximating densities to the intractable distribution.
 
 ![sample-image](./assets/53/VBIE.png)
 
+> [1]. Wainwright, M. J. and Jordan, M. I. (2008). Graphical models, exponential families, and variational inference. Foundations and Trends in Machine Learning, 1(1-2):1–305.
+
 ### Key point
 
 <!-- A mobile device first extracts a compact feature vector
