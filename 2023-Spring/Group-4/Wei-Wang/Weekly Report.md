@@ -32,7 +32,7 @@ any information about the words and their meaning. -->
 
 “信息瓶颈”的描述：
 
-> Obviously lossy compression cannot convey more information than the original data. As with rate and distortion, there is a tradeoff between compressing the representation and preserving meaningful information, and there is no single right solution for the tradeoff. The assignment we are looking for is the one that keeps a fixed amount of meaningful information about the relevant signal Y while minimizing the number of bits from the original signal X (maximizing the compression). 2 In effect we pass the information that X provides about Y through a “bottleneck” formed by the compact summaries in ˜X.
+> Obviously lossy compression cannot convey more information than the original data. As with rate and distortion, there is a tradeoff between compressing the representation and preserving meaningful information, and there is no single right solution for the tradeoff. The assignment we are looking for is the one that keeps a fixed amount of meaningful information about the relevant signal Y while minimizing the number of bits from the original signal X (maximizing the compression). In effect we pass the information that X provides about Y through a “bottleneck” formed by the compact summaries in ˜X.
 
 ![sample-image](./assets/53/IBM.png)
 
@@ -73,7 +73,7 @@ Nevertheless, the shifted objective of feature transmissions for accurate edge i
 
 ![sample-image](./assets/53/system.png)
 
-该篇工作的大致思路是，使用一个动态神经网络设计一个动态特征编码器，其中特征编码器可以根据信道状态动态改变编码后特征向量的维度（实际上通过评估所有特征向量的重要性并设置一个阈值实现），其中动态神经网络的 loss function 有信息瓶颈公式通过蒙特卡洛，变分方法和数据抽样近似其上界。特征向量的重要性是输出层特征矩阵的行比例因子。
+该篇工作的大致思路是，使用一个动态神经网络设计一个动态特征编码器(joint source-channel coding, JSCC)，其中特征编码器可以根据信道状态动态改变编码后特征向量的维度（实际上通过评估所有特征向量的重要性并设置一个阈值实现），其中动态神经网络的 loss function 有信息瓶颈公式通过蒙特卡洛，变分方法和数据抽样近似其上界。特征向量的重要性是输出层特征矩阵的行比例因子。
 
 与“信息瓶颈”相关的近期论文：
 
