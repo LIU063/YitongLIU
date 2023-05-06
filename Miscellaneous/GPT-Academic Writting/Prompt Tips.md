@@ -240,9 +240,13 @@ When it comes to writing content, two factors are crucial, "perplexity" and "bur
 Step3: 重写指令：
 
 ```
-using the concepts written previously, write the article with a high degree of perplexity and burstiness: ${内容}
+using the concepts written previously, summarize the content of this articl as an abstract nealy 200 words with a high degree of perplexity and burstiness: ${内容}
 ```
 ### 如果intro过长，可以如下分段输入：
+
+```
+OK, since the paper is too long, I will give it to you twice, so after I give it to you thefirst time, please remember, but don't answer it yet, okay?
+```
 
 ![image](https://user-images.githubusercontent.com/90384476/232757512-ee1aed52-cd05-4829-99e0-0398a8d41d61.png)
 
