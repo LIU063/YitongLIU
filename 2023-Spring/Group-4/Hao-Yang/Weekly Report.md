@@ -4,7 +4,33 @@
 
 1. 修改论文。
 
-2. 撰写知识驱动综述文献物理层部分
+3. 调研wifi仿真建模
+
+- 1 [matlab 产生WiFi信号](https://blog.csdn.net/Winds_Up/article/details/113762177)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/6a9e9529-33a9-4ead-8613-75f0f43948be)
+- 2 wirelessWaveformGenerator
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/ebd1d8b0-ee09-4797-9584-4d94e94c9f3f)
+
+使用此应用程序，可以产生如下无线信号及应用：
+
+（1）生成自定义的OFDM、QAM和PSK调制波形。
+
+（2）产生正弦波测试波形。
+
+（3）生成WLAN（802.11™) 调制波形。此功能需要WLAN工具箱。
+
+（4）生成LTE调制波形。此功能需要LTE工具箱。
+
+（5）通过添加射频损伤（如AWGN、相位偏移、频率偏移、直流偏移、IQ不平衡和无记忆三次非线性）来扭曲波形。
+
+（6）在星座图、频谱分析仪、OFDM网格和时间范围图中可视化波形。
+
+（7）将波形导出到工作区或文件。
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/a6be6814-b3d3-4a49-b137-1ee11450c666)
+
+- 3 openwifi硬件仿真 [https://github.com/open-sdr/openwifi](https://github.com/open-sdr/openwifi)
+
+3. 撰写知识驱动综述文献物理层部分
 
 ## 下周工作 
 
