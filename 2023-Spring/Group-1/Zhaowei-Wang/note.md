@@ -3,7 +3,7 @@
   继续修改仿真图
   撰写毕业论文
   ![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/ps.png)
-  ![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/pb.png)
+  ![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/Pb.png)
 
 # 2023.4.26  
    调试代码并修改细节，修改论文。
