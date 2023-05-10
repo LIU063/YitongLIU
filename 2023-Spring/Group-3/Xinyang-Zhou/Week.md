@@ -1,3 +1,63 @@
+# **周报-Week08**
+##### 时间：2023.05.04——2023.05.10
+
+### **一、主要工作内容和进展**
+
+##### 1、调研FL与Wi-Fi相结合   （关于Network4AI的研究）
+文章来源：
+**[Federated learning over WiFi: Should we use TCP or UDP?](https://osf.io/tuz6c/download)** 
+
+看源码和Debug，用socket建立客户端与server的TCP和UDP连接
+
+**[Decentralized Federated Learning with Unreliable Communications](https://ieeexplore.ieee.org/abstract/document/9716792)**
+
+![](./pic/week08.png)
+
+这一篇是第一篇的参考文献之一
+为了处理不可靠的通信，开发了一种鲁棒的分散训练算法，称为soft-DSGD。设备利用部分接收到的消息来更新它们的模型参数，并且根据不同通信链路的可靠性矩阵来优化更新中的混合权重。证明了所提出的soft-DSGD在不可靠通信网络下实现了与具有完美通信的vanilla去中心化SGD相同的渐近收敛速度。此外，数值结果证实，Soft DSGD可以有效地利用所有可用的不可靠通信链路来加速收敛。
+
+设备之间的参数交换包括以下三个步骤：
+1） 将参数分成数据包：机器学习模型，尤其是深度神经网络的参数数量通常太大，无法在单个数据包中传输。我们假设参数被随机分组为多个分组，并且被独立地传输。
+2） 广播：数据包广播到网络的其他部分。对于UDP，数据包能否成功到达目的地是未知的。
+3） 随机接收：由于通信链路的不可靠性，在任何设备上接收数据包时，数据包都可能被随机丢弃或污染。在错误检测码（例如校验和）的帮助下，接收器可以检测数据包中的错误，在这种情况下，数据包被声明丢失并被丢弃。否则，数据包将被成功接收。
+
+
+每个节点包括local SGD    和  一个混合矩阵用于consensus update 然后聚合
+
+
+主要存在的关键挑战：
+
+- 用本地参数填充丢失的数据包
+- 混合矩阵W的确定与优化
+
+结果：
+算法的有效性：
+较小的   会导致更密集的通信网络，并且需要更少的epoch来收敛。
+链路可靠性矩阵的影响
+
+
+
+
+
+
+##### 2、调研WiFi6/7
+
+1、A Survey of Wi-Fi 6: Technologies, Advances, and Challenges
+2、IEEE 802.11be – Wi-Fi 7: New Challenges and Opportunities
+3、看华为info关于WiFi6和WiFi7的文件
+
+
+
+
+
+<br>
+
+---
+
+<br>
+
+
+
 # **周报-Week06 07**
 ##### 时间：2023.04.19——2023.05.03
 
