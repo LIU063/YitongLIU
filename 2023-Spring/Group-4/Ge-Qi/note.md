@@ -1,8 +1,16 @@
+
 ## 2023.5.10周报
+### 本周工作进展
 + 完成算法性能比较图
 + 完成毕设论文
 + 完成外文文献翻译
 + 修改开题报告和前八周的周报并进行归档材料的整合
+### 下周工作计划
++ 学习VR相关的综述和论文
+	- 论文列表：
+		- (1) Shen, X.; Gao, J.; Li, M.; Zhou, C.; Hu, S.; He, M.; Zhuang, W. Toward Immersive Communications in 6G. Front. Comput. Sci. 2023, 4, 1068478. https://doi.org/10.3389/fcomp.2022.1068478.
+		- (1) Xia, L.; Sun, Y.; Liang, C.; Feng, D.; Cheng, R.; Yang, Y.; Imran, M. A. WiserVR: Semantic Communication Enabled Wireless Virtual Reality Delivery. IEEE Wireless Commun. 2023, 30 (2), 32–39. https://doi.org/10.1109/MWC.004.2200393.
++ 准备毕设答辩PPT
 
 ## 2023.5.3周报
 + 在BP算法的迭代过程中加入了MLP去替代其中的计算复杂模块，完成知识驱动方法的求解
