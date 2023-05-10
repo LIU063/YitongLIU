@@ -1,9 +1,17 @@
+### Week 7
+1. 继续撰写Response Letter，完成了大部分意见的回复；  
+2. 继续调试上周程序，得到了一个初步结果；  
+3. 阅读文献：A GNN-enabled Multipath Routing Algorithm for Spatial-Temporal Varying LEO Satellite Networks。  
+该文献主要研究了卫星网络中的多路径路由中流量分配问题，通过将问题解耦为两个问题（1）多路径路由；（2）流量工程（traffic steering)，并分别采用类似于K-means和Actor-Critic方法进行求解。GNN在其中的作用很不明确，推测作为Critic。  
+![sample-image](./assets/230510_1.png)  
+![sample-image](./assets/230510_2.png)  
+
 ### Week 6
 1. 调试了gpn.py (GPN网络）中的bug；
 2. 完成了train.py和环境的设置，功能的实现主要写入train.py, Step.py等文件中；  
     Step.py: Resource_Allocate, Resource_Release, step, Total_Reward  
-4. 完成了南大成果认定书的一部分，并进行了整体修改；  
-5. 思考并修改了部分返回的审稿意见，有几处意见需要讨论：  
+3. 完成了南大成果认定书的一部分，并进行了整体修改；  
+4. 思考并修改了部分返回的审稿意见，有几处意见需要讨论：  
  
  
 · Reviewer 1: ?
