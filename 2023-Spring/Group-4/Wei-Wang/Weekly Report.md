@@ -1,3 +1,16 @@
+### Date: 2023/5/10
+
+[![sample-image](./assets/IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
+
+------------------------------------------------
+
+## 1.论文进展
+
+### 根据反馈进行了修改。
+
+> [论文链接](https://cn.overleaf.com/read/hcqfjvdbjdck "Communication Resource Scheduling for CAVs: A Value of Information Based Approach")
+
+
 ### Date: 2023/5/4
 
 [![sample-image](./assets/IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
