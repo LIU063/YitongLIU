@@ -139,4 +139,9 @@ b.地面用户的接入卫星的选择也是一个重要的问题，特别是在
 
 [[1]C. Dong, X. Xu, A. Liu and X. Liang, "Load balancing routing algorithm based on extended link states in LEO constellation network," in China Communications, vol. 19, no. 2, pp. 247-260, Feb. 2022](doi: 10.23919/JCC.2022.02.020)    
 [[2]W. Liu, Y. Tao and L. Liu, "Load-Balancing Routing Algorithm Based on Segment Routing for Traffic Return in LEO Satellite Networks," in IEEE Access, vol. 7, pp. 112044-112053, 2019](doi: 10.1109/ACCESS.2019.2934932.)     
-[[3]Peiying Zhang; Yuanjie Li; Neeraj Kumar; Ning Chen; Ching-Hsien Hsu; Ahmed Barnawi, ”Distributed Deep Reinforcement Learning Assisted Resource Allocation Algorithm for Space-Air-Ground Integrated Networks, ” December. 2022](doi:10.1109/TNSM.2022.3232414)    
+[[3]Peiying Zhang; Yuanjie Li; Neeraj Kumar; Ning Chen; Ching-Hsien Hsu; Ahmed Barnawi, ”Distributed Deep Reinforcement Learning Assisted Resource Allocation Algorithm for Space-Air-Ground Integrated Networks, ” December. 2022](doi:10.1109/TNSM.2022.3232414)       
+
+
+## Date: 2023/5/11
+## 周工作汇报
+### 1.读了两篇论文，准备组会文献分享和PPT：
