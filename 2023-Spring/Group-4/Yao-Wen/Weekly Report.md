@@ -5,6 +5,11 @@
 Pcar=30
 WBS=50
 fBS=50
+![256eb47055fbbf2de976301ad7119d1](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/bb50f542-0396-47f5-9e29-d5d5b967928a)
+![Figure_10](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/efb8d1ef-1e97-4c2e-aa04-7cef98203f1b)
+
+![1683722922805](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/93bf8836-a8f5-43df-b457-7f5e6d6657d2)
+
 ## 下一步工作计划
 1、进行知识驱动算法的代码调参
 
