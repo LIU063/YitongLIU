@@ -5,7 +5,7 @@
 1. 修改论文。
 
 3. 调研wifi仿真建模
-
+![image](./picture/2023-05-11_070907.jpg) 
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/922366dd-0ec9-47c7-890f-8f431e7b524b)
 
 - 1 [matlab 产生WiFi信号](https://blog.csdn.net/Winds_Up/article/details/113762177)
