@@ -5,7 +5,9 @@
 1. 修改论文。
 
 3. 调研wifi仿真建模
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/87d81bcd-30b0-4ab0-ae44-8664024f0305)
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/922366dd-0ec9-47c7-890f-8f431e7b524b)
+
 - 1 [matlab 产生WiFi信号](https://blog.csdn.net/Winds_Up/article/details/113762177)
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/6a9e9529-33a9-4ead-8613-75f0f43948be)
 - 2 wirelessWaveformGenerator
