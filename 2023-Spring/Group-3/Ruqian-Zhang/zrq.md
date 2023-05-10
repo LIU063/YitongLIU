@@ -9,6 +9,7 @@
 - <a href="#5">Week 5 (2023.4.19)</a>
 - <a href="#6">Week 6 (2023.4.27)</a>
 - <a href="#7">Week 7 (2023.5.4)</a>
+- <a href="#8">Week 8 (2023.5.11)</a>
 
 <br/>     
 
@@ -246,7 +247,7 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 ## <a href="#table">Week 7 (2023.5.4)</a>
     
 # **周报-Week 7**    
-## 2023.5.3     
+## 2023.5.4     
 ## **参考文献**  
 [1] Wu C, Peng Q, Xia Y, et al. Towards cost-effective and robust AI microservice deployment in edge computing environments[J]. Future Generation Computer Systems, 2023, 141: 129-142.   
     阅读了这篇关于基于AI模型的微服务的组合编排和部署的文章，其中这个微服务，让人有启发，下周再调研AI微服务相关的文章。    
@@ -261,6 +262,24 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
     
     
 <br/> 
+       
+       
+ ***
+       
+       
+<p id="8"></p>   
+      
+      
     
-    
+## <a href="#table">Week 8 (2023.5.11)</a>
+
+       
+# **周报-Week 8**    
+## 2023.5.11   
+### **本周工作：**
+修改基于6G网络的AI按需服务的专利，审稿，修改6G场景聚类论文。
+下周将继续完成没有完成的上述工作。
+       
+       
+<br/>        
     
