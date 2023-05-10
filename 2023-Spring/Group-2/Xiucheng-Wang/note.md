@@ -9,6 +9,7 @@
 - <a href="#5">Week 5 (2023.04.14 – 2023.04.19)</a>
 - <a href="#6">Week 6 (2023.04.19 – 2023.04.27)</a>
 - <a href="#7">Week 7 (2023.04.28 – 2023.05.04)</a>
+- <a href="#8">Week 8 (2023.05.05 – 2023.05.11)</a>
 
 <br/>
 
@@ -201,3 +202,18 @@ $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s
 联合优化diffusion model的denoise层数、以及实时更新率(是全denoise全再传，还是边denoise边传，有个进度条一样的东西，甚至允许用户自行添加噪声或设置中断)和边缘计算那一堆玩意，做性能和时延的tradeoff
 
 (diffusion+dynn?)
+
+<p id="8"></p>
+
+# <a href="#table">Week 8 (2023.05.05 – 2023.05.11)</a>
+
+## Dynamic Diffusion
+大力出奇迹
+
+要巧妙的构造数据集，主要就是进一步拓宽diffusion的均值原理，本来加的噪声都是零均值且方差固定的噪声噪声，可以在$t_i$到$t_i + 1$间添加多种不同方差的噪声，但是这些噪声的方差的均值还是个固定值。
+
+## VoI Letter Intro
+写的有点懵
+
+## RingSFL配对
+用贪心做了个RingSFL的两两配对和龙博合作整一个GC
