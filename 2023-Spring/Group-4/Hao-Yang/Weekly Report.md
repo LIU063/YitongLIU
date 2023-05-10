@@ -5,7 +5,7 @@
 1. 修改论文。
 
 3. 调研wifi仿真建模
-
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/87d81bcd-30b0-4ab0-ae44-8664024f0305)
 - 1 [matlab 产生WiFi信号](https://blog.csdn.net/Winds_Up/article/details/113762177)
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/6a9e9529-33a9-4ead-8613-75f0f43948be)
 - 2 wirelessWaveformGenerator
@@ -29,6 +29,8 @@
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/a6be6814-b3d3-4a49-b137-1ee11450c666)
 
 - 3 openwifi硬件仿真 [https://github.com/open-sdr/openwifi](https://github.com/open-sdr/openwifi)
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/cda87233-9fc2-4a34-aeaa-c16fcc4e7e07)
 
 3. 撰写知识驱动综述文献物理层部分
 
