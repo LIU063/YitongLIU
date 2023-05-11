@@ -3,6 +3,7 @@
 ### 场景建模
 Overleaf 建模公式编辑  
 <https://www.overleaf.com/project/6447be9fd28783520adaa08a>  
+密码: 3hQ!49ng6AtrKKD  
 ### 下周工作
 - 完善建模工作，并开始代码编写
 
