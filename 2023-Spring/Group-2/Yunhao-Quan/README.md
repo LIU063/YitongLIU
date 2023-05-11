@@ -34,3 +34,6 @@
 # 第五周周报
 在算法收敛性分析图中，random算法在刚开始会出现小幅度上升，修改环境,debug解决这一问题。
 ![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/fig3.svg)
+
+#第六周周报
+修改论文Introduction和大纲结构
