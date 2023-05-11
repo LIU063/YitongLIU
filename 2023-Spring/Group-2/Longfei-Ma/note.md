@@ -69,3 +69,10 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 1.生成一定量的离线数据对actor和critic进行离线训练，而后进行在线微调
 
 2.探讨离线过程中标签数据对模型性能的影响
+
+
+# Week7 
+## 继续进行RB分配任务实验
+
+<img width="1193" alt="1683772181904" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/30a1e482-c90c-42e8-aa22-d19930e579ff">
+
