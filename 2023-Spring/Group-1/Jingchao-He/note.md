@@ -2,6 +2,7 @@
 1. 完成Response Lettter，并整体修改；  
 2. 初步调研了GNN-based LEO satellite routing、multicast等；  
 
+What's new:  
 LEO网络特点：高动态、周期性 -> 对算法复杂度有要求，且更适用于智能算法  
 GNN的优势：泛化性，且部分基于时间的GNN能抽象网络特征。  
 
