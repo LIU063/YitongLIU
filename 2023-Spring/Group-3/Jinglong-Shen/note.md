@@ -1,6 +1,16 @@
 
 
 
+
+- 完成TMC论文的修改
+- 制作presentation slides
+- 攥写globecom论文
+
+
+
+---
+
+
 # TMC revision
 
 修改[论文](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Jinglong-Shen/assets/TMC_MajorRevision.pdf)，完成[resposne letter](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Jinglong-Shen/assets/TMC_MajorRevision.pdf).
