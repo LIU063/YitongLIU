@@ -1,3 +1,29 @@
+### Week 8
+1. 完成Response Lettter，并整体修改；  
+2. 初步调研了GNN-based LEO satellite routing、multicast等；  
+
+LEO网络特点：高动态、周期性 -> 对算法复杂度有要求，且更适用于智能算法  
+GNN的优势：泛化性，且部分基于时间的GNN能抽象网络特征。  
+
+| 优化目标                                                                                   | 优化变量和关注点                                       |
+|----------------------------------------------------------------------------------------|------------------------------------------------|
+| 控制信令开销                                                                                 | Routing（avoid link congestion）                 |
+| utility                                                                                | Content caching, clustering, beamforming（分尺度）  |
+| max-min fair (MMF) capacity                                                            | Subchannel, beamforming                        |
+|| 特点：主要关注的网络部分为接入网络（上下行）和backhaul网络。 对于接入网络，多优化接入控制和cache placement；对于backhaul网络，多优化路由。         |                                         
+（参考自近2年二区及以上期刊）
+
+
+**研究点：**
+
+·	**一体化网络资源调度策略**（路由+接入控制）；  
+·	**LEO网络缓存：分布式缓存策略** （GNN方面没有人做）；  
+·	**CDN-LEO network**(平衡cache和transmission的关系）；  
+·	**更适用于GNN的场景**：大规模卫星/海量iot业务、卫星网络路由（现有研究只基于普通GNN且研究比较捞）；  
+·	**关于地面网络**（同样方法可用于AI模型的按需调度场景）：一是往双碳靠拢的一个MEC场景下的VNF deployment，这里主要考虑优化虚拟功能的部署决策、虚拟功能链路由和网络节点的开关（可参考Delay-Aware Virtual Network Function Placement and Routing in Edge Clouds）；另外考虑可靠性或者隐私，这类的比较少，参考：https://ieeexplore.ieee.org/document/9435077。
+
+
+
 ### Week 7
 1. 继续撰写Response Letter，完成了大部分意见的回复；  
 2. 继续调试上周程序，得到了一个初步结果；  
