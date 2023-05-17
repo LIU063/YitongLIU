@@ -1,3 +1,19 @@
+### Date: 2023/5/18
+
+[![sample-image](./assets/IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
+
+------------------------------------------------
+
+## 1.论文进展
+
+### 本周工作主要式修改了论文的 4、5、6，节；
+- 第4节主要增加了一些描述逻辑的问题，并且补充了之前省略的一些公式和推导。
+- 第5节删除了关于AoI性能不收敛的的分析，把篇幅转移到对改进后的CSMA/CA协议更详细的表述上。
+- 第6节主要调整了一些结构，并补充了一些仿真结果的分析。
+
+> [论文链接](https://cn.overleaf.com/read/hcqfjvdbjdck "Communication Resource Scheduling for CAVs: A Value of Information Based Approach")
+
+
 ### Date: 2023/5/10
 
 [![sample-image](./assets/IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
