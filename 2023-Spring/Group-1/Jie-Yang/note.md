@@ -69,21 +69,10 @@ b.控制平面。控制平面包含部署在地面网络中心和卫星的控制
 d.智能平面。智能平面是整个智能化架构的大脑，负责根据当前的网络状态需求，实时捕获网络信息，并有效地调整网络资源的分配。   
 e.应用平面。应用平面主要为各种应用程序提供 定制的程序接口，以确保功能的高效运行。    
 提出了TD3算法作为DRL路由优化算法的一种，可以处理高维的输入和连续状态空间，TD3算法在采用传统Actor-Critic（演员-评论家） 强化学习架构的基础上，增加了一个Critic网络，组成包含一个Actor和两个Critic的强化学习架构，Actor使用策略梯度方法根据状态拟合策 略函数来选择动作，两个Critic则根据当前的状态对Actor 做出的动作进行评估，并选取两个Critic网络表示的Q值 中较小的那一个作为Q函数更新的目标。    
-![image](https://user-images.githubusercontent.com/83910735/230130330-e9ddab5e-a0ea-4c46-ad8c-108f47de731f.png)     
-3.基于深度强化学习的低地球轨道卫星智能路由算法（DQN-IR）。本文重点探索并提出了一种利用深度强化学习模型的仅依赖于周围卫星节点状态的智能分散路由算法（一个卫星只能获得周围的四颗卫星的状态）。该算法不需要设置额外的分类阈值或使用历史信息预测链路的状态。该算法基于准静态卫星拓扑（即拓扑快照）的假设和虚拟拓扑路由的思想.     
-a.state:    
-![image](https://user-images.githubusercontent.com/83910735/230261741-039e09c7-7bc5-4143-882f-0fbe710d9f53.png)     
-b.action:    
-![image](https://user-images.githubusercontent.com/83910735/230261772-b521b90e-68c6-47e1-8d3f-30338b3e2547.png)    
-c.reward:     
-![image](https://user-images.githubusercontent.com/83910735/230261796-a8690a09-5059-4061-95ce-f16c57e478dc.png)     
-而所提出的DQN-IR算法通过在传统的DQN算法的基础上更新目标网络的参数来改进该方法，这可以描述如下。每次训练结束后，它将记录传输路径的总奖励。如果当前的总奖励高于之前的所有奖励，这意味着当前的传输路径是最优的。此时，将主网络的参数复制到目标网络中。同时，为了防止目标网络的参数更新过频繁，本文将计数器n设为0。    
-![image](https://user-images.githubusercontent.com/83910735/230261880-9e017b76-b645-462a-939c-0eefe8b859f6.png)     
-和其他两种贪婪算法对比，一种以距离为参考因素，一种对路由节点的带宽、信噪比、排队延迟、距离等因素设置固定的权值，并通过其加权和选择路由。      
+![image](https://user-images.githubusercontent.com/83910735/230130330-e9ddab5e-a0ea-4c46-ad8c-108f47de731f.png)          
 [[1]刘洋,王丽娜.基于树突神经网络的低轨卫星智能感知路由算法[J].工程科学学报,2023,45(03):465-474.](https://doi.org/10.13374/j.issn2095-9389.2021.11.08.007)        
 [[2]魏琳慧,刘国文,刘雨等.基于深度强化学习的卫星互联网路由优化研究[J].天地一体化信息网络,2022,3(03):65-71.](https://kns.cnki.net/kcms2/article/abstract?v=BBImVa1ypluYanXXTHQJguCA5_YZvQ7qY9CRXiGgX9FIdy3qMu3Z9vd8CaW2gbXIRDEQWscWY5za7TScPjzZVkIlydusfKS8nISRwX20CZgkmzWSs0GcE3gkydAOvJvN&uniplatform=NZKPT&language=CHS)        
-[[3]NI Shaojie, YUE Yang, ZUO Yong, LIU Wenxiang, XIAO Wei, YE Xiaozhou. The Status Quo and Prospect of Satellite Network Routing Technology[J]. Journal of Electronics & Information Technology, 2023, 45(2): 383-395.](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT211393)        
-[[4]P. Zuo, C. Wang, Z. Yao, S. Hou and H. Jiang, "An Intelligent Routing Algorithm for LEO Satellites Based on Deep Reinforcement Learning," 2021 IEEE 94th Vehicular Technology Conference (VTC2021-Fall), Norman, OK, USA, 2021, pp. 1-5,](https://ieeexplore.ieee.org/document/9625325)       
+[[3]NI Shaojie, YUE Yang, ZUO Yong, LIU Wenxiang, XIAO Wei, YE Xiaozhou. The Status Quo and Prospect of Satellite Network Routing Technology[J]. Journal of Electronics & Information Technology, 2023, 45(2): 383-395.](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT211393)              
  
 ## Date: 2023/4/13
 ## 周工作汇报
@@ -145,3 +134,36 @@ b.地面用户的接入卫星的选择也是一个重要的问题，特别是在
 ## Date: 2023/5/11
 ## 周工作汇报
 ### 1.读了两篇论文，准备组会文献分享和PPT：
+
+
+## Date: 2023/5/17
+## 周工作汇报
+### 1.人工智能路由算法论文：
+1.基于深度强化学习的低地球轨道卫星智能路由算法（DQN-IR）[1]。本文重点探索并提出了一种利用深度强化学习模型的仅依赖于周围卫星节点状态的智能分布式路由算法（一个卫星只能获得周围的四颗卫星的状态）。该算法不需要设置额外的分类阈值或使用历史信息预测链路的状态。该算法基于准静态卫星拓扑（即拓扑快照）的假设和虚拟拓扑路由的思想。    
+源卫星的智能路由过程可以分为三个步骤：1.源卫星依靠通信交互获取与周边4个卫星节点的可用信道带宽、信道信噪比（SNR）、间距、排队时延、空间定位等决策相关信息;2源卫星使用经过训练的DQN模型，根据接收到的相关信息和自身状态（如发射功率、要发送的数据量等）获取预测输出;3源卫星完成预测输出与下一个卫星节点选择之间的映射，并将要发送到所选节点的数据传输。然后将选定的节点视为新的源卫星，重复上述过程，直到数据最终传输到目的节点。    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/253b90f2-e4dd-4040-9fad-80ec976dba4b)   
+1) State:信噪比、带宽、排队时延、距离、是不是目标节点（0或1）       
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/bd5f1b89-4a6e-4f39-8c75-6bd73c113c4e)    
+2)Action：    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/6af42095-8f7d-4dec-8f58-b4756623f4e9)    
+3) Reward: 信道速率，排队时延，距离，跳数    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/c4523b82-7a6b-410a-8aec-046f488481fe)    
+仿真结果：    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/7d96a5ff-f87a-401b-975d-ddaf65cd48e0)    
+和其他两种贪婪算法对比，一种以距离为参考因素，一种对路由节点的带宽、信噪比、排队延迟、距离等因素设置固定的权值，并通过其加权和选择路由。    
+2.基于强化学习的综合空-天-地路由方案[2]。本文提出了一种基于强化学习的综合空-天-地路由方案。通过强化学习及其奖励函数的设计，作者以最小化延迟为目标，以剩余的能量和带宽利用率作为路由的约束条件。理论分析和仿真结果表明，强化学习方法有效地解决了空-天-地集成网络中卫星带宽资源有限和热气球能量有限的问题，并成功地实现了该路由功能。与Floyd路由相比，延迟、丢包率和带宽利用率都有了显著提高。    
+1.设计了一种新的空-天-地集成网络架构，并对不同的链路进行了优先排序，并利用真实的网络节点数据进行了路由性能评估。2.使用强化学习来实现网络路由。与经典的Floyd路由算法相比，该方案具有较低的开销，并且可以实时调整路由。3.实时检测剩余的能量和带宽利用率，以平衡负载。在这里，负载表示网络流量密度。除了完成正常的路由功能外，还可以根据节点的剩余能量和链路的带宽实时调整路由。    
+在每种拓扑结构下，基于邻接矩阵的路由可以大大降低路由开销。邻接矩阵元素是时延，并计算热气球的能量消耗以及卫星的能量消耗和收集的能量。      
+目标是最小化总延迟，同时确保能源消耗和带宽。两个约束为（1）所有节点的最小剩余能量都不低于阈值，（2）每个链路的带宽利用率不超过网络拥塞率。     
+Q-learning输入为网络邻接矩阵，智能体输出当前状态下的最佳路由选择。      
+1)state:状态空间S为所有节点。    
+2)Action：所有可选的链路。    
+3) Reward: rE和rB是当节点剩余能量过小、带宽利用率过高时造成的惩罚，它们是绝对值相对较大的负数。所有参数的阈值都是λ的函数。    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/0fb4d76b-15ad-46b6-beba-5ec4ec41c692)    
+仿真结果对比于Floyd算法（取两节点之间的最短路径）。     
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/221e287c-2bea-48b3-9da6-f2fdee6e6743)
+同时，所提出的q学习路由的端到端延迟和丢包率性能都优于Floyd路由，且在高负载条件下带宽利用率更高。这是因为建议的路径可以从过去发生的拥塞中学习，并在这个前提下找到延迟最小的路径。虽然传统方案的负载增加，但随着阻塞概率的增加，带宽利用率降低。基于强化学习的路由的带宽利用率仍然可以随着负载的增加而增加。        
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/00bfd65d-a56f-4f68-8c0b-ed9df5124a9b)    
+随着数据包长度的增加，各种性能呈现出增加的趋势，因为数据包越长，传输要求越高。当包长度为1024时，由于链路队列容量的限制，包丢失率随着负载的增加而急剧增加，说明包长度的合理值范围不应超过512字节。当数据包长度合理时，q学习路由的性能优于Floyd路由。     
+[[1]P. Zuo, C. Wang, Z. Yao, S. Hou and H. Jiang, "An Intelligent Routing Algorithm for LEO Satellites Based on Deep Reinforcement Learning," 2021 IEEE 94th Vehicular Technology Conference (VTC2021-Fall), Norman, OK, USA, 2021, pp. 1-5,](https://ieeexplore.ieee.org/document/9625325)     
+[[2]X. Shi, P. Ren and Q. Du, "Reinforcement Learning Routing in Space-Air-Ground Integrated Networks," 2021 13th International Conference on Wireless Communications and Signal Processing (WCSP), Changsha, China, 2021, pp. 1-6](doi: 10.1109/WCSP52459.2021.9613510)   
