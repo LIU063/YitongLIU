@@ -1,3 +1,10 @@
+# 20230517 周报
+## 本周进度
+1. 完善结果图；
+2. 写毕业论文。
+![图1](https://github.com/UNIC-Lab/Weekly-Report/assets/121794362/1ec63c0b-70b3-4ea8-9091-c6860988d1d4)
+![图2](https://github.com/UNIC-Lab/Weekly-Report/assets/121794362/ffeb58ef-ee57-4af4-8419-6ee2c12e5848)
+
 # 20230510 周报
 ## 本周进度
 1. 修改参数让结果图更好看；
