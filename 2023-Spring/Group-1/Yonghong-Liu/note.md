@@ -349,6 +349,14 @@ P. Zhang, N. Chen, S. Shen, S. Yu, N. Kumar and C. -H. Hsu, "AI-Enabled Space-Ai
 # 下周安排
 ## 完成毕设论文初稿
 
+### 2023.5.17
+# 本周进展
+## 1.完成了毕业论文初稿的撰写工作
+
+# 下周安排
+## 1.修改论文
+## 2.根据实验室AI课程学习
+
 
 
 
