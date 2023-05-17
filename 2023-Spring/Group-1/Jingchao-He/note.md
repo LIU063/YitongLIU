@@ -6,13 +6,14 @@ What's new:
 LEO网络特点：高动态、周期性 -> 对算法复杂度有要求，且更适用于智能算法  
 GNN的优势：泛化性，且部分基于时间的GNN能抽象网络特征。  
 
+Multicast in related work（参考自近2年二区及以上期刊）:  
 | 优化目标                                                                                   | 优化变量和关注点                                       |
 |----------------------------------------------------------------------------------------|------------------------------------------------|
 | 控制信令开销                                                                                 | Routing（avoid link congestion）                 |
 | utility                                                                                | Content caching, clustering, beamforming（分尺度）  |
 | max-min fair (MMF) capacity                                                            | Subchannel, beamforming                        |
 || 特点：主要关注的网络部分为接入网络（上下行）和backhaul网络。 对于接入网络，多优化接入控制和cache placement；对于backhaul网络，多优化路由。         |                                         
-（参考自近2年二区及以上期刊）
+
 
 
 **研究点：**
