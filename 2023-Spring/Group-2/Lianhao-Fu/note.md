@@ -5,6 +5,7 @@
 - [Week 5](#week-5)
 - [Week 6-7](#week-6-7)
 - [Week 8](#week-8)
+- [Week 9](#week-9)
 
 # Week1
 - Picmrc: 写代码、调参、画图
@@ -52,3 +53,8 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
 # Week 8
 - AI Course更新了速通教程，每部分都添加了对应的notebook代码，后续继续更新补全代码资源，增删教程知识点
 - 毕业设计，预计所有材料下周周内完成
+
+# Week 9
+- 教程修改与学习路线制定
+- 竞赛调研
+- cuda的多进程学习
