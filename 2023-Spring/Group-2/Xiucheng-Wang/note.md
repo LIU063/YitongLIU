@@ -10,6 +10,7 @@
 - <a href="#6">Week 6 (2023.04.19 – 2023.04.27)</a>
 - <a href="#7">Week 7 (2023.04.28 – 2023.05.04)</a>
 - <a href="#8">Week 8 (2023.05.05 – 2023.05.11)</a>
+- <a href="#9">Week 9 (2023.05.12 – 2023.05.18)</a>
 
 <br/>
 
@@ -217,3 +218,13 @@ $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s
 
 ## RingSFL配对
 用贪心做了个RingSFL的两两配对和龙博合作整一个GC
+
+<p id="9"></p>
+
+# <a href="#table">Week 9 (2023.05.12 – 2023.05.18)</a>
+
+## Effectively Heterogeneous Federated Learning: A Pairing and Split Learning Based Approach
+和沈在一起写，预计周五写完
+
+## Mutual Knowledge Distillation for Efficient Diffusion Training
+用K个设备分别学denoise T/K的部分，然后相互蒸馏，提高收敛速度
