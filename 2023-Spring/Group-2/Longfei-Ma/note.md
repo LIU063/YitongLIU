@@ -76,3 +76,14 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 
 <img width="1193" alt="1683772181904" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/30a1e482-c90c-42e8-aa22-d19930e579ff">
 
+# Week8 
+## 继续进行RB分配任务实验
+
+<img width="447" alt="1684373286066" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/d83bc4aa-d136-4bd7-a27a-fd18f2b92509">
+<img width="452" alt="1684373372452" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/5afe1909-f8f6-46bb-aab8-f73bf49467bb">
+
+<img width="448" alt="1684373468114" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/8fcd5ffd-b38a-400d-8496-98aa5966479e">
+<img width="447" alt="1684373491780" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/3134039e-7add-4369-8e95-2d4aa2a09072">
+
+
+
