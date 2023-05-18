@@ -146,7 +146,7 @@ b.地面用户的接入卫星的选择也是一个重要的问题，特别是在
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/bd5f1b89-4a6e-4f39-8c75-6bd73c113c4e)    
 2)Action：    
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/6af42095-8f7d-4dec-8f58-b4756623f4e9)    
-3) Reward: 信道速率，排队时延，距离，跳数    
+3)Reward: 信道速率，排队时延，距离，跳数    
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/c4523b82-7a6b-410a-8aec-046f488481fe)    
 仿真结果：    
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/7d96a5ff-f87a-401b-975d-ddaf65cd48e0)    
@@ -158,10 +158,10 @@ b.地面用户的接入卫星的选择也是一个重要的问题，特别是在
 Q-learning输入为网络邻接矩阵，智能体输出当前状态下的最佳路由选择。      
 1)state:状态空间S为所有节点。    
 2)Action：所有可选的链路。    
-3) Reward: rE和rB是当节点剩余能量过小、带宽利用率过高时造成的惩罚，它们是绝对值相对较大的负数。所有参数的阈值都是λ的函数。    
+3)Reward: rE和rB是当节点剩余能量过小、带宽利用率过高时造成的惩罚，它们是绝对值相对较大的负数。所有参数的阈值都是λ的函数。    
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/0fb4d76b-15ad-46b6-beba-5ec4ec41c692)    
 仿真结果对比于Floyd算法（取两节点之间的最短路径）。     
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/221e287c-2bea-48b3-9da6-f2fdee6e6743)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/221e287c-2bea-48b3-9da6-f2fdee6e6743)    
 同时，所提出的q学习路由的端到端延迟和丢包率性能都优于Floyd路由，且在高负载条件下带宽利用率更高。这是因为建议的路径可以从过去发生的拥塞中学习，并在这个前提下找到延迟最小的路径。虽然传统方案的负载增加，但随着阻塞概率的增加，带宽利用率降低。基于强化学习的路由的带宽利用率仍然可以随着负载的增加而增加。        
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/00bfd65d-a56f-4f68-8c0b-ed9df5124a9b)    
 随着数据包长度的增加，各种性能呈现出增加的趋势，因为数据包越长，传输要求越高。当包长度为1024时，由于链路队列容量的限制，包丢失率随着负载的增加而急剧增加，说明包长度的合理值范围不应超过512字节。当数据包长度合理时，q学习路由的性能优于Floyd路由。     
