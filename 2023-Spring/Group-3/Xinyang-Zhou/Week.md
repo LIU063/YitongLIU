@@ -8,9 +8,10 @@
 NS-3是一种广泛使用的网络仿真软件，可以用于WiFi网络仿真。它是一个基于C++编写的开源仿真器，可以模拟各种无线网络场景，包括WiFi、蜂窝网络、Ad Hoc网络等。
 
 在second.cc的基础上，将n0变成一个无线的AP，进行third.cc的编译运行，实现WiFi下的STA和AP的收发通信
-网络拓扑
 
+网络拓扑:
 ![](./pic/week09wifi1.png)
+
 
 ![](./pic/week09WiFi.png)
 
@@ -24,7 +25,9 @@ NS-3是一种广泛使用的网络仿真软件，可以用于WiFi网络仿真。
 ![](./pic/week09%E6%94%B6%E5%8F%91.png)
 
 
+用NetAnim显示first.cc的仿真结果:
 
+![](./pic/week09%E5%8F%AF%E8%A7%86%E5%8C%96.png)
 
 
 <br>
