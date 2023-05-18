@@ -2,8 +2,9 @@
 ## 本周进度
 1. 完善结果图；
 2. 写毕业论文。
-![图1](https://github.com/UNIC-Lab/Weekly-Report/assets/121794362/1ec63c0b-70b3-4ea8-9091-c6860988d1d4)
-![图2](https://github.com/UNIC-Lab/Weekly-Report/assets/121794362/ffeb58ef-ee57-4af4-8419-6ee2c12e5848)
+![屏幕截图 2023-05-18 090605](https://github.com/UNIC-Lab/Weekly-Report/assets/121794362/fb8e2fde-7988-493a-a14e-4161b796428c)
+![屏幕截图 2023-05-18 090425](https://github.com/UNIC-Lab/Weekly-Report/assets/121794362/79d53fc5-2362-4f11-8d12-fb1799cb7b5e)
+
 
 # 20230510 周报
 ## 本周进度
