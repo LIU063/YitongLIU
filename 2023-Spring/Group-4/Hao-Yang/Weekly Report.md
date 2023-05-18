@@ -1,3 +1,23 @@
+# 20230517周报
+
+## 本周工作：
+  
+  1. wifi仿真建模
+  
+  仿真环境调研-ns3 
+  ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/3d812944-59ac-458c-9dbd-e5027b5fe337)
+  ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/d79c8f5e-f4a8-4ad5-b0fa-a9432b24a3fc)
+  
+  2. 撰写知识驱动综述文献物理层部分
+  
+## 下周工作 
+  
+  1.完善WiFi仿真方案，设计初步实验环境
+  
+  2.继续撰写知识驱动综述文献物理层部分。
+
+
+
 # 20230510周报
 
 ## 本周工作：
