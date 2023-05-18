@@ -20,7 +20,7 @@ Multicast in related work（参考自近2年二区及以上期刊）:
 
 ·	**E2E网络资源调度策略**（路由+接入控制）；  
 ·	**LEO网络缓存：分布式缓存策略** （GNN方面没有人做）；  
-·	**CDN-LEO network**(平衡cache和transmission的关系）；  
+·	**CDN-LEO network**(平衡cache和transmission的关系(孙））；  
 ·	**更适用于GNN的场景**：大规模卫星/海量iot业务、卫星网络路由（现有研究只基于普通GNN且研究比较捞）；  
 ·	**关于地面网络**（同样方法可用于AI模型的按需调度场景）：一是往双碳靠拢的一个MEC场景下的VNF deployment，这里主要考虑优化虚拟功能的部署决策、虚拟功能链路由和网络节点的开关（可参考Delay-Aware Virtual Network Function Placement and Routing in Edge Clouds）；另外考虑可靠性或者隐私，这类的比较少，参考：https://ieeexplore.ieee.org/document/9435077。
 
