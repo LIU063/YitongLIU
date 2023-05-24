@@ -9,7 +9,6 @@
 # 2023.5.10
   修改globecom论文并投稿
   继续修改仿真图
-  撰写毕业论文
   ![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/ps.png)
   ![channel](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-1/Zhaowei-Wang/picture/Pb.png)
 
