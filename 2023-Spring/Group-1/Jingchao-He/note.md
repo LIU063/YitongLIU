@@ -1,10 +1,18 @@
 ### Week 9
 
+1. 调研了Multicast的基础协议  
+![sample-image](./assets/multicast_architecture.png)   
+![sample-image](./assets/multicast_routing.png)  
+2. 调研了移动性模型  
+3. 继续进行GNN的工作  
 
 Multicast 应用场景：  
 1. 内容分发  
 2. 金融服务和银行业（相比于地面网络，LEO卫星网络更安全且速度更高，而这两个因素对于金融行业至关重要！）     
-3. 可能的场景：高端制造
+3. 可能的场景：高端制造  
+E2E 应用场景：  
+1. 高移动性场景（高铁、广域车联网）  
+2. 密集型低轨卫星星座网络  
 
 ### Week 8
 1. 完成Response Lettter，并整体修改；  
