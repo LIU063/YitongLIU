@@ -1,6 +1,6 @@
 
 
-
+# Week 10
 
 - 完成globecom论文及投稿
 - 完善response letter和论文
@@ -8,41 +8,47 @@
 
 ---
 
+# Week 9
+
 - 完成TMC论文的修改
 - 制作presentation slides
 - 攥写globecom论文
 
 ---
 
+# Week 8
 
-# TMC revision
+## TMC revision
 
 修改[论文](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Jinglong-Shen/assets/TMC_MajorRevision.pdf)，完成[resposne letter](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Jinglong-Shen/assets/TMC_MajorRevision.pdf).
 
-
 ---
 
-# TMC revision
+# Week 7
 
-## Propagation Flow
+## TMC revision
+
+### Propagation Flow
 
 ![RingSFL propagation flow](./assets/propgation_flow.png)
 
-## Overlapping Layer
+### Overlapping Layer
 
 ![RingSFL overlapping layer](./assets/overlapping_layer.png)
 
-# AdvSL: Adversarial Knowledge Fusion for Split Learning with Non-IID Features
+## AdvSL: Adversarial Knowledge Fusion for Split Learning with Non-IID Features
 
 完成论文所有的实验、数据处理、绘图等工作。
 
 ---
 
-# Response Letter
+# Week 6
+
+## Response Letter
 
 1. 撰写TMC response letter
 
-# AdvSL: Adversarial Knowledge Fusion for Split Learning with Non-IID Features
+## AdvSL: Adversarial Knowledge Fusion for Split Learning with Non-IID Features
 
 1. 添加FedGKT [1] 作为新的对比算法
 2. 添加了新的数据集：domain-net
@@ -51,9 +57,11 @@
 
 ---
 
-# TMC review comments
+# Week 5
 
-## 隐私
+## TMC review comments
+
+### 隐私
 
 >1. My main concern with RingSFL is the threat of model inversion attacks. Section 3.6.1 was a good addition to discuss the threat of gradient-based reconstruction attacks. However, if an adversary has some model access, either white-box or black-box, then there is a threat that the feature maps shared during forward propagation could be used to reconstruct the original data [1]. This would especially be a threat when a client's propagation length is 1, meaning an adversary may only need to learn a linear mapping to reconstruct the original data.  I am curious about the authors thoughts on these kinds of attacks, and would encourage them to at least add a subsection to discuss this topic. Under what conditions would RingSFL be vulnerable to such attacks? If the authors feel RingSFL can defend against such attacks under certain circumstances, then it would be nice to have a plot similar to Figure 5 or even experiments such as those shown in Figure 16 showing the success or failure of model inversion attacks.  (reviewer1-1)
 >
@@ -80,7 +88,7 @@ Reviewer认为分配的传播长度也可能造成隐私泄露。(通过自己�
 
 在讨论RingSFL隐私性能的时候，我们假设各个client对其他client的传播长度是不知道的，而reviewers认为这个假设太强了，eavesdropper可以拦截server的消息，或通过其他一些手段来推断其他用户的传播长度。
 
-## Overlapping Layer小节
+### Overlapping Layer小节
 
 >1. Section 3.5 is a bit confusing to read when comparing with Figure 4. The text states that an overlapping layer is defined as a layer where multiple clients contribute gradients. However, the figure shows an overlapping layer only being present at one client. Do you say a client is contributing gradients to the layer if that client is the one that calculated the loss and started backpropagation? Or am I misunderstanding?  (reviewer1-2)
 >
@@ -95,7 +103,7 @@ overlapping layer小节的图画的不够清晰明了。
 
 文章中，我们对学习率按层进行了调整，overlapping layer的学习率会大一些。reviewer想知道是否有更平衡的方法使得模型能达到与非分布式模型（集中式？）相同的性能。
 
-## 训练过程
+### 训练过程
 
 >1. Multiple mini-batch: In federated learning, multiple mini-batch updates are performed before sending the updated model to the server to handle the communication bottleneck. However, in this scheme, to perform another mini-batch update, the full communication round among clients are required for the forward/backward propagation process. (reviewer2-6)
 
@@ -109,19 +117,19 @@ overlapping layer小节的图画的不够清晰明了。
 
 reviewers认为RingSFL无法应对client掉线的问题。
 
-## Related Work
+### Related Work
 
 >1. The author listed a series of related works from different perspective and then say that RingSFL improves on existing techniques. Could you discuss deeper into how does the approach compare to existing techniques? I noticed that there are “Benefits and limitations” subsections, are these intended for this purpose? If they are then the authors could point out specific design decisions that corresponds to the differences.  (reviewer3-3)
 
 需要与现有研究做更详细的比较，对参考文献部分进行修改。
 
-## 词汇
+### 词汇
 
 >1. **The term split: I am also not sure if the term “split” is appropriately used in many sentences (e.g., By properly splitting the model and allocating it to heterogeneous clients), because all clients have the full model during training, not the split model; each client has different number of propagation layers, but eventually, most of the clients would update the whole model by repeating forward/backward process using data of all clients in the system.**  (reviewer2-4)
 
 reviewer认为split这个词汇用的不好，因为系统中的模型并没有被真正的分割开。
 
-## 格式与绘图
+### 格式与绘图
 
 >1. In Equation 7, since U is a set, it would make more sense to use |U| to denote the cardinality of the set, the norm notation is a bit confusing. (reviewer1-3)
 >
@@ -141,7 +149,9 @@ reviewer认为split这个词汇用的不好，因为系统中的模型并没有�
 
 ---
 
-# Knowledge Fusion 代码
+# Week 4
+
+## Knowledge Fusion 代码
 
 完成了 Attention-based Knowledge Fusion for Decentralized Federated Distillation 的验证[代码](https://gitee.com/sjinglong/dfd)，实现的 Knowledge Fusion 的方式包括：
 
@@ -151,35 +161,35 @@ reviewer认为split这个词汇用的不好，因为系统中的模型并没有�
 - 在蒸馏的过程中，将各个邻居节点的权重作为模型参数的一部分进行训练，对Soft Label进行动态加权平均
 - 采用基于attention的权重对Soft Label进行加权平均
 
-## 部分初步结果
+### 部分初步结果
 
-### 只进行本地训练
+#### 只进行本地训练
 
 |Node0|Node1|Node2|Node3|Node4|Average|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0.3795|0.3825|0.3875|0.4005|0.4055|0.3911|
 
-### 各个节点先将Local Model利用本地数据集训练至收敛，随后进行蒸馏
+#### 各个节点先将Local Model利用本地数据集训练至收敛，随后进行蒸馏
 
-#### 直接对Soft Label进行平均
+##### 直接对Soft Label进行平均
 
 |Node0|Node1|Node2|Node3|Node4|Average|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0.4705|0.4435|0.4405|0.443|0.449|0.4493|
 
-#### 根据数据集分布对Soft Label进行加权平均
+##### 根据数据集分布对Soft Label进行加权平均
 
 |Node0|Node1|Node2|Node3|Node4|Average|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0.4695|0.4245|0.4535|0.443|0.449|0.4479|
 
-#### 将权重作为模型参数进行训练
+##### 将权重作为模型参数进行训练
 
 |Node0|Node1|Node2|Node3|Node4|Average|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0.468|0.4415|0.4735|0.453|0.4655|0.4603|
 
-#### 基于attention的权重
+##### 基于attention的权重
 
 |Node0|Node1|Node2|Node3|Node4|Average|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -187,7 +197,9 @@ reviewer认为split这个词汇用的不好，因为系统中的模型并没有�
 
 ---
 
-# 语义通信中用户侧定制化decoder设计
+# Week 2-3
+
+## 语义通信中用户侧定制化decoder设计
 
 在基于深度学习的语义通信系统中，常用到基于transformer的en-decoder架构。用encoder实现源数据的语义信息提取，用decoder对语义信息进行恢复。
 然而这样一套系统能够work-well，常常需要decoder具有充足的先验知识，能够对网络中传输的各种各样的数据进行理解。
@@ -198,7 +210,7 @@ reviewer认为split这个词汇用的不好，因为系统中的模型并没有�
 训练时，用户将decoder根据自己最新的数据进行微调或迁移（或其他个性化的手段），而encoder始终保持不变。
 local training结束后，被调度到的用户做一次aggregation。
 
-# Attention-based Knowledge Fusion for Decentralized Federated Distillation.
+## Attention-based Knowledge Fusion for Decentralized Federated Distillation.
 
 ![去中心化蒸馏](./assets/蒸馏.png)
 
@@ -220,10 +232,10 @@ local training结束后，被调度到的用户做一次aggregation。
 7. 将两个loss加权求和，并进行反向传播。
 
 
-# Decentralized Federated Learning under Unreliable Communication Environment
+## Decentralized Federated Learning under Unreliable Communication Environment
 
 ![网络参数恢复](./assets/网络参数补全.png)
 
-# On-demand VR Video Streaming
+## On-demand VR Video Streaming
 
 ![On-demand VR Video Streaming](./assets/路由.png)
