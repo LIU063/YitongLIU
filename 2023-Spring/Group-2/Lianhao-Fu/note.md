@@ -6,6 +6,7 @@
 - [Week 6-7](#week-6-7)
 - [Week 8](#week-8)
 - [Week 9](#week-9)
+- [Week-10](#week-10)
 
 # Week1
 - Picmrc: 写代码、调参、画图
@@ -58,3 +59,7 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
 - 教程修改与学习路线制定
 - 竞赛调研
 - cuda的多进程学习
+
+# Week 10
+- ChatGLM-6B测试，demo
+- LlaMA测试，demo，fine-tuning策略
