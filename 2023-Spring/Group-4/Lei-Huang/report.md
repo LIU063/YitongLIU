@@ -2,7 +2,7 @@
 ## 论文扩展
 ### 代码编写  
 还在debug，出不了图，可能是哪个地方的矩阵维度出了问题  
-!(代码问题)[https://github.com/loafluls/report_images/blob/main/images/%E4%BB%A3%E7%A0%81%E6%88%AA%E5%9B%BE.jpg]  
+![代码问题](https://github.com/loafluls/report_images/blob/main/images/%E4%BB%A3%E7%A0%81%E6%88%AA%E5%9B%BE.jpg)   
 
 # Week 9(5.11-5.17)
 ## 论文扩展
