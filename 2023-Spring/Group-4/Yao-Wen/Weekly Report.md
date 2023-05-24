@@ -1,3 +1,17 @@
+# 本周工作进展（5.18-5.24）
+1、将知识驱动算法的代码调参，直到收敛。
+![Figure_22](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/2b2c1256-03c7-4147-b5e4-02b1a5cbb75b)
+![Figure_34](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/80f94f15-fa1f-4451-909b-e46ad153129a)
+2、将传统算法的具体子问题进行推导。
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/ee369af0-dddb-46ec-a494-4f0a789828c3)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/05209fa1-416d-452d-b350-031bf4801de5)
+
+## 下一步工作计划
+1、完成传统算法的代码与调参
+2、进行未加知识的LSTM算法调参
+
+
+
 # 本周工作进展（5.11-5.17）
 1、调试长文扩展的知识驱动算法的代码，经过将问题剖析，确定算法不收敛可能原因是变量约束处理方式和时延约束，将两种约束在代码中修改<br>
 2、进行调参，目前得到比较收敛的结果，如下图：
