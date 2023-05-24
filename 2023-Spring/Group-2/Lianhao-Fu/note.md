@@ -61,5 +61,7 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
 - cuda的多进程学习
 
 # Week 10
+- 毕业设计
 - ChatGLM-6B测试，demo
 - LlaMA测试，demo，fine-tuning策略
+- 竞赛代码分析
