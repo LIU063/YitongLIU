@@ -306,7 +306,7 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 ### **本周工作：**
 增做聚类相关实验，修改6G场景聚类论文。   
 ![missing](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/missing.png)  
-![iter](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/iter.png） 
+![iter](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/iter.png) 
 ![diedai](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/diedai-9.png) 
 
 
