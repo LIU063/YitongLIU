@@ -167,4 +167,9 @@ Q-learning输入为网络邻接矩阵，智能体输出当前状态下的最佳�
 随着数据包长度的增加，各种性能呈现出增加的趋势，因为数据包越长，传输要求越高。当包长度为1024时，由于链路队列容量的限制，包丢失率随着负载的增加而急剧增加，说明包长度的合理值范围不应超过512字节。当数据包长度合理时，q学习路由的性能优于Floyd路由。     
 [[1]P. Zuo, C. Wang, Z. Yao, S. Hou and H. Jiang, "An Intelligent Routing Algorithm for LEO Satellites Based on Deep Reinforcement Learning," 2021 IEEE 94th Vehicular Technology Conference (VTC2021-Fall), Norman, OK, USA, 2021, pp. 1-5,](https://ieeexplore.ieee.org/document/9625325)     
 [[2]X. Shi, P. Ren and Q. Du, "Reinforcement Learning Routing in Space-Air-Ground Integrated Networks," 2021 13th International Conference on Wireless Communications and Signal Processing (WCSP), Changsha, China, 2021, pp. 1-6](https://ieeexplore.ieee.org/document/9613510)   
-[[3]X. Wang, Z. Dai and Z. Xu, "LEO Satellite Network Routing Algorithm Based on Reinforcement Learning," 2021 IEEE 4th International Conference on Electronics Technology (ICET), Chengdu, China, 2021, pp. 1105-1109](https://ieeexplore.ieee.org/document/9451072)
+[[3]X. Wang, Z. Dai and Z. Xu, "LEO Satellite Network Routing Algorithm Based on Reinforcement Learning," 2021 IEEE 4th International Conference on Electronics Technology (ICET), Chengdu, China, 2021, pp. 1105-1109](https://ieeexplore.ieee.org/document/9451072)    
+
+## Date: 2023/5/25
+## 周工作汇报
+### 1.调研组播技术：
+
