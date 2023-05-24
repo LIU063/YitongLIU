@@ -3,6 +3,7 @@
 1. 调研了Multicast的基础协议  
 ![sample-image](./assets/multicast_architecture.png)   
 ![sample-image](./assets/multicast_routing.png)  
+（华为数据通信：https://www.bilibili.com/video/BV1dA411J7e4/?spm_id_from=333.880.my_history.page.click&vd_source=20e49873a42917640f16041fc568c824）  
 2. 调研了移动性模型  
 3. 继续进行GNN的工作  
 
