@@ -11,6 +11,7 @@
 - <a href="#7">Week 7 (2023.04.28 – 2023.05.04)</a>
 - <a href="#8">Week 8 (2023.05.05 – 2023.05.11)</a>
 - <a href="#9">Week 9 (2023.05.12 – 2023.05.18)</a>
+- <a href="#10">Week 10 (2023.05.19 – 2023.05.25)</a>
 
 <br/>
 
@@ -228,3 +229,16 @@ $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s
 
 ## Mutual Knowledge Distillation for Efficient Diffusion Training
 用K个设备分别学denoise T/K的部分，然后相互蒸馏，提高收敛速度
+
+
+<p id="10"></p>
+
+# <a href="#table">Week 10 (2023.05.19 – 2023.05.25)</a>
+
+## GC论文
+
+## QMIX-GNN
+可以证明GNN是置换不变的，同时基于Graph的UAV trajectory design problem也是置换不变的。因此，基于Kolmogorov-Arnold定理，可以设计一个agent数量任意多的分布式MARL算法
+
+
+
