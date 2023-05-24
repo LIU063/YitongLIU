@@ -2,11 +2,15 @@
 
 
 
+- 完成globecom论文及投稿
+- 完善response letter和论文
+- 其他审稿工作，复习与考试。
+
+---
+
 - 完成TMC论文的修改
 - 制作presentation slides
 - 攥写globecom论文
-
-
 
 ---
 
