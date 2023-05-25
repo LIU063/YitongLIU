@@ -7,11 +7,9 @@
   2. wifi仿真建模: 构建环境通信图环境和传统退避重传的wifi通信
   
   通信图数据结构：[code](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-4/Hao-Yang/code/wifi%20demo/gdata.py)
-  
   ![Figure_1](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/2d978b3d-c34e-43a1-a697-4e222939c602)
   
   退避重传的wifi通信实验结果 [code](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-4/Hao-Yang/code/wifi%20demo/test.py)
-  
   ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/04a9a42a-a3ff-4621-95fe-d2e0c524b8d3)
 
 
