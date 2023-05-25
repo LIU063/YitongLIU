@@ -357,6 +357,13 @@ P. Zhang, N. Chen, S. Shen, S. Yu, N. Kumar and C. -H. Hsu, "AI-Enabled Space-Ai
 ## 1.修改论文
 ## 2.根据实验室AI课程学习
 
+### 2023.5.25
+# 本周进展
+## 修改论文初稿内容
+
+# 下周安排
+## 1.根据校内导师修改格式
+## 2.继续学习AI课程
 
 
 
