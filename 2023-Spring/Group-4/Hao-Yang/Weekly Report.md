@@ -2,6 +2,19 @@
 
 ## 本周工作：
   
+  1. 撰写知识驱动综述文献物理层部分
+ 
+  2. wifi仿真建模
+  
+## 下周工作 
+  
+  1.完善WiFi仿真方案，设计AI训练部分
+  
+
+# 20230517周报
+
+## 本周工作：
+  
   1. wifi仿真建模
   
   [仿真环境调研-ns3(https://github.com/UNIC-Lab/Weekly-Report/2023-Spring/Group-4/Hao-Yang/picture/ns3.md)
