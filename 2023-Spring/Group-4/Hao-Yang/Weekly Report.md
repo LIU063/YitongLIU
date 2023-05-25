@@ -1,14 +1,19 @@
-# 20230517周报
+# 20230524周报
 
 ## 本周工作：
   
   1. 撰写知识驱动综述文献物理层部分
  
-  2. wifi仿真建模
+  2. wifi仿真建模: 构建环境通信图环境和传统退避重传的wifi通信
   
+  ![Figure_1](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/2d978b3d-c34e-43a1-a697-4e222939c602)
+  
+  ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/04a9a42a-a3ff-4621-95fe-d2e0c524b8d3)
+
+
 ## 下周工作 
   
-  1.完善WiFi仿真方案，设计AI训练部分
+  1.完善WiFi仿真方案，设计GNN训练部分
   
 
 # 20230517周报
