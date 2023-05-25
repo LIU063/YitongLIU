@@ -95,6 +95,7 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 <img width="1187" alt="1684946710655" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/35468e30-dc9f-4d84-b77c-f8540af524a8">
 
 不同标签来源
+
 <img width="906" alt="1684946762775" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/6ea55410-7df6-498c-907c-83044b8cc3b6">
 
 
