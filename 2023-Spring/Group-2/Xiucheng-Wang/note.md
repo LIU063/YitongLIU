@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-- <a href="#1"> 1 $^{st}$
-- <a href="#2"> 2 $^{nd}$
-- <a href="#3"> 3 $^{rd}$
-- <a href="#4"> 4 $^{th}$
-- <a href="#5"> 5 $^{th}$
-- <a href="#6"> 6 $^{th}$ 
-- <a href="#7"> 7 $^{th}$
-- <a href="#8"> 8 $^{th}$
-- <a href="#9"> 9 $^{th}$
-- <a href="#10"> 10 $^{th}$
-- <a href="#11"> 11 $^{th}$
+- <a href="#1"> 1
+- <a href="#2"> 2
+- <a href="#3"> 3 
+- <a href="#4"> 4 
+- <a href="#5"> 5 
+- <a href="#6"> 6 
+- <a href="#7"> 7
+- <a href="#8"> 8
+- <a href="#9"> 9
+- <a href="#10"> 10
+- <a href="#11"> 11
 
 <br/>
 
@@ -241,5 +241,11 @@ $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s
 ## QMIX-GNN
 可以证明GNN是置换不变的，同时基于Graph的UAV trajectory design problem也是置换不变的。因此，基于Kolmogorov-Arnold定理，可以设计一个agent数量任意多的分布式MARL算法
 
+<p id="11"></p>
 
+# <a href="#table">11
 
+## Diffusion+FL
+用蒸馏做异构算力设备的diffusion的训练，FL蒸馏25次，和独立训40次的效果相当
+   
+## A Novel Non-Convex Optimization Framework for Communication Network: From Theory to Practice
