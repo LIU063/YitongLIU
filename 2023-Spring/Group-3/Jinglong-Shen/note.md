@@ -1,4 +1,28 @@
 
+# Week 12
+
+## Personalized Optimizer Design for Heterogeneous Federated Learning
+
+### 背景
+
+目前在几乎所有联邦学习方案中，客户端在本地训练时都采用相同的优化器。然而不同的优化器各有优缺点，训练的开销不同，适用的数据集也不同：
+![](./assets/week12_1.png)
+因此受非独立同分布的训练数据集影响，所有客户端都采用同一个优化器可能并不合适。
+
+### Neural Optimizer Search with Reinforcement Learning 
+
+![](./assets/week12_2.png)
+![](./assets/week12_3.png)
+
+### 在FL中应用
+
+![](./assets/week12_4.jpg)
+
+1. 设计实验看看不同客户端采用不同优化器能不能带来增益。
+2. 每个客户端训练一个智能体，对优化器进行选择。
+3. 每个客户端训练一个RNN，生成个性化的迭代策略。
+
+---
 
 # Week 10
 
