@@ -173,3 +173,10 @@ Q-learning输入为网络邻接矩阵，智能体输出当前状态下的最佳�
 ## 周工作汇报
 ### 1.调研组播技术：
 
+
+## Date: 2023/5/25
+## 周工作汇报
+### 1.深度强化学习实现路由，调试代码：
+[Y. -H. Hsu, J. -I. Lee and F. -M. Xu, "A Deep Reinforcement Learning based Routing Scheme for LEO Satellite Networks in 6G," 2023 IEEE Wireless Communications and Networking Conference (WCNC), Glasgow, United Kingdom, 2023, pp. 1-6,](https://ieeexplore.ieee.org/document/10118680)    
+[Yixin HUANG,Shufan WU,"Reinforcement learning based dynamic distributed routing scheme for mega LEO satellite networks,"Chinese Journal of Aeronautics, (2023),Volume 36, Issue 2, February 2023, Pages 284-291](https://www.sciencedirect.com/science/article/pii/S1000936122001297)     
+### 2.星间通信，缓存，地面站到卫星通信的能耗模型、问题公式：
