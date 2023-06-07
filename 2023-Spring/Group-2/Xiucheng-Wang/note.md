@@ -234,7 +234,7 @@ $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s
 
 <p id="10"></p>
 
-# <a href="#table">Week 10 (2023.05.19 – 2023.05.25)</a>
+# <a href="#table">10
 
 ## GC论文
 
