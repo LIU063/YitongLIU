@@ -254,6 +254,6 @@ Suppose $f(\mathbf{x})$ is a non-convex and $L$-smooth function, $\mathrm{E}\lef
 
  $$\min _{k=0, \ldots, t} \mathrm{E} [\|\nabla f (\mathbf{x}_k)\|^2]  \leq$$
 
- $$ \frac{2(f(\mathbf{x}_0)-f_{*})(1-\beta)}{t+1} \max \{\frac{2 L}{1-\beta}, \frac{\sqrt{t+1}}{C}\} $$
+ $\frac{2(f(\mathbf{x}_0)-f_{*})(1-\beta)}{t+1} \max \{\frac{2 L}{1-\beta}, \frac{\sqrt{t+1}}{C}\}$
    
  $$+\frac{C}{\sqrt{t+1}} \frac{L \beta^2((1-\beta) s-1)^2\left(G^2+\sigma^2\right)+L \sigma^2(1-\beta)^2}{(1-\beta)^3}$$
