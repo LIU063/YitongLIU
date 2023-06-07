@@ -14,12 +14,12 @@ lr_rate_Wf = 0.0005<br>
 传统算法正迭代步长：0.0002<br>
 ![Figure_1](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/f7d4ce26-d910-4f15-8d7f-c24a89a00daf)
 
-2、后续仿真思路：
+2、后续仿真思路：<br>
 1）、改变车辆个数，总的功率、带宽、计算资源不变，数据包大小为10-30KB随机生成，所需计算资源为10-20bit随机生成，时延容忍不变，车辆个数由4-20增加，每次增加两辆车，记录收敛后的cost值。<br>
 2）、改变数据包大小，<br>
 3）、改变转换指令大小，<br>
 或者2和3可合并到一个图中，类似：<br>
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/69d404fa-11bc-4c19-8189-bafed69c7c31)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/69d404fa-11bc-4c19-8189-bafed69c7c31)<br>
 横坐标为改变转换指令大小，然后两三个数据包大小不同，分别跑三种算法的cost<br>
 4、改变时延容忍，离散图，横坐标为0.5，1，2，3，4，5，6，纵坐标为cost<br>
 
