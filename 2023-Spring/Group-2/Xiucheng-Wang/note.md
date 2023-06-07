@@ -248,4 +248,12 @@ $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s
 ## Diffusion+FL
 用蒸馏做异构算力设备的diffusion的训练，FL蒸馏25次，和独立训40次的效果相当
    
-## A Novel Non-Convex Optimization Framework for Communication Network: From Theory to Practice
+## A Novel Non-Convex Optimization Framework for Communication Networks: From Theory to Practice
+
+Suppose $f(\mathbf{x})$ is a non-convex and $L$-smooth function, $\mathrm{E}\left[\|\mathcal{G}(\mathbf{x} ; \xi)-\nabla f(\mathbf{x})\|^2\right] \leq \delta^2$ and $\|\nabla f(\mathbf{x})\| \leq G$ for any $\mathbf{x}$. Let update (10) run for $t$ iterations with $\mathcal{G}\left(\mathbf{x}_k ; \xi_k\right)$. By setting $\alpha=\min \left\{\frac{1-\beta}{2 L}, \frac{C}{\sqrt{t+1}}\right\}$ we have
+$$
+\begin{aligned}
+\min _{k=0, \ldots, t} \mathrm{E}\left[\left\|\nabla f\left(\mathbf{x}_k\right)\right\|^2\right] & \leq \frac{2\left(f\left(\mathbf{x}_0\right)-f_*\right)(1-\beta)}{t+1} \max \left\{\frac{2 L}{1-\beta}, \frac{\sqrt{t+1}}{C}\right\} \\
+& +\frac{C}{\sqrt{t+1}} \frac{L \beta^2((1-\beta) s-1)^2\left(G^2+\sigma^2\right)+L \sigma^2(1-\beta)^2}{(1-\beta)^3}
+\end{aligned}
+$$
