@@ -247,6 +247,7 @@ $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s
 
 ## Diffusion+FL
 用蒸馏做异构算力设备的diffusion的训练，FL蒸馏25次，和独立训40次的效果相当
+![图片](./assets/kd_diffusion.png)
    
 ## A Novel Non-Convex Optimization Framework for Communication Networks: From Theory to Practice
 
