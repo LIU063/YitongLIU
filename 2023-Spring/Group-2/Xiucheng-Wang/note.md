@@ -253,3 +253,4 @@ $\sum_{a\in \mathcal{A}} \pi(a;s)Q(s,a) - \sum_{a^{-}\in \mathcal{A}}\pi(a^{-};s
 Suppose $f(\mathbf{x})$ is a non-convex and $L$-smooth function, $\mathrm{E}\left[\|\mathcal{G}(\mathbf{x} ; \xi)-\nabla f(\mathbf{x})\|^2\right] \leq \delta^2$ and $\|\nabla f(\mathbf{x})\| \leq G$ for any $\mathbf{x}$. Let update (10) run for $t$ iterations with $\mathcal{G}\left(\mathbf{x}_k ; \xi_k\right)$. By setting $\alpha=\min {\frac{1-\beta}{2 L}, \frac{C}{\sqrt{t+1}}}$ we have
 
 ![图片](./assets/sgd.png)
+where $C$ is the initial learning rate and $\alpha = \frac{C}{\sqrt{1+t}}$
