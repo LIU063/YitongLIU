@@ -7,6 +7,7 @@
 - [Week 8](#week-8)
 - [Week 9](#week-9)
 - [Week-10](#week-10)
+- [Week-11](#week-11)
 
 # Week1
 - Picmrc: 写代码、调参、画图
@@ -65,3 +66,7 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
 - ChatGLM-6B测试，demo
 - LlaMA测试，demo，fine-tuning策略
 - 竞赛代码分析
+# Week 11
+- 无线大数据竞赛
+  - 基于相位差频谱与子载波选择，测试集RMSE约5左右
+  - 基于神经网络的滤波算法，调试中
