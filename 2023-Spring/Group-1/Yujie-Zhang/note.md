@@ -19,7 +19,7 @@
 * 无缝切换：
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/b2f2b603-8d5c-400a-bf10-422562059a19)   
 在第一个切换窗口，CASs缓冲了地面站通过多播转发的用户下行链路帧P1−P8，作为CAS之一的LEO1是用户的当前MAS。在第一个切换窗口期间，LEO1成功地传输了帧P1、P3、P4，而帧P2的传输失败。对于用户的PST，它通过广播为每个接收到的帧发送确认。因此，所有CAS都可以接收ACK1、ACK3、ACK4作为对帧P1、P3、P4的确认，并将这些帧从其缓冲区中删除。在第二个切换窗口中，根据RSSI，由于通信质量更好，PST决定从LEO1切换LEO2。切换过程分为三个步骤：PST广播切换请求以通知LEO1和LEO2，以及在最后切换窗口中以位图的形式发送的ACK1、ACK3、ACK4的重复确认；LEO1接收到切换请求后，立即停止向PST发送数据帧，并通过星间链路向PST发送确认信号和向LEO2发送切换确认信号；在接收到来自PST的切换请求和来自LEO1的确认信号之后，LEO2开始向PST发送缓冲器中的请求帧P2、P5、P6、P7。确认后，所有的CAS删除缓冲区的帧，这样可以提高切换过程中可靠性传输的效率。  
-另一个需要考虑的是在每个切换窗口之后更新CASs。
+另一个需要考虑的是在每个切换窗口之后更新CASs。  
 [1]Y. Wang, X. Qin, Z. Tang, T. Ma, X. Zhang and H. Zhou, "QoS-Centric Handover for Civil Aviation Aircraft Access in Ultra-Dense LEO Satellite Networks," 2022 IEEE/CIC International Conference on Communications in China (ICCC), Sanshui, Foshan, China, 2022, pp. 1085-1089  
 [2]J. Li, K. Xue, J. Liu and Y. Zhang, "A User-Centric Handover Scheme for Ultra-Dense LEO Satellite Networks," in IEEE Wireless Communications Letters, vol. 9, no. 11, pp. 1904-1908  
 [3]Y. Yang et al., "FHAP: Fast Handover Authentication Protocol for High-Speed Mobile Terminals in 5G Satellite-Terrestrial Integrated Networks," in IEEE Internet ofThingsJournal  
