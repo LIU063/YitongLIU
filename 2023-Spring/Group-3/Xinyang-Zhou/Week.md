@@ -1,3 +1,35 @@
+# **周报-Week12**
+##### 时间：2023.06.01——2023.06.07
+
+### **一、主要工作内容和进展**
+
+##### 1、LateX slide、写讲稿以及声音克隆
+
+##### 2、参考WiFi+FL论文，看源码
+来源：Zhang L, Yin H, Zhou Z, et al. Enhancing WiFi multiple access performance with federated deep reinforcement learning[C]//2020 IEEE 92nd Vehicular Technology Conference (VTC2020-Fall). IEEE, 2020: 1-6.
+![](./pic/week12.png)
+![](./pic/week12(2).png)
+![](./pic/week12(3).png)
+
+
+参考：
+- 为WiFi MAC协议构建了分布式DRL框架。
+- 一种新的MC奖励更新方法，用于DRL的训练阶段，并使用FL加速更新。
+- 相对于DCF, FRMA协议提高了吞吐量性能，并且在相同的数据速率下保持了访问公平性。
+
+
+
+
+<br>
+
+---
+
+<br>
+
+
+
+
+
 # **周报-Week10**
 ##### 时间：2023.05.18——2023.05.24
 
