@@ -1,6 +1,6 @@
 # 第12周
 ## 制作组会PPT
-## 复现URLLC可靠调度论文代码()
+## 复现修改URLLC可靠调度论文代码(https://ieeexplore.ieee.org/document/10093058)
 
 
 
