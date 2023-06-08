@@ -7,9 +7,16 @@
 
 ##### 2、参考WiFi+FL论文，看源码
 来源：Zhang L, Yin H, Zhou Z, et al. Enhancing WiFi multiple access performance with federated deep reinforcement learning[C]//2020 IEEE 92nd Vehicular Technology Conference (VTC2020-Fall). IEEE, 2020: 1-6.
+提出的站点和AP设计中的MAC层如图所示。MAC状态描述可以用来构造马尔可夫决策过程(MDP)公式。接下来，我们为每个站点引入蒙特卡洛(MC)奖励估计方法和标准强化学习(RL)解决方案。AP采用联邦学习(FL)，实现访问公平性和快速收敛。为了简单起见，我们只考虑上行通信，并且每个站点始终处于饱和模式(始终有数据要传输到AP)。
 ![](./pic/week12.png)
+FRMA协议:每个块代表一个报文。在Local Training DRL中，每个站点自己进行QNN训练。
+然而，在FL时间段内，AP获得QNN的全局模型，并将其广播到每个STA。
 ![](./pic/week12(2).png)
+结果：
 ![](./pic/week12(3).png)
+![](./pic/week12(4).png)
+
+
 
 
 参考：
