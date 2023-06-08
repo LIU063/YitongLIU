@@ -98,6 +98,15 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 
 <img width="906" alt="1684946762775" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/6ea55410-7df6-498c-907c-83044b8cc3b6">
 
+# Week11
+## 继续进行RB分配任务实验
+实验思路由平衡标签成本转变为使用随即标签辅助RL训练，训练到一定程度时撤掉标签 该方法无需进行探索即可达到优于探索的性能
 
+不进行探索：
 
+<img width="892" alt="1686186545731" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/ad448ce3-5d25-4790-8a8a-c6190c2c7042">
+
+进行探索：
+
+<img width="894" alt="1686186579396" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/13d729d7-20c6-40aa-bb5b-170349334b58">
 
