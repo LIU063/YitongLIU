@@ -1,3 +1,17 @@
+### Week 13
+
+1. 根据上周讨论的结果，尝试了几种仿真设计和网络模型：  
+（1）内置图神经网络（GAT/GCN/GEN)；   
+（2）调整Actor和Critic的设计；   
+（3）更改节点特征为经纬度坐标进行仿真；   
+
+2. 阅读了文献：   
+     FALCON: Towards Fast and Scalable Data Delivery for Emerging Earth Observation Constellations Mingyang（infocom 2023，Mingyang Lyu, Qian Wu, Zeqi Lai, Hewu Li, Yuanjie Li, Jun Liu）   
+     Learning to schedule job-shop problems: representation and policy learning using graph neural network and reinforcement learning （International Journal of Production Research）
+
+    
+
+
 ### Week 12
 
 1. 根据周二讨论的结果，优化模型  
