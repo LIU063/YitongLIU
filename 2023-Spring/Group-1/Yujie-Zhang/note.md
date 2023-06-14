@@ -1,5 +1,12 @@
 # 20230614周报
-
+## Deep Reinforcement Learning-based Satellite Handover Scheme for Satellite Communications(基于深度强化学习的卫星通信切换方案)
+### 背景
+建设超密集低轨卫星星座的计划，如星链项目，终端往往在某个时间被一颗以上的卫星覆盖，因此，无论何时发生切换或产生新的接入需求，终端都应该选择覆盖卫星中的一个进行接入，为了充分利用卫星的特性来保证地面网络的QoS，需要针对不同的优化目标仔细研究不同的切换策略。
+### 系统模型
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/c0245983-c9aa-4697-b37b-887dafeea8ba)
+假设通过GPS了解地面用户的位置，LEO的轨迹是可预测的
+* 剩余可用时间：由于地面用户的准确位置已知，移动方向和速度已知，因此可从卫星星历表中得知剩余可用时间
+* 
 # 20230607周报
 ## 1、QoS-Centric Handover for Civil Aviation Aircraft Access in Ultra-Dense LEO Satellite Networks（超密集低轨卫星网络中以QoS为中心的民航飞机接入切换）
 ### 背景
