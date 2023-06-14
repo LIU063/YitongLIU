@@ -2,17 +2,18 @@
 
 ## Table of Contents
 
-- <a href="#1"> 1
-- <a href="#2"> 2
-- <a href="#3"> 3 
-- <a href="#4"> 4 
-- <a href="#5"> 5 
-- <a href="#6"> 6 
-- <a href="#7"> 7
-- <a href="#8"> 8
-- <a href="#9"> 9
-- <a href="#10"> 10
-- <a href="#11"> 11
+- <a href="#1"> Week 1
+- <a href="#2"> Week 2
+- <a href="#3"> Week 3 
+- <a href="#4"> Week 4 
+- <a href="#5"> Week 5 
+- <a href="#6"> Week 6 
+- <a href="#7"> Week 7
+- <a href="#8"> Week 8
+- <a href="#9"> Week 9
+- <a href="#10"> Week 10
+- <a href="#11"> Week 11
+- <a href="#12"> Week 12
 
 <br/>
 
@@ -255,3 +256,18 @@ Suppose $f(\mathbf{x})$ is a non-convex and $L$-smooth function, $\|\nabla f(\ma
 
 ![图片](./assets/sgd.png)
 where $C$ is the initial learning rate and $\alpha = \frac{C}{\sqrt{1+t}}$
+
+<p id="12"></p>
+
+# <a href="#table">Week 12
+
+## Diffusion-Based Efficient Reinforcement Gaming Learning
+1. 对于对抗性环境，训练两个diffusion，一个用于学习mdp转移概率，一个用于学习对手策略
+2. 利用两个diffusion实现类似DT的数据快速生成
+
+## 撰写VoI论文
+
+## Diffusion-Based Graph Links Regression
+diffusion本质上是个训练方法，其实和rl一样就是个筐，啥都能往里装
+
+## 表格数据分类
