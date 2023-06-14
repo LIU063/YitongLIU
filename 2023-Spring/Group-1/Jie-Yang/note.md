@@ -180,3 +180,41 @@ Q-learning输入为网络邻接矩阵，智能体输出当前状态下的最佳�
 [Y. -H. Hsu, J. -I. Lee and F. -M. Xu, "A Deep Reinforcement Learning based Routing Scheme for LEO Satellite Networks in 6G," 2023 IEEE Wireless Communications and Networking Conference (WCNC), Glasgow, United Kingdom, 2023, pp. 1-6,](https://ieeexplore.ieee.org/document/10118680)    
 [Yixin HUANG,Shufan WU,"Reinforcement learning based dynamic distributed routing scheme for mega LEO satellite networks,"Chinese Journal of Aeronautics, (2023),Volume 36, Issue 2, February 2023, Pages 284-291](https://www.sciencedirect.com/science/article/pii/S1000936122001297)     
 ### 2.星间通信，边缘缓存，地面站到卫星通信的能耗模型、问题公式：
+
+## Date: 2023/6/15
+## 周工作汇报
+### 1.MEC+空天地一体化+边缘缓存+资源分配+能耗和时延优化的算法：
+1.场景建模：每颗LEO卫星都通过回程链路连接到地面上的云服务器。地面用户处于偏远地区，没有地面网络通信基础设施的支持。每个LEO卫星m都配有一个MEC服务器，因此可以为地面用户提供计算服务。对于地面用户无法处理的计算密集型任务，计算任务可以通过无线链路卸载到LEO卫星上，或通过LEO卫星转发到云服务器上进行处理。对于地面用户能够处理的计算任务，它可以自行计算。此外，我们假设每个地面用户只有一个计算任务需要计算，并且该计算任务不能被分割。此外，考虑到低轨卫星具有高速运动的特点，地面用户与低轨卫星之间的通信时间受低轨卫星覆盖时间的限制。    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/be7d2b61-b7f6-4a20-b425-ab2e7c772418)    
+当地面用户有大量需要卸载的计算任务时，LEO卫星可以协同完成计算任务的处理。此外，ISL的传输速度较快，因此可以忽略从LEO卫星到另一个LEO卫星的计算任务的传输延迟。每个地面用户只能访问一个LEO卫星进行数据传输。忽略了从LEO卫星或云服务器向地面用户进行的计算结果的传输时延。每个地面用户的计算任务只有一个卸载决策。    
+上行传输速率公式：       
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/79f7dd5f-ae7e-4312-9fb5-d8ccfd802b9d)     
+本地时延和能耗：    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/c6c36fc1-5cca-4d97-a854-077a48f0138e)     
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/17d8d2d0-b32d-4826-b433-745cf8c01ccd)      
+LEO计算时延和本地能耗：对于LEO计算：每颗低卫星的计算能力相等，时延包括传播延迟，传输延迟和计算延迟。    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/8194e391-a8b6-4aa7-ad28-aca4a94bdb83)      
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/cdb9e4c2-c077-4a48-94f7-f13e1a02ce61)   
+云服务器计算时延：对于云服务计算：时延包括传播延迟，传输延迟，计算延迟和回程延迟，本地能耗和LEO计算相同。    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/9471b623-7b98-4423-9594-729fa7c2e70c)      
+问题公式：在满足低卫星有限的计算能力和覆盖时间限制的同时，降低地面用户的总能耗。    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/f8bd9f5f-09c1-4597-b768-5a55d88a8098)    
+### 2.不同场景：
+基于终端-卫星云的三层边缘计算体系结构，每个卫星卫星都有一个MEC服务器。这里假设用户位于偏远地区或灾区，没有地面通信网络的服务。假设用户u（u∈U）只通过单个卫星s（s∈E）访问卫星网络，并且每个用户都有一个最大长度为Q的任务队列，可以缓存任务。这些任务可以在本地计算，卸载到卫星节点，或通过接入卫星中继到远程云。由于ISL的存在，这些任务可以被传输到其他卫星进行协同计算当接入卫星计算能力不足时。这里的能耗和时延都加入了排队的一个等待的时延，能耗在云山计算时没有考虑计算的能耗。本文问题公式是尽量减少在延迟和资源约束下的长期任务处理过程中的系统能量消耗。    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/f3a96275-e78d-41cf-81fb-ff6dd4d618f3)    
+多任务MEC系统由三个网络段组成，即地面段、空中段和天基段。每颗卫星都部署了MEC服务器（S-MEC），为覆盖区域内的任务提供服务。多个基于无人机的空中基站（A-BS）组成了空中部分。在实际的物联网场景中，一些应用程序通常包含大量的任务。这些任务是相互依赖的，并共同工作来完成整体任务。其中一些可以并行处理，而另一些则需要按顺序进行处理。我们将这些任务建模为有向无环图（DAG）。这里考虑到地面到卫星由于路径损耗和信道噪声传输功率会出现衰减，最后计算出任务上行和下行数据速率（公式较详细）。延迟模型：只考虑传播延迟和处理延迟。能耗模型：只考虑本地和卫星执行任务的计算能耗。总消耗是时延和能耗的加权和。这里考虑了任务的优先级。    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/5586ebf2-877c-46f7-97ab-0087978384a1)    
+ISTN由多颗多天线LEO卫星、B个多天线BSs、N个单天线移动用户和一个CP组成。我们认为每颗卫星与其他卫星的覆盖范围不重叠，所有的BSs和卫星都有有限的高速缓存存储容量，并通过高速回程链路连接到CP。在ISTN中，请求相同内容的用户被安排成一个组播组，并通过协同波束形成由可缓存基站（BSs）和近地轨道（LEO）卫星提供服务。 为了最大限度地提高考虑网络吞吐量和回程流量的网络效用，缓存放置、LEO卫星和BS聚类和组播波束形成被共同设计并表述为一个双时间尺度的优化问题。该方案提高网络吞吐量，降低回程流量。    
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/27ba6a1d-3b60-4806-8e8d-c6aa490939cb)   
+在每个时隙t的开始，无人机以恒定速度飞行，收集这些区域的数据任务。根据接收到的任务量，无人机需要决定是否在可见范围内卸载到某个卫星，然后利用云服务器进行处理，还是卸载到附近的BS进行处理。当选择了卸载目的地时，还需要确定卸载任务的比例。这是因为无人机的计算能力仍然有限。因此，部分任务由无人机执行，其余任务由卸载目的地处理。      
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/83910735/bc543b8a-52a4-4100-a121-7bcafd9812b6)    
+
+
+
+
+
+
+
+
+
+
