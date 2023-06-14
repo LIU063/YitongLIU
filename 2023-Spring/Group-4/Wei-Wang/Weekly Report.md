@@ -8,15 +8,40 @@
 
 ### 目标
 
+![sample-image](./assets/614ob.png)
+
 ### 信息价值
 
-### 协商步骤
+对于服务商，假设其服务生成的信息的初始价值服从某种分布（这里具体的分布如何获得还没确定），节点生成的某种服务信息的概率服从特定分布（比如zipf 分布 [1]） 
+
+> [1] Li J, Chen H, Chen Y, et al. Pricing and resource allocation via game theory for a small-cell video caching system[J]. IEEE Journal on Selected Areas in Communications, 2016, 34(8): 2115-2129.
+### 服务类型
+
+服务商的服务类型可以设置成以下三种[2]:
+
+- 数据位于MEC/云服务器节点，需要传输给某些用户，对应的典型业务是视频网址为用户提供视频服务。
+- 数据位于User 节点，需要收集到某个/某几个节点完成对应的计算任务。典型的业务是交通流量监控以及工业环境下的一些应用。
+- MEC/云服务器/User 节点都有数据需要传输和计算，典型业务是网络游戏，VR等应用。
+> [2] Chen Z, Yin B, Zhu H, et al. Mobile Communications, Computing, and Caching Resources Allocation for Diverse Services via Multi-Objetive Proximal Policy Optimization[J]. IEEE Transactions on Communications, 2022, 70(7): 4498-4512.
+
+### 协商思路
+
+> step 1 Nsp (Network service prodiver) 初始化 3C（communicaton, compputing, cache）资源定价 P；
+> 
+> step 2 Sp (service prodiver) 基于 Nsp 定价 P 和 其他 Sp 的策略 $\pi$ 却定服务所需资源，并给出期望的资源配置方案A。
+> 
+> step 3 Sp 和 Nsp 基于自身资源配置方案 A 和定价 P 对系统资源进行拍卖，如果 Sp 没有买到所需的资源，则返回 step 2 选择新的资源配置方案， 直到所有 Sp 的资源配置方案。
+> 
+> step 4 Nsp 基于本轮拍卖收益调整 3C 资源的定价 P 。
 
 ### 目前存在的问题
 
+- 如何体现信息价值在其中的作用。
+- step 2 中的定价博弈过程还没有具体确定。
+
 ## 2.仿真实验
 
-正在编写系统环境相关的仿真代码。
+- 正在编写系统环境相关的仿真代码。
 
 
 
