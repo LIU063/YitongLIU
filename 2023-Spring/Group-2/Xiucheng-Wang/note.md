@@ -266,3 +266,8 @@ where $C$ is the initial learning rate and $\alpha = \frac{C}{\sqrt{1+t}}$
 2. 利用两个diffusion实现类似DT的数据快速生成
 
 ## 撰写VoI论文
+
+## Diffusion-Based Graph Links Regression
+diffusion本质上是个训练方法，其实和rl一样就是个筐，啥都能往里装
+
+## 表格数据分类
