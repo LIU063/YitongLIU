@@ -1,4 +1,23 @@
 
+# Week 13
+
+## Personalized Optimizer Design for Heterogeneous Federated Learning
+
+1. 用2层卷积网络在digits数据集（MNIST，MNIST_M，SVHN，SynthDigits，USPS）上进行FL训练。
+
+|**optim0**|**optim1**|**optim2**|**optim3**|**optim4**|**acc**|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|adam	|adam	|adam	|adam	|adam	|80.6|
+|rmsprop |rmsprop	|rmsprop	|rmsprop	|rmsprop	|80.4|
+|sgdm	|sgdm	|sgdm	|sgdm	|sgdm	|79.56|
+|sgd	|sgd	|sgd	|sgd	|sgd	|63.0|
+|adam	|adam	|adam	|rmsprop	|rmsprop	|**81.48**|
+|rmsprop	|adam	|rmsprop	|sgdm	|sgdm	|**81.36**|
+|adam	|rmsprop	|rmsprop	|rmsprop	|adam	|**81.32**|
+|rmsprop	|rmsprop	|rmsprop	|rmsprop	|adam	|**81.28**|
+
+---
+
 # Week 12
 
 ## Personalized Optimizer Design for Heterogeneous Federated Learning
