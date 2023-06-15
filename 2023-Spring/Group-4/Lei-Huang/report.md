@@ -3,7 +3,7 @@
 ### 阅读文献  
 #### [1]L. Qin, H. Lu and F. Wu, "When the User-Centric Network Meets Mobile Edge Computing: Challenges and Optimization," in IEEE Communications Magazine, vol. 61, no. 1, pp. 114-120, January 2023, doi: 10.1109/MCOM.006.2200283.  
 - Motivation  
-在传统的基于小区的MEC中，小区边缘的用户将遭受严重的信号衰减和小区间干扰，导致可达速率大大降低，容易出现传输中断和卸载失败。  
+在传统的基于蜂窝网的MEC中，蜂窝网边缘的用户将遭受严重的信号衰减和小区间干扰，导致可达速率大大降低，容易出现传输中断和卸载失败。  
 本文将以用户为中心的网络(UCN)与MEC计算服务结合起来，提出了一种新的框架，称为以用户为中心的MEC (UCMEC)。为了进一步发挥UCMEC的优势，本文共同优化任务划分、传输功率控制和计算资源分配决策，以最小化延迟约束下的总能耗，主要考虑任务卸载和无线传输的能量消耗和延迟，本文忽略了CPU处理的能量和延迟。   
 - 内容概要  
 架构  
