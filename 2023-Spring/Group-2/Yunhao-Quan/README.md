@@ -1,6 +1,7 @@
 # 第12周周报
-## 制作组会PPT
+
 ## 复现修改URLLC可靠调度论文代码(https://ieeexplore.ieee.org/document/10093058)
+## 调研URLLC场景
 
 ![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/Online.svg)
 ![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/CP.svg)
