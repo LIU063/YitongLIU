@@ -8,6 +8,7 @@
 - [Week 9](#week-9)
 - [Week-10](#week-10)
 - [Week-11](#week-11)
+- [Week-12](#week-12)
 
 # Week1
 - Picmrc: 写代码、调参、画图
@@ -70,3 +71,8 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
 - 无线大数据竞赛
   - 基于相位差频谱与子载波选择，测试集RMSE约5左右
   - 基于神经网络的滤波算法，调试中
+ 
+# Week 12
+- 无线算法竞赛
+  - 基于频谱特征RNN，
+  - 基于注意力机制角度域特征
