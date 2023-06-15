@@ -110,3 +110,18 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 
 <img width="894" alt="1686186579396" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/13d729d7-20c6-40aa-bb5b-170349334b58">
 
+
+# Week12
+## 继续进行RB分配任务实验
+对比不同时刻撤掉标签的收敛性能
+
+不进行探索：
+
+<img width="784" alt="1686791518708" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/fb6e964b-715d-42b5-94b2-dca4aa88bbcb">
+
+
+进行探索：
+
+<img width="784" alt="1686791560474" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/17347de5-e74f-4788-86d5-eaefdfa3c699">
+
+
