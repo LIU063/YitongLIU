@@ -12,7 +12,7 @@
 
 ### 信息价值
 
-对于服务商，假设其服务生成的信息的初始价值服从某种分布（这里具体的分布如何获得还没确定），节点生成的某种服务信息的概率服从特定分布（比如zipf 分布 [1]） 
+对于服务商，假设其服务生成的信息的初始价值服从某种分布（这里具体的分布如何获得还没确定），节点参与的某种服务的概率服从特定分布（比如zipf 分布 [1]）。
 
 > [1] Li J, Chen H, Chen Y, et al. Pricing and resource allocation via game theory for a small-cell video caching system[J]. IEEE Journal on Selected Areas in Communications, 2016, 34(8): 2115-2129.
 ### 服务类型
