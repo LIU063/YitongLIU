@@ -6,11 +6,12 @@
   
    之前的研究内容：![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/cd9fa034-da7e-42ea-bff0-667afb135d30)
    
-   现在的研究内容：![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/bbd7d24a-98ee-4501-a9ee-91f2d373c72a)
+   现在的研究内容：![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/0cdada1d-d53e-41f1-84a6-a5dcf782de3f)
+
 
   
   2. 完成知识驱动magazine的模型图
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/0bad4a96-1272-485e-b478-63aa44425cbe)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/96988a76-1371-4949-8779-ea97e0ece157)
 
   3. wifi仿真建模: 异构GNN已经能跑出数据，但测试集效果不好，目前在调参
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/06c01b2c-be1d-43ea-b8db-79fa3d0ea948)
