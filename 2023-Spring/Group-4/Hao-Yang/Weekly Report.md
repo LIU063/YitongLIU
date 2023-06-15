@@ -2,6 +2,23 @@
 
 ## 本周工作：
   
+  1. 中期答辩工作准备，目前已完成中期报告
+  
+  2. 完成知识驱动magazine的模型图
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/0bad4a96-1272-485e-b478-63aa44425cbe)
+
+  3. wifi仿真建模: 异构GNN已经能跑出数据，但测试集效果不好，目前在调参
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/06c01b2c-be1d-43ea-b8db-79fa3d0ea948)
+
+## 下周工作 
+  
+  1. 完善GNN设计部分，并训练测试
+  2. 修改知识驱动综述文献物理层部分
+
+# 20230608周报
+
+## 本周工作：
+  
   1. GNN论文修改并投递 
   
   3. 知识驱动综述文献物理层部分: 完成初稿撰写，目前在修改文献描述
