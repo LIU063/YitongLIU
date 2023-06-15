@@ -12,6 +12,7 @@
 - <a href="#8">Week 8 (2023.5.11)</a>
 - <a href="#9">Week 10 (2023.5.25)</a>
 - <a href="#10">Week 12 (2023.6.8)</a>
+- <a href="#11">Week 13 (2023.6.15)</a>
 
 <br/>     
 
@@ -334,4 +335,24 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 ## 2023.6.8   
 ### **本周工作：**
    完成论文的修改，待投。      
-   在对基于AI的按需服务的工作进行建模（边调研边建模中）
+   在对基于AI的按需服务的工作进行建模（边调研边建模中）   
+   
+   
+         
+ ***
+       
+       
+<p id="11"></p>   
+      
+<div align=left>      
+    
+## <a href="#table">Week 13 (2023.6.15)</a>
+
+
+   
+   
+# **周报-Week 13**    
+## 2023.6.15   
+### **本周工作：**
+   ![sn-net1](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/SN-net1.jpg)       
+   ![sn-net2](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/Sn-net2.jpg)
