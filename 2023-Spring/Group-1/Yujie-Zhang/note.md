@@ -9,7 +9,7 @@
 * 信道质量：载波噪声比和干扰噪声比衡量  
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/198fc47a-7ab4-4a61-98cb-06ebb94bcbe0)
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/571d1a59-6eba-44ad-9321-a776bc66f568)
-* 空闲信道数目：地面用户可根据卫星的周期性广播获取负载信息  
+* 空闲信道数目：地面用户可以根据卫星的周期性广播获取负载信息  
 最终优化目标表示为：
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/40683309-49c4-4185-b432-fe5d9bc1d0e0)
 减少切换次数、增大CNR、减小INR并保持卫星的负载均衡
