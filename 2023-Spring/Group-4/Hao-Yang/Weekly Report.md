@@ -4,6 +4,11 @@
   
   1. 中期答辩工作准备
   
+   之前的研究内容：![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/cd9fa034-da7e-42ea-bff0-667afb135d30)
+   
+   现在的研究内容：![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/bbd7d24a-98ee-4501-a9ee-91f2d373c72a)
+
+  
   2. 完成知识驱动magazine的模型图
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/0bad4a96-1272-485e-b478-63aa44425cbe)
 
