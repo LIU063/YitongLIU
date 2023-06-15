@@ -2,7 +2,7 @@
 
 ## 本周工作：
   
-  1. 中期答辩工作准备，目前已完成中期报告
+  1. 中期答辩工作准备
   
   2. 完成知识驱动magazine的模型图
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/0bad4a96-1272-485e-b478-63aa44425cbe)
