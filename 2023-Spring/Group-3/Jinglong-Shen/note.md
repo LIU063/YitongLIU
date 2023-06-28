@@ -1,4 +1,46 @@
 
+# Week 15
+
+## Personalized Optimizer Design for Heterogeneous Federated Learning
+
+### Dataset Representation by Prototype Learning
+
+- 利用 Prototype Learning 的思想，对 local dataset 进行表征， 得到各个local dataset的表征向量。
+- 这些表征向量具有语义信息，能够衡量数据集之间categorical distribution & feature distribution的差异。
+- 利用local dataset的表征向量选择优化器。
+
+### Local Momentum Initialization with Global Momentum
+
+#### Notations
+- Global Model: $\omega^t$
+- Local Model: $\omega^{t,k}_i$
+- Global First Order Momentum: $m_g$
+- Global Second Order Momentum: $v_g$
+- Exponential Decay Factor for 1-st Momentum: $\beta_1$
+- Exponential Decay Factor for 2-nd Momentum: $\beta_2$
+
+#### Local Training
+- Clients pull $\omega^t$ from server.
+- Clients update global momentum:
+
+  Global First Order Momentum: $m_g^t = \beta_1 m_g^{t-1} + (1 - \beta_1) (\omega^t - \omega^{t-1})$
+
+  Global Second Order Momentum: $v_g^t = \beta_2 v_g^{t-1} + (1 - \beta_2) (\omega^t - \omega^{t-1})^2$
+
+- Clients update local model using following formula:
+
+  If $k=1$: $m_i^{t,1} = \beta_1 m_g^t + (1 - \beta_1) g_i^{t,1}$ | $v_i^{t,1} = \beta_2 v_g^t + (1 - \beta_2) (g_i^{t,1})^2$
+  
+  Else: $m_i^{t,k} = \beta_1 m_i^{t,k-1} + (1 - \beta_1) g_i^{t,k}$ | $v_i^{t,k} = \beta_2 v_i^{t,k-1} + (1 - \beta_2) (g_i^{t,k})^2$
+
+  $\omega_i^{t,k} = \omega_i^{t,k-1} - \eta \cfrac{m_i^{t,k}}{\sqrt{v_i^{t,k}}}$
+  
+- Clients upload $\omega_i^{t,K}$ to server.
+
+### Paritial First Order Momentum & Partial Second Order Momentum
+
+本地训练时，部分层带有一阶梯度，部分层带有二阶梯度。等价于不同层使用不同的优化器。
+
 # Week 13
 
 ## Personalized Optimizer Design for Heterogeneous Federated Learning
