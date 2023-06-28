@@ -1,4 +1,13 @@
-### Week 13
+### Week 15
+
+1. 采用了GINConv，目前可以实现点到点的路由（单对收发端可达80%以上）；  
+2. 阅读了上周找到的IEEE Access综述及文中所提及的现有研究；    
+3. 形成低轨卫星网络中任务分发的数学问题；
+4. 撰写开题报告。  
+
+
+
+### Week 14
 
 1. 根据上周讨论的结果，尝试了几种仿真设计和网络模型：  
 （1）内置图神经网络（GAT/GCN/GEN)；   
@@ -12,7 +21,7 @@
     
 
 
-### Week 12
+### Week 13
 
 1. 根据周二讨论的结果，优化模型  
 2. 设计初步的Caching Placement Model:  
@@ -21,7 +30,7 @@
 
 
 
-### Week 10
+### Week 12
 
 1. 调研了Multicast的基础协议  
 ![sample-image](./assets/multicast_architecture.png)   
@@ -38,7 +47,7 @@ E2E 应用场景：
 1. 高移动性场景（高铁、广域车联网）  
 2. 密集型低轨卫星星座网络  
 
-### Week 8
+### Week 11
 1. 完成Response Lettter，并整体修改；  
 2. 初步调研了GNN-based LEO satellite routing、multicast等；  
 
