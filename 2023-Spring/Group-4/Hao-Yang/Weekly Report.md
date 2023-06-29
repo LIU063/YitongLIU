@@ -1,4 +1,25 @@
-# 20230608周报
+# 2023029周报
+
+## 本周工作：
+  
+  1. wifi仿真建模: 已完善异构GNN设计部分，并跑出部分测试结果
+
+     ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/f211aef2-5728-4bff-a35c-bdf821ef8060)
+
+      ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/c320562f-e5f2-46f3-92bf-00a7bec6261f)
+
+      ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/58a0536e-86be-45e1-a1e4-a470eba79114)
+ 
+  2. 修改知识驱动综述文献物理层部分，目前还有Loss function一章需要完善。
+
+## 下周工作 
+  
+  1. 将目前集中式的GNN改为分布式GNN.
+     优化GNN模型，尽可能使用矩阵运行，避免循环查找，从而加快训练收敛收敛
+
+  2. 修改知识驱动综述文献物理层部分
+     
+# 20230615周报
 
 ## 本周工作：
   
