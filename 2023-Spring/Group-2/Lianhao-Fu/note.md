@@ -8,7 +8,8 @@
 - [Week 9](#week-9)
 - [Week-10](#week-10)
 - [Week-11](#week-11)
-- [Week-12](#week-12)
+- [Week-12-13](#week-12-13)
+
 
 # Week1
 - Picmrc: 写代码、调参、画图
@@ -76,3 +77,10 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
 - 无线算法竞赛
   - 基于频谱特征RNN，
   - 基于注意力机制角度域特征
+ 
+# Week 13-14
+- 无线算法竞赛
+  - 基于角度域特征注意力机制模型
+  - 初赛与半决赛提交
+- ServerLess
+  - 构建新的完全图
