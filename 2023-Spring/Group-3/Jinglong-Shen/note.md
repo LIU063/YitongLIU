@@ -41,6 +41,13 @@
 
 本地训练时，部分层带有一阶梯度，部分层带有二阶梯度。等价于不同层使用不同的优化器。
 
+## Distributed Inference for Large Model
+
+​不同的节点denoise不同的次数，然后接力进行，形成一个环，刚好最后一个节点完成所有的denoise步骤。然后通过分布不同节点denoise的次数来均衡推理负载。
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/b6c6b34b-9790-4354-9c60-62d303418629)
+
+
 # Week 13
 
 ## Personalized Optimizer Design for Heterogeneous Federated Learning
