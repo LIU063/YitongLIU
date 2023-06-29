@@ -14,9 +14,11 @@
 实际上就是在第一阶段考虑剩余可见时间和仰角，在第二阶段考虑可用卫星信道的数量的约束。
 ### 仿真结果
 基于潜在博弈的卫星切换策略（PG）和最大服务时间策略（MST），PG的信噪比更高，通信质量更好  
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/aec5c43a-6abb-4163-bda1-4c2075e1ee4f)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/aec5c43a-6abb-4163-bda1-4c2075e1ee4f)  
+
 所提出的基于潜在博弈的卫星切换策略在减少平均切换次数上也表现出较好的性能  
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/0fdebd80-c7b3-49aa-ae9a-7cbe4c52d3a4)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/0fdebd80-c7b3-49aa-ae9a-7cbe4c52d3a4)  
+
 随着平均呼叫持续时间的增加，平均切换次数线性增加，可知在平均呼叫持续时间相同的情况下，α的值对平均卫星切换次数影响不大，但会影响信噪比，进而影响通信质量  
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/127767983/832f166c-29d6-4655-b994-3e0c52b3fb81)
 # 20230614周报
