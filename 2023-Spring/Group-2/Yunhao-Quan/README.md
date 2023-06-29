@@ -6,7 +6,7 @@
 ![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/Online.svg)
 ![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/CP.svg)
 
-## 下一步计划：调研URLLC场景
+## 调研XAI在物理层应用
 
 
 
