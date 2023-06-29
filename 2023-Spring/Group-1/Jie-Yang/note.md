@@ -212,10 +212,13 @@ ISTN由多颗多天线LEO卫星、B个多天线BSs、N个单天线移动用户�
 [[2]H. Zhang, R. Liu, A. Kaushik and X. Gao, "Satellite Edge Computing With Collaborative Computation Offloading: An Intelligent Deep Deterministic Policy Gradient Approach," in IEEE Internet of Things Journal, vol. 10, no. 10, pp. 9092-9107, 15 May15, 2023,] (doi: 10.1109/JIOT.2022.3233383.)    
 [[3]F. Chai, Q. Zhang, H. Yao, X. Xin, R. Gao and M. Guizani, "Joint Multi-task Offloading and Resource Allocation for Mobile Edge Computing Systems in Satellite IoT," in IEEE Transactions on Vehicular Technology,]( doi: 10.1109/TVT.2023.3238771.)    
 [[4]D. Han, W. Liao, H. Peng, H. Wu, W. Wu and X. Shen, "Joint Cache Placement and Cooperative Multicast Beamforming in Integrated Satellite-Terrestrial Networks," in IEEE Transactions on Vehicular Technology, vol. 71, no. 3, pp. 3131-3143, March 2022,] (doi: 10.1109/TVT.2021.3138898.)    
-[[5]Y. Chen, B. Ai, Y. Niu, H. Zhang and Z. Han, "Energy-Constrained Computation Offloading in Space-Air-Ground Integrated Networks Using Distributionally Robust Optimization," in IEEE Transactions on Vehicular Technology, vol. 70, no. 11, pp. 12113-12125, Nov. 2021,] (doi: 10.1109/TVT.2021.3116593.)     
+[[5]Y. Chen, B. Ai, Y. Niu, H. Zhang and Z. Han, "Energy-Constrained Computation Offloading in Space-Air-Ground Integrated Networks Using Distributionally Robust Optimization," in IEEE Transactions on Vehicular Technology, vol. 70, no. 11, pp. 12113-12125, Nov. 2021,] (doi: 10.1109/TVT.2021.3116593.)       
 
-
-
+## Date: 2023/6/29
+## 周工作汇报
+### 1.阅读空谈天地一体化中关于缓存的文献：
+### 2.低轨卫星网络下的内容缓存和资源分发的初步建模：
+### 3.走迷宫方式实现DRL卫星路由算法：
 
 
 
