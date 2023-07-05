@@ -278,3 +278,11 @@ diffusion本质上是个训练方法，其实和rl一样就是个筐，啥都能
 # <a href="#table">Week 13
 
 ## Federated Continual Learning for Non-IID Data
+![图片](./assets/10_client_alpha_0.01-0.05.svg)
+![图片](./assets/10_client_alpha_0.06-0.1.svg)
+![图片](./assets/10_client_alpha_0.1-0.5.svg)
+![图片](./assets/10_client_alpha_0.6-0.9.svg)
+![图片](./assets/alpha_0.3_clinet_10-18.svg)
+
+## A Novel Diffusion Training Method
+![图片](./assets/diffusion_gamma.png)
