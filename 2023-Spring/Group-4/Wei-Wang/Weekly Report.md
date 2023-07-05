@@ -7,17 +7,23 @@
 
 使用多智能体强化学习来完成服务商Sp之间的博弈问题，这里准备结合两种多智能体强化学习方法：MADDPG[1] (Multi-Agent Deep Deterministic Policy Gradient) 和 MFMARL[2] (Mean Field Multi-Agent Reinforcement Learning) 
 
-MADDPG 特点
+### MADDPG
 
-MADDPG 使用 Actor 分布式推理， Critic 集中训练的方式实现多智能体强化学习，主要问题在于当智能体数目较多时候， Critic 网络难以训练（由于Critic使用全局信息训练，即可以观测到所有智能体的状态和动作，当智能体数目增加时，动作空间大小呈指数增加）
+![sample-image](./assets/1.png)
 
-MFMARL 特点
+MADDPG 使用 Actor 分布式推理， Critic 集中训练的方式实现多智能体强化学习，主要问题在于当智能体数目较多时候， Critic 网络难以训练（由于Critic使用全局信息训练，即可以观测到所有智能体的状态和动作，当智能体数目增加时，动作空间大小呈指数增加）。
 
-MFMARL 很好的解决了动作空间过大导致的问题，因为MFMARL中智能体将其他智能体划分为邻居智能体和非邻居智能体，对于邻居集合内的邻居智能体
+### MFMARL
+
+![sample-image](./assets/2.png)
+
+MFMARL 很好的解决了动作空间过大导致的问题，因为MFMARL中智能体将其他智能体划分为邻居智能体和非邻居智能体，把邻居集合内的所有邻居智能体视为一个虚拟的智能体，该智能体的动作是一个所有邻居智能体动作的平均。
 
 > [1] Lowe R, Wu Y I, Tamar A, et al. Multi-agent actor-critic for mixed cooperative-competitive environments[J]. Advances in neural information processing systems, 2017, 30.
+> 
 > [2] Yang Y, Luo R, Li M, et al. Mean field multi-agent reinforcement learning[C]//International conference on machine learning. PMLR, 2018: 5571-5580.
 
+### 
 
 ### Date: 2023/6/28
 
