@@ -124,4 +124,5 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 
 <img width="784" alt="1686791560474" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/17347de5-e74f-4788-86d5-eaefdfa3c699">
 
-
+# Week13
+## 修改RB分配任务bug，重新跑数据
