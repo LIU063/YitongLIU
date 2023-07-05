@@ -14,6 +14,7 @@
 - <a href="#10"> Week 10
 - <a href="#11"> Week 11
 - <a href="#12"> Week 12
+- <a href="#13"> Week 13
 
 <br/>
 
@@ -271,3 +272,9 @@ where $C$ is the initial learning rate and $\alpha = \frac{C}{\sqrt{1+t}}$
 diffusion本质上是个训练方法，其实和rl一样就是个筐，啥都能往里装
 
 ## 表格数据分类
+
+<p id="13"></p>
+
+# <a href="#table">Week 13
+
+## Federated Continual Learning for Non-IID Data
