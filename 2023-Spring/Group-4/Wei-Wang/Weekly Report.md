@@ -17,13 +17,27 @@ MADDPG 使用 Actor 分布式推理， Critic 集中训练的方式实现多智�
 
 ![sample-image](./assets/2.png)
 
-MFMARL 很好的解决了动作空间过大导致的问题，因为MFMARL中智能体将其他智能体划分为邻居智能体和非邻居智能体，把邻居集合内的所有邻居智能体视为一个虚拟的智能体，该智能体的动作是一个所有邻居智能体动作的平均。
+MFMARL 很好的解决了动作空间过大导致的问题，因为MFMARL中智能体将其他智能体划分为邻居智能体和非邻居智能体，把邻居集合内的所有邻居智能体视为一个虚拟的智能体，该智能体的动作是一个所有邻居智能体动作的平均。MF-AC的问题在于不能处理连续动作。
 
 > [1] Lowe R, Wu Y I, Tamar A, et al. Multi-agent actor-critic for mixed cooperative-competitive environments[J]. Advances in neural information processing systems, 2017, 30.
 > 
 > [2] Yang Y, Luo R, Li M, et al. Mean field multi-agent reinforcement learning[C]//International conference on machine learning. PMLR, 2018: 5571-5580.
 
-### 
+### 应用 MARL 解决 Sp 出价博弈问题
+
+每个 Sp 作为一个独立的智能体， Nsp也作为一个智能体。 Sp 与 Nsp 智能体互相作为环境；
+
+对于Sp 内部的出价博弈，设置如下：
+
+状态： Nsp 给出的资源低价和可用3C资源总量
+
+动作： Sp 竞标价格和资源需求数量
+
+奖赏： 一段时间过户后Sp的总收益
+
+Sp 出价博弈难点在于为每个 Sp 确定邻居 Sp集合，即消息共享机制。
+
+
 
 ### Date: 2023/6/28
 
@@ -44,8 +58,6 @@ MFMARL 很好的解决了动作空间过大导致的问题，因为MFMARL中智�
 具体来说，我们定义每个Sp 通过观察其他 Sp 的动作和部分即时奖励来评估其他Sp信息对自身的VoI，将VoI高的Sp纳入意向的邻居集合，并向其发出消息共享请求。收到请求的 Sp会根据自身评估的VoI 决定是否接受共享信息请求。如同意则双方同时将对方纳入邻居集合，并共享底价。
 
 对于邻居集合内的 Sp 可以使用 平均场理论抽象其为一个虚拟智能体。
-
-平均场博弈论(Mean-field Games)
 
 
 ### 两个时间尺度
@@ -204,22 +216,18 @@ $d_{i,m}^{r}$ 表示服务是否被允许使用该节点的资源，该决策是
 
 其中网络运营商只考虑经济收益，不在乎资源被如何使用，也不在意处理的信息有何种意义，但网络运营商有权利调整网络中资源的分布(这在上面的假设中并未提及)。
 
-```
-$$
+```math
 \begin{align}
  \max_{\mathcal{D}} \sum_{i=0}^{N} \sum_{m=0}^{M} \sum_{r}^{b,c,z} d_{i,m}^{r} \times (p^{s}_{i,m, r} + p^{e}_{i,m, r}\times R_{i,m})    
 \end{align}
-$$
 ```
 
 服务提供商的考量相对复杂，且彼此之间有竞争关系，不单需要保证任务的完成（如未完成还可能有惩罚）。还需呀考虑利润最大化问题，调整出价。 对于服务商的服务 $m$, 假设需要 $K$ 个节点的信息, 优化目标可以描述成：
 
-```
-$$
+```math
 \begin{align}
  \max_{\mathcal{P, G}} \sum_{k}^{K} U(V(\mathcal{g}), D(\mathcal{g})) - \sum_{i=0}^{N}\sum_{r}^{b,c,z} d_{i,m}^{r} \times (p^{s}_{i,m, r} + p^{e}_{i,m, r}\times R_{i,m})    
 \end{align}
-$$
 ```
 
 整个过程可以描述成一个 Stackelberg game 过程，最终的的目的是达到一种服务与运营上的平衡点(Stackelberg Equilibrium (SE) points/ perfect Nash Equilibrium (NE))。
