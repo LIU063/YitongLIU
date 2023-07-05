@@ -1,4 +1,51 @@
 
+# Week 16
+
+## DARTS Adapted to Federated Learning
+
+```math
+\begin{align}
+\min_{\alpha}\quad &\sum_{i=1}^N\mathcal{L}_{val}^i(\omega^*(\alpha), \alpha)\\
+\mathrm{s.t.}\quad &\omega^*(\alpha)=\argmin_{\omega}\sum_{i=1}^N\mathcal{L}_{train}^i(\omega, \alpha)
+\end{align}
+```
+
+### The Gradient of $\alpha$
+
+```math
+\nabla_{\alpha}\sum_{i=1}^N\mathcal{L}_{val}^i(\omega^*(\alpha), \alpha)\approx\sum_{i=1}^N\nabla_{\alpha}\mathcal{L}_{val}^i(w-\xi\sum_{j=1}^N\nabla_{\omega}\mathcal{L}_{train}^j(\omega,\alpha),\alpha)
+```
+
+#### Chain Rule
+
+```math
+\nabla_{\alpha}\mathcal{L}_{val}^i(\omega-\xi\sum_{j=1}^N\nabla_{\omega}\mathcal{L}_{train}^j(\omega,\alpha),\alpha)=\nabla_{\omega^\prime}\mathcal{L}_{val}^i(\omega^\prime,\alpha)\cdot(-\xi\sum_{j=1}^N\nabla_{\omega,\alpha}^2\mathcal{L}_{train}^j(\omega,\alpha))+\nabla_{\alpha}\mathcal{L}_{val}^i(\omega^\prime, \alpha)\\
+=\nabla_{\alpha}\mathcal{L}_{val}^i(\omega^\prime, \alpha)-\xi\sum_{j=1}^N\nabla_{\omega,\alpha}^2\mathcal{L}_{train}^j(\omega,\alpha)\nabla_{\omega^\prime}\mathcal{L}_{val}^i(\omega^\prime,\alpha)
+```
+
+#### First Order Approximation
+
+```math
+\nabla_{\omega,\alpha}^2\mathcal{L}_{train}^j(\omega,\alpha)\nabla_{\omega^\prime}\mathcal{L}_{val}^i(\omega^\prime,\alpha)\approx\cfrac{\nabla_{\omega}\mathcal{L}_{train}^j(\omega,\alpha+\epsilon\nabla_{\omega^\prime}\mathcal{L}_{val}^i(\omega^\prime,\alpha))-\nabla_{\omega}\mathcal{L}_{train}^j(\omega,\alpha-\epsilon\nabla_{\omega^\prime}\mathcal{L}_{val}^i(\omega^\prime,\alpha))}{2\epsilon}\\
+=\cfrac{\nabla_{\alpha}\mathcal{L}_{train}^j(\omega+\epsilon\nabla_{\omega^\prime}\mathcal{L}_{val}^i(\omega^\prime,\alpha),\alpha)-\nabla_{\alpha}\mathcal{L}_{train}^j(\omega-\epsilon\nabla_{\omega^\prime}\mathcal{L}_{val}^i(\omega^\prime,\alpha),\alpha)}{2\epsilon}
+```
+
+#### The Result
+
+```math
+\nabla_{\alpha}\sum_{i=1}^N\mathcal{L}_{val}^i(\omega^*(\alpha), \alpha)\approx\sum_{i=1}^N\nabla_{\alpha}\mathcal{L}_{val}^i(\omega^\prime,\alpha)-\xi\sum_{i=1}^N\sum_{j=1}^N\cfrac{\nabla_{\alpha}\mathcal{L}_{train}^j(\omega^+,\alpha)-\nabla_{\alpha}\mathcal{L}_{train}^j(\omega^-,\alpha)}{2\epsilon}
+```
+
+## Hyperparameter Adaptation
+
+### Federated Learning (baseline)
+
+![W B_Chart_2023_7_5_21_36_10](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/37f6a335-7fa3-4567-9b55-d3448ee505f1)
+
+### Federated Learning (with hyperparameter adaptation)
+
+![W B_Chart_2023_7_5_21_48_30](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/714ed6cd-962e-4c41-b95e-9f8e183a919f)
+
 # Week 15
 
 ## Personalized Optimizer Design for Heterogeneous Federated Learning
