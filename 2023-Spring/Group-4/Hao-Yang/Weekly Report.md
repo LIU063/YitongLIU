@@ -9,6 +9,8 @@
       利用dgl库中dgl.batch()和dgl.unbatch()代码。将图数据批量的输入模型，再计算loss时再拆成单图计算。
   
       利用batch大大降低了训练时间，也不用针对拼接的大图重写loss function。
+      ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/bbca97fd-2c1e-43b5-90b9-2261f061e818)
+
   
   (2) 已将GNN中for循环计算改用矩阵运算，并降低模型推理时间。
      
