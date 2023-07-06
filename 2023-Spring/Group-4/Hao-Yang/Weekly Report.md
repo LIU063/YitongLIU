@@ -1,4 +1,38 @@
-# 2023029周报
+# 20230629周报
+
+## 本周工作：
+  
+  1. wifi仿真建模:
+  
+  (1) 重写训练模块：
+  
+      利用dgl库中dgl.batch()和dgl.unbatch()代码。将图数据批量的输入模型，再计算loss时再拆成单图计算。
+  
+      利用batch大大降低了训练时间，也不用针对拼接的大图重写loss function。
+  
+  (2) 已将GNN中for循环计算改用矩阵运算，并降低模型推理时间。
+     
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/132f1bc0-6aed-4b72-991c-4b9ed0ac1a94)
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/b6a18c90-c0a5-46ef-9e5d-9629538274df)
+
+  (3) 模型调参，目前在修改模型宽度和优化器。
+  
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/54303771-cd3f-4264-9516-a71d4e0d9a5d)
+
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/0875a70a-ce94-4273-96e2-c5ff13d3460a)
+
+  2. 已完成修改知识驱动综述文献物理层部分。
+
+## 下周工作 
+  
+  1. WIFI仿真添加全频率复用同时传输的对比方法，修改初步结果PPT。
+    
+  2. 不动点算法调研：主要是ADMM算法在资源调度方向的paper，并学习ADMM算法的收敛性分析。
+   
+
+# 20230629周报
 
 ## 本周工作：
   
