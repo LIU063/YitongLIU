@@ -10,6 +10,7 @@
 - [Week 11](#week-11)
 - [Week 12](#week-12)
 - [Week 13-14](#week-13-14)
+- [Week 15](#week-15)
 
 
 # Week1
@@ -85,3 +86,7 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
   - 初赛与半决赛提交
 - ServerLess
   - 构建新的完全图
+# Week 15
+- 无线算法竞赛
+  - 基于神经网络随机森林模型：过拟合问题很难解决，主要是数据问题，数据质量不高且数据量太少，模型只能收敛到标签的分布
+  - 基于规则的子载波选择，基于SVM的子载波选择
