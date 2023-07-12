@@ -179,7 +179,7 @@ Q-learning输入为网络邻接矩阵，智能体输出当前状态下的最佳�
 ### 1.深度强化学习实现路由，调试代码：
 [Y. -H. Hsu, J. -I. Lee and F. -M. Xu, "A Deep Reinforcement Learning based Routing Scheme for LEO Satellite Networks in 6G," 2023 IEEE Wireless Communications and Networking Conference (WCNC), Glasgow, United Kingdom, 2023, pp. 1-6,](https://ieeexplore.ieee.org/document/10118680)    
 [Yixin HUANG,Shufan WU,"Reinforcement learning based dynamic distributed routing scheme for mega LEO satellite networks,"Chinese Journal of Aeronautics, (2023),Volume 36, Issue 2, February 2023, Pages 284-291](https://www.sciencedirect.com/science/article/pii/S1000936122001297)     
-### 2.星间通信，边缘缓存，地面站到卫星通信的能耗模型、问题公式：
+### 2.查找星间通信，边缘缓存，地面站到卫星通信的能耗模型、问题公式：
 
 ## Date: 2023/6/15
 ## 周工作汇报
@@ -224,3 +224,13 @@ ISTN由多颗多天线LEO卫星、B个多天线BSs、N个单天线移动用户�
 ## 周工作汇报
 ### 1.低轨卫星网络下的内容缓存和缓存内容的分发建模：
 ### 2.阅读空天地一体化中关于缓存和移动边缘计算的文献：
+
+
+## Date: 2023/7/12
+## 周工作汇报
+### 1.继续完善低轨卫星网络下的内容缓存和缓存内容的分发建模：
+1.公式问题   
+2.文件是否分块   
+3.如果几个用户对一个相同的内容具有请求需求，那么这些内容将缓存到距离这几个用户都相对较近的卫星上，折中存放缓存内容问题    
+4.考虑了用户集群
+### 2.尝试了带有相位因子的极轨卫星星座DRL卫星路由算法（索引部分代码有问题）：
