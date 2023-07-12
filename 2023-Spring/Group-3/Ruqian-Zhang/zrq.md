@@ -13,6 +13,7 @@
 - <a href="#9">Week 10 (2023.5.25)</a>
 - <a href="#10">Week 12 (2023.6.8)</a>
 - <a href="#11">Week 13 (2023.6.15)</a>
+- <a href="#12">Week 17 (2023.7.12)</a>
 
 <br/>     
 
@@ -356,3 +357,23 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 ### **本周工作：**
    ![sn-net1](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/SN-net1.jpg)       
    ![sn-net2](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/Sn-net2.jpg)
+
+         
+ ***
+       
+       
+<p id="12"></p>   
+      
+<div align=left>      
+    
+## <a href="#table">Week 17 (2023.7.12)</a>
+
+
+   
+   
+# **周报-Week 17**    
+## 2023.7.12   
+### **本周工作：**
+   完成并完善了整个建模，之后开始简化模型并找到求解方法。
+   
+
