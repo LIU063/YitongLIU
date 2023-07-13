@@ -110,3 +110,5 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
   - RETHINKING THE EXPRESSIVE POWER OF GNNS VIA GRAPH BICONNECTIVITY
 - 基于GNN的MILP问题求解论文阅读
   - ON REPRESENTING MIXED-INTEGER LINEAR PROGRAMS BY GRAPH NEURAL NETWORKS
+  <img width="1010" alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/90789521/253d4244-05a5-4dbf-b0ab-963b7ebceb4e">
+
