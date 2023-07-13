@@ -1,7 +1,7 @@
 # 第13周周报
 ## 阅读URLLLC有关论文，调研可解释性URLLC业务调度
 ## 了解学习贝叶斯网络有关知识。
-![Image text](https://github.com/UNIC-Lab/Weekly-Report/raw/main/2023-Spring/Group-2/Yunhao-Quan/pic/Bayesian learning.png).
+![Image text](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-2/Yunhao-Quan/pic/Bayesian%20learning.png).
 
 
 
