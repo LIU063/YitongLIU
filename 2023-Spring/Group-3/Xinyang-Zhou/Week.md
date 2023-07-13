@@ -3,7 +3,7 @@
 
 ### **一、主要工作内容和进展**
 
-##### 1、看杨哥的WiFignn代码，熟悉运行流程。
+##### 1、调试杨浩师兄的WiFignn代码，熟悉流程。
 ##### 2、调研Wi-Fi 中Multi-AP Coordination问题。
 ##### 3、做组会PPT （FL和Multi-AP Coordination问题）。
 
