@@ -374,7 +374,8 @@ Magazine, vol. 58, no. 12, pp. 34-40, Dec. 2020.
 # **周报-Week 17**    
 ## 2023.7.12   
 ### **本周工作：**
-   完成并完善了整个建模，之后开始简化模型并找到求解方法。
+   1、完成聚类论文相关修改工作
+   2、完成并完善了整个建模，之后开始简化模型并找到求解方法。
     <div align=center>
    ![model1](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/%E6%A8%A1%E5%9E%8B1.jpg)
    ![model2](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Spring/Group-3/Ruqian-Zhang/pic/%E6%A8%A1%E5%9E%8B2.jpg)
