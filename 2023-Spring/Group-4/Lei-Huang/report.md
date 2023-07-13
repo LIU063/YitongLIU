@@ -291,11 +291,14 @@ if __name__ == '__main__':
             s, r, done, _ = env.step(ppo.choose_action(s))
             if done:
                 break
-```
+```  
+现有数据结果如下:   
+![数据结果图](https://github.com/loafluls/report_images/blob/main/images/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%9C%E5%9B%BE.jpg )  
+
 ## 下周工作计划
 1. 完成模型重建调研任务
-2. 调整参数获得结果不错的收敛图  
-
+2. 调整参数获得结果不错的收敛图
+   
 # Week 13(6.8-6.14)
 ## 论文扩展
 ### 阅读文献  
