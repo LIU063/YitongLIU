@@ -15,6 +15,7 @@
 - <a href="#11"> Week 11
 - <a href="#12"> Week 12
 - <a href="#13"> Week 13
+- <a href="#14"> Week 14
 
 <br/>
 
@@ -286,3 +287,9 @@ diffusion本质上是个训练方法，其实和rl一样就是个筐，啥都能
 
 ## A Novel Diffusion Training Method
 ![图片](./assets/diffusion_gamma.png)
+
+<p id="14"></p>
+
+# <a href="#table">Week 14
+## Diffusion Based On Demand Graph Generation
+利用diffusion做graph的按需生成，用于切片生成和控制策略的生成
