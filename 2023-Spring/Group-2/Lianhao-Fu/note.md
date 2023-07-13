@@ -11,7 +11,7 @@
 - [Week 12](#week-12)
 - [Week 13-14](#week-13-14)
 - [Week 15](#week-15)
-
+- [Week 16](#week-16)
 
 # Week1
 - Picmrc: 写代码、调参、画图
@@ -90,3 +90,23 @@ https://github.com/LionelFu/ServerLess_Edge_Computing
 - 无线算法竞赛
   - 基于神经网络随机森林模型：过拟合问题很难解决，主要是数据问题，数据质量不高且数据量太少，模型只能收敛到标签的分布
   - 基于规则的子载波选择，基于SVM的子载波选择
+# Week 16
+- 无线算法竞赛
+  - 基于加权投票的子载波选择
+  - 误差信号处理
+  - 测试集结果：
+    |测试集|RMSE|
+    |:----------|---------:|
+    |T1|	4.17|
+    |T2|	1.356|
+    |T3|	2.65|
+    |T4|	7.921|
+    |T5|	4.382|
+    |T6|	1.803|
+    |T7|	2.9824|
+- 基于图同构的GNN表征能力论文阅读
+  - EQUIVARIANT SUBGRAPH AGGREGATION NETWORKS
+  - Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting
+  - RETHINKING THE EXPRESSIVE POWER OF GNNS VIA GRAPH BICONNECTIVITY
+- 基于GNN的MILP问题求解论文阅读
+  - ON REPRESENTING MIXED-INTEGER LINEAR PROGRAMS BY GRAPH NEURAL NETWORKS
