@@ -1,3 +1,56 @@
+# 20230713周报
+
+## 本周工作：
+  
+  1. wifi仿真建模:
+    
+    (1) 增加了扩展性实验： 模型迁移到不同ap数或不同ue数场景的性能
+
+  ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/30def21d-1319-48b9-be19-9e0fe061a1c1)
+  
+  ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/ab71154e-757b-4c6a-a2a7-e30524dbd673)
+
+     (2) 优化器参数已经确定, lr_scheduler参数还在调整, 现在存在过拟合问题。
+  
+  ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/464979b0-6a9b-433d-b7cd-c5ba3dbbe5d8)
+
+  2. 修改wifi ppt:
+     
+  ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/a08a95cd-6c51-43f5-8351-2b183c4f287d)
+
+  3. ADMM算法学习及UAV计算任务卸载场景调研：  
+
+     J. Su, S. Yu, B. Li and Y. Ye, "[Distributed and Collective Intelligence for Computation Offloading in Aerial Edge Networks](https://ieeexplore.ieee.org/abstract/document/9745464)," in IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 7, pp. 7516-7526, July 2023, doi: 10.1109/TITS.2022.3160594.
+
+问题场景：
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/c70b9f83-413d-452f-9cab-edf4a6c9e93d)
+
+优化问题：所有地面用户设备的能源消耗最小
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/ebfbfa19-9a35-4b3e-a38c-8e847dc9ea40)
+
+地面用户设备k的计算任务卸载的总能耗为：
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/2b2d1a08-0437-4c4e-8749-80afdf07758a)
+
+通过增广拉格朗日乘子法，可以将问题分解
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/6fd46813-a5ce-4462-bf6d-097042e499f0)
+
+利用迭代更新参数变量
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/16fcef37-dda4-4389-87bc-33d17118d87c)
+
+
+
+## 下周工作 
+  
+  1. WIFI仿真添加全频率复用同时传输的对比方法，完善初步结果 PPT。
+    
+  2. 不动点算法 场景代码复现。
+   
+
 # 20230706周报
 
 ## 本周工作：
