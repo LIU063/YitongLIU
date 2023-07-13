@@ -126,3 +126,11 @@ offline RL——agent不和环境进行交互，利用固定的数据集进行�
 
 # Week13
 ## 修改RB分配任务bug，重新跑数据
+
+# Week14
+## 修正优化RB分配任务实验结果
+
+<img width="874" alt="1689215153662" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/ce52ef11-0e39-436e-92d9-5f7f7c940837">
+
+下一步计划结合功率分配任务，丰富实验结果
+利用MAPPO做一个基于diffusion的按需服务
