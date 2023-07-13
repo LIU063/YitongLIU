@@ -293,3 +293,9 @@ diffusion本质上是个训练方法，其实和rl一样就是个筐，啥都能
 # <a href="#table">Week 14
 ## Diffusion Based On Demand Graph Generation
 利用diffusion做graph的按需生成，用于切片生成和控制策略的生成
+
+## Edge Enabled On Demand AIGC Computing: A MARL Based Approach
+用一个MARL做EC的资源分配和Diffusion的denoise次数的优化
+
+## VoI论文书写
+## Diffusion 相关论文书写
