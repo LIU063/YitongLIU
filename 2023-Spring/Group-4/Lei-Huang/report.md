@@ -1,3 +1,7 @@
+# Week 23
+建模公式: 
+<https://www.overleaf.com/read/dkrgpzbmqqkw>
+
 # Week 16(7.7-7.12)
 ## 论文扩展
 由于A3C算法在调试过程中一直存在如下的问题，在网络上搜寻各种方法尝试未果
