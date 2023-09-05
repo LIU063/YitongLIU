@@ -1,1 +1,42 @@
+# Week 1
+## 1. MEC系统中的CTDE多智能体决策系统如何完全scalable
+- **观测角度**：环境中非agent本身的因素数量可变（如移动边缘计算中ES的上线、离线、移动等） --> 通过异构图方式观测编码环境（ICML23一篇文章也借鉴这种思想且作为其中较大的一个贡献）
+- **Agent角度**：实现完全scalable必须通过参数共享
+- **state角度**：以图的方式编码整个场景作为state，以ESAN的思想构建多个子图（每个子图的注意力权重不一样，有效且效果良好，但与其本质就是multihead-attention。或者使用gumble-softmax剪切一些边，但效果并不理想）
+- state编码需要保持置换不变性
+- 对于每个agent需要保持置换同变性 --> GNN本身具有置换同变性
+
+## 2. 模型绘图
+![23-9-5-模型绘图](https://github.com/UNIC-Lab/Weekly-Report/assets/90789521/bc7a2107-0a8e-466c-9772-aa65782dcbe5)
+
+## 3.验证性实验
+- 每个agent只有一个task且必须卸载到ES，只考虑卸载对象的选择，同一个ES接收到的信号之间才会相互干扰。基于QMIX进行训练。
+- 表征能力良好，训练集中收敛结果基本接近理论最优
+- 泛化性有调整空间。测试集相对于基于Greedy的方案优势约1到2个数量级
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90789521/d4dd5703-ad3f-4a1b-a86d-4d9b2096f434)
+
+## 4. 场景确定
+- Action: 选择卸载或者不卸载,选择卸载对象
+- OFDM
+- Possion流生成任务
+- Reward：本地计算损失，传输损失，排队损失，边缘计算损失，是否丢包
+
+## 5. Reference:
+```
+[1]Bevilacqua, Beatrice, Fabrizio Frasca, Derek Lim, Balasubramaniam Srinivasan, Chen Cai, Gopinath Balamurugan, Michael M. Bronstein和Haggai Maron. 《Equivariant Subgraph Aggregation Networks》. arXiv, 2022年3月16日. https://doi.org/10.48550/arXiv.2110.02910.
+
+[2]Bouritsas, Giorgos, Fabrizio Frasca, Stefanos Zafeiriou和Michael M. Bronstein. 《Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting》. IEEE Transactions on Pattern Analysis and Machine Intelligence 45, 期 1 (2023年1月): 657–68. https://doi.org/10.1109/TPAMI.2022.3154319.
+
+[3]Gao, Zhen, Lei Yang和Yu Dai. 《Large-Scale Computation Offloading Using a Multi-Agent Reinforcement Learning in Heterogeneous Multi-Access Edge Computing》. IEEE Transactions on Mobile Computing 22, 期 6 (2023年6月): 3425–43. https://doi.org/10.1109/TMC.2022.3141080.
+
+[4]Ha, David, Andrew Dai和Quoc V. Le. 《HyperNetworks》. arXiv, 2016年12月1日. http://arxiv.org/abs/1609.09106.
+
+[5]Kortvelesy, Ryan, 和Amanda Prorok. 《QGNN: Value Function Factorisation with Graph Neural Networks》. arXiv, 2023年6月20日. http://arxiv.org/abs/2205.13005.
+
+[6]Papoudakis, Georgios, Filippos Christianos, Lukas Schäfer和Stefano V. Albrecht. 《Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks》. arXiv, 2021年11月9日. https://doi.org/10.48550/arXiv.2006.07869.
+
+[7]Phan, Thomy, Fabian Ritz, Philipp Altmann, Maximilian Zorn, Jonas Nüßlein, Michael Kölle, Thomas Gabor和Claudia Linnhoff-Popien. 《Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability》, 不详.
+
+[8]Zaheer, Manzil, Satwik Kottur, Siamak Ravanbakhsh, Barnabas Poczos, Ruslan Salakhutdinov和Alexander Smola. 《Deep Sets》. arXiv, 2018年4月14日. https://doi.org/10.48550/arXiv.1703.06114.
+```
 
