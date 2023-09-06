@@ -1,7 +1,7 @@
 # Week 1
 ## 1. MEC系统中的CTDE多智能体决策系统如何完全scalable
 - **观测角度**：环境中非agent本身的因素数量可变（如移动边缘计算中ES的上线、离线、移动等） --> 通过异构图方式观测编码环境（ICML23一篇文章也借鉴这种思想且作为其中较大的一个贡献）
-- **Agent角度**：实现完全scalable必须通过参数共享
+- **Agent角度**：实现完全scalable必须通过参数共享。小规模情况参数共享反而提高网络收敛速度，但是agents数量变大共享参数后性能会变差
 - **state角度**：以图的方式编码整个场景作为state，以ESAN的思想构建多个子图（每个子图的注意力权重不一样，有效且效果良好，但与其本质就是multihead-attention。或者使用gumble-softmax剪切一些边，但效果并不理想）
 - state编码需要保持置换不变性
 - 对于每个agent需要保持置换同变性 --> GNN本身具有置换同变性
@@ -38,5 +38,7 @@
 [7]Phan, Thomy, Fabian Ritz, Philipp Altmann, Maximilian Zorn, Jonas Nüßlein, Michael Kölle, Thomas Gabor和Claudia Linnhoff-Popien. 《Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability》, 不详.
 
 [8]Zaheer, Manzil, Satwik Kottur, Siamak Ravanbakhsh, Barnabas Poczos, Ruslan Salakhutdinov和Alexander Smola. 《Deep Sets》. arXiv, 2018年4月14日. https://doi.org/10.48550/arXiv.1703.06114.
+
+[9]Nayak, Siddharth, Kenneth Choi, Wenqi Ding, Sydney Dolan, Karthik Gopalakrishnan和Hamsa Balakrishnan. 《Scalable Multi-Agent Reinforcement Learning through Intelligent Information Aggregation》. 收入 Proceedings of the 40th International Conference on Machine Learning, 25817–33. PMLR, 2023. https://proceedings.mlr.press/v202/nayak23a.html.
 ```
 
