@@ -21,7 +21,7 @@ Khan M I, Jafaritadi M, Alhoniemi E, et al. Adaptive weight aggregation in feder
 
 
 **后续计划**
-目前做了一个滑动窗口选择串行的，但是因为要涉及到计时以及流量的计算，需要并行训练，找了一个异步联邦学习的框架Async-FL，还在研究，在此框架上修改，目前还在debug。
+目前做了一个滑动窗口选择串行的，但是因为要涉及到计时以及流量的计算，需要并行训练，找了一个异步联邦学习的框架Async-FL，还在研究，在此框架上修改，目前还在debug，和龙博讨论后续建模。
 
 
 <br>
