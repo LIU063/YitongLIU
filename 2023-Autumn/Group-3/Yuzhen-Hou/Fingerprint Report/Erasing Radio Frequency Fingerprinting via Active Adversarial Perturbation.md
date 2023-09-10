@@ -213,9 +213,9 @@
     >
     > |                             变量                             |     含义     |
     > | :----------------------------------------------------------: | :----------: |
-    > |                        $$\mathbf{h}$$                        | 实际信道衰落 |
-    > | $$\mathbf{w}_\mathrm{ther} \sim \mathcal{CN}(0, \sigma_\mathrm{ther}^2 \mathbf{I})$$ | 接收机热噪声 |
-    > | $$\mathbf{w}_\mathrm{pert} \sim \mathcal{CN}(0, \sigma_\mathrm{pert}^2 \mathbf{I})$$ |   主动扰动   |
+    > |                         $\mathbf{h}$                         | 实际信道衰落 |
+    > | $\mathbf{w}_\mathrm{ther} \sim \mathcal{CN}(0, \sigma_\mathrm{ther}^2 \mathbf{I})$ | 接收机热噪声 |
+    > | $\mathbf{w}_\mathrm{pert} \sim \mathcal{CN}(0, \sigma_\mathrm{pert}^2 \mathbf{I})$ |   主动扰动   |
     >
     > 利用 LMMSE 对信道估计进行修正的公式如下
     > $$
