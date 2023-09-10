@@ -34,7 +34,7 @@
      > 图中所示，图`(a)`表示射频指纹识别模型在没有向射频信号加入干扰的情况下的设备类别聚类图，能够在图中看出不同种类之间清晰的决策边界；图`(b)`表示向射频信号加入干扰后射频指纹识别模型的聚类结果，不同类别设备特征被打散，决策边界不能被识别，即可以隐藏设备的射频指纹特征。
 
    <div align="center">
-       <img src="./聚类图对比示意.png" style="width: 50%;" />
+       <img src="./assets/聚类图对比示意.png" style="width: 50%;" />
    </div>
    
    
@@ -97,7 +97,7 @@
 1. **4G LTE 协议**
 
     <div align="center">
-        <img src="./导频符号等距图.png" style="width: 60%;" />
+        <img src="./assets/导频符号等距图.png" style="width: 60%;" />
     </div>
 
 
@@ -110,7 +110,7 @@
 2. **导频信号（用于射频指纹识别）**
 
     <div align="center">
-        <img src="./帧内导频信号示意.png" style="width: 60%;" />
+        <img src="./assets/帧内导频信号示意.png" style="width: 60%;" />
     </div>
 
 
@@ -120,7 +120,7 @@
 3. **射频指纹识别与主动干扰对抗的系统模型**
 
     <div align="center">
-        <img src="./系统模型.png" style="width: 100%;" />
+        <img src="./assets/系统模型.png" style="width: 100%;" />
     </div>
 
     **i.  指纹识别部分**
@@ -183,7 +183,7 @@
 1. **直接指纹消除 (Straightway Fingerprinting Prevention)**
 
    <div align="center">
-       <img src="./直接指纹消除算法.png" style="width: 50%;" />
+       <img src="./assets/直接指纹消除算法.png" style="width: 50%;" />
    </div>
 
 
@@ -193,7 +193,7 @@
 2. **功率控制的指纹消除 (Power-controlled Fingerprinting Prevention)**
 
    <div align="center">
-       <img src="./功率控制的指纹消除算法.png" style="width: 50%;" />
+       <img src="./assets/功率控制的指纹消除算法.png" style="width: 50%;" />
    </div>
 
 
@@ -273,7 +273,7 @@
         主机系统：Intel i7-13700H，Ubuntu 20.04
 
     <div align="center">
-        <img src="./硬件展示.png" style="width: 70%;" />
+        <img src="./assets/硬件展示.png" style="width: 70%;" />
     </div>
 
 2. **数据集**
@@ -295,7 +295,7 @@
 3. **模型与实验**
 
     <div align="center">
-        <img src="./模型架构.png" style="width: 70%;" />
+        <img src="./assets/模型架构.png" style="width: 70%;" />
     </div>
 
     - 识别模型使用 5 层 CNN，包含 ReLU 和池化
@@ -326,13 +326,13 @@
         > - 所有扰动预算与扰动比条件下，BLER 均为 0，能够保持正常通信性能
 
         <div align="center">
-            <img src="./预算与比值结果.png" style="width: 100%;" />
+            <img src="./assets/预算与比值结果.png" style="width: 100%;" />
         </div>
 
     - 接收端通信过程中的星座图
 
         <div align="center">
-            <img src="./星座图.png" style="width: 50%;" />
+            <img src="./assets/星座图.png" style="width: 50%;" />
         </div>
 
         > - 每种情况的星座图变化都很小，各区域分界清晰
@@ -341,7 +341,7 @@
     - 考虑使用 UDP 和 TCP 协议，比较了不同条件下的通信质量
 
         <div align="center">
-            <img src="./TCP_UDP比特率.png" style="width: 60%;" />
+            <img src="./assets/TCP_UDP比特率.png" style="width: 60%;" />
         </div>
 
         > 考察不同噪声功率对通信质量的影响
@@ -350,7 +350,7 @@
         > - 本实验设置的最大扰动预算为 0.04，因此选取范围从比特率指标来看能够接受
 
         <div align="center">
-            <img src="./丢包率_BLER.png" style="width: 60%;" />
+            <img src="./assets/丢包率_BLER.png" style="width: 60%;" />
         </div>
 
         > - 预算小于 0.16 时，丢包率曲线和误块率曲线都维持在 0
@@ -359,7 +359,7 @@
     - 消融实验
 
         <div align="center">
-            <img src="./随机噪声与特定噪声消融实验.png" style="width: 50%;" />
+            <img src="./assets/随机噪声与特定噪声消融实验.png" style="width: 50%;" />
         </div>
 
         - 验证生成的特定干扰在限制功率的条件下对指纹保护的性能优于随机噪声
@@ -368,7 +368,7 @@
             > - 实验过程中，随机噪声的扰动比为 1.0
 
         <div align="center">
-            <img src="./PSR消融表.png" style="width: 70%;" />
+            <img src="./assets/PSR消融表.png" style="width: 70%;" />
         </div>
 
         - 验证相同类型器件产生的扰动具有可转移性
