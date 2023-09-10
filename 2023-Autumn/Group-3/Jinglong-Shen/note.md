@@ -14,14 +14,14 @@ Communication Cost: 200 rounds
 
 ### Random Search
 
-Accuracy (best ever seen): 0.5432 
+Accuracy (best ever seen): 0.5432  
 Communication Cost: 545 rounds
 
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/a1d4bb33-0b33-475b-ae73-8b113ff91d6e)
 
 ### Hyperband
 
-Accuracy (best ever seen): 0.4642
+Accuracy (best ever seen): 0.4642  
 Communication Cost: 503 rounds
 
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/cbfcc6b1-6998-431c-a130-87df6cd843d9)
