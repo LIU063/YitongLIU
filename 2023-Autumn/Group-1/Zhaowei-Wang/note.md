@@ -1,4 +1,4 @@
-# 2023.9.5
+# 2023.9.5 week1
 ## 本周进展
   专利、globecom收尾工作，以及其他琐碎的工作。  
   看MIMO-OFDM无线通信技术，学习通信基础知识。  
@@ -6,5 +6,11 @@
   学习了一些基本的大尺度衰落路径损耗模型，如IEEE 802.16d模型、Hata模型、Okumura模型等。
 ## 下周计划
   完成开学相关事宜。其他时间继续学习通信基础知识。  
-  计划学习：色散、信道统计特性以及室内信道模型、室外信道建模。
+  计划学习：色散、信道统计特性以及室内信道模型、室外信道建模。   
+# 2023.9.11 week2
+## 本周进展
+  完成了上周计划内学习的内容
+## 下周计划
+  读论文：P. L. Cao, T. J. Oechtering, R. F. Schaefer and M. Skoglund, “Optimal transmit strategy for MISO channels with joint sum and per-antenna power constraints", IEEE Transaction on Signal Processing, May, 2016.
+
   
