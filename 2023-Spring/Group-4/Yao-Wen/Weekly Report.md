@@ -1,3 +1,12 @@
+# 本周工作进展（9.4-9.11）
+1、根据讨论的修改仿真图要求，重新跑收敛图
+![9 11](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/cf6afd65-8587-40ba-b30c-6faaf335465a)
+## 下一步工作计划
+根据讨论修改期刊意见，进行期刊内容修改
+
+
+
+
 # 本周工作进展（7.6-7.12）
 1、进行代码调参，将三种算法调至收敛：
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/93457144/4cfda3e8-bee2-4121-9fec-70a10487b777)
