@@ -1,3 +1,34 @@
+### Date: 2023/9/18
+
+[![sample-image](./IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
+
+------------------------------------------------
+### 本周工作
+
+## MARL解决3C资源调度工作
+
+### 1.目前进展
+
+Nsp 1个 SP3个， MEC 5 个的仿真坏境下 reword 曲线。
+
+ ![sample-image](./Figure_1.png)]
+
+Nsp 1个 SP6个， MEC 5 个的仿真坏境下 reword 曲线。
+
+ ![sample-image](./Figure_2.png)]
+
+### 2.后续实验
+
+1）增加SP数目体现 MFMARL、MFMARL-v 的优势与MADDPG相比
+
+2）设置消融实验展示 MFMARL-v 对比 MFMARL
+
+3）改变 MEC 数目展示 NSP 的受益曲线
+
+4）测试不同任务分布下 SP和 NSP 收益
+
+
+
 ### Date: 2023/9/10
 
 [![sample-image](./IMG_7998.png)](https://unic.xidian.edu.cn/ "西安电子科技大学泛在网络与智能计算研究组")
