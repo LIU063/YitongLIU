@@ -3,8 +3,9 @@
 # Table of Contents
 
 - <a href="#1">Week 1 (2023.9.12)</a>
-<br/>
 - <a href="#2">Week 2 (2023.9.18)</a>
+<br/>
+
 <p id="1"></p>  
 <p id="2"></p>
 # 9月12日周报
