@@ -2,7 +2,7 @@
 
 ## 本周工作： 根据审稿意见修改实验
 
-
+![image](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-4/Hao-Yang/Average_Convergence_Performance_K10.svg)
 
 # 20230905周报
 
