@@ -12,5 +12,10 @@
   完成了上周计划内学习的内容
 ## 下周计划
   读论文：P. L. Cao, T. J. Oechtering, R. F. Schaefer and M. Skoglund, “Optimal transmit strategy for MISO channels with joint sum and per-antenna power constraints", IEEE Transaction on Signal Processing, May, 2016.
+# 2023.9.11 week2
+## 本周进展
+  项目计划书
+## 下周计划
+  icct终稿修改
 
   
