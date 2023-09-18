@@ -3,6 +3,7 @@
 1.重写贝叶斯网络代码，之前代码逻辑有问题。
 2.
 
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/37dd5ab4-c889-465b-85e6-2c6c3a46a36d)
 
 
 
