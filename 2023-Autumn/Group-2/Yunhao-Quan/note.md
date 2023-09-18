@@ -4,8 +4,10 @@
 
 2.阅读贝叶斯深度学习综述及相关论文。
 
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/37dd5ab4-c889-465b-85e6-2c6c3a46a36d)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/7632fd53-d56d-4f2d-9120-8818d3a46bc2)
+
  DNN为点估计，参数为常数，拟合出的参数确定唯一。
+ 
  BNN是一种概率估计参数为概率分布拟合出的图像，它存在一个范围里。
 
 
