@@ -1,3 +1,9 @@
+# Week 2
+- 1.组会汇报准备：Learning Cooperative Policies with Graph Networks in Distributed Swarm Systems
+- 2.Google Scholar爬虫，代码基本完成，但存在block问题
+- 3.可生灭无人机的轨迹规划问题，采用curriculum learning训练（但存在部分idea重叠）
+
+
 # Week 1
 ## 1. MEC系统中的CTDE多智能体决策系统如何完全scalable
 - **观测角度**：环境中非agent本身的因素数量可变（如移动边缘计算中ES的上线、离线、移动等） --> 通过异构图方式观测编码环境（ICML23一篇文章也借鉴这种思想且作为其中较大的一个贡献）
