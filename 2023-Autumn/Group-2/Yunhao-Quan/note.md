@@ -3,7 +3,6 @@
 1.重写贝叶斯网络代码，之前代码逻辑有问题。
 
 2.阅读贝叶斯深度学习综述及相关论文。
-
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/7632fd53-d56d-4f2d-9120-8818d3a46bc2)
 
  1.DNN为点估计，参数为常数，拟合出的参数确定唯一。
