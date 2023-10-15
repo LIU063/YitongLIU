@@ -2,7 +2,7 @@
 ## 本周进展
   审稿一篇TVT   
   思考扩展
-  
+    ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/m_1.jpg)
 ## 下周计划
   思考论文扩展
   
