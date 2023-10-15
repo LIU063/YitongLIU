@@ -5,6 +5,7 @@
 2.把VNFs改成复用类型，参照论文中的算法嵌入VNFs。
 
 [1]G. Wang, S. Zhou, S. Zhang, Z. Niu and X. Shen, "SFC-Based Service Provisioning for Reconfigurable Space-Air-Ground Integrated Networks," in IEEE Journal on Selected Areas in Communications, vol. 38, no. 7, pp. 1478-1489, July 2020, doi: 10.1109/JSAC.2020.2986851.
+3.撰写查新报告。
 
 ### Week 3
 
