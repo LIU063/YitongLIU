@@ -1,8 +1,10 @@
 # 2023.10.16 week7
 ## 本周进展
   审稿一篇TVT   
-  思考扩展
+  思考扩展:多目标优化+强化学习+天线定向增强和弱化+选择
+  ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/m_0.jpg)
     ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/m_1.jpg)
+    ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/m_2.jpg)
 ## 下周计划
   思考论文扩展
   
