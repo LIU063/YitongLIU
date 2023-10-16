@@ -1,3 +1,16 @@
+# week 10.9-10.15
+## 继续建模  
+### 根据大小时间尺度确定两个子问题   
+![问题建模](https://github.com/loafluls/report_images/blob/main/%E9%97%AE%E9%A2%98%E5%BB%BA%E6%A8%A1%E5%9B%BE/%E9%97%AE%E9%A2%98%E5%BB%BA%E6%A8%A1.jpg)   
+![大](https://github.com/loafluls/report_images/blob/main/%E9%97%AE%E9%A2%98%E5%BB%BA%E6%A8%A1%E5%9B%BE/%E5%A4%A7%E5%B0%BA%E5%BA%A6.jpg)   
+![小](https://github.com/loafluls/report_images/blob/main/%E9%97%AE%E9%A2%98%E5%BB%BA%E6%A8%A1%E5%9B%BE/%E5%B0%8F%E5%B0%BA%E5%BA%A6.jpg)  
+利用二元函数判断凹凸性的方法可证明小时间尺度问题是非凸的，采用传统迭代方法进行解决
+
+## 本周工作安排
+1. 将小尺度问题进行简化，找出闭式解，半闭式解或者最优解
+2. 继续阅读论文，找寻有无更好地改进算法架构的方法，能更多或者更明显地提升系统的性能
+![问题建模](https://github.com/loafluls/report_images/blob/main/%E9%97%AE%E9%A2%98%E5%BB%BA%E6%A8%A1%E5%9B%BE/H-ppo%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg) 
+
 # week 2
 ## 继续建模  
 ### 1.调研大小时间尺度如何运作，确定两个子问题    
