@@ -5,9 +5,9 @@
 
 2.阅读相关文献，思考如何量化贝叶斯网络性能。
 
-  Robust parameter estimation with a small bias against heavy contamination（https://www.sciencedirect.com/science/article/pii/S0047259X08000456）
+  [1] Robust parameter estimation with a small bias against heavy contamination（https://www.sciencedirect.com/science/article/pii/S0047259X08000456）
 
-  Robust Bayesian inference via γ-divergence （https://www.tandfonline.com/doi/full/10.1080/03610926.2018.1543765）
+  [2] Robust Bayesian inference via γ-divergence （https://www.tandfonline.com/doi/full/10.1080/03610926.2018.1543765）
 
 #  下周计划
 
