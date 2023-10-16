@@ -1,4 +1,22 @@
 
+# 20231016
+
+## CNN & CIFAR10
+
+![cnn_benchmarks](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/b620e815-59b2-49e9-ae71-795de2637d8b)
+
+## MLP & MNIST
+
+![mlp_benchmarks](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/7dfd78c2-3a77-4064-94a3-ccbe89af03c2)
+
+## Effect of Client Number
+
+![client_num](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/34d7b141-606d-4b0d-821a-d55c3ada1583)
+
+## Ablation Study & Effect of Non-IID Dataset
+
+![ablation](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/b95f7040-cd72-49dc-bf58-efda2f9d9116)
+
 # Week 3
 
 <div style="display:inline-block">
