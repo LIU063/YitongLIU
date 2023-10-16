@@ -47,7 +47,7 @@
 
 # <a href="#table">Week 3 (2023.10.07 – 2023.10.16)</a>
 
-## Diffusion Boost RL: A High-Performance Framework Empowered by Diffusion in Communication Network (IEEE Wireless Communications: Mobile AI-Generated Content (AIGC) in 6G Era)
+## Diffusion Boost RL: A High-Performance Framework Empowered by Diffusion in Communication Network (IEEE Wireless Communications: Mobile AI-Generated Content (AIGC) in 6G Era —— 1st Dec)
 #### Intro
 1. 6G网路的复杂性与动态性需要更为智能的网络控制算法 and the most promising method is the reinforcement learning based algorithm
 2. However, there are some inevitable challenges when applying the RL-based optimization method in the communication network
@@ -61,7 +61,7 @@
 2. URLLC
 3. non-cooperation gaming
 
-## Conditional AIGC is Digital Twin
+## Conditional AIGC is Digital Twin (IEEE Communications Magazine: Digital Twins Meet Artificial Intelligence in 6G —— 31st Mar )
 #### Intro
 1. what is DT and its features
 2. challenges
