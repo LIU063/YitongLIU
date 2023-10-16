@@ -1,3 +1,14 @@
+# Week 6
+- 1.WiFi感知：按照(天线数，子载波数，时间索引)格式分割数据，基于CNN进行分类，训练集准确率约88.16%，测试集准确率约80.74%。![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90789521/9000a901-50a7-4575-aac4-4533b6637a85)，![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90789521/a09dd238-141d-486c-9fcc-660121c23cb9)
+    - 仅2576条数据，数据量过少，存在过拟合；
+    - 实际场景中高频噪声较多，但没有好的预处理办法可以去除噪声的同时不丢失信息；
+    - 知识蒸馏可以一定程度上增加泛化性
+    - 尝试few-shot learning
+- 2.消化TDMA的通信机制，serverless代码移植
+
+
+
+
 # Week 2
 - 1.组会汇报准备：Learning Cooperative Policies with Graph Networks in Distributed Swarm Systems
 - 2.Google Scholar爬虫，代码基本完成，但存在block问题
