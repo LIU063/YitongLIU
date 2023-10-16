@@ -2,7 +2,9 @@
 ### 2023.10.16
 # 本周进展
 1.贝叶斯网络代码基本完成，读取数据集代码基本完成。
-2.
+
+2.阅读相关文献，思考如何量化贝叶斯网络性能。
+  Robust parameter estimation with a small bias against heavy contamination（https://www.sciencedirect.com/science/article/pii/S0047259X08000456）
 
 
 
