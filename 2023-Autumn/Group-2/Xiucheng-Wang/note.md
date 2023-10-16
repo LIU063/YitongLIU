@@ -4,6 +4,7 @@
 
 - <a href="#1"> Week 1 (2023.09.01 – 2023.09.06)
 - <a href="#1"> Week 2 (2023.09.07 – 2023.09.18)
+- <a href="#1"> Week 3 (2023.10.07 – 2023.10.16)
 
 
 <br/>
@@ -38,3 +39,38 @@
 ![图片](./pic/vision2.png)
 ![图片](./pic/vision3.png)
 ![图片](./pic/vision4.png)
+
+
+<br/>
+
+<p id="3"></p>
+
+# <a href="#table">Week 3 (2023.10.07 – 2023.10.16)</a>
+
+## Diffusion Boost RL: A High-Performance Framework Empowered by Diffusion in Communication Network (IEEE Wireless Communications: Mobile AI-Generated Content (AIGC) in 6G Era)
+#### Intro
+1. 6G网路的复杂性与动态性需要更为智能的网络控制算法 and the most promising method is the reinforcement learning based algorithm
+2. However, there are some inevitable challenges when applying the RL-based optimization method in the communication network
+3. Fortunately, the emerging diffusion method as an artificial intelligence generation context (AIGC) technology enables researchers to rethink how to design an more effective RL-based method with less training cost.
+#### Framework
+1. Brief introduction of diffusion
+2. framework
+3. how to apply, 1) MDP prediction; 2) hard state generation; 3) imitation learning
+#### Application
+1. IoV
+2. URLLC
+3. non-cooperation gaming
+
+## Conditional AIGC is Digital Twin
+#### Intro
+1. what is DT and its features
+2. challenges
+3. AIGC: diffusion and Nerf
+####  How to Build DT based on AIGC
+1. Nerf
+2. Diffusion
+3. framework and how to train it
+#### Application
+1. Monitor
+2. Prediction
+3. Testing
