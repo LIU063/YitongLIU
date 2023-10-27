@@ -1,12 +1,23 @@
+# 2023.10.29 week9
+## 本周进展
+1.项目答辩准备工作   
+2.审稿一篇iot journal  
+3.思考globecom扩展：   
+#### globecom扩展思路：  
+（1）功率分配和接入选择策略利用矩阵联合表示，完成问题的数学建模部分
+（2）
+
 # 2023.10.16 week7
 ## 本周进展
   审稿一篇TVT  
   撰写查新报告  
   
   思考扩展:多目标优化+强化学习+天线定向增强和弱化+选择
-  ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/m_0.jpg)
+  附图三张：具体场景介绍
+<!--   ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/m_0.jpg)
     ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/m_1.jpg)
-    ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/m_2.jpg)
+    ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/m_2.jpg)-->
+    
 ## 下周计划
   思考论文扩展
   
