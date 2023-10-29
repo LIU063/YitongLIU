@@ -91,25 +91,21 @@ has been investigated by many studies as it determines the quality and realism o
     - 如果大段引用/抄袭文献又造成读者误解，则视为学术不端，即抄袭
     - 在图表引用时，必需在图表处给出引用的文献，不能仅在正文中提及。
     - 在句首进行参考文献引用时，需要写出第一作者名字 et al.再写出引文。
-标准引用格式
-- 会议论文
+ 
+标准引用格式说明
+- Please number citations consecutively within brackets [1].The sentence punctuation follows the bracket [2]. Refer simplyto the reference number,as in[3]—do not use“Ref.[3]”or“reference [3]”'except at the beginning of a sentence:“Reference [3] was the first ...”
+- Number footnotes separately in superscripts. Place the ac-tual footnote at the bottom of the column in which it wascited. Do not put footnotes in the abstract or reference list.Use letters for table footnotes.
+- Unless there are six authors or more give all authors' names;do not use “et al.". Papers that have not been published,even if they have been submitted for publication, should becited as “unpublished”[4]. Papers that have been accepted forpublication should be cited as“in press”[5]. Capitalize onlythe first word in a paper title, except for proper nouns andclement symbols.
+- For papers published in translation journals, please give theEnglish citation first, followed by the original foreign-languagecitation [6].
 
-- 期刊论文
-
-
-
-
-
-
-
-
-
-
-
-
-
-在仿真结果部分，简单的代码仿真用numerical result；experiment results 是需要做实物实验的；simulation results一般是要搭实际的软件仿真平台
-像简单的算法仿真，只能是numerical results
+- 标准引用格式示例
+[1] G. Eason,B. Noble,and L. N. Sneddon,"On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,”Phil.Trans. Roy.Soc. London,vol.A247, pp. 529-551,Apr. 1955.
+[2] J.Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol.2.Oxford: Clarendon,1892,pp.68-73.
+[3] L S.Jacobs and C.P. Bean,"Fine particles, thin films and exchange anisotropy,” in Magnetism,vol. III, G.T. Rado and H. Suhl, Eds. NewYork: Academic, 1963, pp. 271-350.
+[4] K.Elissa,"Title of paper if known,"unpublished.
+[5] R.Nicole, "Title of paper with only first word capitalized,”J. Name Stand.Abbrev., in press.
+[6] Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa,"Electron spectroscopy studies on magneto-optical media and plastic substrate interface,”IEEETransl. J. Magn. Japan, vol. 2, pp. 740-741, Aug. 1987 [Digests 9thAnnual Conf. Magnetics Japan, p. 301,1982].
+[7] M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science,1989.
 
 
 
