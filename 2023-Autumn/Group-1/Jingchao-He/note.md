@@ -5,7 +5,7 @@
 [3] H. Li and C. Chen, “Collaborative Resource Orchestration for On-Orbit Edge Computing in 5G SAGIN”, in Proc. INFOCOM, 2023  
 [4] N. H. Thanh, N. Trung Kien, N. Van Hoa, T. T. Huong, F. Wamser, and T. Hossfeld, “Energy-Aware Service Function Chain Embedding in Edge-Cloud Environments for IoT Applications,” IEEE Internet of Things Journal, vol. 8, no. 17, 2021  
 2. 准备了开题报告PPT；
-3. 
+   
 
 ### 2023.10.23  
 
