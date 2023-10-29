@@ -44,13 +44,9 @@ Due to the stringent latency requirements on computation-intensive rendering dur
                  Finally, numerical results show that the proposed method significantly reduces online processing latency compared to the BP algorithm and offers higher interpretability compared to data-driven algorithms.
                  ```
 
-
-
-
-
-
 ## introduction
 - 介绍别人工作时，被动语态用现在时，主动语态用过去时；
+- introduction一定要注意逻辑的连贯性和逻辑的层层递进关系。
 
 
 ## 正文
