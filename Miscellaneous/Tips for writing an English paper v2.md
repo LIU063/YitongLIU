@@ -112,6 +112,8 @@ has been investigated by many studies as it determines the quality and realism o
 
 [6] Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa,"Electron spectroscopy studies on magneto-optical media and plastic substrate interface,”IEEETransl. J. Magn. Japan, vol. 2, pp. 740-741, Aug. 1987 [Digests 9thAnnual Conf. Magnetics Japan, p. 301,1982].
 
+注意期刊名称、会议名称、月份都用缩写形式。
+
 [7] M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science,1989.
 
 
