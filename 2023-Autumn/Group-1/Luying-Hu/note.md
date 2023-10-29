@@ -1,3 +1,14 @@
+### Week 8
+
+1.完成了嵌入VNFs的代码，能跑通，但还有点问题。
+2.学习处理时延的论文。
+
+[1]Q. Liu and Z. Fang, "Learning to Schedule Tasks with Deadline and Throughput Constraints," IEEE INFOCOM 2023 - IEEE Conference on Computer Communications, New York City, NY, USA, 2023, pp. 1-10, doi: 10.1109/INFOCOM53939.2023.10228901.
+
+### Week 7
+
+1.项目工作。
+
 ### Week 6
 
 1.学完了代码，把VNFs改成复用类型，参照论文中的算法嵌入VNFs。
