@@ -19,11 +19,10 @@
 - 介绍背景注意：
   - 背景介绍需要和本文研究工作密切相关，切忌空泛
   - 示例：
-  - 
-
-、、、
-a
-、、、
+```
+Virtual reality (VR), as a revolutionary mode of interaction, presents unprecedented opportunities and challenges for the next generation of mobile communication technology. It
+is well-known that rendering is the key performance bottleneck in wireless VR systems.
+```
 
 
 - 2/3 用语言高度概括本文的工作。同时要将自己的contribution突出出来。
