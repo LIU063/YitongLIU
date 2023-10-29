@@ -19,13 +19,21 @@
 - 介绍背景注意：
   - 背景介绍需要和本文研究工作密切相关，切忌空泛
   - 示例：
+ 
+原文：
 ```
 Virtual reality (VR), as a revolutionary mode of interaction, presents unprecedented opportunities and challenges for the next generation of mobile communication technology. It
 is well-known that rendering is the key performance bottleneck in wireless VR systems.
 ```
+修改后：
+```
+Due to the stringent latency requirements on computation-intensive rendering during the virtual reality (VR) transmission and the limitations of computational resources on VR devices, extensive research has focused on task offloading with joint communication and computing resource scheduling to address these challenges.
+```
+原文只是很空泛的引入了VR，没有和论文的研究工作相结合。由于该论文是研究如何面对VR时延要求高，计算资源有限所带来的挑战，所以将摘要的背景部分修改为上文。修改后的背景介绍和论文的研究工作联系更紧密，更合适。
 
 
-- 2/3 用语言高度概括本文的工作。同时要将自己的contribution突出出来。
+
+
 
 
 ## introduction
