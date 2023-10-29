@@ -1,3 +1,53 @@
+# 周报 - 20231030
+## 本周工作小结
+
+1、目标识别精度（detection accuracy）与视频流帧分辨率（frame resolution）、帧率（frame rate）之间的关系
+
+1️⃣将目标识别模型的置信度（confidence）输出作为目标识别精度
+
+（temporal dependency）
+
+Galanopoulos, Apostolos, et al. **"AutoML for video analytics with edge computing."** IEEE INFOCOM 2021-IEEE Conference on Computer Communications. IEEE, 2021.
+
+![image](./images/231030-03.png)
+
+（nearby arms can be correlated）
+
+Wang, Shuoyao, Suzhi Bi, and Ying-Jun Angela Zhang. **"Edge Video Analytics with Adaptive Information Gathering: A Deep Reinforcement Learning Approach."** IEEE Transactions on Wireless Communications (2023).
+
+imperfect feedback reward function
+
+![image](./images/231030-01.png)
+
+the observations to constitute the action-observation pair
+
+![image](./images/231030-02.png)
+
+结论：
+
+1、缺点：置信度（confidence）与精度（accuracy）虽然一致，但并不是系统最终关注的性能指标；
+
+2、置信度在一定程度上反映识别精度，可作为观测之一输入到状态网络中去；
+
+2️⃣ 配置文件或者拟合曲线（fitted）
+
+
+3️⃣ 贴合题目“无人机基站辅助”，查找无人机视角数据集：VisDrone2019
+
+![image](./images/231030-04.jpg)
+
+## 下一步工作安排
+
+模型完善以及仿真
+
+<br>
+
+---
+
+<br>
+
+
+
 # 周报 - 20230918
 ## 本周工作小结
 
