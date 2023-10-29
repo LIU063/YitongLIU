@@ -43,6 +43,8 @@ Due to the stringent latency requirements on computation-intensive rendering dur
                  ```
                  Finally, numerical results show that the proposed method significantly reduces online processing latency compared to the BP algorithm and offers higher interpretability compared to data-driven algorithms.
                  ```
+## 关键词
+- 多个关键词按照字母顺序排列，且仅第一个词首字母大写。
 
 ## introduction
 - 介绍别人工作时，被动语态用现在时，主动语态用过去时；
@@ -59,13 +61,15 @@ has been investigated by many studies as it determines the quality and realism o
                  ```
             - 说明：
                 - 原文第二句话“VR has garnered····”到第三句话“Rendering refers to the”存在不连贯的问题，修改后以“As a key technology in VR transmission”作为过渡，连贯性更好；修改后中的“Specifically, rendering refers to····”中的Specifically，也是起到过渡作用。在写作中，注意使用一些短语，副词将上下文串起来，提升连贯性。
-                - 
+                - 原文“The conflict between the substantial computational and communication resource requirements, the demand for ultra-low latency, and the limited resources of VR devices makes the allocation of computational resources and communication resources for rendering task is crucial and more challenging.”本身逻辑就有问题，同时与后边引入MEC的递进关系也不明显。修改后我们可以看到“VR--rendering task--渲染任务需要大量计算资源--VR设备计算资源有限--引入带有额外计算资源的MEC”清晰的逻辑递进关系。原文中可能通过理解推断也可以得到这个逻辑关系，但是在论文撰写时，我们需要做到直接清晰的把层层递进的逻辑关系展示出来。
 
 ## 正文
 - 公式相关
   - 字母小写加粗表示向量
   - 字母大写加粗表示矩阵
-  - 公式要看作文章整体的一部分，公式后需要根据
+  - 公式用as、is引出，公式要看作文章整体的一部分，公式后需要根据语义加上相应的“,”或者“.”，在对公式中的项进行介绍时，跨行使用 where 且 不空两格。
+  - 
+  - 
 
 - 图
   - 图的名称只有首字母大写
@@ -95,7 +99,6 @@ a)	Effective通常指有效性，简单的说即算法提升了系统性能时�
 
 b)	Efficient则指时间上的效率，当算法复杂度降低，运行效率更快时，用efficient
 
-5，	关于公式的标点符号：公式不是独立存在的，它作为论文的一部分，作为某一句话的一部分，在结束时要根据情况加上标点，逗号或是句号。即，公式用as、is引出，公式写完后依旧需要使用“,/.”，在对公式中的项进行介绍时，跨行使用where且不空两格。
 
 6，	关于参考文献的引用：论文的引用只是表明你参考了某一文献的思想，如果超过两句话以上直接引用对方的原话，通常应该打双引号并用斜体表明出处，如果大段引用/抄袭文献又造成读者误解，则视为学术不端，即抄袭。特别需要注意的时，在图表引用时，必需在图表处给出引用的文献，不能仅在正文中提及。在句首进行参考文献引用时，需要写出第一作者名字 et al.再写出引文。
 
