@@ -47,6 +47,12 @@ Due to the stringent latency requirements on computation-intensive rendering dur
 ## introduction
 - 介绍别人工作时，被动语态用现在时，主动语态用过去时；
 - introduction一定要注意**逻辑的连贯性**和逻辑的**层层递进**关系。
+   - 示例：
+       - 原文：
+                 ```
+                 As a revolutionary mode of interaction, virtual reality (VR) is poised to become one of the dominant trends in the next generation of mobile communication technology, offering users an unprecedented means to perceive and interact with virtual worlds. VR has garnered widespread attention from both the academic and industrial sectors. Compared to the traditional video transmission, VR video transmission involves an additional rendering process. Rendering refers to the generation of images from a model where a model represents a 3D object or virtual environment. It is worth noting that rendering task demands a substantial amount of computational and transmission resources, but computational resources on VR devices are limited. Furthermore, VR video transmission imposes stricter requirements on latency. The conflict between the substantial computational and communication resource requirements, the demand for ultra-low latency, and the limited resources of VR devices makes the allocation of computational resources and communication resources for rendering task is crucial and more challenging. Mobile edge computing (MEC) servers with additional computational and caching resources is an effective method for the demand of rendering task.
+                 ```
+                  
 
 
 ## 正文
