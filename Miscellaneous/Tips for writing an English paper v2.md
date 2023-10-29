@@ -5,7 +5,7 @@
     - 缩写标准格式：
       - 示例：virtual reality (VR)
       - 注意：全称小写，括号前要空格
-    - 在摘要中出现过的==全称（缩写）==，在intro及以后部分第一次出现还要再==全称（缩写）==，后边用到的地方都用缩写形式
+    - 在摘要中出现过的**全称（缩写）**，在intro及以后部分第一次出现还要再**全称（缩写）**，后边用到的地方都用缩写形式
 - 标点符号注意：
   - 英文中标点符号后要空一格再继续下一句话
   - 括号前需要空格
@@ -46,7 +46,7 @@ Due to the stringent latency requirements on computation-intensive rendering dur
 
 ## introduction
 - 介绍别人工作时，被动语态用现在时，主动语态用过去时；
-- introduction一定要注意逻辑的连贯性和逻辑的层层递进关系。
+- introduction一定要注意**逻辑的连贯性**和逻辑的**层层递进**关系。
 
 
 ## 正文
