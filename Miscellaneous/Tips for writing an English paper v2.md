@@ -36,9 +36,9 @@ Due to the stringent latency requirements on computation-intensive rendering dur
    - 介绍仿真（数值）结果时，要写清楚在哪一方对比什么有了提升，不要大、空。
      - 示例
        - 原文：
-           -     ```
+                 ```
                  Finally, numerical results is given to demonstrate the efficiency of the proposed algorithm.
-                    ```
+                 ```
                   
 
 
