@@ -54,10 +54,11 @@ Due to the stringent latency requirements on computation-intensive rendering dur
                  ```
        - 修改后：
                  ```
-                 As a revolutionary mode of interaction, virtual reality (VR) is poised to become one of the dominant trends in the next generation of mobile communication technology, offering users an unprecedented means to perceive and interact with virtual worlds. **VR aims to provide users with a more immersive and interactive experience. To ensure the user experience, VR transmission imposes strict requirements on latency.** As a key technology in VR transmission, rendering 
+                 As a revolutionary mode of interaction, virtual reality (VR) is poised to become one of the dominant trends in the next generation of mobile communication technology, offering users an unprecedented means to perceive and interact with virtual worlds. VR aims to provide users with a more immersive and interactive experience. To ensure the user experience, VR transmission imposes strict requirements on latency. As a key technology in VR transmission, rendering 
 has been investigated by many studies as it determines the quality and realism of visual effects in the virtual environment. Specifically, rendering refers to the generation of images from a model where a model represents a 3D object or virtual environment . Rendering tasks demand a significant amount of computational resources. Unfortunately, VR devices have limited computational capacity, making it unfeasible to rely solely on the computational resources of VR devices to complete rendering tasks within the required time. Mobile edge computing (MEC) servers with additional computational is an effective method for the demand of rendering task.····
                  ```
-
+            - 说明：
+            -     原文第二句话“VR has garnered····”到第三句话“Rendering refers to the”存在不连贯的问题，修改后以“As a key technology in VR transmission”作为过渡，连贯性更好；
 
 ## 正文
 - 公式相关
