@@ -37,7 +37,7 @@ Due to the stringent latency requirements on computation-intensive rendering dur
      - 示例
        - 原文：
            -     ```
-           -     Finally, numerical results is given to demonstrate the efficiency of the proposed algorithm.
+                 Finally, numerical results is given to demonstrate the efficiency of the proposed algorithm.
                     ```
                   
 
