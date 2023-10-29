@@ -39,7 +39,10 @@ Due to the stringent latency requirements on computation-intensive rendering dur
                  ```
                  Finally, numerical results is given to demonstrate the efficiency of the proposed algorithm.
                  ```
-                  
+       - 修改后：
+                 ```
+                 Finally, numerical results show that the proposed method significantly reduces online processing latency compared to the BP algorithm and offers higher interpretability compared to data-driven algorithms.
+                 ```
 
 
 
