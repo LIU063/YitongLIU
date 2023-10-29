@@ -31,6 +31,14 @@ Due to the stringent latency requirements on computation-intensive rendering dur
 ```
 原文只是很空泛的引入了VR，没有和论文的研究工作相结合。由于该论文是研究如何面对VR时延要求高，计算资源有限所带来的挑战，所以将摘要的背景部分修改为上文。修改后的背景介绍和论文的研究工作联系更紧密，更合适。
 
+- 介绍论文研究工作注意：
+   - 介绍时尽量将contribution也夹杂在其中点出来，如果由于篇幅限制，不能将所有的contribution都夹杂在其中都写出来，那尽量写一两个进去。
+   - 介绍仿真（数值）结果时，要写清楚在哪一方对比什么有了提升，不要大、空。
+          - 示例
+                 - 原文：```Finally, numerical results is given to demonstrate the efficiency of the proposed algorithm.
+     ```
+                  
+
 
 
 
