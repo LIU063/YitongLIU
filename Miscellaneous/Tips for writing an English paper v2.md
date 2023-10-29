@@ -100,8 +100,11 @@ has been investigated by many studies as it determines the quality and realism o
 
 - 标准引用格式示例
 [1] G. Eason,B. Noble,and L. N. Sneddon,"On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,”Phil.Trans. Roy.Soc. London,vol.A247, pp. 529-551,Apr. 1955.
+
 [2] J.Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol.2.Oxford: Clarendon,1892,pp.68-73.
+
 [3] L S.Jacobs and C.P. Bean,"Fine particles, thin films and exchange anisotropy,” in Magnetism,vol. III, G.T. Rado and H. Suhl, Eds. NewYork: Academic, 1963, pp. 271-350.
+
 [4] K.Elissa,"Title of paper if known,"unpublished.
 [5] R.Nicole, "Title of paper with only first word capitalized,”J. Name Stand.Abbrev., in press.
 [6] Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa,"Electron spectroscopy studies on magneto-optical media and plastic substrate interface,”IEEETransl. J. Magn. Japan, vol. 2, pp. 740-741, Aug. 1987 [Digests 9thAnnual Conf. Magnetics Japan, p. 301,1982].
