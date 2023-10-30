@@ -1,8 +1,12 @@
 ### 2023.10.29
 # 本周进展
 1. 学习龙博和老师发的两篇文献中的方法
+
+   1）UAV-enabled federated learning in Dynamic Environments：Efficiency and Security Trade-off
+
+   2）Shrinking the Insecure Area  for Satellite Downlink using Multi-Beam Intersection
   
-2. 和老师讨论了FL和PLS结合的具体解决方法，梳理出来了实现流程，正在修改代码
+3. 和老师讨论了FL和PLS结合的具体解决方法，梳理出来了实现流程，正在修改代码
 # 下周安排
 1. 组会需要分享的文献阅读
 
