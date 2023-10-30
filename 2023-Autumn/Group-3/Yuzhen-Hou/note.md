@@ -78,7 +78,7 @@
          <img src="./assets/img/射频指纹识别技术.png" style="width: 35em;"  alt="fingerprint_feature_classification" />
      </div>
   
-   - 射频指纹伪装与抗伪装
+   - 射频指纹伪装/抗伪装性能
 
      - 强制攻击、重放攻击
      - 补偿前端射频缺陷（射频指纹消除）
