@@ -4,7 +4,9 @@
 
 **1.修改模型图，增加了节点消息传递流程**
 
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/91580330-f532-4407-828a-fe0459f56f59)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/e8a2a2cf-bd47-4f59-accf-c05056296610)
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/ba0053f5-18db-443b-a75d-3e7b3b756834)
 
 **2.修改收敛时间对比实验，小样本情况下性能占优**
 
