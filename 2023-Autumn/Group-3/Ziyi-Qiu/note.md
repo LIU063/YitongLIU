@@ -5,6 +5,7 @@
 - <a href="#1">Week 1 (2023.9.12)</a>
 - <a href="#2">Week 2 (2023.9.18)</a>
 - <a href="#3">Week 3 (2023.10.16)</a>
+- <a href="#4">Week 4 (2023.10.30)</a>
 <br/>
 
 <p id="1"></p>  
@@ -172,6 +173,43 @@ FL 里通信WiFi连接是否正常健康是不是可以用WiFi连接的健康预
 2.帮忙调研multi-AP相关工作。
 
 3.查新报告
+
+<p id="4"></p> 
+
+###  10月30日
+
+## 1.Enhancing WiFi Multiple Access Performance with Federated Deep Reinforcement Learning
+
+论文动机：对于越来越多的用户，在单个WiFi小区/基本服务集标识符（BSSID）中增加网络吞吐量仍然是重要的资源分配问题。
+为了实现基于DRL的分布式MAC协议的公平性，我们引入了联邦学习（FL）原则。AP实现联合学习（FL）以实现接入公平性和快速收敛。为了简单起见，只考虑上行链路通信，并且每个站总是处于饱和模式（总是有数据要发送到AP）。
+
+
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/122032188/df65a522-5ac6-4f36-90d3-e562b70fffd8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/122032188/5505c765-fae2-4639-9b28-cdf5b1878743)
+
+
 
 
 
