@@ -1,3 +1,28 @@
+### 2023.10.29
+# 本周进展
+
+1.整体代码差不多写完了，下周多跑几遍看看性能。
+
+2.考虑采用expected calibration error（ECE）来描述模型可靠性。
+
+3.ECE的思想：
+（1）根据分类器置信分数p(y|x)将其对应的输出分为M个大小相等的区间，再根据置信分数对于测试数据集点进行分类，分入相应的区间中。
+
+ (2) 在每个区间对应的仓B中，精度为：
+    ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/aeb2d5ed-3dd2-46ae-a201-af7f9700f6fe)
+
+    Confidence为：
+     ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/f9a48257-8139-4d18-a608-d7e1573a375e)
+
+     
+
+
+
+
+
+
+
+
 
 ### 2023.10.16
 # 本周进展
