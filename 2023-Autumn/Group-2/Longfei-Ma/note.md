@@ -1,3 +1,19 @@
+# 20231030周报
+
+## 继续进行RB分配任务实验
+
+目前画图遇到的困难：改变用户数和RB数后生成标签非常耗时，而标签质量下降会导致蒸馏效果显著恶化：
+
+<img width="773" alt="1698625873934" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/e68a1a21-374e-4b6d-84f0-b30dd217f004">
+
+关于标签质量与蒸馏效果的关系，可以考虑在discussion中进行描述
+
+目前跑出了一部分标签数据，以下为用户数为10RB数为2时的蒸馏效果：
+
+<img width="783" alt="1698625999777" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/bf91a6ec-9723-44bd-b510-96086142c023">
+
+
+
 # 20231016周报
 
 ## 补充算法蒸馏RB分配任务实验，分别在PG和DPG框架下进行蒸馏
