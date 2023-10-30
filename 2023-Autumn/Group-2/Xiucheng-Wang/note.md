@@ -5,6 +5,7 @@
 - <a href="#1"> Week 1 (2023.09.01 – 2023.09.06)
 - <a href="#2"> Week 2 (2023.09.07 – 2023.09.18)
 - <a href="#3"> Week 3 (2023.10.07 – 2023.10.16)
+- <a href="#4"> Week 4 (2023.10.17 – 2023.10.30)
 
 
 <br/>
@@ -74,3 +75,15 @@
 1. Monitor
 2. Prediction
 3. Testing
+
+<br/>
+
+<p id="4"></p>
+
+# <a href="#table">Week 4 (2023.10.17 – 2023.10.30)</a>
+
+## VoI
+intro、property
+
+## DIffusion Magazine
+找陶科达一起写
