@@ -35,7 +35,7 @@ the observations to constitute the action-observation pair
 
 2️⃣ 离线配置（profiler）或者拟合曲线（fitted function）
 
-优势：用于替代优化问题中的识别精度At，一般是整数规划或者混合优化问题，能够处理约束的变化；
+优势：用于替代优化问题中的识别精度At，一般是整数规划或者混合优化问题 (例如，mixed integer non-linear programming (MINLP))，能够处理约束的变化；
 
 ![image](./images/231030-04.png)
 
@@ -58,6 +58,12 @@ Ming, Zhongxing, et al. **"Edge-based video surveillance with graph-assisted rei
 Wang, Shuoyao, Suzhi Bi, and Ying-Jun Angela Zhang. **"Edge Video Analytics with Adaptive Information Gathering: A Deep Reinforcement Learning Approach."** IEEE Transactions on Wireless Communications (2023).
 
 ![image](./images/231030-06.png)
+
+<br>
+
+5️⃣ 适应不同的带宽条件，而时延约束一般是相对稳定的
+
+![image](./images/231030-07.png)
 
 
 ## 下一步工作安排
