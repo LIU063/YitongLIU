@@ -58,7 +58,11 @@
        <img src="./assets/img/SDR设备对比.png" style="width: 35em;"  alt="SDR_comparison" />
    </div>
 
-2. 射频指纹信号采集调研（GNU Radio Companion, Matlab/Simulink USRP Support）
+   - 信号发射/接收（全/半双工、MIMO支持）：MCU → FPGA (Xilinx/Altera) → ADC/DAC (14/12/8-bit) → 射频前端 (Chipset)
+   - 主机通信：USB接口、带宽
+   - SDR 开发：GNU Radio
+
+2. 射频指纹信号采集实验平台调研（<a href="https://wiki.gnuradio.org/index.php/Tutorials">GNU Radio Companion</a>, <a href="https://www.mathworks.com/hardware-support/usrp.html">Matlab/Simulink</a> <a href="https://www.mathworks.com/help/supportpkg/usrpradio/getting-started-with-communications-system-toolbox-support-package-for-usrp-radio.html?s_tid=CRUX_lftnav">USRP Support</a>）
 
 3. 射频指纹研究现状整理（《<a href="https://d.wanfangdata.com.cn/thesis/ChJUaGVzaXNOZXdTMjAyMzA5MDESCUQwMjIwOTIxNRoIcWdrazQ1anc%3D">射频指纹伪装及对抗技术研究 郑雅文</a>》）
 
