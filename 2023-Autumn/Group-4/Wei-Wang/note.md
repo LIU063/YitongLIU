@@ -19,7 +19,8 @@
 
 [sample-image](./fig/Figure_2.pdf)
 
-4）测试不同任务分布下 SP和 NSP 收益
+4）收敛速度对比
+[sample-image](./fig/Figure_33.pdf)
 
 ### Date: 2023/10/16
 
