@@ -29,7 +29,7 @@
 
 1. MYHT 预研申请书撰写
 2. Google Scholar 爬虫：爬取信息无误，连续爬取存在 CAPTCHA 阻挡问题
-3. 对抗攻击调研《*<a href="https://arxiv.org/abs/1810.00069">Adversarial Attack and Defense: A Survey</a>*》，未整理完成
+3. 对抗攻击调研《*<a href="https://arxiv.org/abs/1810.00069" style="text-decoration: none;">Adversarial Attack and Defense: A Survey</a>*》，未整理完成
 
 
 <p id="6"></p>
@@ -52,9 +52,36 @@
 
 ### Work
 
-1. 
+1. SDR 设备调研（USRP B210, LimeSDR, HackRF One）
 
+   <div align="center">
+       <img src="./assets/img/SDR设备对比.png" style="width: 35em;"  alt="SDR_comparison" />
+   </div>
 
+2. 射频指纹信号采集调研（GNU Radio Companion, Matlab/Simulink USRP Support）
+
+3. 射频指纹研究现状整理（《<a href="https://d.wanfangdata.com.cn/thesis/ChJUaGVzaXNOZXdTMjAyMzA5MDESCUQwMjIwOTIxNRoIcWdrazQ1anc%3D">射频指纹伪装及对抗技术研究 郑雅文</a>》）
+
+   - 射频指纹特征提取及分类
+
+     <div align="center">
+         <img src="./assets/img/射频指纹信号特征分类.png" style="width: 35em;"  alt="fingerprint_feature_classification" />
+     </div>
+  
+   - 射频指纹身份识别
+
+     <div align="center">
+         <img src="./assets/img/射频指纹识别技术.png" style="width: 35em;"  alt="fingerprint_feature_classification" />
+     </div>
+  
+   - 射频指纹伪装与抗伪装
+
+     - 强制攻击、重放攻击
+     - 补偿前端射频缺陷（射频指纹消除）
+     - 生成对抗网络（同时做消除+伪装）
+     - 攻击难度（瞬态信号攻击>暂态信号攻击；加入ML驱动的攻击检测网络更难攻击（多用户协作伪装））
+ 
+4. 针对有源 RFID 已有协议的攻击方式调研（未完成，《*<a href="https://link.springer.com/chapter/10.1007/978-981-16-0980-0_49">Security Attacks on RFID and their Countermeasures</a>*》）
 
 
 
