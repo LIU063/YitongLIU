@@ -3,7 +3,9 @@
 
 1、目标识别精度（detection accuracy）与视频流帧分辨率（frame resolution）、帧率（frame rate）之间的关系
 
-1️⃣将目标识别模型的置信度（confidence）输出作为目标识别精度
+<br>
+
+1️⃣ 将目标识别模型的置信度（confidence）输出作为目标识别精度
 
 （temporal dependency）
 
@@ -29,12 +31,34 @@ the observations to constitute the action-observation pair
 
 2、置信度在一定程度上反映识别精度，可作为观测之一输入到状态网络中去；
 
-2️⃣ 配置文件或者拟合曲线（fitted）
+<br>
 
+2️⃣ 离线配置（profiler）或者拟合曲线（fitted function）
+
+优势：用于替代优化问题中的识别精度At，一般是整数规划或者混合优化问题，能够处理约束的变化；
+
+![image](./images/231030-04.png)
+
+劣势：视频流的识别精度随时间存在较大波动，长期统计平均并不能有效表征，对视频流数据集的要求较高，如 OB (Object-based) 的仿真帧数量仅为250帧，难以实现画面静止不再传输的类似效果。
+
+<br>
 
 3️⃣ 贴合题目“无人机基站辅助”，查找无人机视角数据集：VisDrone2019
 
-![image](./images/231030-04.jpg)
+<img src="./images/231030-04.jpg" alt="" width="700">
+
+<br>
+
+4️⃣ 在考虑综合性能时，不必保证绝对的高精度值
+
+Ming, Zhongxing, et al. **"Edge-based video surveillance with graph-assisted reinforcement learning in smart construction."** IEEE Internet of Things Journal 9.12 (2021): 9249-9265.
+
+![image](./images/231030-05.png)
+
+Wang, Shuoyao, Suzhi Bi, and Ying-Jun Angela Zhang. **"Edge Video Analytics with Adaptive Information Gathering: A Deep Reinforcement Learning Approach."** IEEE Transactions on Wireless Communications (2023).
+
+![image](./images/231030-06.png)
+
 
 ## 下一步工作安排
 
