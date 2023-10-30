@@ -1,11 +1,17 @@
 # 20231030周报
 
 ## 本周工作： 根据审稿意见修改论文
+
 **1.修改模型图，增加了节点消息传递流程**
+
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/91580330-f532-4407-828a-fe0459f56f59)
+
 **2.修改收敛时间对比实验，小样本情况下性能占优**
+
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/96a12624-baf9-4acd-9e54-43b4e5c29173)
+
 **3.新增推理时间实验，说明WMMSE及UWMMSE在大规模网络中推理时延难以满足要求**
+
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/590af83e-21ba-4a9f-855e-98959419feec)
 
 
