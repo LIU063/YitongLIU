@@ -6,7 +6,10 @@
 
    2）Shrinking the Insecure Area  for Satellite Downlink using Multi-Beam Intersection
   
-3. 和老师讨论了FL和PLS结合的具体解决方法，梳理出来了实现流程，正在修改代码
+2. 和老师讨论了FL和PLS结合的具体解决方法，梳理出来了实现流程，正在修改代码
+
+   ![image](./github/3.jpg)
+   
 # 下周安排
 1. 组会需要分享的文献阅读
 
