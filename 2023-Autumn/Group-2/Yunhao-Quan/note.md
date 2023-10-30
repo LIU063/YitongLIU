@@ -6,13 +6,19 @@
 2.考虑采用expected calibration error（ECE）来描述模型可靠性。
 
 3.ECE的思想：
-（1）根据分类器置信分数p(y|x)将其对应的输出分为M个大小相等的区间，再根据置信分数对于测试数据集点进行分类，分入相应的区间中。
 
- (2) 在每个区间对应的仓B中，精度为：
+(1) 根据分类器置信分数p(y|x)将其对应的输出分为M个大小相等的区间，再根据置信分数对于测试数据集点进行分类，分入相应的区间中。
+
+(2) 在每个区间对应的仓B中，精度如上
     ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/aeb2d5ed-3dd2-46ae-a201-af7f9700f6fe)
+    
+(3) 相应的confidence如上
+    ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/1484f7c2-96f8-451a-90c1-4417095f5555)
+    
+(4)ECE计算如上
+    ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/dfd43054-1f91-445b-99a5-0e7426174082)
 
-    Confidence为：
-     ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/f9a48257-8139-4d18-a608-d7e1573a375e)
+
 
      
 
