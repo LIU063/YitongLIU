@@ -1,3 +1,13 @@
+### 2023.11.6
+1. 设计了初步的仿真环境；
+2. 了解了时空图网络的基本结构；    
+3. 准备了中期答辩的相关材料。
+
+下一步计划：    
+· 描述数学模型的同时，完善仿真实验。
+   
+
+
 ### 2023.10.30
 1. 调研并学习近年infocom、sigcom、TWC等会议/期刊中有关卫星网络的相关文章：
 [1] C. Bao, M. Sheng, D. Zhou, Y. Shi, and J. Li, “Towards Intelligent Cross-Domain Resource Coordinate Scheduling for Satellite Networks,” IEEE Transactions on Wireless Communications, vol. PP, 2023  
