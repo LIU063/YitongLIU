@@ -1,3 +1,7 @@
+## 本周进展（10.30-11.6）
+- 学习综述 Machine Learning for Large-Scale Optimization in 6G Wireless Networks
+- 准备组会汇报
+
 ## 本周进展（10.16-10.29）
 - 修改WCNC论文并投稿
 - 6G全场景按需服务：愿景、技术与展望
