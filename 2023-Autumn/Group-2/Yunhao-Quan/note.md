@@ -4,6 +4,7 @@
 ![ECE](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/02ed5166-8053-4c33-ad1a-fcb64a2a33d7)
 
 在RML2016.4C数据集上进行初步实验。
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/5da2c49a-b94b-488a-bf38-ce2fdafd4d99)
 
 
 
