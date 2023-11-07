@@ -1,3 +1,71 @@
+# 周报 - 20231107
+## 本周工作小结
+
+1、Shao, Jiawei, Xinjie Zhang, and Jun Zhang. **"Task-oriented communication for edge video analytics."** IEEE Transactions on Wireless Communications (2023).
+
+tasks: a **multi-camera** pedestrian occupancy prediction task and a **multi-camera** object detection task
+
+<img src="./images/231107-01.png" alt="" width="100%">
+
+task-relevant feature extraction
+
+<img src="./images/231107-02.png" alt="" width="100%">
+
+aims at maximizing the informativeness of the extracted features, while minimizing its communication overhead
+
+<img src="./images/231107-03.png" alt="" width="50%">
+
+<img src="./images/231107-04.png" alt="" width="100%">
+
+entropy temporal models    spatial temporal fusion model
+
+<img src="./images/231107-05.png" alt="" width="100%">
+
+to minimize the discrepancy between the variational and true distributions
+
+<img src="./images/231107-06.png" alt="" width="50%">
+
+distortion between the target variable and the inference output
+
+<img src="./images/231107-07.png" alt="" width="20%">
+
+evaluation: rate-performance tradeoff
+
+<img src="./images/231107-08.png" alt="" width="100%">
+
+2、Barban数据集
+
+resolution knobs
+
+| name | resolution | accuracy |
+|:---:|:---:|:---:|
+| 1080P | 1920\*1080 | 1.000 |
+| 720p | 1280\*720 | 0.925 |
+| 540p | 960\*540 | 0.855 |
+| 480p | 854\*480 | 0.802 |
+| 440p | 782\*440 | 0.735 |
+
+deviation: cv2.absdiff() 函数
+
+<img src="./images/231107-09.jpg" alt="" width="50%">
+
+<img src="./images/231107-10.jpg" alt="" width="50%">
+
+<img src="./images/231107-11.png" alt="" width="50%">
+
+<img src="./images/231107-12.png" alt="" width="50%">
+
+## 下一步工作安排
+
+模型完善以及仿真
+
+<br>
+
+---
+
+<br>
+
+
 # 周报 - 20231030
 ## 本周工作小结
 
