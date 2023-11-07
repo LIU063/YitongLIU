@@ -1,3 +1,29 @@
+# 20231107
+
+
+## LeNet5 (CIFAR10 | FMNIST | MNIST)
+<div style="display:inline-block">
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/4bd04d78-377a-45f1-af17-deee0d6e191f"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/8a0dea5b-6dc9-4cfc-b539-839ee3b58ee7"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/6623b663-c2fd-4959-8ebc-0be14e0ca312"/>
+</div>
+
+## MLP (CIFAR10 | FMNIST | MNIST)
+<div style="display:inline-block">
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/d4e43009-9786-48d3-babf-6b30e6dc5128"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/b56663b9-ca8e-4255-9652-d447fea4c459"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/4f2f8643-a132-46dc-ba7d-206ae5d79788"/>
+</div>
+
+## Effect of Client Number | Effect of Non-IID Dataset | Ablation Study
+<div style="display:inline-block">
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/3c2d6a1e-5b68-4fca-8094-3e0aa2c74bb0"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/79d5b934-c05b-468c-8bec-e4c1e469c6df"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/188f2295-0331-4212-9c8f-55c50ec6c364"/>
+</div>
+
+![FedTune训练流程](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/51dc5cc8-a427-446b-80ab-8f7bb94fa1b4)
+
 # 20231030
 
 1. 添加新的数据集进行实验：FMNIST，SVHN
