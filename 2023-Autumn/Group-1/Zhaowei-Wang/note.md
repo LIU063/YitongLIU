@@ -1,3 +1,11 @@
+# 2023.10.29 week10
+## 本周进展  
+1. 调研globecom扩展用什么算法实现：GNN+课程学习+概率图模型
+2. 学习gnn的相关知识，但是后续调研发现学的太基础满足不了这个场景的需要
+## 下周计划  
+1. 学习基于空域的图神经网络
+2. 开始写代码
+
 # 2023.10.29 week9
 ## 本周进展
 1.项目答辩准备工作   
@@ -6,7 +14,7 @@
 #### globecom扩展思路：  
 （1）功率分配和接入选择策略利用矩阵联合表示，完成问题的数学建模部分  
 （2）思考用什么算法实现   
- ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/gc_1.jpg)
+<!-- ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-1/Zhaowei-Wang/fig/gc_1.jpg)-->
 
 # 2023.10.16 week7
 ## 本周进展
