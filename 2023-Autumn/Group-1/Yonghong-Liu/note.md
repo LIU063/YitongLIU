@@ -1,3 +1,17 @@
+### 2023.11.7
+# 本周进展
+主要是阅读下周组会需要汇报的相关论文：
+
+   1) H. Zhang, C. Yang and B. Dai, "When Wireless Federated Learning Meets Physical Layer Security: The Fundamental Limits," IEEE INFOCOM 2022 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
+
+   2) H. Zhang, C. Yang and B. Dai, "A Finite Blocklength Approach for Wireless Hierarchical Federated Learning in the Presence of Physical Layer Security," IEEE INFOCOM 2023 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
+
+   3)S. Zheng, C. Shen and X. Chen, "Design and Analysis of Uplink and Downlink Communications for Federated Learning," in IEEE Journal on Selected Areas in Communications
+
+# 下周安排
+
+1. 制作组会PPT
+
 ### 2023.10.29
 # 本周进展
 1. 学习龙博和老师发的两篇文献中的方法
