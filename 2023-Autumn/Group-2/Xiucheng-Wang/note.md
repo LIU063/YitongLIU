@@ -6,6 +6,7 @@
 - <a href="#2"> Week 2 (2023.09.07 – 2023.09.18)
 - <a href="#3"> Week 3 (2023.10.07 – 2023.10.16)
 - <a href="#4"> Week 4 (2023.10.17 – 2023.10.30)
+- <a href="#5"> Week 5 (2023.10.31 – 2023.11.07)
 
 
 <br/>
@@ -87,3 +88,16 @@ intro、property
 
 ## DIffusion Magazine
 找陶科达一起写
+
+<br/>
+
+<p id="5"></p>
+
+# <a href="#table">Week 5 (2023.10.31 – 2023.11.07)
+
+## VoI论文
+还差实验分析
+
+## Semantic Communication MAE
+![图片](./pic/selected-mask.png)
+![图片](./pic/random-mask.png)
