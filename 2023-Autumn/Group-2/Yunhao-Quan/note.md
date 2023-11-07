@@ -1,7 +1,10 @@
 ### 2023.11.6
 # 继续完成基于贝叶斯网络的调制信号识别。
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/036d3865-e41f-4bd8-a6ed-97bb1054116f)
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/eab021e9-949b-49e6-b6c9-e76da2af46fa)
+![ACC](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/f210beec-2378-4e64-b06d-54f7ba4fcc2b)
+![ECE](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/02ed5166-8053-4c33-ad1a-fcb64a2a33d7)
+
+在RML2016.4C数据集上进行初步实验。
+
 
 
 
