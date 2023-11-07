@@ -8,6 +8,11 @@
 
 **3.重画实验图，统一横纵坐标格式**
 
+**4.学习ROS2框架，硬件实现计算卸载的任务**
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/fe4c46ac-cbd7-478e-96a6-7a898dc96cac)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/90384476/cf9c6e5e-9065-486e-ad12-7cf16b32b54d)
+
+
 
 # 20231030周报
 
