@@ -95,10 +95,11 @@
 ### Work
 
 1. 《*Towards Scalable and Channel-Robust Radio Frequency Fingerprint Identification for LoRa*》复现，未完成
-   
+
+    <img src="./assets/img/AUC_without_aug_simulation.png" style="height: 22em;" alt="AUC_without_aug_simulation" />
     <div align="center" style="width: 65em; height: 22em; overflow: hidden; display: flex; ">
-        <img src="./assets/img/AUC_without_aug_simulation.png" style="height: 22em;" alt="AUC_without_aug_simulation" />
         <img src="./assets/img/AUC_with_aug_simulation.png" style="height: 22em;" alt="AUC_with_aug_simulation" />
+        <img src="./assets/img/AUC_with_severe_aug_simulation.png" style="height: 22em;" alt="AUC_with_severe_aug_simulation" />
     </div>
 
 
