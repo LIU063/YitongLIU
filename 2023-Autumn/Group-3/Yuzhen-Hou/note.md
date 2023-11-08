@@ -6,7 +6,7 @@
 - <a href="#3">Week 3 (2023.9.11 – 2023.9.17)</a>
 - <a href="#6">Week 6 (2023.10.9 – 2023.10.15)</a>
 - <a href="#8">Week 8 (2023.10.23 – 2023.10.29)</a>
-
+- <a href="#9">Week 9 (2023.10.30 – 2023.11.5)</a>
 
 <br/>
 
@@ -86,6 +86,16 @@
      - 攻击难度（瞬态信号攻击>暂态信号攻击；加入ML驱动的攻击检测网络更难攻击（多用户协作伪装））
  
 4. 针对有源 RFID 已有协议的攻击方式调研（未完成，《*<a href="https://link.springer.com/chapter/10.1007/978-981-16-0980-0_49">Security Attacks on RFID and their Countermeasures</a>*》）
+
+
+<p id="9"></p>
+
+## <a href="#table">Week 9 (2023.10.30 – 2023.11.5)</a>
+
+### Work
+
+1. 《*Towards Scalable and Channel-Robust Radio Frequency Fingerprint Identification for LoRa*》复现，未完成
+
 
 
 
