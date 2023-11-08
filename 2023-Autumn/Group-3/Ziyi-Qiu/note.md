@@ -225,15 +225,19 @@ FL 里通信WiFi连接是否正常健康是不是可以用WiFi连接的健康预
 
 ###  11月8日
 
-1.读了三篇参考文献，但是帮助不大
-2.学了一下那个WiFi具体的书籍
+#### 1.读了三篇参考文献，但是帮助不大
+
+#### 2.学了一下那个WiFi具体的书籍
+
+<img width="993" alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/122032188/62bd664c-53e0-44fc-b902-a841ff836f6f">
+
 
 
 <img width="162" alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/122032188/1b63853d-4390-4e42-8de4-12343fdcbfe5">
 
 
 
-信道绑定+ringsfl
+#### 信道绑定+ringsfl
 
 
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/122032188/172cf733-cda5-459e-a9a1-59b6d595b79e)
@@ -295,7 +299,7 @@ FL 里通信WiFi连接是否正常健康是不是可以用WiFi连接的健康预
 
 
 
-FL 关键期＋WiFi省电模式管理
+#### FL 关键期＋WiFi省电模式管理
 
 
 
@@ -315,7 +319,7 @@ FL 关键期＋WiFi省电模式管理
 ![image](https://github.com/UNIC-Lab/Weekly-Report/assets/122032188/a508aa86-683f-450d-8331-6bb60fd48398)
 
 
-帧聚合
+#### 帧聚合
 
 
 
