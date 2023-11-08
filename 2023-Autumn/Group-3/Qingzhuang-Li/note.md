@@ -16,3 +16,6 @@
 - Shen G, Zhang J, Marshall A, et al. Radio frequency fingerprint identification for security in low-cost IoT devices[C]//2021 55th Asilomar Conference on Signals, Systems, and Computers. IEEE, 2021: 309-313.
 
 2、学习AI代码
+
+## 11.6 
+1、论文 ‘Towards Scalable and Channel-Robust Radio Frequency Fingerprint Identification for LoRa’ 阅读， 代码复现。代码调通但数据集过大跑不动。
