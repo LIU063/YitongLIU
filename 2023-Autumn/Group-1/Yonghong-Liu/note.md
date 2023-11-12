@@ -1,3 +1,13 @@
+### 2023.11.13
+# 本周进展
+学习，推导了物理层安全方法的最优解，目前正在编写对应的matlab代码
+
+# 下周安排
+1. 编写完并调试好matlab代码
+
+2. 讲matlab代码整合到原联邦学习框架中，对local_model参数加噪并训练
+
+
 ### 2023.11.7
 # 本周进展
 主要是阅读下周组会需要汇报的相关论文：
@@ -6,7 +16,7 @@
 
    2) H. Zhang, C. Yang and B. Dai, "A Finite Blocklength Approach for Wireless Hierarchical Federated Learning in the Presence of Physical Layer Security," IEEE INFOCOM 2023 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
 
-   3)S. Zheng, C. Shen and X. Chen, "Design and Analysis of Uplink and Downlink Communications for Federated Learning," in IEEE Journal on Selected Areas in Communications
+   3) S. Zheng, C. Shen and X. Chen, "Design and Analysis of Uplink and Downlink Communications for Federated Learning," in IEEE Journal on Selected Areas in Communications
 
 # 下周安排
 
