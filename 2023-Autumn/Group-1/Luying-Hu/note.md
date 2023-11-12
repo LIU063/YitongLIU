@@ -108,6 +108,6 @@ Theorem 1说明了在离线设置中，当T足够大时，π<sup>off</sup>可以
 
 1、配置环境；
 
-2.学完后思考如何利用Graph Transformer。
+2、学完后思考如何利用Graph Transformer。
 - GAT的self-attention只计算邻居节点，而Transformer的self-attention会考虑所有的节点。
 - Graph Transformer结合了Transformer的核心（全局关注）和GNN的核心（考虑图的拓扑属性）。
