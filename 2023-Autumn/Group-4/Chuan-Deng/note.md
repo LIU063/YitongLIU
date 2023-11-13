@@ -45,9 +45,9 @@ wn是波束形成矢量；hn为RSU与车辆在n时隙的通道矢量。σ^2表�
     [7] M. L. Rahman, J. A. Zhang, X. Huang, Y. J. Guo and R. W. Heath, "Framework for a Perceptive Mobile Network Using Joint Communication and Radar Sensing," in IEEE Transactions on Aerospace and Electronic Systems, vol. 56, no. 3, pp. 1926-1941, June 2020, doi: 10.1109/TAES.2019.2939611.     
     [8] J. Andrew Zhang, PERCEPTIVE MOBILE NETWORKS Cellular Networks With Radio Vision via Joint Communication and Radar Sensing, IEEE VEHICULAR TECHNOLOGY MAGAZINE.
 
-&ensp;&ensp;感知移动网络中感知参数提取的第一个挑战是由于其复杂的信号结构。针对现代移动网络开发的信道估计技术主要集中在信道系数的估计上，而不是以感知参数为代表的详细信道组成。此外，传统的频谱分析和阵列信号处理技术(如MUSIC和ESPRIT)需要连续观测，这在这里并不总是可用的。因此，需要开发新的传感技术，从复杂和碎片化的信号中估计感知参数。   
+<p align="left">&ensp;&ensp;感知移动网络中感知参数提取的第一个挑战是由于其复杂的信号结构。针对现代移动网络开发的信道估计技术主要集中在信道系数的估计上，而不是以感知参数为代表的详细信道组成。此外，传统的频谱分析和阵列信号处理技术(如MUSIC和ESPRIT)需要连续观测，这在这里并不总是可用的。因此，需要开发新的传感技术，从复杂和碎片化的信号中估计感知参数。<p>
 
-&ensp;&ensp;感知参数估计的第二个挑战来自于移动网络中的丰富多径。大多数感知参数估计算法只能处理包含有限数量多径信号的信号。在感知移动网络中，我们将杂波定义为包含很少新信息的不需要的多径信号。因此杂波主要是指在传感装置的发射端和接收端都是静态的情况下，来自永久或长周期静态物体的多径信号。由于不同的信号的传播环境、抑制要求和适用的感知算法不同，现有雷达系统的杂波抑制技术，大多是在感知算法之后应用的，因此无法达到减少感知算法多径输入的目的。
+<p align="left">&ensp;&ensp;感知参数估计的第二个挑战来自于移动网络中的丰富多径。大多数感知参数估计算法只能处理包含有限数量多径信号的信号。在感知移动网络中，我们将杂波定义为包含很少新信息的不需要的多径信号。因此杂波主要是指在传感装置的发射端和接收端都是静态的情况下，来自永久或长周期静态物体的多径信号。由于不同的信号的传播环境、抑制要求和适用的感知算法不同，现有雷达系统的杂波抑制技术，大多是在感知算法之后应用的，因此无法达到减少感知算法多径输入的目的。<p>
 
 
 
