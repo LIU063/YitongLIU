@@ -1,5 +1,28 @@
-# 20231107
+# 20231113
 
+## 撰写论文初稿
+
+## 新的实验结果
+
+### Effect of Non-IID Dataset
+
+#### LeNet5 (CIFAR10 | FMNIST | MNIST)
+
+<div style="display:inline-block">
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/8bdb817c-8526-4466-bf84-4ba170d42f3b"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/b06100a5-3529-4adb-ae2c-cc934afac2d3"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/1753e4ab-6859-4547-916d-8eca94284641"/>
+</div>
+
+#### MLP (CIFAR10 | FMNIST | MNIST)
+
+<div style="display:inline-block">
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/0edeb94a-5287-405c-a438-1cf8d1b5fb0f"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/e1b085e1-ab3e-4ead-abb7-1b34fc0b6f72"/>
+  <img width=32% alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/0388bf6f-2bda-48d3-bc39-4a8e50f5ac61"/>
+</div>
+
+# 20231107
 
 ## LeNet5 (CIFAR10 | FMNIST | MNIST)
 <div style="display:inline-block">
