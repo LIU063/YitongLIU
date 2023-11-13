@@ -8,7 +8,7 @@
 
 1.标签质量对训练效果的影响
 
-<img width="775" alt="1699839713804" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/1255b632-f643-48a7-9535-fdfab74f8095">
+<img width="777" alt="1699840747824" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/a1f3f3e7-1193-42ce-8fe9-c328e4d4dfa6">
 
 蒸馏效果与监督学习效果并没有对应关系，并且当标签质量下降时，监督学习效果会急剧恶化，后续计划生成更多不同质量的标签进行进一步比较。
 
