@@ -1,3 +1,9 @@
+## 本周进展（11.7-11.12）
+- 阅读孙老师的综述
+- 学习其他综述的画图方法
+
+## 下周计划
+完成综述的画图
 ## 本周进展（10.30-11.6）
 - 学习综述 Machine Learning for Large-Scale Optimization in 6G Wireless Networks
 - 准备组会汇报
