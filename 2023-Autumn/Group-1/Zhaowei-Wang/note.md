@@ -1,3 +1,15 @@
+# 2023.11.20 week12
+## 本周进展  
+1. 学习代码，并开始写代码
+## 下周计划  
+
+# 2023.11.13 week11
+## 本周进展  
+1. 审稿两篇论文
+2. 看An Unsupervised Link-Output Graph Neural Network Approach论文 寻找代码思路
+## 下周计划  
+1. 学习上篇论文的代码，开始写代码
+
 # 2023.11.7 week10
 ## 本周进展  
 1. 调研globecom扩展用什么算法实现：GNN+课程学习+概率图模型
