@@ -1,6 +1,13 @@
+### 2023.12.9  
+1. 完成论文的修改工作；   
+2. 阅读相关文献；
+   [1] How about Using TDD in LEO SatCom Systems? (IEEE Wireless Communications Magazine)
+   [2] B. Chang, W. Tang, X. Yan, X. Tong, and Z. Chen, “Integrated Scheduling of Sensing, Communication, and Control for mmWave/THz Communications in Cellular Connected UAV Networks,” IEEE Journal on Selected Areas in Communications, vol. 40, no. 7, 2022
+4. 学习基本的LET协议知识。   
+
 ### 2023.11.27   
-1. 完成项目申报；
-2. 根据review修改论文；   
+1. 完成项目申报
+
 
 ### 2023.11.20   
 1. 阅读近年IEEE JSAC文献，扩宽视野。   
