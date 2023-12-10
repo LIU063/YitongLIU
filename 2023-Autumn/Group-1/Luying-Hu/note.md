@@ -1,13 +1,14 @@
 
 ### Week 13
 调研sdn controller placement in Satellite network
+
 学习相关论文
 
 ### Week 12
-补充专利交底书，交接。
+补充专利交底书，交接
 
 ### Week 11
-做组会PPT
+准备组会PPT
 
 ### Week 10
 [1]Q. Chen et al., "Latency-Optimal Pyramid-based Joint Communication and Computation Scheduling for Distributed Edge Computing," IEEE INFOCOM 2023 - IEEE Conference on Computer Communications, New York City, NY, USA, 2023, pp. 1-10, doi: 10.1109/INFOCOM53939.2023.10228964.    
