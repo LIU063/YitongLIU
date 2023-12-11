@@ -1,8 +1,8 @@
+### Week 14
+调研边缘计算，学习相关论文
 
 ### Week 13
-调研sdn controller placement in Satellite network
-
-学习相关论文
+调研sdn controller placement in Satellite network，学习相关论文
 
 ### Week 12
 补充专利交底书，交接
