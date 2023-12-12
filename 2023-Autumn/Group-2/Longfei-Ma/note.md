@@ -12,6 +12,11 @@
 
 <img width="683" alt="1702351977442" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/4dadcc98-a685-4268-abc4-0aeb95dd0f96">
 
+<img width="620" alt="1702352748503" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/682a3985-e395-4a42-9d82-78231fc7e95e">
+
+<img width="599" alt="1702352775520" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/175ae338-fb3e-47ea-8c4b-5bdb2d009fac">
+
+
 
 
 
