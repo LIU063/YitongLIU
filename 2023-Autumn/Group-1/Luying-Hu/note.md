@@ -2,8 +2,8 @@
 调研卫星网络中边缘计算和计算卸载
 
 ### Week 13
-调研sdn controller placement in Satellite network
-
+调研sdn controller placement in Satellite network  
+主要考虑动态网络负载和时变网络拓扑  
 [1]X. Li et al., “Optimized Controller Provisioning in Software-Defined LEO Satellite Networks,” in IEEE Transactions on Mobile Computing, vol. 22, no. 8, pp. 4850-4864, 1 Aug. 2023, doi: 10.1109/TMC.2022.3155657. 二区 (上海交通大学 计算机系) 使用Mininet和ONOS  
 [2]L. Chen, F. Tang and X. Li, "Mobility- and Load-Adaptive Controller Placement and Assignment in LEO Satellite Networks," IEEE INFOCOM 2021 - IEEE Conference on Computer Communications, Vancouver, BC, Canada, 2021, pp. 1-10, doi: 10.1109/INFOCOM42981.2021.9488806.  
 
