@@ -1,5 +1,18 @@
 # 20231113周报
 
+## 绘制RB分配任务实验结果
+
+<img width="854" alt="1702351223627" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/e11fbbf7-65ec-400a-9fcb-8909213239bc">
+
+<img width="865" alt="1702351423411" src="https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/a5b8c5a3-e0f1-45b2-9606-c0a620dae18a">
+
+
+
+
+
+
+# 20231113周报
+
 ## 继续进行RB分配任务实验
 
 目前不同用户数和RB数下的训练结果已经基本跑完，对数据整理完成后绘制阴影图。
