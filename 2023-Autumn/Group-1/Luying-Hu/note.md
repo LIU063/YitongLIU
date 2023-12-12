@@ -1,8 +1,17 @@
 ### Week 14
-调研边缘计算，学习相关论文
+调研卫星网络中边缘计算和计算卸载
 
 ### Week 13
-调研sdn controller placement in Satellite network，学习相关论文
+调研sdn controller placement in Satellite network
+
+[1]X. Li et al., “Optimized Controller Provisioning in Software-Defined LEO Satellite Networks,” in IEEE Transactions on Mobile Computing, vol. 22, no. 8, pp. 4850-4864, 1 Aug. 2023, doi: 10.1109/TMC.2022.3155657. 二区 (上海交通大学 计算机系) 使用Mininet和ONOS  
+[2]L. Chen, F. Tang and X. Li, "Mobility- and Load-Adaptive Controller Placement and Assignment in LEO Satellite Networks," IEEE INFOCOM 2021 - IEEE Conference on Computer Communications, Vancouver, BC, Canada, 2021, pp. 1-10, doi: 10.1109/INFOCOM42981.2021.9488806.  
+
+[3]J. Guo, L. Yang, D. Rincón, S. Sallent, Q. Chen and X. Liu, “Static Placement and Dynamic Assignment of SDN Controllers in LEO Satellite Networks,” in IEEE Transactions on Network and Service Management, vol. 19, no. 4, pp. 4975-4988, Dec. 2022, doi: 10.1109/TNSM.2022.3184989. 二区（国防科技大学 复杂飞行器系统仿真技术重点实验室） 使用Matlab和STK  
+[4]J. Guo et al., "SDN Controller Placement in LEO Satellite Networks Based on Dynamic Topology," 2021 IEEE/CIC International Conference on Communications in China (ICCC), Xiamen, China, 2021, pp. 1083-1088, doi: 10.1109/ICCC52777.2021.9580367.
+
+[5]	T. Das, V. Sridharan and M. Gurusamy, "A Survey on Controller Placement in SDN," in IEEE Communications Surveys & Tutorials, vol. 22, no. 1, pp. 472-503, Firstquarter 2020, doi: 10.1109/COMST.2019.2935453.	一区  
+[6]J. Liu, Y. Shi, L. Zhao, Y. Cao, W. Sun and N. Kato, "Joint Placement of Controllers and Gateways in SDN-Enabled 5G-Satellite Integrated Network," in IEEE Journal on Selected Areas in Communications, vol. 36, no. 2, pp. 221-232, Feb. 2018, doi: 10.1109/JSAC.2018.2804019. 一区（西北工业大学）  
 
 ### Week 12
 补充专利交底书，交接
