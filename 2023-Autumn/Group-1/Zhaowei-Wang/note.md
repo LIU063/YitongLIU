@@ -1,7 +1,15 @@
+# 2023.12.18 week15
+## 近期进展  
+1. globecom扩展 gnn代码基本完成，但是现在训练不收敛，在寻找问题。损失函数写的还有一些问题，需要修改
+2. 准备组会 《Challenges of Physical Layer Security in a Satellite-Terrestrial Network》
+3. globecom准备ppt＋presentation+出差
+## 下周安排
+1. 准备高级数字信号处理的考试
+2. 修改gnn代码
+
 # 2023.11.20 week12
 ## 本周进展  
 1. 学习代码，并开始写代码
-## 下周计划  
 
 # 2023.11.13 week11
 ## 本周进展  
