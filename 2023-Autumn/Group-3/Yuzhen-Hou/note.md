@@ -106,4 +106,17 @@
     </div>
 
 
+<p id="15"></p>
+
+## <a href="#table">Week 15 (2023.12.11 – 2023.12.17)</a>
+
+### Work
+
+1. 开放集识别问题调研
+
+   - \[1\] <a href="https://ieeexplore.ieee.org/abstract/document/9040673">C. Geng, S. -J. Huang and S. Chen, "**Recent Advances in Open Set Recognition: A Survey**," in _IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 43, no. 10, pp. 3614-3631, 1 Oct. 2021, doi: 10.1109/TPAMI.2020.2981604.</a>
+   - \[2\] <a href="https://ieeexplore.ieee.org/abstract/document/6365193">W. J. Scheirer, A. de Rezende Rocha, A. Sapkota and T. E. Boult, "Toward Open Set Recognition," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 35, no. 7, pp. 1757-1772, July 2013, doi: 10.1109/TPAMI.2012.256.</a> (_1-vs-Set_ Machine, open space risk)
+   - \[3\] <a href="https://ieeexplore.ieee.org/abstract/document/6809169">W. J. Scheirer, L. P. Jain and T. E. Boult, "Probability Models for Open Set Recognition," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 36, no. 11, pp. 2317-2324, 1 Nov. 2014, doi: 10.1109/TPAMI.2014.2321392.</a> (Compact Abating Probability(CAP) model)
+   - \[4\] <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Bendale_Towards_Open_Set_CVPR_2016_paper.html">Abhijit Bendale, Terrance E. Boult, "Towards Open Set Deep Networks", Proceedings of the _IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2016, pp. 1563-1572.</a> (OpenMax)
+   
 
