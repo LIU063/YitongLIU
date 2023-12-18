@@ -113,7 +113,7 @@
 
 ### Work
 
-1. 开放集识别问题调研
+1. 开放集识别问题调研 (Open Space Risk 引入)
 
    - \[1\] <a href="https://ieeexplore.ieee.org/abstract/document/9040673">C. Geng, S. -J. Huang and S. Chen, "**Recent Advances in Open Set Recognition: A Survey**," in _IEEE Transactions on Pattern Analysis and Machine Intelligence_, vol. 43, no. 10, pp. 3614-3631, 1 Oct. 2021, doi: 10.1109/TPAMI.2020.2981604.</a>
    - \[2\] <a href="https://ieeexplore.ieee.org/abstract/document/6365193">W. J. Scheirer, A. de Rezende Rocha, A. Sapkota and T. E. Boult, "Toward Open Set Recognition," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 35, no. 7, pp. 1757-1772, July 2013, doi: 10.1109/TPAMI.2012.256.</a> (_1-vs-Set_ Machine, open space risk)
