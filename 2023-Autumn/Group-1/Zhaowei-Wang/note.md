@@ -1,5 +1,10 @@
 # 2023.12.18 week15
 ## 近期进展  
+1. 写项目申请书
+2. 复习adsp，周三考试
+
+# 2023.12.18 week15
+## 近期进展  
 1. globecom扩展 gnn代码基本完成，但是现在训练不收敛，在寻找问题。损失函数写的还有一些问题，需要修改
 2. 准备组会 《Challenges of Physical Layer Security in a Satellite-Terrestrial Network》
 3. globecom准备ppt＋presentation+出差
