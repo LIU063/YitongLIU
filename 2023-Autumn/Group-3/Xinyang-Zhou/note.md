@@ -3,7 +3,17 @@
 ### **主要工作内容和进展**
 1、基于滑动窗口的联邦学习流量控制
 画系统框图，写证明推导过程部分，有初步结果。
+![](./pic/system2.png)
+增加实验
+Lenet/Alexnet + MNIST
+Resnet18 + CIFAR10
+![](./pic/1226_1.png)
+![](./pic/1226_2.png)
+![](./pic/1226_3.png)
+![](./pic/1226_4.png)
+
 https://www.overleaf.com/project/658057ef0a7e6c74c0402d52
+
 
 **后续计划**
 下一步考虑继续完善工作。
