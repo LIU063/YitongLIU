@@ -1,3 +1,22 @@
+### 2023.12.26
+# 工作
+1.完成贝叶斯网络代码，在RML2016.10a数据集上进行性能分析。
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/d562895d-1721-4ab4-97ad-67c2c31b4224)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/df80c13d-570d-4dc1-9a4a-69b37bf92dea)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/0d3f8f64-67ff-43fb-b811-abca7afe1296)
+# 下周计划
+1.测试贝叶斯网络在不同数据集上的效果以及各种超参数对于性能的影响。
+2.思考贝叶斯网络在小样本条件下的应用。
+
+
+
+
+
+
+
+
+
+
 ### 2023.11.6
 # 继续完成基于贝叶斯网络的调制信号识别。
 ![output](https://github.com/UNIC-Lab/Weekly-Report/assets/52443090/cfd662cd-ea09-44b5-8fd4-249c41ca9267)
