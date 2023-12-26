@@ -7,7 +7,7 @@
 - <a href="#3"> Week 3 (2023.10.07 – 2023.10.16)
 - <a href="#4"> Week 4 (2023.10.17 – 2023.10.30)
 - <a href="#5"> Week 5 (2023.10.31 – 2023.11.07)
-
+- <a href="#6"> Week 6 (2023.12.01 – 2023.12.26)
 
 <br/>
 
@@ -98,6 +98,12 @@ intro、property
 ## VoI论文
 还差实验分析
 
-## Semantic Communication MAE
-![图片](./pic/selected-mask.png)
-![图片](./pic/random-mask.png)
+
+<br/>
+
+<p id="6"></p>
+
+# <a href="#table">Week 6 (2023.12.01 – 2023.12.26)
+
+1. GNN+QMIX论文
+2. 启发式+SD
