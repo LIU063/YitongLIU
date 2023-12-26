@@ -1,7 +1,7 @@
 ## 2023.12.26   
 ***  
 
-### 1、更改了仿真的目标函数，将多个约束加入到目标函数中。
+### 1、更改了仿真的目标函数，将多个约束加入到目标函数中。  
 ### 2、改写代码，调试参数（网络参数、变异率、选择参数、惩罚系数）
 ![aisnnet](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2023-Autumn/Group-3/Ruqian-Zhang/pic/AI%E7%BC%9D%E5%90%88%E6%8C%89%E9%9C%80%E6%9C%8D%E5%8A%A1%E6%A1%86%E6%9E%B6%E5%9B%BE.png)   
 
