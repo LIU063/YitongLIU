@@ -18,4 +18,15 @@
 2、学习AI代码
 
 ## 11.6 
-1、论文 ‘Towards Scalable and Channel-Robust Radio Frequency Fingerprint Identification for LoRa’ 阅读， 代码复现。代码调通但数据集过大跑不动。
+1、论文 ‘Towards Scalable and Channel-Robust Radio Frequency Fingerprint Identification for LoRa’ 阅读， 代码复现。
+
+## -12.26
+1、调研小样本学习，开放集识别在射频指纹得应用、阅读了以下基本的开放集识别得相关方法和综述
+- Recent Advances in Open Set Recognition: A Survey
+- Toward Open Set Recognition
+- Towards Open Set Deep Networks
+- Adaptive Filter-Based Approach for PRY Fingerprints Extraction of Fast Ethernet Network
+- Deep learning based RFF recognition with differential constellation trace figure towards closed and open set  
+
+
+2、写申请书，准备考试
