@@ -106,4 +106,4 @@ intro、property
 # <a href="#table">Week 6 (2023.12.01 – 2023.12.26)
 
 1. GNN+QMIX论文
-2. 启发式+SD
+2. 启发式+GD
