@@ -5,12 +5,22 @@
 画系统框图，写证明推导过程部分，有初步结果。
 ![](./pic/system2.png)
 增加实验
-Lenet/Alexnet + MNIST
-Resnet18 + CIFAR10
+Lenet + MNIST:
+
 ![](./pic/1226_1.png)
 ![](./pic/1226_2.png)
+
+Alexnet+ MNIST:
+
+![](./pic/1226_5.png)
+![](./pic/1226_6.png)
+
+
+Resnet18 + CIFAR10:
 ![](./pic/1226_3.png)
 ![](./pic/1226_4.png)
+
+
 
 https://www.overleaf.com/project/658057ef0a7e6c74c0402d52
 
