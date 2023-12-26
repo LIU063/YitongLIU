@@ -1,3 +1,40 @@
+# 周报 - 20231226
+## 本周工作小结
+
+1、实验
+
+<img src="./images/231226-01.png" alt="" width="60%">
+
+对比算法
+
+1️⃣ proposed SAC (dynamic)
+
+2️⃣ SAC without cross attention (dynamic)
+
+3️⃣ curve fit (static)
+
+4️⃣ latency optimal (static)
+
+2、论文撰写：完成系统以及算法部分
+
+
+## 下一步工作安排
+
+论文撰写
+
+<br>
+
+---
+
+<br>
+
+
+
+
+
+
+
+
 # 周报 - 20231107
 ## 本周工作小结
 
