@@ -1,3 +1,13 @@
+# 20231226周报
+
+## 构造非凸函数，定性解释蒸馏优势
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/515abcde-6aee-4f5c-ab35-8f17aec8988d)
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/63155472/843dfc45-4d54-4566-b885-22f7850b7d79)
+
+
+
 # 20231212周报
 
 ## 绘制RB分配任务实验结果
