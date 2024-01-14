@@ -1,3 +1,31 @@
+# 20240114
+
+## Federated Fine-tuning for Large Language Models
+
+### Background
+
+近年来，预训练+微调的 pipeline 已经成为大模型的主流训练范式。通过对已经预训练好的基础大模型进行微调，可以使模型迅速习得特定领域的新知识，使其更好的完成新任务。然而对大模型的微调需要高质量的数据，而这些数据通常是隐私敏感的，因此考虑采用联邦学习的方式对大模型进行微调。然而联邦学习中的参与设备通常在通信、计算、内存资源上存在限制，难以满足大模型对高计算能力、高显存容量的要求，因此迫切需要设计一种对参与客户端友好的微调算法，以降低在端侧的计算及存储压力。
+
+### Methodology
+
+#### Auxiliary Network Pre-training
+
+Block-wise model context distillation.
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/1f00c06f-ec7f-4087-8b41-6836adfd045d)
+
+#### Distribute Models
+
+Distribute transformer blocks with its corresponding context models.
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/923193d8-6cbe-48fc-bbda-170791ff33ae)
+
+#### Local Training
+
+Transformer block fine-tuning with the help of context model.
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/ed3f9140-dbf0-4c3c-9fd5-cc8f0cc49e1a)
+
 # 20231218
 
 - 确定基于Gaussian Splatting的三维CSI训练及渲染方案
