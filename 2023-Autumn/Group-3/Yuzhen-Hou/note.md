@@ -8,6 +8,7 @@
 - <a href="#8">Week 8 (2023.10.23 – 2023.10.29)</a>
 - <a href="#9">Week 9 (2023.10.30 – 2023.11.5)</a>
 - <a href="#15">Week 15 (2023.12.11 – 2023.12.17)</a>
+- <a href="#19">Week 19 (2024.1.8 - 2024.1.14)</a>
 
 <br/>
 
@@ -121,3 +122,9 @@
    - \[4\] <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Bendale_Towards_Open_Set_CVPR_2016_paper.html">Abhijit Bendale, Terrance E. Boult, "**Towards Open Set Deep Networks**", Proceedings of the _IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2016, pp. 1563-1572.</a> (OpenMax)
    
 
+
+<p id="19"></p>
+
+## <a href="#table">Week 19 (2024.1.8 - 2024.1.14)</a>
+
+### Work
