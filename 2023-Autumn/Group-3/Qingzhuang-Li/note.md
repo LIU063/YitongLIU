@@ -26,7 +26,15 @@
 - Toward Open Set Recognition
 - Towards Open Set Deep Networks
 - Adaptive Filter-Based Approach for PRY Fingerprints Extraction of Fast Ethernet Network
-- Deep learning based RFF recognition with differential constellation trace figure towards closed and open set  
-
-
+- Deep learning based RFF recognition with differential constellation trace figure towards closed and open set
+  
 2、写申请书，准备考试
+
+## 1.15
+1、 调研自适应滤波在RFFI中的应用
+- 自适应滤波抽头系数作为射频指纹特征  
+  Yang Y, Hu A, Xing Y, et al. A data-independent radio frequency fingerprint extraction scheme[J]. IEEE Wireless Communications Letters, 2021, 10(11): 2524-2527.  
+  基于最小均方的自适应滤波和堆叠的射频指纹提取方法，通过最小化滤波后的信号和参考信号之间的距离来优化滤波器参数。每一类样本对应一组滤波器抽头系数，使用滤波器抽头系数来作为射频指纹
+- 自适应滤波器消除信道特征和噪声  
+  Witham K L. Deep Convolutional Neural Network Architecture with Wireless Domain-specific FIR Layers for Modulation Classification[D]. Northeastern University, 2022.  
+  提出了DeepFIR框架抵消无线深度学习中的信道作用，通过在发射机侧应用精心优化的数字有限输入响应滤波器，通过信道条件对基带波形做修改，以对抗信道影响  
