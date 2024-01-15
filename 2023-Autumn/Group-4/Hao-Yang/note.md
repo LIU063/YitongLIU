@@ -18,7 +18,7 @@
    
    需修改三章内容，压缩Algorithm Unfolding一章内容
    
-   目前已完成：Neural Network Model Customization章节内容修改
+   目前已完成：文献按章节重新分类，Neural Network Model Customization章节内容修改
    
 ## 本周工作：
 
