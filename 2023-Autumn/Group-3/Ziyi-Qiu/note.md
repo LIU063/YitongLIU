@@ -7,6 +7,7 @@
 - <a href="#3">Week 3 (2023.10.16)</a>
 - <a href="#4">Week 4 (2023.10.30)</a>
 - <a href="#5">Week 5 (2023.11.8)</a>
+- <a href="#6">Week 6 (2024.1.15)</a>
 <br/>
 
 <p id="1"></p>  
@@ -357,4 +358,32 @@ FL 里通信WiFi连接是否正常健康是不是可以用WiFi连接的健康预
 
 
 
-![image](https://github.com/UNIC-Lab/Weekly-Report/assets/122032188/dd9b6e2d-e04d-4af3-8817-66c6fcd846da)
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/122032188/dd9b6e2d-e04d-4af3-8817-66c6fcd846da
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 2024 1.15
+### 漫游下移动端的负载协调问题
+联邦持续学习辅助下的WiFi多AP负载均衡
+
+### WiFi中的省电模式引入→联邦学习中缓解用户能耗的问题，延长用户的使用时间
+WiFi中省电模式（周期性唤醒，借鉴联邦学习的关键期，可以引入甘蔗理论）
