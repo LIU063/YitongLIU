@@ -38,3 +38,5 @@
 - 自适应滤波器消除信道特征和噪声  
   Witham K L. Deep Convolutional Neural Network Architecture with Wireless Domain-specific FIR Layers for Modulation Classification[D]. Northeastern University, 2022.  
   提出了DeepFIR框架抵消无线深度学习中的信道作用，通过在发射机侧应用精心优化的数字有限输入响应滤波器，通过信道条件对基带波形做修改，以对抗信道影响  
+  
+2、 总结了一下在RFFI过程中对载波频率偏移（CFO）的弥补和应用。
