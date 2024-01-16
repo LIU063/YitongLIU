@@ -1,3 +1,7 @@
+## 本周进展 2024.01.15
+- 通感算一体化建模，参考其他论文，将其他道路车辆也作为Server Nodes, 将系统中的任务车辆从多车辆变为一个车辆
+- 学习了 ‘-PAL: An Active Learning Approach to the Multi-Objective Optimization Problem’. 但还没理解
+
 ## 本周进展 12.24
 - 学习多目标优化、切比雪夫方法
 
