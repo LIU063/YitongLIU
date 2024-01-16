@@ -67,7 +67,7 @@ $$
 \frac{dI(X;Y)}{d\rho} = \rho \mathbb{E}[(X - \mathbb{E}[X|Y])^2] 
 $$
 
-其中$\rho$ 是信噪比的平方根， I-MMSE 公式表示对于线性高斯模型 Y =√snrHX + Z，互信息I (Y;X) 相对于信噪比(SNR)的导数等于通过观察Y估计HX的最小均方误差(MMSE)。
+其中$\rho$ 是信噪比的平方根， I-MMSE 公式表示对于线性高斯模型 Y =√snrHX + Z，互信息I (Y;X) 相对于信噪比(SNR)的导数等于通过观察Y估计HX的最小均方误差(MMSE)。 I-MMSE 公式 意味这最大化HX的MMSE，也最大化互信息I (Y;X)。
 
 
 ### Date: 2023/12/12
