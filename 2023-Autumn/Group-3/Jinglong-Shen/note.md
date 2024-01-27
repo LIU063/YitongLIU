@@ -1,3 +1,40 @@
+# 20240127
+
+## Model: Pythia-70m
+
+> 包含6个transformer块，总共有7千万参数。
+
+<img width="835" alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/6b3e7ea9-53c4-4602-823a-40bf613f57ea">
+
+## Dataset: lamini_docs
+
+> 数据集内容是关于lamini官方文档的Q&A
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/56858d15-795f-4aa3-8212-3a655766cef6)
+
+## Full-Model Fine-tuning
+
+### Before Fine-Tuning 
+
+<img width="569" alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/266e3585-607f-4d5f-b0e6-a61ffeb2fb5b">
+
+### After Fine-Tuning
+
+<img width="926" alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/f7903aca-af7d-44ef-ba24-51ea6b3eeb77">
+
+## Auxiliary Net Distillation
+
+### Distillation Method
+
+![image](https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/e899adc7-bd41-4042-b573-75926f251756)
+
+> Wang, W., Wei, F., Dong, L., Bao, H., Yang, N., & Zhou, M. (2020). Minilm: Deep self-attention distillation for task-agnostic compression of pre-trained transformers. Advances in Neural Information Processing Systems, 33, 5776-5788.
+
+### Distillation Architecture
+
+<img width="323" alt="image" src="https://github.com/UNIC-Lab/Weekly-Report/assets/36980478/b91fad02-a813-46f2-8509-2332cfb46db4">
+
+
 # 20240114
 
 ## Federated Fine-tuning for Large Language Models
