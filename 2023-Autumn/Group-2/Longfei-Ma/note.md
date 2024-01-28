@@ -6,8 +6,11 @@ Y. Shen, J. Zhang, S. H. Song and K. B. Letaief, "Graph Neural Networks for Wire
 [Graph_Neural_Networks_for_Wireless_Communications_From_Theory_to_Practice.pdf](https://github.com/UNIC-Lab/Weekly-Report/files/14076322/Graph_Neural_Networks_for_Wireless_Communications_From_Theory_to_Practice.pdf)
 
 1.	引言部分，可以考虑分小节写
+  
 2.	无线通信模型，分别描述D2D功率控制和RB分配任务的系统模型
+
 3.	所提出的训练方法，描述在不同神经网络架构下，不同训练框架下的使用方法。加一些对有效性的分析。（这一部分可以考虑分成两节）
+
 4.	仿真结果，分成两小节，分别分析功率控制和RB分配的仿真结果。
 
 
