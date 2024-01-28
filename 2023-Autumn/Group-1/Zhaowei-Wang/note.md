@@ -2,6 +2,7 @@
 ## 近期进展  
 阅读论文：S. Elhoushy, M. Ibrahim and W. Hamouda, "Cell-Free Massive MIMO: A Survey," in IEEE Communications Surveys & Tutorials, vol. 24, no. 1, pp. 492-523, Firstquarter 2022, doi: 10.1109/COMST.2021.3123267.  
 cell free与distributed的区别：都是分布式ap，但是cf没有小区的概念。  
+cf 应用于B5G，它能够确保无缝移动支持，而不会因切换而产生开销。
 调研：3GPP NTN；
 # 2023.01.15 week18
 ## 近期进展  
