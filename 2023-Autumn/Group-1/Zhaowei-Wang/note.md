@@ -1,3 +1,7 @@
+# 2023.01.28 week21
+## 近期进展  
+阅读论文：S. Elhoushy, M. Ibrahim and W. Hamouda, "Cell-Free Massive MIMO: A Survey," in IEEE Communications Surveys & Tutorials, vol. 24, no. 1, pp. 492-523, Firstquarter 2022, doi: 10.1109/COMST.2021.3123267.
+调研：3GPP NTN；
 # 2023.01.15 week18
 ## 近期进展  
 调研尹浩院士关于卫星互联网和空天地一体化的研究  
