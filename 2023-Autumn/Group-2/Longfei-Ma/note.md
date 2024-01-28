@@ -3,7 +3,6 @@
 参考沈逸飞2023年的TWC论文梳理论文大纲
 
 Y. Shen, J. Zhang, S. H. Song and K. B. Letaief, "Graph Neural Networks for Wireless Communications: From Theory to Practice," in IEEE Transactions on Wireless Communications, vol. 22, no. 5, pp. 3554-3569, May 2023, doi: 10.1109/TWC.2022.3219840.
-
 [Graph_Neural_Networks_for_Wireless_Communications_From_Theory_to_Practice.pdf](https://github.com/UNIC-Lab/Weekly-Report/files/14076322/Graph_Neural_Networks_for_Wireless_Communications_From_Theory_to_Practice.pdf)
 
 1.	引言部分，可以考虑分小节写
