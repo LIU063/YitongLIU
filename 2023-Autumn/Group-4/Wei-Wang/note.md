@@ -12,19 +12,41 @@ ISAC 起源于对雷达与通信的频谱共享相关的的研究，近年来逐
 ISAC的基本问题可以归纳为对通信和感知两个大方面的性能指标的权衡，可以考虑如下问题：
 
 现有发射机A，接收机B，和检测目标C，其中发射机发射波形X，经过信道H和加性噪声Z，检测端的接受信号为 Y = HX + Z （对于B和C来说H是不同的）。 感知任务假设检测目标C（以信道估计为例）知晓发射机波形X， 希望通过接收端信号Y，估计信道参数H。
-通信任务期望通过设计波形X，提高信道容量、降低误码率等等。ISAC的基本任务是设计双功能波形同时满足通信和感知任务。
+通信任务期望通过设计波形X，提高信道容量、降低误码率等等[1-3]。ISAC的基本任务是设计双功能波形同时满足通信和感知任务。
+
+> [1] Liu F, Cui Y, Masouros C, et al. Integrated sensing and communications: Towards dual-functional wireless networks for 6G and beyond[J]. IEEE Journal on Selected Areas in Communications, 2022.
+> 
+> [2] Cui Y, Liu F, Jing X, et al. Integrating Sensing and Communications for Ubiquitous IoT: Applications, Trends, and Challenges[J]. IEEE Network, 2021, 35(5): 158-167.
+> 
+> [3] Liu A, Huang Z, Li M, et al. A survey on fundamental limits of integrated sensing and communication[J]. IEEE Communications Surveys & Tutorials, 2022.
 
 二、ISAC系统的通信干知性能关系
 
 ISAC系统中，通信性能和感知性能之间存在一定的权衡（固定带宽资源情况下），一个直观的解释是考虑OFDM系统，发射机总功率为P，当信道状态具有较大的频率选择性衰落时候，通信任务偏向将功率分配给低衰落信道；而感知任务由于加性噪声原因，不能需要为高衰落信道分配更大的功率以弥补噪声带来的对H的估计误差。
 
-描述ISAC系统中通信感知关系的经典公式是Dongning Guo等提出的著名的I-MMSE等式[1]：
+描述ISAC系统中通信感知关系的经典公式是Dongning Guo等提出的著名的I-MMSE等式[4]：
 
+$$
+\frac{dI(X;Y)}{d\rho} =  \mathbb{E}[(X - \mathbb{E}[X|Y])^2] 
+$$
 
-> Guo D, Shamai S, Verdú S. Mutual information and minimum mean-square error in Gaussian channels[J]. IEEE transactions on information theory, 2005, 51(4): 1261-1282.
+其中$\rho$ 是信噪比的平方根， I-MMSE 公式表示对于线性高斯模型 Y =√snrHX + Z，互信息I (Y;X) 相对于信噪比(SNR)的导数等于通过观察Y估计HX的最小均方误差(MMSE)。 
 
+> [4] Guo D, Shamai S, Verdú S. Mutual information and minimum mean-square error in Gaussian channels[J]. IEEE transactions on information theory, 2005, 51(4): 1261-1282.
 
+后续的工作大部分以I-MMSE公式为基础建立通信和感知指标的关联。
 
+对于感知任务，其衡量指标一般包含两种：
+
+- 雷达感知：在刻画目标检测性能上，可以描述为正确检测概率、错误检测概率和虚警（False alarm）概率，对于单个基站单个目标（Target）的检测可以建模为一个二元假设问题，从而根据一些统计推断的理论，可以得到获得对应的检测器。（不是我们特别关注的）
+
+- 参数估计（Parameter estimation）问题：估计器的性能通常可以用均方误差（Mean Squared Error, MSE）和克拉美-罗下界（Cramér–Rao Lower Bound，CRLB[5]）进行刻画。(主要考虑)
+
+> [5] Bekkerman I, Tabrikian J. Target detection and localization using MIMO radars and sonars[J]. IEEE Transactions on Signal Processing, 2006, 54(10): 3873-3883.
+
+克拉美-罗下界是估计参数常用的指标，其形式可以表述为Fisher 信息的倒数：
+
+后续的工作如[6][7]在刻画感知性能指标时候分别基于不同的假设使用了CRLB的变形。
 
 ### Date: 2024/1/15
 
