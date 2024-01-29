@@ -145,8 +145,23 @@ $$
 
 如 [6] 使用了Bayesian Cramér-Rao bound (BCRB) 处理随机波形（由于通信影响）的感知性能。
 
+> BCRB是Cramér-Rao bound (CRB)的贝叶斯版本，后者仅依赖于观测数据，不考虑先验知识。在贝叶斯统计中，参数不再是固定的未知量，而是被视为随机变量，具有已知的先验分布。这种方法允许将先验信息和观测数据结合起来，以获得参数的后验分布。
+>
+> BCRB的表达式如下：
+
+> $$ \text{Var}(\hat{\theta}) \geq \left[ \int \left( \frac{\partial}{\partial \theta} \ln f(x|\theta) \right) \left( \frac{\partial}{\partial \theta} \ln f(x|\theta) \right)^T p(\theta) dx \right]^{-1} $$
+
+> 其中：
+> - $\text{Var}(\hat{\theta})$ 是参数 $\theta$ 的估计量 $\hat{\theta}$ 的方差。
+> - $f(x|\theta)$ 是给定参数 $\theta$ 下观测数据 $x$ 的条件概率密度函数。
+> - $p(\theta)$ 是参数 $\theta$ 的先验概率密度函数。
+> - $\frac{\partial}{\partial \theta} \ln f(x|\theta)$ 是对数似然函数关于参数 $\theta$ 的梯度（导数向量）。
+
+文献 [6][7] 中推导的bound 是 inner bound， 内边界并非真正的性能边界，而是对性能边界的近似，如下图所示：
+
 ![sample-image](./fig/Rc.png)
 
+由于我们根据I-MMSE知晓通信性能（rate/容量）和感知性能（BCRB/CRB）的大致趋势，因此确定inner bound 仅需要确定四部分，分别是最大速率线，最大速率下最小估计偏差策略， 最小估计偏差线和最小估计偏差下最大速率策略。
 
 ### Date: 2024/1/15
 
