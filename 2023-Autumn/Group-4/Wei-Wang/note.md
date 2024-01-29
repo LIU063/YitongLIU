@@ -26,9 +26,26 @@ ISAC系统中，通信性能和感知性能之间存在一定的权衡（固定�
 
 描述ISAC系统中通信感知关系的经典公式是Dongning Guo等提出的著名的I-MMSE等式[4]：
 
-$$
-\frac{dI(X;Y)}{d\rho} =  \mathbb{E}[(X - \mathbb{E}[X|Y])^2] 
-$$
+
+互信息I-MMSE公式表明，在加性白高斯噪声(AWGN)信道中，输入X和输出Y之间的互信息I(X;Y)与输入X的最小均方误差之间的关系可以表示为：
+
+$$ I(X;Y) = \int_{0}^{\infty} \left( 1 - \mathbb{E}\left[ \left. e^{-\lambda (X - \hat{X}_{\lambda})^2} \right| Y \right] \right) d\lambda $$
+
+其中，$\hat{X}_{\lambda}$ 是在给定输出Y和正则化系数 $\lambda$ 的条件下，输入X的最小均方误差估计。这个关系表达了互信息和最小均方误差之间的积分转换关系。
+
+更具体地说，如果考虑一个标量高斯信道：
+
+$$ Y = X + N $$
+
+其中，$X$ 是输入信号，$N$ 是均值为0且方差为 $\sigma^2$ 的高斯噪声，那么信号 $X$ 和观测 $Y$ 之间的互信息可以通过最小均方误差（MMSE）来计算：
+
+$$ \text{MMSE}(\lambda) = \mathbb{E}\left[ (X - \mathbb{E}[X|Y])^2 \right] $$
+
+互信息可以表示为MMSE关于信噪比（SNR）的导数：
+
+$$ \frac{dI(X;Y)}{d\text{SNR}} = \frac{1}{2} \text{MMSE}(\text{SNR}) $$
+
+这个关系提供了一种计算互信息的新途径，并且在理论和应用上都有着重要的意义。通过这种方式，可以通过研究信号的最小均方误差来分析和设计通信系统。
 
 其中$\rho$ 是信噪比的平方根， I-MMSE 公式表示对于线性高斯模型 Y =√snrHX + Z，互信息I (Y;X) 相对于信噪比(SNR)的导数等于通过观察Y估计HX的最小均方误差(MMSE)。 
 
@@ -46,7 +63,26 @@ $$
 
 克拉美-罗下界是估计参数常用的指标，其形式可以表述为Fisher 信息的倒数：
 
+$$
+Var(\theta) \geq \frac{1}{- E\left[\frac{\partial^{2} \log f(X;\boldsymbol{\theta})}{\partial \theta^{2}}\right]}
+$$
+
+Fisher 信息是似然函数关于参数的二阶偏导数的期望；
+
+$$
+- E\left[\frac{\partial^{2} \log f(X;\boldsymbol{\theta})}{\partial \theta^{2}}\right]
+$$
+
+Fisher信息矩阵是统计估计理论中的一个重要概念，它提供了关于参数或参数向量的信息量的度量。对于参数向量 $\boldsymbol{\theta} = (\theta_1, \theta_2, \ldots, \theta_p)^\text{T}$，Fisher信息矩阵 $\mathbf{I}(\boldsymbol{\theta})$ 的元素通常定义为：
+
+$$
+[\mathbf{I}(\boldsymbol{\theta})]_{ij} = E\left[\left(\frac{\partial \log f(X;\boldsymbol{\theta})}{\partial \theta_i}\right)\left(\frac{\partial \log f(X;\boldsymbol{\theta})}{\partial \theta_j}\right)\right]
+$$
+
+其中 $f(X;\boldsymbol{\theta})$ 是关于数据 $X$ 的概率密度函数或概率质量函数，并且期望是关于该分布取的。
+
 后续的工作如[6][7]在刻画感知性能指标时候分别基于不同的假设使用了CRLB的变形。
+
 
 ### Date: 2024/1/15
 
