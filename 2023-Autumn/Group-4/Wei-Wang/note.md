@@ -145,6 +145,8 @@ $$
 
 如 [6] 使用了Bayesian Cramér-Rao bound (BCRB) 处理随机波形（由于通信影响）的感知性能。
 
+![sample-image](./fig/Rc.png)
+
 
 ### Date: 2024/1/15
 
