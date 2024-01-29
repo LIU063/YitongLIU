@@ -1,3 +1,9 @@
+## 本周进展 2024.01.29
+- 完成建模，对于传统算法求解进行了分析
+- 找了几篇关于PAL算法的论文，理解PAL的算法原理，但还没有完全理解透
+
+## 下周计划
+- 理解清楚PAL算法，并思考如何和知识进行结合，求解问题。
 ## 本周进展 2024.01.15
 - 通感算一体化建模，参考其他论文，将其他道路车辆也作为Server Nodes, 将系统中的任务车辆从多车辆变为一个车辆
 - 学习了 ‘-PAL: An Active Learning Approach to the Multi-Objective Optimization Problem’. 但还没理解
