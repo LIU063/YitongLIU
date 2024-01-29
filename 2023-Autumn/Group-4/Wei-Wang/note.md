@@ -27,13 +27,7 @@ ISAC系统中，通信性能和感知性能之间存在一定的权衡（固定�
 描述ISAC系统中通信感知关系的经典公式是Dongning Guo等提出的著名的I-MMSE等式[4]：
 
 
-互信息I-MMSE公式表明，在加性白高斯噪声(AWGN)信道中，输入X和输出Y之间的互信息I(X;Y)与输入X的最小均方误差之间的关系可以表示为：
-
-$$ I(X;Y) = \int_{0}^{\infty} \left( 1 - \mathbb{E}\left[ \left. e^{-\lambda (X - \hat{X}_{\lambda})^2} \right| Y \right] \right) d\lambda $$
-
-其中，$\hat{X}_{\lambda}$ 是在给定输出Y和正则化系数 $\lambda$ 的条件下，输入X的最小均方误差估计。这个关系表达了互信息和最小均方误差之间的积分转换关系。
-
-更具体地说，如果考虑一个标量高斯信道：
+互信息I-MMSE公式表明，如果考虑一个标量高斯信道：
 
 $$ Y = X + N $$
 
