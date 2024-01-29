@@ -44,6 +44,62 @@ $$ \frac{dI(X;Y)}{d\text{SNR}} = \frac{1}{2} \text{MMSE}(\text{SNR}) $$
 其中$\rho$ 是信噪比的平方根， I-MMSE 公式表示对于线性高斯模型 Y =√snrHX + Z，互信息I (Y;X) 相对于信噪比(SNR)的导数等于通过观察Y估计HX的最小均方误差(MMSE)。 
 
 > [4] Guo D, Shamai S, Verdú S. Mutual information and minimum mean-square error in Gaussian channels[J]. IEEE transactions on information theory, 2005, 51(4): 1261-1282.
+>
+例子：
+
+以标量信道为例：
+
+MMSE（Minimum Mean Square Error）估计的目标是最小化估计量 $\hat{X}$ 和真实量 $X$ 之间的均方误差。对于线性估计器，在加性白高斯噪声（AWGN）信道中，线性MMSE估计器的表达式可以通过求解一个优化问题得到，即最小化均方误差。
+
+假设我们有一个线性模型 $Y = X + N$，其中 $X$ 是要估计的信号，$N$ 是均值为0，方差为 $\sigma^2_N$ 的高斯噪声，且 $X$ 和 $N$ 是独立的。信号 $X$ 的方差为 $\sigma^2_X$。我们想要找到一个估计 $\hat{X}$ 使得均方误差 $E\left[(X - \hat{X})^2\right]$ 最小。
+
+均方误差可以写作：
+
+$$ \text{MSE} = E\left[(X - \hat{X})^2\right] $$
+
+对于线性估计器，$\hat{X}$ 是 $Y$ 的线性函数，可以表示为：
+
+$$ \hat{X} = aY + b $$
+
+其中 $a$ 和 $b$ 是我们需要确定的系数。由于 $E[N] = 0$，我们可以选择 $b = 0$，因为我们希望估计器是无偏的，即 $E[\hat{X}] = E[X]$。因此，我们的估计器简化为：
+
+$$ \hat{X} = aY $$
+
+我们现在需要找到最佳的 $a$ 来最小化MSE。MSE现在可以写为：
+
+$$ \text{MSE} = E\left[(X - aY)^2\right] $$
+
+展开并利用 $Y = X + N$，我们得到：
+
+$$ \text{MSE} = E\left[(X - a(X + N))^2\right] $$
+$$ \text{MSE} = E\left[(1 - a)X - aN)^2\right] $$
+$$ \text{MSE} = E\left[(1 - a)^2X^2 - 2a(1 - a)XN + a^2N^2\right] $$
+
+由于 $X$ 和 $N$ 是独立的，$E[XN] = E[X]E[N] = 0$，我们得到：
+
+$$ \text{MSE} = (1 - a)^2\sigma^2_X + a^2\sigma^2_N $$
+
+为了找到最小化MSE的 $a$ 值，我们对上式关于 $a$ 求导，并将导数设置为0：
+
+$$ \frac{d}{da}\text{MSE} = 2(1 - a)\sigma^2_X - 2a\sigma^2_N = 0 $$
+
+解这个方程得到最优的 $a$：
+
+$$ a = \frac{\sigma^2_X}{\sigma^2_X + \sigma^2_N} $$
+
+这是因为信噪比 $\text{SNR} = \frac{\sigma^2_X}{\sigma^2_N}$，所以我们可以将 $a$ 重新写为：
+
+$$ a = \frac{1}{1 + 1/\text{SNR}} $$
+
+将这个最优的 $a$ 值代入MSE表达式中，我们得到最小的MSE：
+
+$$ \text{MSE} = \frac{\sigma^2_N}{\sigma^2_X + \sigma^2_N}\sigma^2_X + \left(\frac{\sigma^2_X}{\sigma^2_X + \sigma^2_N}\right)^2\sigma^2_N $$
+$$ \text{MSE} = \frac{\sigma^4_X}{(\sigma^2_X + \sigma^2_N)^2}\sigma^2_N + \frac{\sigma^2_X\sigma^2_N}{(\sigma^2_X + \sigma^2_N)^2} $$
+$$ \text{MSE} = \frac{\sigma^2_X\sigma^2_N}{\sigma^2_X + \sigma^2_N} $$
+
+再次利用信噪比的定义，我们得到最终的MMSE与SNR的关系：
+
+$$ \text{MMSE} = \frac{\sigma^2_X}{1 + \text{SNR}} $$
 
 后续的工作大部分以I-MMSE公式为基础建立通信和感知指标的关联。
 
