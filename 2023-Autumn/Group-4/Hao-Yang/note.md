@@ -12,6 +12,11 @@
    
    目前已完成：文献按章节重新分类，Neural Network Model Customization章节内容修改
 
+**3.回复审稿意见**
+   
+## 本周工作：
+
+1.完成response letter撰写
 
 # 20240115周报
 
