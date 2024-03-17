@@ -1,7 +1,6 @@
 ### Week 21
 1、调研3GPP和ITU  
-2、阅读论文  
-[1]Z. Ji, S. Wu and C. Jiang, "Cooperative Multi-Agent Deep Reinforcement Learning for Computation Offloading in Digital Twin Satellite Edge Networks," in IEEE Journal on Selected Areas in Communications, vol. 41, no. 11, pp. 3414-3429, Nov. 2023, doi: 10.1109/JSAC.2023.3313595.
+2、PPT
 
 ### Week 19
 1、调研尹浩院士关于卫星互联网和空天地一体化的研究
