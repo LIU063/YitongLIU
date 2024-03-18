@@ -24,6 +24,8 @@
 
 2. 数据集调研
 
+   - Datasets for RF Fingerprinting of Bit-similar USRP X310 Radios(ORACLE: WiFi, air, 16devs, 2-62feet)
+   - Datasets for RF Fingerprinting on the POWDER Platform(4G LTE/5G BS, air, 4BS+1rec, 300m-1km(wild))
 
 
 
