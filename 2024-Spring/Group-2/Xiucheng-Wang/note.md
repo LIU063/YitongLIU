@@ -18,6 +18,9 @@
 前两个section已经写完
 
 ## Constrained MISO Beamforming
+![图片](./pic/fig1-1.png)
+![图片](./pic/fig1-2.png)
+
 
 ## Diffusion Radio Map
 #### SOTA NMSE：0.004
