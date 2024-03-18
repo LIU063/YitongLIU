@@ -22,3 +22,7 @@
 ## Diffusion Radio Map
 SOTA NMSE：0.004
 Diffusion NMSE：0.002
+![图片](./pic/fig1.png)
+![图片](./pic/fig2.png)
+![图片](./pic/fig3.png)
+![图片](./pic/fig4.png)
