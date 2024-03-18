@@ -20,9 +20,14 @@
 ## Constrained MISO Beamforming
 
 ## Diffusion Radio Map
-SOTA NMSE：0.004
-Diffusion NMSE：0.002
+#### SOTA NMSE：0.004
+#### Diffusion NMSE：0.002
+
+#### GT与Prediction
 ![图片](./pic/fig1.png)
+#### SOTA与Diffusion
 ![图片](./pic/fig2.png)
+#### SOTA局部放大
 ![图片](./pic/fig3.png)
+#### Diffusion局部放大
 ![图片](./pic/fig4.png)
