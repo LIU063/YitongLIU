@@ -2,7 +2,8 @@
 
 
 1. 阅读文献：  
-   [1] Huang C, Chen G, Member S, Xiao P, Member S. Joint Offloading and Resource Allocation for Hybrid Cloud and Edge Computing in SAGINs : A Decision Assisted Hybrid Action Space Deep Reinforcement Learning Approach[J]. IEEE Journal on Selected Areas in Communications, IEEE, 2024, Early Access. (空天地一体化网络下的计算卸载，主要贡献是多网络节点中关联计算任务的卸载与无人机轨迹的联合优化。实验较为全面，分别分析了：地面用户数量-能量消耗；平均数据包大小-能量消耗；平均任务CPU需求-能量消耗；平均地面用户计算能力-能量消耗；平均地面用户数-平均时延；平均数据包大小-平均时延)
+   [1] Huang C, Chen G, Member S, Xiao P, Member S. Joint Offloading and Resource Allocation for Hybrid Cloud and Edge Computing in SAGINs : A Decision Assisted Hybrid Action Space Deep Reinforcement Learning Approach[J]. IEEE Journal on Selected Areas in Communications, IEEE, 2024, Early Access. (空天地一体化网络下的计算卸载，主要贡献是多网络节点中关联计算任务的卸载与无人机轨迹的联合优化。实验较为全面，分别分析了：地面用户数量-能量消耗；平均数据包大小-能量消耗；平均任务CPU需求-能量消耗；平均地面用户计算能力-能量消耗；平均地面用户数-平均时延；平均数据包大小-平均时延)  
+   [2] L. Song, G. Sun, H. Yu, and M. Guizani, “SD-AETO: Service-Deployment-Enabled Adaptive Edge Task Offloading Scheme in MEC,” IEEE Internet of Things Journal, vol. 10, no. 21, 2023 (**Service deployment**，和VNF比较类似。只有部署了对应的Service，才能在边缘进行计算；否则将卸载到云端  
 
 ### 2024.3.18   
 1. 完成巨型星座网络项目申请书； 
