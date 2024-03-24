@@ -6,3 +6,9 @@
   openmax：  
   [Bendale A, Boult T E. Towards open set deep networks[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2016: 1563-1572.](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Bendale_Towards_Open_Set_CVPR_2016_paper.html)
 - 调研数据集
+## week2  
+- 使用有150类的数据集进行试验在闭集下进行试验，结果有很严重的过拟合，分类精度大概65%左右，而且对噪声很敏感。
+- 针对此问题调研了对于数据增强、以及关于数据不平衡问题的论文。   
+  - [Wang C, Fu X, Wang Y, et al. Few-shot specific emitter identification via hybrid data augmentation and deep metric learning[J]. arXiv preprint arXiv:2212.00252, 2022.](https://arxiv.org/abs/2212.00252)   
+  - [Z. Ren, P. Ren, D. Xu and T. Zhang, "Noise-Tolerant Radio Frequency Fingerprinting With Data Augmentation and Contrastive Learning," 2023 IEEE Wireless Communications and Networking Conference (WCNC), Glasgow, United Kingdom, 2023, pp. 1-6, doi: 10.1109/WCNC55385.2023.10118833.](https://ieeexplore.ieee.org/abstract/document/10118833)   
+  - [X. Fan, C. Zhao, L. Xiao and X. Huang, "Random Railings Enhancement For RFF Imbalanced Data Augmentation," 2023 IEEE Wireless Communications and Networking Conference (WCNC), Glasgow, United Kingdom, 2023, pp. 1-6, doi: 10.1109/WCNC55385.2023.10118947.](https://ieeexplore.ieee.org/abstract/document/10118947)
