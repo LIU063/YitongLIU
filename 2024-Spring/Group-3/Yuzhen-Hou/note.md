@@ -27,5 +27,15 @@
    - Datasets for RF Fingerprinting of Bit-similar USRP X310 Radios(ORACLE: WiFi, air, 16devs, 2-62feet)
    - Datasets for RF Fingerprinting on the POWDER Platform(4G LTE/5G BS, air, 4BS+1rec, 300m-1km(wild))
 
+3. 开集实验尝试
 
+   - LoRa数据集，训练集20种设备，开放集测试共30种设备，针对未见设备基本分类成功率小于50%
+     
+     可能原因：
+     - 没有使用论文中使用的信道无关时频谱，而是直接使用原始时频谱送入网络，需要思考不依靠协议本身的去噪手段
+     - OpenMax架构由于对异常类的检验采用了Weibull分布，本质进行的是1-vs-All的多个二分类，并没有很好地学习到区分设备的特性
+    
+     考虑的改进：
+     - 加入文中采用的信道无关时频谱，或直接将原始信号与导频信号作差得到的噪声信号送入网络进行训练
+     - 尝试使用原型卷积网络训练
 
