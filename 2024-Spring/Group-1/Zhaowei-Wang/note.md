@@ -1,5 +1,11 @@
 # 2024.3.17
 ## 本周进展
+完成了科学研究计划内容撰写  
+调研了PLS 的 beamforming ,gnn解决beamforming，以及接入选择的调研
+
+
+# 2024.3.17
+## 本周进展
 1. globecom 扩展
 ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2024-Spring/Group-1/Zhaowei-Wang/figure/gc1.jpg)
 2. 存在的问题：  
