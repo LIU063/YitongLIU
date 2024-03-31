@@ -1,6 +1,7 @@
 # 2024.4.1
 ## 进展  
 对Digital Twin network进行调研，重点关注如何解决DT应用中存在的问题
+以下文章看起来比较有用，大致浏览了一下
 
 [1]Y. Lu, S. Maharjan and Y. Zhang, "Adaptive Edge Association for Wireless Digital Twin Networks in 6G," in IEEE Internet of Things Journal, vol. 8, no. 22, pp. 16219-16230, 15 Nov.15, 2021.  考虑时延和能耗
 
