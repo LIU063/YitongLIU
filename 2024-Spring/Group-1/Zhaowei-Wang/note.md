@@ -1,4 +1,10 @@
-# 2024.3.17
+# 2024.3.31
+## 本周进展
+![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2024-Spring/Group-1/Zhaowei-Wang/figure/liucheng.png)
+写模型融合训练的代码，优化训练的结果作为选择的loss，不断迭代训练选择
+
+
+# 2024.3.24
 ## 本周进展
 完成了科学研究计划内容撰写  
 调研了PLS 的 beamforming ,gnn解决beamforming，以及接入选择的调研
