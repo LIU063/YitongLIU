@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - <a href="#1"> Week 1 (2024.03.01 – 2024.03.17)
+- <a href="#2"> Week 2 (2024.03.17 – 2024.04.01)
 
 <br/>
 
@@ -34,3 +35,15 @@
 ![图片](./pic/fig3.png)
 #### Diffusion局部放大
 ![图片](./pic/fig4.png)
+
+
+<br/>
+
+<p id="2"></p>
+
+# <a href="#table">Week 2 (2024.03.17 – 2024.04.01)</a>
+
+## DyNN Magazine
+基本写完
+
+## Constrained MISO Beamforming
