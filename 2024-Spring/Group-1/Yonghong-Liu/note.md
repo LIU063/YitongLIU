@@ -5,7 +5,7 @@
 
    ![image](./github/2.jpg)
 
-   ![image](./github/3.png)
+   ![image](./github/3.jpg)
 
 2. 调整Rs受总功率影响的PLS性能图
 
