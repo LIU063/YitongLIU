@@ -1,3 +1,15 @@
+# 2024.4.21
+## 本周进展
+![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2024-Spring/Group-1/Zhaowei-Wang/figure/1.jpg)
+![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2024-Spring/Group-1/Zhaowei-Wang/figure/2.jpg)
+access 对边的概率进行采样，在采样基础上优化功率，不断迭代 
+存在的问题：  
+（1）随着训练进行，power 性能变差  
+(2) access变化不大
+## 下周计划
+改正目前存在的问题，思考实现对比算法
+
+
 # 2024.3.31
 ## 本周进展
 ![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2024-Spring/Group-1/Zhaowei-Wang/figure/liucheng.png)
