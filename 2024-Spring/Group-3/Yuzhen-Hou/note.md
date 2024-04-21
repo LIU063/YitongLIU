@@ -47,7 +47,7 @@
 
 ### Work
 
-1. 信号处理方法 实现
+1. 信号处理方法 实现尝试
 
    - 经验模态分解（Empirical Mode Decomposition 模态混叠现象严重）
    - 变分模态分解（Complex Variational Mode Decomposition 实信号推导到复信号的模态分解不理想）
