@@ -1,6 +1,8 @@
-# 2024.4.1
+# 2024.4.21
 ## 进展  
-对Digital Twin network进行调研，重点关注如何解决DT应用中存在的问题，打算细看以下论文
+1、参与项目PPT和项目书
+
+2、看了这三篇文章
 
 [1]Y. Lu, S. Maharjan and Y. Zhang, "Adaptive Edge Association for Wireless Digital Twin Networks in 6G," in IEEE Internet of Things Journal, vol. 8, no. 22, pp. 16219-16230, 15 Nov.15, 2021.  考虑时延和能耗
 
@@ -18,7 +20,20 @@
   提出了一种分层架构HDTN-SCN，为各种应用提供差异化的数据服务。在系统中，**边缘DT**部署在分布式地面站中，为实时业务制定物理实体。因此，**中央DT**部署在集中式网络控制中心（NCC）中，以促进全局决策和优化。
 
 ## 计划
-结合SDN controller placement的论文思考怎么做
+先结合[1]做做看
+
+# 2024.4.1
+## 进展  
+对Digital Twin network进行调研，重点关注如何解决DT应用中存在的问题，打算细看以下论文
+
+[1]Y. Lu, S. Maharjan and Y. Zhang, "Adaptive Edge Association for Wireless Digital Twin Networks in 6G," in IEEE Internet of Things Journal, vol. 8, no. 22, pp. 16219-16230, 15 Nov.15, 2021.  
+
+[2]Y. Tao, J. Wu, X. Lin and W. Yang, "DRL-Driven Digital Twin Function Virtualization for Adaptive Service Response in 6G Networks," in IEEE Networking Letters, vol. 5, no. 2, pp. 125-129, June 2023. 
+
+[3]Y. Zhou, R. Zhang, J. Liu, T. Huang, Q. Tang and F. R. Yu, "A Hierarchical Digital Twin Network for Satellite Communication Networks," in IEEE Communications Magazine, vol. 61, no. 11, pp. 104-110, November 2023.  
+
+## 计划
+细看以上三篇论文
 
 # 2024.3.25
 ## 进展  
