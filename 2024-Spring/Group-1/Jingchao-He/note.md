@@ -1,3 +1,10 @@
+### 2024.4.22   
+1. 撰写GC论文--Joint Sevice Deployment and Mobile Edge Computing in Space-Air-Ground Integrated Network;   
+
+
+
+
+
 ### 2024.4.1   
 1. 建立数学模型--Mobility-aware service deployment and computation scheduling in SAGIN;   
 2. 考虑点（User pairing, partial offloading, task dependency, satellite-cloud selection, mobility-aware algorithm） ;   
