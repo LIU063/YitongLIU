@@ -2,7 +2,8 @@
 ## 本周进展  
 1. 代码进展：   
 仿真已完成
-2. 对比算法：  
+![model](https://github.com/UNIC-Lab/Weekly-Report/blob/main/2024-Spring/Group-1/Zhaowei-Wang/figure/test_40_100.jpg) 
+3. 对比算法：  
 经过调研，准备与博弈论、遗传算法和强化学习算法进行对比
 ## 下周计划
 实现对比算法，验证本算法的有效性
