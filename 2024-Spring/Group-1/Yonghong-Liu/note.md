@@ -7,6 +7,11 @@
 
 3. ZF方法对比，Rs在0.1-0.5范围内变化。同时用ZF方案结合FL，训练结果不收敛，因为ZF方法中SINR值较小，导致最后对w加噪幅值大，数据失真度高，训练效果差。
 
+## 下周安排
+
+1. MRT和ZF的理论学习并和目前的代码对比修正
+
+2. 阅读论文：Privacy for Free: Wireless Federated Learning via Uncoded Transmission With Adaptive Power Control。
 
 # 2024.4.21
 ## 本周进展
