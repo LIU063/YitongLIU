@@ -1,7 +1,7 @@
 # 2024.4.28
 ## 本周进展
 
-1. 完成Rs和PL相关性能图
+1. 调整完成Rs和PL相关性能图
 
  ![image](./github/proposed.png)
 
