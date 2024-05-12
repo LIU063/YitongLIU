@@ -1,4 +1,10 @@
 ### 2024.4.22   
+1. 撰写6G测试报告；
+2. 修改本科生毕设论文；
+3. 撰写6G AI service论文，已完成部分Introduction的内容；
+4. 调研验收指标，制作ISN指标验收PPT；   
+
+### 2024.4.22   
 1. 撰写GC论文--Joint Sevice Deployment and Mobile Edge Computing in Space-Air-Ground Integrated Network;   
 
 
