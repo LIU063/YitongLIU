@@ -1,6 +1,18 @@
+# 2024.5.19   
+## 进展  
+1、调研现有体系方法，制作ISN的PPT；  
+2、调研空天地一体化仿真平台；  
+3、读论文，调研思考SDNC的contribution；     
+
+# 2024.5.12   
+## 进展  
+1、调研验收指标，学习相关论文；  
+[1]T. Das, V. Sridharan and M. Gurusamy, "A Survey on Controller Placement in SDN," in IEEE Communications Surveys & Tutorials, vol. 22, no. 1, pp. 472-503, Firstquarter 2020.  
+2、制作ISN指标验收PPT；    
+
 # 2024.4.28
 ## 进展  
-看SDNC相关的论文，思考怎么融合  
+看SDNC的论文，思考怎么和DT融合  
 1、SDNC和DT都涉及到部署和迁移问题，很相似，都是要传输设备信息，不太好同时优化。  
 SDNC部署：控制器位于哪？哪些交换机与某个控制器相关联？  
 DT部署：选择哪些作为DT服务器？哪些DT与某个服务器相关联？  
