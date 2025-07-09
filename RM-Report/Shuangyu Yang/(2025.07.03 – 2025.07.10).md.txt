@@ -1,0 +1,22 @@
+<p id="table"></p>
+
+## Table of Contents
+
+- <a href="#1"> Week 1 (2025.07.03 – 2025.07.10)</a>
+<br/>
+
+
+
+<br/>
+
+<p id="1"></p>
+
+# <a href="#table">Week 1 (2025.07.03 – 2025.07.10)</a>
+
+*main work*
+
+1. Reproducing the code from the paper *6D Movable Antenna Based on User Distribution Modeling and Optimization* using Python. This involves implementing the core logic of the algorithm for modeling and optimizing 6D movable antennas based on user distribution, ensuring the code runs smoothly and produces reliable results.  
+
+2. Handling the constraint conditions in the penalty function by adopting a logarithmic approximation method to transform these constraints. The main purpose of this approach is to simplify the complexity of the constraints, making the optimization process faster and reducing errors.  
+
+3. Generating datasets using FEKO software, specifically focusing on producing single-path pathloss data for users. This includes setting up simulation scenarios, configuring parameters, running simulations, extracting data, and organizing it into usable datasets to support subsequent modeling and optimization efforts.
