@@ -15,6 +15,8 @@
 
 ## 进展：
 1.预编码初始化改变：初始化两个预编码分别指向两个目标区域。  
+各种预编码初始化效果对比：
+![预编码对比](https://github.com/LIU063/YitongLIU/blob/main/RM-Report/Yitong%20Liu/images/Comparison_of_init_precoding.png)
 2.改用Adam优化器，优化效果更明显，经调参实验lr=0.05最优  
 3.双目标区域之间的区域抑制，但是效果并未提升。
 ![训练迭代图](https://github.com/LIU063/YitongLIU/blob/main/RM-Report/Yitong%20Liu/images/%E8%BF%AD%E4%BB%A3%E5%9B%BE.png)
